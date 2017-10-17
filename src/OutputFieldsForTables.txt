@@ -1,0 +1,108 @@
+---------------
+TABLE: Contacts
+---------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION              
+=====================    ============    ====    =========================
+ContactID                AutoNumber      4       Unique identifying number
+ContactTypeID            Long Integer    4                                
+FirstName                Text            50                               
+LastName                 Text            50                               
+Address                  Text            100                              
+CityID                   Long Integer    4                                
+ProvinceID               Long Integer    4                                
+CountryID                Long Integer    4                                
+PostalCode               Text            7                                
+DOB                      Date/Time       8                                
+Notes                    Memo            0                                
+
+
+------------------------------
+TABLE: Contacts_EmailAddresses
+------------------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+ContactEmailId           AutoNumber      4                  
+ContactId                Long Integer    4                  
+EmailAddress             Text            255                
+EmailAddressTypeID       Long Integer    4                  
+
+
+----------------------------
+TABLE: Contacts_PhoneNumbers
+----------------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+PhoneNumberID            AutoNumber      4                  
+ContactID                Long Integer    4                  
+PhoneNumber              Text            255                
+PhoneNumberExt           Text            255                
+PhoneNumberCategoryID    Long Integer    4                  
+
+
+-----------------
+TABLE: lst_Cities
+-----------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+CityID                   AutoNumber      4                  
+ProvinceID               Long Integer    4                  
+City                     Text            50                 
+
+
+-------------------------
+TABLE: lst_Contacts_Types
+-------------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+ContactTypeId            AutoNumber      4                  
+ContactType              Text            255                
+
+
+--------------------
+TABLE: lst_Countries
+--------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+CountryID                AutoNumber      4                  
+Country                  Text            50                 
+
+
+----------------------------
+TABLE: lst_EmailAddressTypes
+----------------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+EmailAddressTypeID       AutoNumber      4                  
+EmailAddressType         Text            255                
+
+
+---------------------------------
+TABLE: lst_PhoneNumbersCategories
+---------------------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+PhoneNumberCategoryID    AutoNumber      4                  
+PhoneNumberCategory      Text            255                
+
+
+--------------------
+TABLE: lst_Provinces
+--------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+ProvinceId               AutoNumber      4                  
+CountryID                Long Integer    4                  
+Province                 Text            50                 
+ProvinceAbbr             Text            5                  
+
+
+----------------------
+TABLE: lst_Salutations
+----------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+SalutationID             AutoNumber      4                  
+Salutation               Text            18                 
+Order                    Long Integer    4                  
+
+

@@ -1,0 +1,4 @@
+<<<[Query1]>>>
+SELECT ContactID, LastName, FirstName
+FROM Contacts;
+

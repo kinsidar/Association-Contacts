@@ -1,0 +1,5 @@
+[aebasChangeLog_aegit_expClass]           False
+[aebasTEST_aegit_expClass]  False
+[aeContactDatabase_ChangeLog]             False
+[aegit_expClass]            False
+[mod_DatesTimes]            False

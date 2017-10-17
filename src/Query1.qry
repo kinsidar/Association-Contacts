@@ -1,0 +1,15 @@
+dbMemo "SQL" ="SELECT ContactID, LastName, FirstName\015\012FROM Contacts;\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0xb7cecca20cb44b43a099e9fe6f4a0d5c
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbByte "PublishToWeb" ="1"
+Begin
+End

@@ -1,0 +1,50 @@
+Name: ContactsContacts_EmailAddresses
+  Table: Contacts
+  Foreign Table: Contacts_EmailAddresses
+  PK: ContactID   FK:ContactId
+
+Name: ContactsContacts_PhoneNumbers
+  Table: Contacts
+  Foreign Table: Contacts_PhoneNumbers
+  PK: ContactID   FK:ContactID
+
+Name: lst_CitiesContacts
+  Table: lst_Cities
+  Foreign Table: Contacts
+  PK: CityID   FK:CityID
+
+Name: lst_Contacts_TypesContacts
+  Table: lst_Contacts_Types
+  Foreign Table: Contacts
+  PK: ContactTypeId   FK:ContactTypeID
+
+Name: lst_CountriesContacts
+  Table: lst_Countries
+  Foreign Table: Contacts
+  PK: CountryID   FK:CountryID
+
+Name: lst_Countrieslst_Provinces
+  Table: lst_Countries
+  Foreign Table: lst_Provinces
+  PK: CountryID   FK:CountryID
+
+Name: lst_EmailAddressTypesContacts_EmailAddresses
+  Table: lst_EmailAddressTypes
+  Foreign Table: Contacts_EmailAddresses
+  PK: EmailAddressTypeID   FK:EmailAddressTypeID
+
+Name: lst_PhoneNumbersCategoriesContacts_PhoneNumbers
+  Table: lst_PhoneNumbersCategories
+  Foreign Table: Contacts_PhoneNumbers
+  PK: PhoneNumberCategoryID   FK:PhoneNumberCategoryID
+
+Name: lst_ProvincesContacts
+  Table: lst_Provinces
+  Foreign Table: Contacts
+  PK: ProvinceId   FK:ProvinceID
+
+Name: lst_Provinceslst_Cities
+  Table: lst_Provinces
+  Foreign Table: lst_Cities
+  PK: ProvinceId   FK:ProvinceID
+

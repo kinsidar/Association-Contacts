@@ -1,0 +1,84 @@
+|-- Name >> lst_PhoneNumbersCategories
+|-- Updatable >> True
+|-- DateCreated >> DateCreated
+|-- LastUpdated >> LastUpdated
+|-- Connect >> 
+|-- Attributes >> 0
+|-- SourceTableName >> 
+|-- RecordCount >> 3
+|-- ValidationRule >> 
+|-- ValidationText >> 
+|-- GUID >> GUID
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- SubdatasheetName >> [None]
+|-- NameMap >> NameMap
+|-- DefaultView >> 2
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 100
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
+--------------------------------------------------
+|-- PhoneNumberCategoryID (Field in lst_PhoneNumbersCategories)
+|------ Attributes >> 17
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> PhoneNumberCategoryID
+|------ OrdinalPosition >> 0
+|------ Size >> 4
+|------ SourceField >> PhoneNumberCategoryID
+|------ SourceTable >> lst_PhoneNumbersCategories
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 1
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|-- PhoneNumberCategory (Field in lst_PhoneNumbersCategories)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> PhoneNumberCategory
+|------ OrdinalPosition >> 1
+|------ Size >> 255
+|------ SourceField >> PhoneNumberCategory
+|------ SourceTable >> lst_PhoneNumbersCategories
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> 2610
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
