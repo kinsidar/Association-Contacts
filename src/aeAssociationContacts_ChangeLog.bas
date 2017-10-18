@@ -1,40 +1,72 @@
 Option Compare Database
 Option Explicit
 
-' Tools:
-' MZ-Tools 8.0 for VBA - Ref: http://www.mztools.com/index.aspx
-' TM VBA-Inspector - Ref: http://www.team-moeller.de/en/?Add-Ins:TM_VBA-Inspector
-' RibbonX Visual Designer 2010 - Ref: http://www.andypope.info/vba/ribboneditor_2010.htm
-' IDBE RibbonCreator 2016 (Office 2016) - Ref: http://www.ribboncreator2016.de/en/?Download
-' V-Tools - Ref: http://www.skrol29.com/us/vtools.php
-' Bill Mosca - Ref: http://www.thatlldoit.com/Pages/utilsaddins.aspx
-' Rubberduck - Ref: https://github.com/rubberduck-vba/Rubberduck
-' DataNumen Access Repair - Ref: https://www.datanumen.com/access-repair/
+Public gstrClientId As String
+Public gstrSvipCrisisId As String
+Public gintCurrentUser As Integer
+Public gblnHideFormHeader As Boolean
+Public gblnDeveloper As Boolean
+Public gintUserId As Integer
+
+' Constants for settings of "SVIPDB"
+Public Const gblnTEST As Boolean = True
+Public Const gstrPROJECT_SVIPDB As String = "AssociationContacts"
+Private Const mstrVERSION_SVIPDB As String = "0.0.2"
+Private Const mstrDATE_SVIPDB As String = "October 18, 2017"
+
+Public Const SVIPDB_SQL_FRONT_END = False
+Public Const SVIPDB_AZSQL_FRONT_END = False
+Public Const SVIPDB_STAFF_PERMISSIONS = False
 '
-'
-' Research:
-' Ref: http://www.msoutlook.info/question/482 - officeUI-files
-' The Ribbon and QAT settings - C:\Users\%username%\AppData\Local\Microsoft\Office
-' Ref: http://msdn.microsoft.com/en-us/library/ee704589(v=office.14).aspx
-' *** Windows API help - replacing As Any declaration
-' Ref: http://allapi.mentalis.org/vbtutor/api1.shtml
-' Ref: http://programmersheaven.com/discussion/237489/passing-an-array-as-an-optional-parameter
-' *** Example of SQL INSERT / UPDATE using ADODB.Command and ADODB.Parameters objects
-' Ref: http://www.access-programmers.co.uk/forums/showthread.php?t=219149
-' *** CreateObject("System.Collections.ArrayList")
-' Ref: http://www.ozgrid.com/forum/showthread.php?t=167349
-' Microsoft Access - Really useful queries - Ref: http://www.sqlquery.com/Microsoft_Access_useful_queries.html
-' Ref: http://www.micronetservices.com/manage_remote_backend_access_database.htm
-' Microsoft Access Tips and Tricks - Ref: http://www.datagnostics.com/tips.html
-'
-'
-' Guides:
-' Office VBA Basic Debugging Techniques
-' Ref: http://pubs.logicalexpressions.com/pub0009/LPMArticle.asp?ID=410
-' *** Ref: http://www.vb123.com/toolshed/02_accvb/remotequeries.htm - Remote Queries In Microsoft Access
-' Ref: http://social.msdn.microsoft.com/Forums/office/en-US/f8a050b9-3e12-465e-9448-36be59827581/vba-code-redirect-results-from-immediate-window-to-an-access-table-or-csv-file?forum=accessdev
-' Access Articles- Ref: http://www.databasejournal.com/article.php/1464721
-' Long Binary Data - Ref: http://www.ammara.com/support/technologies/long-binary-data.html
+
+Public Function getMyVersion() As String
+    On Error GoTo 0
+    getMyVersion = mstrVERSION_SVIPDB
+End Function
+
+Public Function getMyDate() As String
+    On Error GoTo 0
+    getMyDate = mstrDATE_SVIPDB
+End Function
+
+Public Function getMyProject() As String
+    On Error GoTo 0
+    getMyProject = gstrPROJECT_SVIPDB
+End Function
+
+Public Sub AssociationContacts_EXPORT(Optional ByVal varDebug As Variant)
+
+    Const THE_FRONT_END_APP = True
+    Const THE_SOURCE_FOLDER = ".\src\"
+    Const THE_XML_FOLDER = ".\src\xml\"
+    Const THE_XML_DATA_FOLDER = ".\src\xmldata\"
+    Const THE_BACK_END_SOURCE_FOLDER = "NONE"
+    Const THE_BACK_END_XML_FOLDER = "NONE"
+    Const THE_BACK_END_DB1 = "NONE"
+
+    On Error GoTo PROC_ERR
+
+    'Debug.Print "THE_BACK_END_DB1 = " & THE_BACK_END_DB1
+    If Not IsMissing(varDebug) Then
+        aegitClassTest varDebug:="varDebug", varSrcFldr:=THE_SOURCE_FOLDER, varSrcFldrBe:=THE_BACK_END_SOURCE_FOLDER, _
+                        varXmlFldr:=THE_XML_FOLDER, varXmlDataFldr:=THE_XML_DATA_FOLDER, _
+                        varFrontEndApp:=THE_FRONT_END_APP, _
+                        varBackEndDbOne:=THE_BACK_END_DB1
+    Else
+        aegitClassTest varSrcFldr:=THE_SOURCE_FOLDER, varSrcFldrBe:=THE_BACK_END_SOURCE_FOLDER, _
+                        varXmlFldr:=THE_XML_FOLDER, varXmlDataFldr:=THE_XML_DATA_FOLDER, _
+                        varFrontEndApp:=THE_FRONT_END_APP, _
+                        varBackEndDbOne:=THE_BACK_END_DB1
+    End If
+
+PROC_EXIT:
+    Exit Sub
+
+PROC_ERR:
+    MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure SVIPDB_EXPORT"
+    Resume Next
+
+End Sub
 '
 '
 '=============================================================================================================================
@@ -44,7 +76,6 @@ Option Explicit
 ' %008 -
 ' %007 -
 ' %006 -
-' %005 -
 ' %003 - Relates to GH #9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
@@ -54,6 +85,7 @@ Option Explicit
 '
 '
 '20171017 - v002 -
+    ' FIXED - %005 - Fix internal version and date
     ' FIXED - %004 - Add compressed db to the zip folder
 '20171009 - v001 - Initial database design based on a sample from:
     ' Ref: https://www.devhut.net/2016/09/01/ms-access-contact-database-template-sample/
