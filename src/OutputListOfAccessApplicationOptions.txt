@@ -1,5 +1,5 @@
 >>>Standard Options
-              2000          AppTitle                    ContactDatabase
+              2000          AppTitle                    AssociationContacts
               2000          AllowFullMenus              True
               2000          AllowShortcutMenus          True
               2000          StartupShowDBWindow         True
@@ -32,7 +32,7 @@
               XP, 2003      Enable MRU File List                      -1 
               XP, 2003      Size of MRU File List                     Not Tracked
               XP, 2003      Provide Feedback with Sound                0 
-              XP, 2003      Auto Compact                              -1 
+              XP, 2003      Auto Compact                               0 
               XP, 2003      New Database Sort Order                    1033 
               XP, 2003      Remove Personal Information               -1 
               XP, 2003      Default Database Directory                \\rdadc\users folders\kdurst\Documents\
@@ -146,7 +146,7 @@
               2007, 2010, 2013            New Database Sort Order      1033 
 >>>Current Database Tab
    >>>Application Options section
-              2007, 2010, 2013            Auto Compact                              -1 
+              2007, 2010, 2013            Auto Compact                               0 
               2007, 2010, 2013            Remove Personal Information               -1 
               2007, 2010, 2013            Themed Form Controls                      -1 
               2007, 2010, 2013            DesignWithData                             0 

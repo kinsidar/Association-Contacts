@@ -39,9 +39,13 @@ Option Explicit
 '
 '=============================================================================================================================
 ' Tasks:
+' %010 -
+' %009 -
+' %008 -
+' %007 -
+' %006 -
 ' %005 -
-' %004 -
-' %003 -
+' %003 - Relates to GH #9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
@@ -49,6 +53,8 @@ Option Explicit
 '=============================================================================================================================
 '
 '
+'20171017 - v002 -
+    ' FIXED - %004 - Add compressed db to the zip folder
 '20171009 - v001 - Initial database design based on a sample from:
     ' Ref: https://www.devhut.net/2016/09/01/ms-access-contact-database-template-sample/
     ' Daniel Pineault, Microsoft MVP, 2010-2017

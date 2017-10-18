@@ -1,0 +1,260 @@
+Name: Name
+Type: dbMemo
+Value: C:\kd\Association-Contacts\AssociationContacts.accdb
+Inherited: False;
+---
+Name: Connect
+Type: dbMemo
+Value: 
+Inherited: False;
+---
+Name: Transactions
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: Updatable
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: CollatingOrder
+Type: dbInteger
+Value: 1033
+Inherited: False;
+---
+Name: QueryTimeout
+Type: dbInteger
+Value: 60
+Inherited: False;
+---
+Name: Version
+Type: dbMemo
+Value: 12.0
+Inherited: False;
+---
+Name: RecordsAffected
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: ReplicaID
+Type: dbGUID
+Value: 
+Inherited: False;
+---
+Name: DesignMasterID
+Type: dbGUID
+Value: 
+Inherited: False;
+---
+Name: Connection
+Type: Unknown typeNum
+Value: 
+Inherited: False; 3251, 'Operation is not supported for this type of object.'
+---
+Name: ANSI Query Mode
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: AccessVersion
+Type: dbText
+Value: 09.50
+Inherited: False;
+---
+Name: ProjVer
+Type: dbInteger
+Value: 140
+Inherited: False;
+---
+Name: StartUpShowDBWindow
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: StartUpShowStatusBar
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: AllowShortcutMenus
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: AllowFullMenus
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: AllowBuiltInToolbars
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: AllowToolbarChanges
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: AllowSpecialKeys
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: UseAppIconForFrmRpt
+Type: dbBoolean
+Value: False
+Inherited: False;
+---
+Name: AppTitle
+Type: dbText
+Value: AssociationContacts
+Inherited: False;
+---
+Name: Build
+Type: dbLong
+Value: 988
+Inherited: False;
+---
+Name: Auto Compact
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: Show Values Limit
+Type: dbLong
+Value: 1000
+Inherited: False;
+---
+Name: Show Values in Indexed
+Type: dbLong
+Value: 1
+Inherited: False;
+---
+Name: Show Values in Non-Indexed
+Type: dbLong
+Value: 1
+Inherited: False;
+---
+Name: Show Values in Remote
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: Show Values in Snapshot
+Type: dbLong
+Value: 1
+Inherited: False;
+---
+Name: Show Values in Server
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: Use Default Page Folder
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: Use Default Connection File
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: Row Limit
+Type: dbLong
+Value: 10000
+Inherited: False;
+---
+Name: NavPane Closed
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: NavPane Width
+Type: dbLong
+Value: 301
+Inherited: False;
+---
+Name: NavPane Category
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: NavPane View By
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: NavPane Sort By
+Type: dbLong
+Value: 1
+Inherited: False;
+---
+Name: Show Navigation Pane Search Bar
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: UseMDIMode
+Type: dbByte
+Value: 1
+Inherited: False;
+---
+Name: ShowDocumentTabs
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: AllowDatasheetSchema
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
+Name: WebDesignMode
+Type: dbByte
+Value: 0
+Inherited: False;
+---
+Name: DesignWithData
+Type: dbBoolean
+Value: False
+Inherited: False;
+---
+Name: Remove Personal Information
+Type: dbLong
+Value: 1
+Inherited: False;
+---
+Name: Themed Form Controls
+Type: dbLong
+Value: 1
+Inherited: False;
+---
+Name: Picture Property Storage Format
+Type: dbLong
+Value: 1
+Inherited: False;
+---
+Name: Track Name AutoCorrect Info
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: Perform Name AutoCorrect
+Type: dbLong
+Value: 0
+Inherited: False;
+---
+Name: Theme Resource Name
+Type: dbText
+Value: Office Theme
+Inherited: False;
+---
+Name: HasOfflineLists
+Type: dbInteger
+Value: 70
+Inherited: False;
+---
