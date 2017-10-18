@@ -41,7 +41,7 @@ Option Explicit
 ' Tasks:
 ' %005 -
 ' %004 -
-' %003 -
+' %003 - Relates to GH #9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
