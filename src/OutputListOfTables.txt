@@ -1,3 +1,10 @@
 [Contacts]    False
 [Contacts_EmailAddresses]   False
 [Contacts_PhoneNumbers]     False
+[lst_Cities]  False
+[lst_Contacts_Types]        False
+[lst_Countries]             False
+[lst_EmailAddressTypes]     False
+[lst_PhoneNumbersCategories]              False
+[lst_Provinces]             False
+[lst_Salutations]           False
