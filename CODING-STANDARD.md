@@ -4,4 +4,4 @@
 | Object        | Name          | 
 | ------------- |:-------------:| 
 | Table         | tblTableName  | 
-| List          | tlkp          | 
+| List          | tlkpListName  | 
