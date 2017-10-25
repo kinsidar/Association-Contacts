@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "docs:prepare": "gitbook install",
+        "docs:watch": "npm run docs:prepare && gitbook serve"
+    }
+}

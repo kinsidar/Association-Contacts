@@ -8,6 +8,8 @@ archive/
 docfx/
 old/
 Export/
+node_modules/
+_book/
 
 ###################
 ## Microsoft Excel
