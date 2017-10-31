@@ -1,5 +1,7 @@
-# Association-Contacts
+# Street Violence Intervention Program (SVIP)
 
-A humble Microsoft Access database
 
-![Logo](docs/Logo.png "Logo")
+![RDA Logo](docs/img/RDA_transparent_210x70.png "RDA Logo") by **Resource Development Associates**
+
+
+![Logo](docs/img/Logo.png "Logo")
