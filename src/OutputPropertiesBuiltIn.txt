@@ -200,7 +200,7 @@ Inherited: False;
 ---
 Name: UseMDIMode
 Type: dbByte
-Value: 1
+Value: 0
 Inherited: False;
 ---
 Name: ShowDocumentTabs
@@ -245,7 +245,7 @@ Inherited: False;
 ---
 Name: Perform Name AutoCorrect
 Type: dbLong
-Value: 0
+Value: 1
 Inherited: False;
 ---
 Name: Theme Resource Name

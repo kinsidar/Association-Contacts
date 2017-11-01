@@ -3,12 +3,12 @@
   <xsd:element name="dataroot">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element ref="lst_Contacts_Types" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        <xsd:element ref="tklpContacts_Types" minOccurs="0" maxOccurs="unbounded"></xsd:element>
       </xsd:sequence>
       <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
     </xsd:complexType>
   </xsd:element>
-  <xsd:element name="lst_Contacts_Types">
+  <xsd:element name="tklpContacts_Types">
     <xsd:annotation>
       <xsd:appinfo>
         <od:index index-name="ContactType" index-key="ContactType " primary="no" unique="no" clustered="no" order="asc"></od:index>

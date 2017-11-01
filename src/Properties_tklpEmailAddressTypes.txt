@@ -1,18 +1,17 @@
-|-- Name >> lst_PhoneNumbersCategories
+|-- Name >> tklpEmailAddressTypes
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> 
 |-- Attributes >> 0
 |-- SourceTableName >> 
-|-- RecordCount >> 3
+|-- RecordCount >> 2
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- GUID >> GUID
 |-- Orientation >> 0
 |-- OrderByOn >> False
 |-- SubdatasheetName >> [None]
-|-- NameMap >> NameMap
 |-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
@@ -28,15 +27,15 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 --------------------------------------------------
-|-- PhoneNumberCategoryID (Field in lst_PhoneNumbersCategories)
+|-- EmailAddressTypeID (Field in tklpEmailAddressTypes)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> PhoneNumberCategoryID
+|------ Name >> EmailAddressTypeID
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> PhoneNumberCategoryID
-|------ SourceTable >> lst_PhoneNumbersCategories
+|------ SourceField >> EmailAddressTypeID
+|------ SourceTable >> tklpEmailAddressTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -53,15 +52,15 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumberCategory (Field in lst_PhoneNumbersCategories)
+|-- EmailAddressType (Field in tklpEmailAddressTypes)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> PhoneNumberCategory
+|------ Name >> EmailAddressType
 |------ OrdinalPosition >> 1
 |------ Size >> 255
-|------ SourceField >> PhoneNumberCategory
-|------ SourceTable >> lst_PhoneNumbersCategories
+|------ SourceField >> EmailAddressType
+|------ SourceTable >> tklpEmailAddressTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -71,7 +70,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ GUID >> GUID
-|------ ColumnWidth >> 2610
+|------ ColumnWidth >> 2130
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109

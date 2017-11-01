@@ -1,24 +1,32 @@
-|-- Name >> lst_Contacts_Types
+|-- Name >> tlkpSalutations
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> 
 |-- Attributes >> 0
 |-- SourceTableName >> 
-|-- RecordCount >> 10
+|-- RecordCount >> 4
 |-- ValidationRule >> 
 |-- ValidationText >> 
-|-- GUID >> GUID
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- SubdatasheetName >> [None]
-|-- NameMap >> NameMap
 |-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
 |-- OrderByOnLoad >> True
 |-- HideNewField >> False
+|-- TabularCharSet >> 0
+|-- SubdatasheetName >> [None]
+|-- DatasheetFontName >> Calibri
+|-- DatasheetFontHeight >> 11
+|-- DatasheetFontWeight >> 400
+|-- DatasheetFontItalic >> False
+|-- DatasheetFontUnderline >> False
+|-- TabularFamily >> 34
+|-- DatasheetForeColor >> 0
+|-- DatasheetForeColor12 >> 0
+|-- GUID >> GUID
 |-- BackTint >> 100
 |-- BackShade >> 100
 |-- ThemeFontIndex >> -1
@@ -28,15 +36,15 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 --------------------------------------------------
-|-- ContactTypeId (Field in lst_Contacts_Types)
+|-- SalutationID (Field in tlkpSalutations)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactTypeId
+|------ Name >> SalutationID
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> ContactTypeId
-|------ SourceTable >> lst_Contacts_Types
+|------ SourceField >> SalutationID
+|------ SourceTable >> tlkpSalutations
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -45,23 +53,23 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
-|------ ColumnWidth >> 1755
-|------ ColumnOrder >> 1
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
+|------ GUID >> GUID
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactType (Field in lst_Contacts_Types)
+|-- Salutation (Field in tlkpSalutations)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> ContactType
+|------ Name >> Salutation
 |------ OrdinalPosition >> 1
-|------ Size >> 255
-|------ SourceField >> ContactType
-|------ SourceTable >> lst_Contacts_Types
+|------ Size >> 18
+|------ SourceField >> Salutation
+|------ SourceTable >> tlkpSalutations
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -70,8 +78,7 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
-|------ ColumnWidth >> 3540
+|------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
@@ -80,5 +87,33 @@
 |------ UnicodeCompression >> True
 |------ TextAlign >> 0
 |------ AggregateType >> -1
+|------ GUID >> GUID
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|-- Order (Field in tlkpSalutations)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> Order
+|------ OrdinalPosition >> 2
+|------ Size >> 4
+|------ SourceField >> Order
+|------ SourceTable >> tlkpSalutations
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ GUID >> GUID
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0

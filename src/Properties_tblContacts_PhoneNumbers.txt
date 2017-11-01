@@ -1,4 +1,4 @@
-|-- Name >> Contacts_PhoneNumbers
+|-- Name >> tblContacts_PhoneNumbers
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
@@ -12,7 +12,6 @@
 |-- Orientation >> 0
 |-- OrderByOn >> False
 |-- SubdatasheetName >> [None]
-|-- NameMap >> NameMap
 |-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
@@ -28,7 +27,7 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 --------------------------------------------------
-|-- PhoneNumberID (Field in Contacts_PhoneNumbers)
+|-- PhoneNumberID (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -36,7 +35,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> PhoneNumberID
-|------ SourceTable >> Contacts_PhoneNumbers
+|------ SourceTable >> tblContacts_PhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -53,7 +52,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactID (Field in Contacts_PhoneNumbers)
+|-- ContactID (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -61,7 +60,7 @@
 |------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> ContactID
-|------ SourceTable >> Contacts_PhoneNumbers
+|------ SourceTable >> tblContacts_PhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -80,7 +79,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumber (Field in Contacts_PhoneNumbers)
+|-- PhoneNumber (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -88,7 +87,7 @@
 |------ OrdinalPosition >> 2
 |------ Size >> 255
 |------ SourceField >> PhoneNumber
-|------ SourceTable >> Contacts_PhoneNumbers
+|------ SourceTable >> tblContacts_PhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -109,7 +108,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumberExt (Field in Contacts_PhoneNumbers)
+|-- PhoneNumberExt (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -117,7 +116,7 @@
 |------ OrdinalPosition >> 3
 |------ Size >> 255
 |------ SourceField >> PhoneNumberExt
-|------ SourceTable >> Contacts_PhoneNumbers
+|------ SourceTable >> tblContacts_PhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -138,7 +137,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumberCategoryID (Field in Contacts_PhoneNumbers)
+|-- PhoneNumberCategoryID (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -146,7 +145,7 @@
 |------ OrdinalPosition >> 4
 |------ Size >> 4
 |------ SourceField >> PhoneNumberCategoryID
-|------ SourceTable >> Contacts_PhoneNumbers
+|------ SourceTable >> tblContacts_PhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 

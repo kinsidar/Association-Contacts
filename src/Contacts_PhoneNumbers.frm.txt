@@ -26,6 +26,8 @@ Begin Form
     GUID = Begin
         0x8a5df63f43785a4e87abcfbdfc93d2fb
     End
+    NameMap = Begin
+    End
     RecordSource ="Contacts_PhoneNumbers"
     DatasheetFontName ="Calibri"
     PrtMip = Begin

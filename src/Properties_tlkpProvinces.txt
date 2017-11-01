@@ -1,4 +1,4 @@
-|-- Name >> lst_Provinces
+|-- Name >> tlkpProvinces
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
@@ -17,7 +17,6 @@
 |-- FilterOnLoad >> False
 |-- OrderByOnLoad >> True
 |-- HideNewField >> False
-|-- NameMap >> NameMap
 |-- TabularCharSet >> 0
 |-- DatasheetFontName >> Calibri
 |-- DatasheetFontHeight >> 11
@@ -39,7 +38,7 @@
 |-- PublishToWeb >> 1
 |-- GUID >> GUID
 --------------------------------------------------
-|-- ProvinceId (Field in lst_Provinces)
+|-- ProvinceId (Field in tlkpProvinces)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -47,7 +46,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> ProvinceId
-|------ SourceTable >> lst_Provinces
+|------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -64,7 +63,7 @@
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
 |------ GUID >> GUID
-|-- CountryID (Field in lst_Provinces)
+|-- CountryID (Field in tlkpProvinces)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -72,7 +71,7 @@
 |------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> CountryID
-|------ SourceTable >> lst_Provinces
+|------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 1
 |------ ValidationRule >> 
@@ -91,7 +90,7 @@
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
 |------ GUID >> GUID
-|-- Province (Field in lst_Provinces)
+|-- Province (Field in tlkpProvinces)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -99,7 +98,7 @@
 |------ OrdinalPosition >> 2
 |------ Size >> 50
 |------ SourceField >> Province
-|------ SourceTable >> lst_Provinces
+|------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -120,7 +119,7 @@
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
 |------ GUID >> GUID
-|-- ProvinceAbbr (Field in lst_Provinces)
+|-- ProvinceAbbr (Field in tlkpProvinces)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -128,7 +127,7 @@
 |------ OrdinalPosition >> 3
 |------ Size >> 5
 |------ SourceField >> ProvinceAbbr
-|------ SourceTable >> lst_Provinces
+|------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 

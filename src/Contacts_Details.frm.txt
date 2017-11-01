@@ -28,6 +28,8 @@ Begin Form
     GUID = Begin
         0x04dcdd1c0d93094ba3166817aae1f856
     End
+    NameMap = Begin
+    End
     RecordSource ="Contacts"
     DatasheetFontName ="Arial"
     PrtMip = Begin
@@ -527,9 +529,9 @@ Begin Form
                     Name ="CityID"
                     ControlSource ="CityID"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT lst_Cities.CityID, lst_Cities.City FROM lst_Cities WHERE (((lst_Cities.Pr"
-                        "ovinceID)=[Forms]![Contacts]![Contacts_Details]![ProvinceID])) ORDER BY lst_Citi"
-                        "es.City; "
+                    RowSource ="SELECT [tlkpCities].CityID, [tlkpCities].City FROM tlkpCities WHERE ((([tlkpCiti"
+                        "es].ProvinceID)=Forms!Contacts!Contacts_Details!ProvinceID)) ORDER BY [tlkpCitie"
+                        "s].City; "
                     ColumnWidths ="0"
                     OnEnter ="=[CityID]"
                     Tag ="4"

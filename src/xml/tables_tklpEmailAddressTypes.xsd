@@ -3,12 +3,12 @@
   <xsd:element name="dataroot">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element ref="lst_EmailAddressTypes" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        <xsd:element ref="tklpEmailAddressTypes" minOccurs="0" maxOccurs="unbounded"></xsd:element>
       </xsd:sequence>
       <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
     </xsd:complexType>
   </xsd:element>
-  <xsd:element name="lst_EmailAddressTypes">
+  <xsd:element name="tklpEmailAddressTypes">
     <xsd:annotation>
       <xsd:appinfo>
         <od:index index-name="EmailAddressType" index-key="EmailAddressType " primary="no" unique="yes" clustered="no" order="asc"></od:index>

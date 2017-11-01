@@ -1,4 +1,4 @@
-<<<[Query1]>>>
-SELECT ContactID, LastName, FirstName
-FROM Contacts;
+<<<[qryTblContacts]>>>
+SELECT tblContacts.ContactID, tblContacts.ContactTypeID, tblContacts.FirstName, tblContacts.LastName, tblContacts.Address, tblContacts.CityID, tblContacts.ProvinceID, tblContacts.CountryID, tblContacts.PostalCode, tblContacts.DOB, tblContacts.Notes
+FROM tblContacts;
 

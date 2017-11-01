@@ -16,10 +16,8 @@ Begin Form
     Width =16635
     DatasheetFontHeight =11
     ItemSuffix =19
-    Left =-1275
-    Top =345
-    Right =15360
-    Bottom =7890
+    Right =17400
+    Bottom =12375
     DatasheetGridlinesColor =15062992
     AfterInsert ="[Event Procedure]"
     RecSrcDt = Begin
@@ -28,7 +26,7 @@ Begin Form
     GUID = Begin
         0xdf033d1dc77c724e8272ddb839848c96
     End
-    Caption ="Contacts - CARDA Consultants Inc."
+    Caption ="Contacts"
     OnOpen ="[Event Procedure]"
     DatasheetFontName ="Calibri"
     PrtMip = Begin
@@ -326,7 +324,7 @@ Begin Form
                         End
                         Begin OptionButton
                             SpecialEffect =2
-                            OverlapFlags =95
+                            OverlapFlags =87
                             Left =246
                             Top =298
                             OptionValue =1
@@ -435,9 +433,6 @@ Begin Form
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Tahoma"
-                    BaseInfo ="\"SELECT lst_Contacts_Types.ContactTypeId, lst_Contacts_Types.ContactType FROM l"
-                        "st_Contacts_Types ORDER BY lst_Contacts_Types.ContactType; \";\"lst_Contacts_Typ"
-                        "es\";\"\";\"ContactTypeId\";\"ContactType\";\"PrimaryKey\""
                     GridlineColor =10921638
 
                     LayoutCachedLeft =60

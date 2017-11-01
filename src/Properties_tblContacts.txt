@@ -1,4 +1,4 @@
-|-- Name >> Contacts
+|-- Name >> tblContacts
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
@@ -9,8 +9,7 @@
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
-|-- OrderByOn >> True
-|-- NameMap >> NameMap
+|-- OrderByOn >> False
 |-- DefaultView >> 2
 |-- GUID >> GUID
 |-- DisplayViewsOnSharePointSite >> 1
@@ -27,9 +26,9 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 |-- SubdatasheetName >> [None]
-|-- OrderBy >> [Contacts].[ContactTypeID] DESC
+|-- PublishToWeb >> 1
 --------------------------------------------------
-|-- ContactID (Field in Contacts)
+|-- ContactID (Field in tblContacts)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -37,7 +36,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> ContactID
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -55,7 +54,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactTypeID (Field in Contacts)
+|-- ContactTypeID (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -63,7 +62,7 @@
 |------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> ContactTypeID
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -74,7 +73,7 @@
 |------ Expression >> 
 |------ GUID >> GUID
 |------ ColumnWidth >> 1770
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 2
 |------ ColumnHidden >> False
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
@@ -82,7 +81,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- FirstName (Field in Contacts)
+|-- FirstName (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -90,7 +89,7 @@
 |------ OrdinalPosition >> 2
 |------ Size >> 50
 |------ SourceField >> FirstName
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -100,7 +99,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 2025
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 3
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
@@ -111,7 +110,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- LastName (Field in Contacts)
+|-- LastName (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -119,7 +118,7 @@
 |------ OrdinalPosition >> 3
 |------ Size >> 50
 |------ SourceField >> LastName
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -129,7 +128,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 1455
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 4
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
@@ -140,7 +139,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- Address (Field in Contacts)
+|-- Address (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -148,7 +147,7 @@
 |------ OrdinalPosition >> 4
 |------ Size >> 100
 |------ SourceField >> Address
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -158,7 +157,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 2535
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 5
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
@@ -169,7 +168,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- CityID (Field in Contacts)
+|-- CityID (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -177,7 +176,7 @@
 |------ OrdinalPosition >> 5
 |------ Size >> 4
 |------ SourceField >> CityID
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -188,7 +187,7 @@
 |------ Expression >> 
 |------ GUID >> GUID
 |------ ColumnWidth >> 1605
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 6
 |------ ColumnHidden >> False
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
@@ -196,7 +195,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ProvinceID (Field in Contacts)
+|-- ProvinceID (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -204,7 +203,7 @@
 |------ OrdinalPosition >> 6
 |------ Size >> 4
 |------ SourceField >> ProvinceID
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -215,7 +214,7 @@
 |------ Expression >> 
 |------ GUID >> GUID
 |------ ColumnWidth >> 1425
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 7
 |------ ColumnHidden >> False
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
@@ -223,7 +222,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- CountryID (Field in Contacts)
+|-- CountryID (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -231,7 +230,7 @@
 |------ OrdinalPosition >> 7
 |------ Size >> 4
 |------ SourceField >> CountryID
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -242,7 +241,7 @@
 |------ Expression >> 
 |------ GUID >> GUID
 |------ ColumnWidth >> 1350
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 8
 |------ ColumnHidden >> False
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
@@ -250,7 +249,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PostalCode (Field in Contacts)
+|-- PostalCode (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -258,7 +257,7 @@
 |------ OrdinalPosition >> 8
 |------ Size >> 7
 |------ SourceField >> PostalCode
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -268,7 +267,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 1185
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 9
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
@@ -279,7 +278,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- DOB (Field in Contacts)
+|-- DOB (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 8
@@ -287,7 +286,7 @@
 |------ OrdinalPosition >> 9
 |------ Size >> 8
 |------ SourceField >> DOB
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -297,7 +296,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 1095
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 10
 |------ ColumnHidden >> False
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
@@ -307,7 +306,7 @@
 |------ ShowDatePicker >> 1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- Notes (Field in Contacts)
+|-- Notes (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 12
@@ -315,7 +314,7 @@
 |------ OrdinalPosition >> 10
 |------ Size >> 0
 |------ SourceField >> Notes
-|------ SourceTable >> Contacts
+|------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -325,7 +324,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 2040
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 11
 |------ ColumnHidden >> False
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3

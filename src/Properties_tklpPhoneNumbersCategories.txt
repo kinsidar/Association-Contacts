@@ -1,17 +1,18 @@
-|-- Name >> lst_Countries
+|-- Name >> tklpPhoneNumbersCategories
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> 
 |-- Attributes >> 0
 |-- SourceTableName >> 
-|-- RecordCount >> 2
+|-- RecordCount >> 3
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- GUID >> GUID
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- DefaultView >> 2
 |-- SubdatasheetName >> [None]
+|-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
@@ -23,22 +24,18 @@
 |-- AlternateBackThemeColorIndex >> -1
 |-- AlternateBackTint >> 100
 |-- AlternateBackShade >> 100
-|-- ReadOnlyWhenDisconnected >> False
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
-|-- PublishToWeb >> 1
-|-- GUID >> GUID
-|-- NameMap >> NameMap
 --------------------------------------------------
-|-- CountryID (Field in lst_Countries)
+|-- PhoneNumberCategoryID (Field in tklpPhoneNumbersCategories)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> CountryID
+|------ Name >> PhoneNumberCategoryID
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> CountryID
-|------ SourceTable >> lst_Countries
+|------ SourceField >> PhoneNumberCategoryID
+|------ SourceTable >> tklpPhoneNumbersCategories
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -47,23 +44,23 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1350
-|------ ColumnOrder >> 0
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 1
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |------ ResultType >> 0
-|-- Country (Field in lst_Countries)
+|------ CurrencyLCID >> 0
+|-- PhoneNumberCategory (Field in tklpPhoneNumbersCategories)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> Country
+|------ Name >> PhoneNumberCategory
 |------ OrdinalPosition >> 1
-|------ Size >> 50
-|------ SourceField >> Country
-|------ SourceTable >> lst_Countries
+|------ Size >> 255
+|------ SourceField >> PhoneNumberCategory
+|------ SourceTable >> tklpPhoneNumbersCategories
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -72,7 +69,8 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1155
+|------ GUID >> GUID
+|------ ColumnWidth >> 2610
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
@@ -81,6 +79,5 @@
 |------ UnicodeCompression >> True
 |------ TextAlign >> 0
 |------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |------ ResultType >> 0
+|------ CurrencyLCID >> 0

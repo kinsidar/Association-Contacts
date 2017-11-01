@@ -1,4 +1,4 @@
-|-- Name >> Contacts_EmailAddresses
+|-- Name >> tblContacts_EmailAddresses
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
@@ -28,9 +28,8 @@
 |-- DatasheetForeThemeColorIndex >> 0
 |-- PublishToWeb >> 1
 |-- GUID >> GUID
-|-- NameMap >> NameMap
 --------------------------------------------------
-|-- ContactEmailId (Field in Contacts_EmailAddresses)
+|-- ContactEmailId (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -38,7 +37,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> ContactEmailId
-|------ SourceTable >> Contacts_EmailAddresses
+|------ SourceTable >> tblContacts_EmailAddresses
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -55,7 +54,7 @@
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- ContactId (Field in Contacts_EmailAddresses)
+|-- ContactId (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -63,7 +62,7 @@
 |------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> ContactId
-|------ SourceTable >> Contacts_EmailAddresses
+|------ SourceTable >> tblContacts_EmailAddresses
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -82,7 +81,7 @@
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- EmailAddress (Field in Contacts_EmailAddresses)
+|-- EmailAddress (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
@@ -90,7 +89,7 @@
 |------ OrdinalPosition >> 2
 |------ Size >> 255
 |------ SourceField >> EmailAddress
-|------ SourceTable >> Contacts_EmailAddresses
+|------ SourceTable >> tblContacts_EmailAddresses
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -111,7 +110,7 @@
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- EmailAddressTypeID (Field in Contacts_EmailAddresses)
+|-- EmailAddressTypeID (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -119,7 +118,7 @@
 |------ OrdinalPosition >> 3
 |------ Size >> 4
 |------ SourceField >> EmailAddressTypeID
-|------ SourceTable >> Contacts_EmailAddresses
+|------ SourceTable >> tblContacts_EmailAddresses
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 

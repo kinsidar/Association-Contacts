@@ -1,51 +1,43 @@
-|-- Name >> lst_Salutations
+|-- Name >> tklpCountries
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> 
 |-- Attributes >> 0
 |-- SourceTableName >> 
-|-- RecordCount >> 4
+|-- RecordCount >> 2
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- NameMap >> NameMap
 |-- DefaultView >> 2
+|-- SubdatasheetName >> [None]
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
 |-- OrderByOnLoad >> True
 |-- HideNewField >> False
-|-- TabularCharSet >> 0
-|-- SubdatasheetName >> [None]
-|-- DatasheetFontName >> Calibri
-|-- DatasheetFontHeight >> 11
-|-- DatasheetFontWeight >> 400
-|-- DatasheetFontItalic >> False
-|-- DatasheetFontUnderline >> False
-|-- TabularFamily >> 34
-|-- DatasheetForeColor >> 0
-|-- DatasheetForeColor12 >> 0
-|-- GUID >> GUID
 |-- BackTint >> 100
 |-- BackShade >> 100
 |-- ThemeFontIndex >> -1
 |-- AlternateBackThemeColorIndex >> -1
 |-- AlternateBackTint >> 100
 |-- AlternateBackShade >> 100
+|-- ReadOnlyWhenDisconnected >> False
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
+|-- PublishToWeb >> 1
+|-- GUID >> GUID
 --------------------------------------------------
-|-- SalutationID (Field in lst_Salutations)
+|-- CountryID (Field in tklpCountries)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> SalutationID
+|------ Name >> CountryID
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> SalutationID
-|------ SourceTable >> lst_Salutations
+|------ SourceField >> CountryID
+|------ SourceTable >> tklpCountries
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -54,23 +46,23 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
+|------ ColumnWidth >> 1350
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
+|------ CurrencyLCID >> 0
 |------ GUID >> GUID
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|-- Salutation (Field in lst_Salutations)
+|-- Country (Field in tklpCountries)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> Salutation
+|------ Name >> Country
 |------ OrdinalPosition >> 1
-|------ Size >> 18
-|------ SourceField >> Salutation
-|------ SourceTable >> lst_Salutations
+|------ Size >> 50
+|------ SourceField >> Country
+|------ SourceTable >> tklpCountries
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -79,7 +71,7 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
+|------ ColumnWidth >> 1155
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
@@ -88,33 +80,6 @@
 |------ UnicodeCompression >> True
 |------ TextAlign >> 0
 |------ AggregateType >> -1
+|------ CurrencyLCID >> 0
 |------ GUID >> GUID
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|-- Order (Field in lst_Salutations)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 4
-|------ Name >> Order
-|------ OrdinalPosition >> 2
-|------ Size >> 4
-|------ SourceField >> Order
-|------ SourceTable >> lst_Salutations
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DecimalPlaces >> 255
-|------ DisplayControl >> 109
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ GUID >> GUID
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0

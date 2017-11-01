@@ -1,0 +1,100 @@
+Operation =1
+Option =0
+Begin InputTables
+    Name ="tblContacts"
+End
+Begin OutputColumns
+    Expression ="tblContacts.ContactID"
+    Expression ="tblContacts.ContactTypeID"
+    Expression ="tblContacts.FirstName"
+    Expression ="tblContacts.LastName"
+    Expression ="tblContacts.Address"
+    Expression ="tblContacts.CityID"
+    Expression ="tblContacts.ProvinceID"
+    Expression ="tblContacts.CountryID"
+    Expression ="tblContacts.PostalCode"
+    Expression ="tblContacts.DOB"
+    Expression ="tblContacts.Notes"
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0xb7cecca20cb44b43a099e9fe6f4a0d5c
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbByte "PublishToWeb" ="1"
+dbByte "RecordsetType" ="0"
+dbBoolean "TotalsRow" ="0"
+Begin
+    Begin
+        dbText "Name" ="tblContacts.Notes"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.FirstName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.ContactTypeID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.ContactID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.CityID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.Address"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.LastName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.ProvinceID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.CountryID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.PostalCode"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.DOB"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =1177
+    Bottom =842
+    Left =-1
+    Top =-1
+    Right =1161
+    Bottom =494
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =429
+        Top =195
+        Right =573
+        Bottom =452
+        Top =0
+        Name ="tblContacts"
+        Name =""
+    End
+End

@@ -3,12 +3,12 @@
   <xsd:element name="dataroot">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element ref="Contacts_EmailAddresses" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        <xsd:element ref="tblContacts_EmailAddresses" minOccurs="0" maxOccurs="unbounded"></xsd:element>
       </xsd:sequence>
       <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
     </xsd:complexType>
   </xsd:element>
-  <xsd:element name="Contacts_EmailAddresses">
+  <xsd:element name="tblContacts_EmailAddresses">
     <xsd:annotation>
       <xsd:appinfo>
         <od:index index-name="ContactId" index-key="ContactId " primary="no" unique="no" clustered="no" order="asc"></od:index>

@@ -3,12 +3,12 @@
   <xsd:element name="dataroot">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element ref="lst_Countries" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        <xsd:element ref="tklpCountries" minOccurs="0" maxOccurs="unbounded"></xsd:element>
       </xsd:sequence>
       <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
     </xsd:complexType>
   </xsd:element>
-  <xsd:element name="lst_Countries">
+  <xsd:element name="tklpCountries">
     <xsd:annotation>
       <xsd:appinfo>
         <od:index index-name="PrimaryKey" index-key="CountryID " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
