@@ -196,7 +196,7 @@ Begin Form
                     Height =5940
                     BorderColor =13553360
                     Name ="Contacts_Details"
-                    SourceObject ="Form.Contacts_Details"
+                    SourceObject ="Form.frmContacts"
                     GUID = Begin
                         0xaaada9a65f6004408518e7a584fc5306
                     End

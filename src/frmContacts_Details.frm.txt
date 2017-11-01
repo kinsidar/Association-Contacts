@@ -17,18 +17,14 @@ Begin Form
     Width =13140
     DatasheetFontHeight =10
     ItemSuffix =57
-    Left =90
-    Top =225
-    Right =12975
-    Bottom =6630
+    Right =17400
+    Bottom =12375
     DatasheetGridlinesColor =12632256
     RecSrcDt = Begin
         0x2640ffe0bbcee440
     End
     GUID = Begin
         0x04dcdd1c0d93094ba3166817aae1f856
-    End
-    NameMap = Begin
     End
     RecordSource ="Contacts"
     DatasheetFontName ="Arial"
@@ -414,9 +410,6 @@ Begin Form
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     Tag ="13"
-                    BaseInfo ="\"SELECT lst_Contacts_Types.ContactTypeId, lst_Contacts_Types.ContactType FROM l"
-                        "st_Contacts_Types ORDER BY lst_Contacts_Types.ContactType; \";\"lst_Contacts_Typ"
-                        "es\";\"\";\"ContactTypeId\";\"ContactType\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =3120
@@ -453,7 +446,7 @@ Begin Form
                     TabIndex =11
                     BorderColor =13553360
                     Name ="Contacts_EmailAddresses"
-                    SourceObject ="Form.Contacts_EmailAddresses"
+                    SourceObject ="Form.frmContacts_EmailAddresses"
                     LinkChildFields ="ContactId"
                     LinkMasterFields ="ContactID"
                     GUID = Begin
@@ -476,7 +469,7 @@ Begin Form
                     TabIndex =12
                     BorderColor =13553360
                     Name ="Contacts_PhoneNumbers"
-                    SourceObject ="Form.Contacts_PhoneNumbers"
+                    SourceObject ="Form.frmContacts_PhoneNumbers"
                     LinkChildFields ="ContactID"
                     LinkMasterFields ="ContactID"
                     GUID = Begin
@@ -592,9 +585,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[CountryID]"
                     Tag ="6"
-                    BaseInfo ="\"SELECT lst_Countries.CountryID, lst_Countries.Country FROM lst_Countries ORDER"
-                        " BY lst_Countries.Country; \";\"lst_Countries\";\"\";\"CountryID\";\"Country\";\""
-                        "PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =1860

@@ -7,28 +7,24 @@ Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
     ScrollBars =2
-    BorderStyle =0
+    BorderStyle =1
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =8884
+    Width =6966
     DatasheetFontHeight =11
-    ItemSuffix =5
-    Left =8790
-    Top =2040
-    Right =17925
-    Bottom =4200
+    ItemSuffix =6
+    Right =17400
+    Bottom =12375
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
-        0x5e12b6b1bccee440
+        0xdfc18a0dbdcee440
     End
     GUID = Begin
-        0xd67cfede1386b9439ced84e6f8c3a609
+        0x8a5df63f43785a4e87abcfbdfc93d2fb
     End
-    NameMap = Begin
-    End
-    RecordSource ="Contacts_EmailAddresses"
+    RecordSource ="Contacts_PhoneNumbers"
     DatasheetFontName ="Calibri"
     PrtMip = Begin
     End
@@ -112,7 +108,7 @@ Begin Form
             BackColor =15064278
             Name ="FormHeader"
             GUID = Begin
-                0x65a7071dde8ae3429ff170644049561c
+                0xd2fa66aceec8fa418615c5db35af7847
             End
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -123,20 +119,20 @@ Begin Form
                     OverlapFlags =85
                     Left =60
                     Top =60
-                    Width =5100
+                    Width =1860
                     Height =240
                     FontSize =8
                     BorderColor =16777215
                     Name ="Label2"
-                    Caption ="E-mail Address"
+                    Caption ="Phone Number"
                     FontName ="Tahoma"
                     GUID = Begin
-                        0x52004c2c80a02847b893392267acf567
+                        0xd31ca22b6d008f44a14de12c36f70979
                     End
                     GridlineColor =10921638
                     LayoutCachedLeft =60
                     LayoutCachedTop =60
-                    LayoutCachedWidth =5160
+                    LayoutCachedWidth =1920
                     LayoutCachedHeight =300
                     ThemeFontIndex =-1
                     ForeThemeColorIndex =0
@@ -144,22 +140,45 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =5220
+                    Left =1980
                     Top =60
-                    Width =2040
+                    Width =1440
                     Height =240
                     FontSize =8
                     BorderColor =16777215
                     Name ="Label3"
-                    Caption ="Type"
+                    Caption ="Extension"
                     FontName ="Tahoma"
                     GUID = Begin
-                        0x80556a3069be8248a4bb9fc34e91a8fd
+                        0xad4734c7827115448688c5e13227acb1
                     End
                     GridlineColor =10921638
-                    LayoutCachedLeft =5220
+                    LayoutCachedLeft =1980
                     LayoutCachedTop =60
-                    LayoutCachedWidth =7260
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =300
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =3480
+                    Top =60
+                    Width =2280
+                    Height =240
+                    FontSize =8
+                    BorderColor =16777215
+                    Name ="Label4"
+                    Caption ="Category"
+                    FontName ="Tahoma"
+                    GUID = Begin
+                        0xd9129069bcc7c041a249e4f2ee740830
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =3480
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5760
                     LayoutCachedHeight =300
                     ThemeFontIndex =-1
                     ForeThemeColorIndex =0
@@ -171,7 +190,7 @@ Begin Form
             Height =360
             Name ="Detail"
             GUID = Begin
-                0xa1281af937db3943a8a602b7e577b201
+                0xff23a5f03bfb74419b5556c99d2a399b
             End
             AlternateBackColor =15921906
             AlternateBackThemeColorIndex =1
@@ -182,120 +201,139 @@ Begin Form
                     Visible = NotDefault
                     OverlapFlags =93
                     IMESentenceMode =3
-                    Left =1860
-                    Height =315
-                    ColumnWidth =1815
+                    Left =1260
                     FontSize =8
                     BorderColor =13553360
-                    ForeColor =3484194
-                    Name ="ContactEmailId"
-                    ControlSource ="ContactEmailId"
+                    Name ="PhoneNumberID"
+                    ControlSource ="PhoneNumberID"
                     FontName ="Tahoma"
                     GUID = Begin
-                        0x42d31dfc43cd49458740e761e80a24cc
+                        0x656ec84b6e3b234a85041c8b0993c15d
                     End
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =1860
-                    LayoutCachedWidth =3300
-                    LayoutCachedHeight =315
+                    LayoutCachedLeft =1260
+                    LayoutCachedWidth =2700
+                    LayoutCachedHeight =240
                     ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeShade =100.0
                 End
                 Begin TextBox
                     Visible = NotDefault
                     OverlapFlags =93
                     IMESentenceMode =3
-                    Left =3420
-                    Height =315
-                    ColumnWidth =1305
+                    Left =2880
                     FontSize =8
                     TabIndex =1
                     BorderColor =13553360
-                    ForeColor =3484194
-                    Name ="ContactId"
-                    ControlSource ="ContactId"
+                    Name ="ContactID"
+                    ControlSource ="ContactID"
                     FontName ="Tahoma"
                     GUID = Begin
-                        0xb104eb74419fdc4a8cd7f62bb0bfdc43
+                        0xf23afc80d9056d458bac94f508553254
                     End
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =3420
-                    LayoutCachedWidth =4860
-                    LayoutCachedHeight =315
+                    LayoutCachedLeft =2880
+                    LayoutCachedWidth =4320
+                    LayoutCachedHeight =240
                     ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeShade =100.0
+                End
+                Begin TextBox
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =1980
+                    Top =60
+                    FontSize =8
+                    TabIndex =2
+                    BorderColor =13553360
+                    Name ="PhoneNumberExt"
+                    ControlSource ="=[qryTblContacts_PhoneNumbers]![PhoneNumberExt]"
+                    FontName ="Tahoma"
+                    GUID = Begin
+                        0xe608d26bcf5920459c126b9411017066
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1980
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =300
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeShade =100.0
                 End
                 Begin TextBox
                     OverlapFlags =247
                     IMESentenceMode =3
                     Left =60
                     Top =60
-                    Width =5100
-                    ColumnWidth =5055
+                    Width =1860
                     FontSize =8
-                    TabIndex =2
+                    TabIndex =3
                     BorderColor =13553360
-                    ForeColor =3484194
-                    Name ="EmailAddress"
-                    ControlSource ="EmailAddress"
+                    Name ="PhoneNumber"
+                    ControlSource ="=[qryTblContacts_PhoneNumbers]"
                     FontName ="Tahoma"
                     GUID = Begin
-                        0x811e060014848e4190d2ecb2cb96de52
+                        0x269c88da66b76a4d9d9ec097088b7af1
                     End
                     GridlineColor =10921638
 
                     LayoutCachedLeft =60
                     LayoutCachedTop =60
-                    LayoutCachedWidth =5160
+                    LayoutCachedWidth =1920
                     LayoutCachedHeight =300
                     ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeShade =100.0
                 End
                 Begin ComboBox
                     LimitToList = NotDefault
-                    OverlapFlags =85
+                    OverlapFlags =247
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =5220
+                    Left =3480
                     Top =60
-                    Width =2040
+                    Width =2280
                     FontSize =8
-                    TabIndex =3
+                    TabIndex =4
                     BorderColor =13553360
-                    ForeColor =3484194
                     ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
                     GUID = Begin
-                        0x69250b2241bd4f438310eecaae4ad4b0
+                        0x25743a6dee14d94e8052f6d70ff9c517
                     End
-                    Name ="EmailAddressTypeID"
-                    ControlSource ="EmailAddressTypeID"
+                    Name ="PhoneNumberCategoryID"
+                    ControlSource ="=[qryTblContacts_PhoneNumbers]![PhoneNumberCategoryID]"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT lst_EmailAddressTypes.EmailAddressTypeID, lst_EmailAddressTypes.EmailAddr"
-                        "essType FROM lst_EmailAddressTypes ORDER BY lst_EmailAddressTypes.EmailAddressTy"
-                        "pe; "
+                    RowSource ="SELECT lst_PhoneNumbersCategories.PhoneNumberCategoryID, lst_PhoneNumbersCategor"
+                        "ies.PhoneNumberCategory FROM lst_PhoneNumbersCategories ORDER BY lst_PhoneNumber"
+                        "sCategories.PhoneNumberCategory; "
                     ColumnWidths ="0"
                     FontName ="Tahoma"
-                    BaseInfo ="\"SELECT lst_EmailAddressTypes.EmailAddressTypeID, lst_EmailAddressTypes.EmailAd"
-                        "dressType FROM lst_EmailAddressTypes ORDER BY lst_EmailAddressTypes.EmailAddress"
-                        "Type; \";\"lst_EmailAddressTypes\";\"\";\"EmailAddressTypeID\";\"EmailAddressTyp"
-                        "e\";\"PrimaryKey\""
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =5220
+                    LayoutCachedLeft =3480
                     LayoutCachedTop =60
-                    LayoutCachedWidth =7260
+                    LayoutCachedWidth =5760
                     LayoutCachedHeight =300
                     ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeShade =100.0
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =8460
+                    Left =6540
                     Top =30
                     Width =366
                     Height =306
-                    TabIndex =4
+                    TabIndex =5
                     ForeColor =3484194
                     Name ="cmd_RecDel"
-                    Caption ="Command4"
+                    Caption ="Command5"
                     OnClick ="[Event Procedure]"
                     PictureData = Begin
                         0x2800000010000000100000000100040000000000800000000000000000000000 ,
@@ -338,13 +376,13 @@ Begin Form
                     End
                     ControlTipText ="Delete Record"
                     GUID = Begin
-                        0x24b92fbf9a02e847bdd5d44d41c44716
+                        0xa603f4eaf3e28e46aa9dedad6c6d7f07
                     End
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =8460
+                    LayoutCachedLeft =6540
                     LayoutCachedTop =30
-                    LayoutCachedWidth =8826
+                    LayoutCachedWidth =6906
                     LayoutCachedHeight =336
                     BorderColor =13553360
                     WebImagePaddingLeft =2
@@ -358,7 +396,7 @@ Begin Form
             Height =0
             Name ="FormFooter"
             GUID = Begin
-                0x2898af5ea71ccd4d96ab6cbfa2191384
+                0x9ab29e092fa06a4c901d4cc06374b7b2
             End
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0

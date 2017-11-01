@@ -47,7 +47,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 1815
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 1
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1

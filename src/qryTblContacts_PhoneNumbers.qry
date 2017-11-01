@@ -1,0 +1,74 @@
+Operation =1
+Option =0
+Begin InputTables
+    Name ="tblContacts_PhoneNumbers"
+End
+Begin OutputColumns
+    Expression ="tblContacts_PhoneNumbers.PhoneNumberID"
+    Expression ="tblContacts_PhoneNumbers.ContactID"
+    Expression ="tblContacts_PhoneNumbers.PhoneNumber"
+    Expression ="tblContacts_PhoneNumbers.PhoneNumberExt"
+    Expression ="tblContacts_PhoneNumbers.PhoneNumberCategoryID"
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0xaf403783427e4e4ca4713acf4fd3bb2a
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+dbByte "PublishToWeb" ="1"
+Begin
+    Begin
+        dbText "Name" ="PhoneNumberID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="ContactID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="PhoneNumber"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="PhoneNumberExt"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="PhoneNumberCategoryID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumberCategoryID"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =1177
+    Bottom =842
+    Left =-1
+    Top =-1
+    Right =1161
+    Bottom =597
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =399
+        Top =189
+        Right =543
+        Bottom =333
+        Top =0
+        Name ="tblContacts_PhoneNumbers"
+        Name =""
+    End
+End

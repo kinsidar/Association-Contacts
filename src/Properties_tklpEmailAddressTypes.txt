@@ -26,6 +26,7 @@
 |-- AlternateBackShade >> 100
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
+|-- PublishToWeb >> 1
 --------------------------------------------------
 |-- EmailAddressTypeID (Field in tklpEmailAddressTypes)
 |------ Attributes >> 17

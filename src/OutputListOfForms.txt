@@ -1,4 +1,4 @@
-[Contacts_Details]          False
-[Contacts_EmailAddresses]   False
-[Contacts_PhoneNumbers]     False
 [frmContacts] False
+[frmContacts_Details]       False
+[frmContacts_EmailAddresses]              False
+[frmContacts_PhoneNumbers]  False

@@ -1,0 +1,96 @@
+Operation =1
+Option =0
+Begin InputTables
+    Name ="tblContacts_EmailAddresses"
+    Name ="tklpEmailAddressTypes"
+    Name ="tblContacts"
+End
+Begin OutputColumns
+    Expression ="tblContacts_EmailAddresses.ContactEmailId"
+    Expression ="tblContacts_EmailAddresses.ContactId"
+    Expression ="tblContacts_EmailAddresses.EmailAddress"
+    Expression ="tklpEmailAddressTypes.EmailAddressType"
+End
+Begin Joins
+    LeftTable ="tklpEmailAddressTypes"
+    RightTable ="tblContacts_EmailAddresses"
+    Expression ="tklpEmailAddressTypes.EmailAddressTypeID = tblContacts_EmailAddresses.EmailAddre"
+        "ssTypeID"
+    Flag =1
+    LeftTable ="tblContacts"
+    RightTable ="tblContacts_EmailAddresses"
+    Expression ="tblContacts.ContactID = tblContacts_EmailAddresses.ContactId"
+    Flag =1
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0x37a467724eb39247848c4926ee2991f1
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+dbByte "PublishToWeb" ="1"
+Begin
+    Begin
+        dbText "Name" ="tblContacts_EmailAddresses.ContactEmailId"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_EmailAddresses.EmailAddress"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_EmailAddresses.ContactId"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tklpEmailAddressTypes.EmailAddressType"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =1444
+    Bottom =842
+    Left =-1
+    Top =-1
+    Right =1428
+    Bottom =563
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =386
+        Top =102
+        Right =624
+        Bottom =357
+        Top =0
+        Name ="tblContacts_EmailAddresses"
+        Name =""
+    End
+    Begin
+        Left =724
+        Top =239
+        Right =868
+        Bottom =383
+        Top =0
+        Name ="tklpEmailAddressTypes"
+        Name =""
+    End
+    Begin
+        Left =121
+        Top =66
+        Right =265
+        Bottom =210
+        Top =0
+        Name ="tblContacts"
+        Name =""
+    End
+End

@@ -2,3 +2,15 @@
 SELECT tblContacts.ContactID, tblContacts.ContactTypeID, tblContacts.FirstName, tblContacts.LastName, tblContacts.Address, tblContacts.CityID, tblContacts.ProvinceID, tblContacts.CountryID, tblContacts.PostalCode, tblContacts.DOB, tblContacts.Notes
 FROM tblContacts;
 
+<<<[qryTblContacts_EmailAddresses]>>>
+SELECT tblContacts_EmailAddresses.ContactEmailId, tblContacts_EmailAddresses.ContactId, tblContacts_EmailAddresses.EmailAddress, tklpEmailAddressTypes.EmailAddressType
+FROM tblContacts INNER JOIN (tklpEmailAddressTypes INNER JOIN tblContacts_EmailAddresses ON tklpEmailAddressTypes.EmailAddressTypeID = tblContacts_EmailAddresses.EmailAddressTypeID) ON tblContacts.ContactID = tblContacts_EmailAddresses.ContactId;
+
+<<<[qryTblContacts_PhoneNumbers]>>>
+SELECT tblContacts_PhoneNumbers.PhoneNumberID, tblContacts_PhoneNumbers.ContactID, tblContacts_PhoneNumbers.PhoneNumber, tblContacts_PhoneNumbers.PhoneNumberExt, tblContacts_PhoneNumbers.PhoneNumberCategoryID
+FROM tblContacts_PhoneNumbers;
+
+<<<[qryTblEmailAddressTypes]>>>
+SELECT tklpEmailAddressTypes.EmailAddressTypeID, tklpEmailAddressTypes.EmailAddressType
+FROM tklpEmailAddressTypes;
+
