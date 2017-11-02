@@ -5,7 +5,7 @@
 ![SVIP Main Page](MainPage.png "SVIP Main Page")
 
 * Clicking on 
-![Add New Client](img/addNewClient.png) 
+![Add New Client](/img/addNewClient.png) 
 will take you to the 
 [Intake Form](/IntakeForm/intakeform.md) 
 
