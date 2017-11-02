@@ -1,7 +1,7 @@
 .book-body {
-    background-color: lightblue;
+    background-color: red;
 }
 
 .book.with-summary .book-body{
-    background-color: red;
+    background-color: lightblue;
 }
