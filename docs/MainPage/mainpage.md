@@ -12,7 +12,7 @@ will take you to the
 * Clicking on 
 ![Add Client Contact](/img/addClientContact.png) 
  will take you to the 
-[Contact Form](https://kinsidar.github.io/Association-Contacts/docs/ContactForm/ContactForm.html) 
+[Contact Form](/ContactForm/ContactForm.md)
 
 * Clicking on 
 ![Add New Crisis](img/addNewCrisis.png) 
