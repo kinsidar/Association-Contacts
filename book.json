@@ -3,5 +3,9 @@
     "structure": { 
       "summary": "SUMMARY.md" 
     } ,
-    "root": "./docs"
+    "root": "./docs",
+    "plugins": [],
+    "styles": {
+        "website": "styles/website.css"
+    }
 }
