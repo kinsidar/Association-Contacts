@@ -17,27 +17,27 @@ will take you to the
 * Clicking on 
 ![Add New Crisis](img/addNewCrisis.png) 
  will take you to the 
-[Crisis Form](https://kinsidar.github.io/Association-Contacts/docs/CrisisForm/CrisisForm.html) 
+[Crisis Form](/CrisisForm/CrisisForm.md)
 
 * Clicking on 
 ![Add Crisis Response](img/addCrisisResponse.png) 
  will take you to the 
-[Response Form](https://kinsidar.github.io/Association-Contacts/docs/ResponseForm/ResponseForm.html)
+[Response Form](/ResponseForm/ResponseForm.md)
 
 * Clicking on 
 ![Youth Resiliency](img/youthResiliency.png) 
  will take you to the 
-[Open Youth Resiliency](https://kinsidar.github.io/Association-Contacts/docs/ReportsDirectory/ReportsDirectory.html) 
+[Open Youth Resiliency](/YouthResiliency/youthResiliency.md)
 
 * Clicking on 
 ![Self Sufficiency](img/selfSufficiency.png) 
  will take you to the 
-[Open Self Sufficiency](https://kinsidar.github.io/Association-Contacts/docs/ReportsDirectory/ReportsDirectory.html) 
+[Open Self Sufficiency](/SelfSufficiency/selfSufficiency.md) 
 
 * Clicking on 
 ![Reports](img/reports.png) 
  will take you to the 
-[Reports Directory](https://kinsidar.github.io/Association-Contacts/docs/ReportsDirectory/ReportsDirectory.html) 
+[Reports Directory](/ReportsDirectory/ReportsDirectory.md) 
 
 <!-- for sizing images -->
 <!-- <img src="http://image.com/image.png" width="200" height="100" /> -->
