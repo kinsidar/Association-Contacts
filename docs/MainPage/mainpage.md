@@ -2,6 +2,10 @@
 
 # Main page
 
+```
+code goes here!
+```
+
 ![SVIP Main Page](MainPage.png "SVIP Main Page")
 
 * Clicking on 
