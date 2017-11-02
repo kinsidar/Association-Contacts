@@ -7,8 +7,8 @@
 * Clicking on 
 ![Add New Client](/docs/img/addNewClient.png) 
 will take you to the 
-[Intake Form](https://kinsidar.github.io/Association-Contacts/docs/IntakeForm/intakeform.html) 
-[New Link](/IntakeForm/intakeform.md)
+[Intake Form](/IntakeForm/intakeform.md) 
+
 * Clicking on 
 ![Add Client Contact](/docs/img/addClientContact.png) 
  will take you to the 
