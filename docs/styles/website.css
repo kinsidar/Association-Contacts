@@ -5,3 +5,7 @@
 .book.with-summary .book-body{
     background-color: lightblue;
 }
+
+.book-header{
+    color: black;
+}
