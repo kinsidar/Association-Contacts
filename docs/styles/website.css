@@ -2,3 +2,6 @@
     background-color: lightblue;
 }
 
+.book.with-summary .book-body{
+    background-color: red;
+}
