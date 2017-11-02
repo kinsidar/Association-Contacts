@@ -15,27 +15,27 @@ will take you to the
 [Contact Form](/ContactForm/ContactForm.md)
 
 * Clicking on 
-![Add New Crisis](img/addNewCrisis.png) 
+![Add New Crisis](/img/addNewCrisis.png) 
  will take you to the 
 [Crisis Form](/CrisisForm/CrisisForm.md)
 
 * Clicking on 
-![Add Crisis Response](img/addCrisisResponse.png) 
+![Add Crisis Response](/img/addCrisisResponse.png) 
  will take you to the 
 [Response Form](/ResponseForm/ResponseForm.md)
 
 * Clicking on 
-![Youth Resiliency](img/youthResiliency.png) 
+![Youth Resiliency](/img/youthResiliency.png) 
  will take you to the 
 [Open Youth Resiliency](/YouthResiliency/youthResiliency.md)
 
 * Clicking on 
-![Self Sufficiency](img/selfSufficiency.png) 
+![Self Sufficiency](/img/selfSufficiency.png) 
  will take you to the 
 [Open Self Sufficiency](/SelfSufficiency/selfSufficiency.md) 
 
 * Clicking on 
-![Reports](img/reports.png) 
+![Reports](/img/reports.png) 
  will take you to the 
 [Reports Directory](/ReportsDirectory/ReportsDirectory.md) 
 
