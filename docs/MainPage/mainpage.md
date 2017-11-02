@@ -10,7 +10,7 @@ will take you to the
 [Intake Form](/IntakeForm/intakeform.md) 
 
 * Clicking on 
-![Add Client Contact](img/addClientContact.png) 
+![Add Client Contact](/img/addClientContact.png) 
  will take you to the 
 [Contact Form](https://kinsidar.github.io/Association-Contacts/docs/ContactForm/ContactForm.html) 
 
