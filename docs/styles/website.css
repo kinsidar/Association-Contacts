@@ -2,11 +2,11 @@
     background-color: lightblue;
 }
 
-.page-wrapper {
+.book .page-wrapper {
     background-color: black;
 }
 
-.page-inner {
+.book .page-inner {
     background-color: orange;
 }
 
