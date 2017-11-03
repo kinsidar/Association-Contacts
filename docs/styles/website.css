@@ -1,3 +1,13 @@
 .book-body {
     background-color: lightblue;
 }
+
+.book-summary{
+    background-color: DarkSalmon;
+}
+
+/* 
+h1, h2, h3, p, ul, ol, blockquote, table, th, td 
+.book-body
+.page-wrapper
+*/
