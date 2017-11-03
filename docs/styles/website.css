@@ -3,7 +3,11 @@
 }
 
 .book-summary{
-    background-color: DarkSalmon;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 /* 
