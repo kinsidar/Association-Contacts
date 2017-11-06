@@ -1,3 +1,5 @@
+![RDA Logo](../img/RDA_transparent_210x70.png "RDA Logo") by **Resource Development Associates**
+
 # Reports Directory
 
 ![SVIP Reports Directory](Reports.png "SVIP Reports Directory")

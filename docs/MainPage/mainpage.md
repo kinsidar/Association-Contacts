@@ -1,5 +1,7 @@
 <!-- ![SVIP Main Page](SVIPMain.png "SVIP Main Page") -->
 
+![RDA Logo](../img/RDA_transparent_210x70.png "RDA Logo") by **Resource Development Associates**
+
 # Main page
 
 

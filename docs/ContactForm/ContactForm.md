@@ -1,3 +1,5 @@
+![RDA Logo](../img/RDA_transparent_210x70.png "RDA Logo") by **Resource Development Associates**
+
 # Contact Form
 
 ![SVIP Contact Form](ContactFormFilled.png "SVIP Contact Form")
