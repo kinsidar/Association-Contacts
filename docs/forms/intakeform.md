@@ -4,7 +4,7 @@
 
 # Intake Form
 
-![Intake Form Filled](IntakeFormFilled.png "SVIP Intake Form")
+![Intake Form Filled](img/IntakeFormFilled.png "SVIP Intake Form")
 
 * Click **Edit Record** to edit the form, and **Save Record** to save the form.
 

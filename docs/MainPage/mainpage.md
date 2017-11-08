@@ -5,42 +5,42 @@
 # Main page
 
 
-![SVIP Main Page](MainPage.png "SVIP Main Page")
+![SVIP Main Page](img/MainPage.png "SVIP Main Page")
 
 * Clicking on 
-![Add New Client](/img/addNewClient.png) 
+![Add New Client](img/addNewClient.png) 
 will take you to the 
-[Intake Form](/IntakeForm/intakeform.md) 
+[Intake Form](/forms/intakeform.md) 
 
 * Clicking on 
-![Add Client Contact](/img/addClientContact.png) 
+![Add Client Contact](img/addClientContact.png) 
  will take you to the 
-[Contact Form](/ContactForm/ContactForm.md)
+[Contact Form](/forms/ContactForm.md)
 
 * Clicking on 
-![Add New Crisis](/img/addNewCrisis.png) 
+![Add New Crisis](img/addNewCrisis.png) 
  will take you to the 
-[Crisis Form](/CrisisForm/CrisisForm.md)
+[Crisis Form](/forms/CrisisForm.md)
 
 * Clicking on 
-![Add Crisis Response](/img/addCrisisResponse.png) 
+![Add Crisis Response](img/addCrisisResponse.png) 
  will take you to the 
-[Response Form](/ResponseForm/ResponseForm.md)
+[Response Form](/forms/ResponseForm.md)
 
 * Clicking on 
-![Youth Resiliency](/img/youthResiliency.png) 
+![Youth Resiliency](img/youthResiliency.png) 
  will take you to the 
-[Open Youth Resiliency](/YouthResiliency/youthResiliency.md)
+[Open Youth Resiliency](/forms/youthResiliency.md)
 
 * Clicking on 
-![Self Sufficiency](/img/selfSufficiency.png) 
+![Self Sufficiency](img/selfSufficiency.png) 
  will take you to the 
-[Open Self Sufficiency](/SelfSufficiency/selfSufficiency.md) 
+[Open Self Sufficiency](/forms/selfSufficiency.md) 
 
 * Clicking on 
-![Reports](/img/reports.png) 
+![Reports](img/reports.png) 
  will take you to the 
-[Reports Directory](/ReportsDirectory/ReportsDirectory.md) 
+[Reports Directory](/forms/ReportsDirectory.md) 
 
 <!-- for sizing images -->
 <!-- <img src="http://image.com/image.png" width="200" height="100" /> -->

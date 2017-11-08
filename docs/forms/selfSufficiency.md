@@ -1,5 +1,5 @@
 ![RDA Logo](../img/RDA_transparent_210x70.png "RDA Logo") by **Resource Development Associates**
 
-# Youth Resiliency Form
+# Self Sufficiency Form
 
-![Youth Resiliency](youthResiliency.png "Youth Resiliency Form")
+![Self Sufficiency Form](img/selfSufficiency.png "Self Sufficiency Form")

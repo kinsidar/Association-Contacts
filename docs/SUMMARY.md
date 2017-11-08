@@ -7,13 +7,13 @@
 
 ## Forms
 
-* [Intake Form](IntakeForm/intakeform.md)
-* [Contact Form](ContactForm/ContactForm.md)
-* [Crisis Form](CrisisForm/CrisisForm.md)
-* [Response Form](ResponseForm/ResponseForm.md)
-* [Youth Resiliency](YouthResiliency/youthResiliency.md)
-* [Self Sufficiency](SelfSufficiency/selfSufficiency.md)
-* [Reports Directory](ReportsDirectory/ReportsDirectory.md)
+* [Intake Form](forms/intakeform.md)
+* [Contact Form](forms/ContactForm.md)
+* [Crisis Form](forms/CrisisForm.md)
+* [Response Form](forms/ResponseForm.md)
+* [Youth Resiliency](forms/youthResiliency.md)
+* [Self Sufficiency](forms/selfSufficiency.md)
+* [Reports Directory](forms/ReportsDirectory.md)
 
 ## How-tos
 
