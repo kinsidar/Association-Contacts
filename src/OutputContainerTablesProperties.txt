@@ -9,15 +9,15 @@
               LastUpdated   LastUpdated
               RecordLocks    0 
               ODBCTimeout    60 
+              RecordsetType  0 
               OrderByOn     False
               Orientation    0 
               DefaultView    2 
               GUID          GUID
               FilterOnLoad  False
               OrderByOnLoad True
-              PublishToWeb   1 
-              RecordsetType  0 
               TotalsRow     False
+              PublishToWeb   1 
 >>>qryTblContacts_EmailAddresses
               Name          qryTblContacts_EmailAddresses
               Owner         admin
@@ -78,92 +78,127 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
+>>>qryTblPhoneNumbersCategories
+              Name          qryTblPhoneNumbersCategories
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+              RecordLocks    0 
+              ODBCTimeout    60 
+              RecordsetType  0 
+              OrderByOn     False
+              Orientation    0 
+              DefaultView    2 
+              GUID          GUID
+              FilterOnLoad  False
+              OrderByOnLoad True
+              TotalsRow     False
+              PublishToWeb   1 
 >>>tblContacts
               Name          tblContacts
               Owner         admin
               UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
+              Permissions    1048575 
+              AllPermissions               1048575 
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              GUID          GUID
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
-              SubdatasheetName            [None]
-              PublishToWeb   1 
 >>>tblContacts_EmailAddresses
               Name          tblContacts_EmailAddresses
               Owner         admin
               UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
+              Permissions    1048575 
+              AllPermissions               1048575 
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              SubdatasheetName            [None]
-              DefaultView    2 
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex               1 
-              AlternateBackThemeColorIndex               1 
-              AlternateBackTint            100 
-              AlternateBackShade           95 
-              ReadOnlyWhenDisconnected    False
-              DatasheetGridlinesThemeColorIndex          3 
-              DatasheetForeThemeColorIndex               0 
-              PublishToWeb   1 
-              GUID          GUID
 >>>tblContacts_PhoneNumbers
               Name          tblContacts_PhoneNumbers
               Owner         admin
               UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
+              Permissions    1048575 
+              AllPermissions               1048575 
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
-              GUID          GUID
-              Orientation    0 
-              OrderByOn     False
-              SubdatasheetName            [None]
-              DefaultView    2 
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
 >>>tblTestIt
               Name          tblTestIt
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tklpContacts_Types
+              Name          tklpContacts_Types
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tklpCountries
+              Name          tklpCountries
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tklpEmailAddressTypes
+              Name          tklpEmailAddressTypes
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tklpPhoneNumbersCategories
+              Name          tklpPhoneNumbersCategories
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tlkpCities
+              Name          tlkpCities
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tlkpProvinces
+              Name          tlkpProvinces
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tlkpSalutations
+              Name          tlkpSalutations
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>USysRibbons
+              Name          USysRibbons
               Owner         admin
               UserName      admin
               Permissions    1048319 
@@ -171,11 +206,11 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
-              GUID          GUID
+              PublishToWeb   1 
               Orientation    0 
               OrderByOn     False
-              NameMap       Track name AutoCorrect info is ON!
               DefaultView    2 
+              GUID          GUID
               DisplayViewsOnSharePointSite               1 
               TotalsRow     False
               FilterOnLoad  False
@@ -189,218 +224,4 @@
               AlternateBackShade           95 
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
-              PublishToWeb   1 
->>>tklpContacts_Types
-              Name          tklpContacts_Types
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              GUID          GUID
-              Orientation    0 
-              OrderByOn     False
-              SubdatasheetName            [None]
-              DefaultView    2 
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
->>>tklpCountries
-              Name          tklpCountries
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              SubdatasheetName            [None]
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              ReadOnlyWhenDisconnected    False
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
-              PublishToWeb   1 
-              GUID          GUID
->>>tklpEmailAddressTypes
-              Name          tklpEmailAddressTypes
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              GUID          GUID
-              Orientation    0 
-              OrderByOn     False
-              SubdatasheetName            [None]
-              DefaultView    2 
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
-              PublishToWeb   1 
->>>tklpPhoneNumbersCategories
-              Name          tklpPhoneNumbersCategories
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              GUID          GUID
-              Orientation    0 
-              OrderByOn     False
-              SubdatasheetName            [None]
-              DefaultView    2 
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
->>>tlkpCities
-              Name          tlkpCities
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              SubdatasheetName            [None]
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              ReadOnlyWhenDisconnected    False
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
-              PublishToWeb   1 
-              GUID          GUID
->>>tlkpProvinces
-              Name          tlkpProvinces
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              SubdatasheetName            [None]
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              TabularCharSet               0 
-              DatasheetFontName           Calibri
-              DatasheetFontHeight          11 
-              DatasheetFontWeight          400 
-              DatasheetFontItalic         False
-              DatasheetFontUnderline      False
-              TabularFamily  34 
-              DatasheetForeColor           0 
-              DatasheetForeColor12         0 
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              ReadOnlyWhenDisconnected    False
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
-              PublishToWeb   1 
-              GUID          GUID
->>>tlkpSalutations
-              Name          tlkpSalutations
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              TabularCharSet               0 
-              SubdatasheetName            [None]
-              DatasheetFontName           Calibri
-              DatasheetFontHeight          11 
-              DatasheetFontWeight          400 
-              DatasheetFontItalic         False
-              DatasheetFontUnderline      False
-              TabularFamily  34 
-              DatasheetForeColor           0 
-              DatasheetForeColor12         0 
-              GUID          GUID
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
+              RowHeight      6435 

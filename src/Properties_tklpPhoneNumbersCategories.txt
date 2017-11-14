@@ -1,14 +1,13 @@
 |-- Name >> tklpPhoneNumbersCategories
-|-- Updatable >> True
+|-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> 
-|-- Attributes >> 0
-|-- SourceTableName >> 
-|-- RecordCount >> 3
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tklpPhoneNumbersCategories
+|-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
-|-- GUID >> GUID
 |-- Orientation >> 0
 |-- OrderByOn >> False
 |-- SubdatasheetName >> [None]
@@ -44,7 +43,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 1
 |------ ColumnHidden >> False
@@ -69,7 +67,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
 |------ ColumnWidth >> 2610
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False

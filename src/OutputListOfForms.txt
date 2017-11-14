@@ -2,3 +2,4 @@
 [frmContacts_Details]       False
 [frmContacts_EmailAddresses]              False
 [frmContacts_PhoneNumbers]  False
+[frmUSysRibbons]            True

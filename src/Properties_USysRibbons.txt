@@ -1,17 +1,18 @@
-|-- Name >> tklpContacts_Types
-|-- Updatable >> False
+|-- Name >> USysRibbons
+|-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-|-- Attributes >> 1073741824
-|-- SourceTableName >> tklpContacts_Types
-|-- RecordCount >> -1
+|-- Connect >> 
+|-- Attributes >> 0
+|-- SourceTableName >> 
+|-- RecordCount >> 2
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- PublishToWeb >> 1
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- SubdatasheetName >> [None]
 |-- DefaultView >> 2
+|-- GUID >> GUID
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
@@ -19,22 +20,23 @@
 |-- HideNewField >> False
 |-- BackTint >> 100
 |-- BackShade >> 100
-|-- ThemeFontIndex >> -1
-|-- AlternateBackThemeColorIndex >> -1
+|-- ThemeFontIndex >> 1
+|-- AlternateBackThemeColorIndex >> 1
 |-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 100
-|-- DatasheetGridlinesThemeColorIndex >> -1
-|-- DatasheetForeThemeColorIndex >> -1
+|-- AlternateBackShade >> 95
+|-- DatasheetGridlinesThemeColorIndex >> 3
+|-- DatasheetForeThemeColorIndex >> 0
+|-- RowHeight >> 6435
 --------------------------------------------------
-|-- ContactTypeId (Field in tklpContacts_Types)
+|-- ID (Field in USysRibbons)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactTypeId
+|------ Name >> ID
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> ContactTypeId
-|------ SourceTable >> tklpContacts_Types
+|------ SourceField >> ID
+|------ SourceTable >> USysRibbons
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -43,37 +45,65 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1755
+|------ ColumnWidth >> -1
 |------ ColumnOrder >> 1
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactType (Field in tklpContacts_Types)
+|-- RibbonName (Field in USysRibbons)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> ContactType
+|------ Name >> RibbonName
 |------ OrdinalPosition >> 1
 |------ Size >> 255
-|------ SourceField >> ContactType
-|------ SourceTable >> tklpContacts_Types
+|------ SourceField >> RibbonName
+|------ SourceTable >> USysRibbons
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> True
-|------ AllowZeroLength >> False
+|------ Required >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 3540
+|------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
 |------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|-- RibbonXML (Field in USysRibbons)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 12
+|------ Name >> RibbonXML
+|------ OrdinalPosition >> 2
+|------ Size >> 0
+|------ SourceField >> RibbonXML
+|------ SourceTable >> USysRibbons
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 8550
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextFormat >> 0
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0

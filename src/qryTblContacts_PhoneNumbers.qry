@@ -2,6 +2,8 @@ Operation =1
 Option =0
 Begin InputTables
     Name ="tblContacts_PhoneNumbers"
+    Name ="tblContacts"
+    Name ="tklpPhoneNumbersCategories"
 End
 Begin OutputColumns
     Expression ="tblContacts_PhoneNumbers.PhoneNumberID"
@@ -9,6 +11,17 @@ Begin OutputColumns
     Expression ="tblContacts_PhoneNumbers.PhoneNumber"
     Expression ="tblContacts_PhoneNumbers.PhoneNumberExt"
     Expression ="tblContacts_PhoneNumbers.PhoneNumberCategoryID"
+End
+Begin Joins
+    LeftTable ="tblContacts"
+    RightTable ="tblContacts_PhoneNumbers"
+    Expression ="tblContacts.ContactID = tblContacts_PhoneNumbers.ContactID"
+    Flag =1
+    LeftTable ="tklpPhoneNumbersCategories"
+    RightTable ="tblContacts_PhoneNumbers"
+    Expression ="tklpPhoneNumbersCategories.PhoneNumberCategoryID = tblContacts_PhoneNumbers.Phon"
+        "eNumberCategoryID"
+    Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -25,27 +38,23 @@ dbBoolean "TotalsRow" ="0"
 dbByte "PublishToWeb" ="1"
 Begin
     Begin
-        dbText "Name" ="PhoneNumberID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="ContactID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="PhoneNumber"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="PhoneNumberExt"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="PhoneNumberCategoryID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumberCategoryID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumberID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumber"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.ContactID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumberExt"
         dbLong "AggregateType" ="-1"
     End
 End
@@ -58,17 +67,35 @@ Begin
     Left =-1
     Top =-1
     Right =1161
-    Bottom =597
+    Bottom =580
     Left =0
     Top =0
     ColumnsShown =539
     Begin
-        Left =399
-        Top =189
-        Right =543
-        Bottom =333
+        Left =449
+        Top =150
+        Right =665
+        Bottom =299
         Top =0
         Name ="tblContacts_PhoneNumbers"
+        Name =""
+    End
+    Begin
+        Left =152
+        Top =168
+        Right =296
+        Bottom =312
+        Top =0
+        Name ="tblContacts"
+        Name =""
+    End
+    Begin
+        Left =794
+        Top =224
+        Right =1023
+        Bottom =376
+        Top =0
+        Name ="tklpPhoneNumbersCategories"
         Name =""
     End
 End

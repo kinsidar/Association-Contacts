@@ -3,3 +3,4 @@
 [aebasTEST_aegit_expClass]  False
 [aegit_expClass]            False
 [mod_DatesTimes]            False
+[modRibbon]   False

@@ -1,14 +1,13 @@
 |-- Name >> tblContacts_PhoneNumbers
-|-- Updatable >> True
+|-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> 
-|-- Attributes >> 0
-|-- SourceTableName >> 
-|-- RecordCount >> 2
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tblContacts_PhoneNumbers
+|-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
-|-- GUID >> GUID
 |-- Orientation >> 0
 |-- OrderByOn >> False
 |-- SubdatasheetName >> [None]
@@ -44,7 +43,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
@@ -69,7 +67,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
@@ -96,7 +93,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
@@ -125,7 +121,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
@@ -154,7 +149,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False

@@ -1,11 +1,11 @@
 |-- Name >> tlkpSalutations
-|-- Updatable >> True
+|-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> 
-|-- Attributes >> 0
-|-- SourceTableName >> 
-|-- RecordCount >> 4
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tlkpSalutations
+|-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
@@ -26,7 +26,6 @@
 |-- TabularFamily >> 34
 |-- DatasheetForeColor >> 0
 |-- DatasheetForeColor12 >> 0
-|-- GUID >> GUID
 |-- BackTint >> 100
 |-- BackShade >> 100
 |-- ThemeFontIndex >> -1
@@ -58,7 +57,6 @@
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
-|------ GUID >> GUID
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |-- Salutation (Field in tlkpSalutations)
@@ -87,7 +85,6 @@
 |------ UnicodeCompression >> True
 |------ TextAlign >> 0
 |------ AggregateType >> -1
-|------ GUID >> GUID
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |-- Order (Field in tlkpSalutations)
@@ -114,6 +111,5 @@
 |------ DisplayControl >> 109
 |------ TextAlign >> 0
 |------ AggregateType >> -1
-|------ GUID >> GUID
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0

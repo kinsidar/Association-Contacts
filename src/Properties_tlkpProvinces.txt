@@ -1,11 +1,11 @@
 |-- Name >> tlkpProvinces
-|-- Updatable >> True
+|-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> 
-|-- Attributes >> 0
-|-- SourceTableName >> 
-|-- RecordCount >> 13
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tlkpProvinces
+|-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
@@ -36,7 +36,6 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 |-- PublishToWeb >> 1
-|-- GUID >> GUID
 --------------------------------------------------
 |-- ProvinceId (Field in tlkpProvinces)
 |------ Attributes >> 17
@@ -62,7 +61,6 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|------ GUID >> GUID
 |-- CountryID (Field in tlkpProvinces)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
@@ -89,7 +87,6 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|------ GUID >> GUID
 |-- Province (Field in tlkpProvinces)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
@@ -118,7 +115,6 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|------ GUID >> GUID
 |-- ProvinceAbbr (Field in tlkpProvinces)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
@@ -147,4 +143,3 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|------ GUID >> GUID

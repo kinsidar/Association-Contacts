@@ -1,11 +1,11 @@
 |-- Name >> tklpCountries
-|-- Updatable >> True
+|-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> 
-|-- Attributes >> 0
-|-- SourceTableName >> 
-|-- RecordCount >> 2
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tklpCountries
+|-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
@@ -27,7 +27,6 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 |-- PublishToWeb >> 1
-|-- GUID >> GUID
 --------------------------------------------------
 |-- CountryID (Field in tklpCountries)
 |------ Attributes >> 17
@@ -52,7 +51,6 @@
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |------ ResultType >> 0
 |-- Country (Field in tklpCountries)
 |------ Attributes >> 2
@@ -81,5 +79,4 @@
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |------ ResultType >> 0

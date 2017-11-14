@@ -4,13 +4,17 @@ FROM tblContacts;
 
 <<<[qryTblContacts_EmailAddresses]>>>
 SELECT tblContacts_EmailAddresses.ContactEmailId, tblContacts_EmailAddresses.ContactId, tblContacts_EmailAddresses.EmailAddress, tklpEmailAddressTypes.EmailAddressType
-FROM tblContacts INNER JOIN (tklpEmailAddressTypes INNER JOIN tblContacts_EmailAddresses ON tklpEmailAddressTypes.EmailAddressTypeID = tblContacts_EmailAddresses.EmailAddressTypeID) ON tblContacts.ContactID = tblContacts_EmailAddresses.ContactId;
+FROM tklpEmailAddressTypes INNER JOIN (tblContacts INNER JOIN tblContacts_EmailAddresses ON tblContacts.ContactID = tblContacts_EmailAddresses.ContactId) ON tklpEmailAddressTypes.EmailAddressTypeID = tblContacts_EmailAddresses.EmailAddressTypeID;
 
 <<<[qryTblContacts_PhoneNumbers]>>>
 SELECT tblContacts_PhoneNumbers.PhoneNumberID, tblContacts_PhoneNumbers.ContactID, tblContacts_PhoneNumbers.PhoneNumber, tblContacts_PhoneNumbers.PhoneNumberExt, tblContacts_PhoneNumbers.PhoneNumberCategoryID
-FROM tblContacts_PhoneNumbers;
+FROM tklpPhoneNumbersCategories INNER JOIN (tblContacts INNER JOIN tblContacts_PhoneNumbers ON tblContacts.ContactID = tblContacts_PhoneNumbers.ContactID) ON tklpPhoneNumbersCategories.PhoneNumberCategoryID = tblContacts_PhoneNumbers.PhoneNumberCategoryID;
 
 <<<[qryTblEmailAddressTypes]>>>
 SELECT tklpEmailAddressTypes.EmailAddressTypeID, tklpEmailAddressTypes.EmailAddressType
 FROM tklpEmailAddressTypes;
+
+<<<[qryTblPhoneNumbersCategories]>>>
+SELECT tklpPhoneNumbersCategories.PhoneNumberCategoryID, tklpPhoneNumbersCategories.PhoneNumberCategory
+FROM tklpPhoneNumbersCategories;
 

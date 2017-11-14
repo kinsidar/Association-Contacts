@@ -1,49 +1,49 @@
-Name: ContactsContacts_EmailAddresses
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].ContactsContacts_EmailAddresses
   Table: tblContacts
   Foreign Table: tblContacts_EmailAddresses
   PK: ContactID   FK:ContactId
 
-Name: ContactsContacts_PhoneNumbers
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].ContactsContacts_PhoneNumbers
   Table: tblContacts
   Foreign Table: tblContacts_PhoneNumbers
   PK: ContactID   FK:ContactID
 
-Name: lst_CitiesContacts
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_CitiesContacts
   Table: tlkpCities
   Foreign Table: tblContacts
   PK: CityID   FK:CityID
 
-Name: lst_Contacts_TypesContacts
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_Contacts_TypesContacts
   Table: tklpContacts_Types
   Foreign Table: tblContacts
   PK: ContactTypeId   FK:ContactTypeID
 
-Name: lst_CountriesContacts
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_CountriesContacts
   Table: tklpCountries
   Foreign Table: tblContacts
   PK: CountryID   FK:CountryID
 
-Name: lst_Countrieslst_Provinces
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_Countrieslst_Provinces
   Table: tklpCountries
   Foreign Table: tlkpProvinces
   PK: CountryID   FK:CountryID
 
-Name: lst_EmailAddressTypesContacts_EmailAddresses
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_EmailAddressTypesContacts_EmailAddresses
   Table: tklpEmailAddressTypes
   Foreign Table: tblContacts_EmailAddresses
   PK: EmailAddressTypeID   FK:EmailAddressTypeID
 
-Name: lst_PhoneNumbersCategoriesContacts_PhoneNumbers
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_PhoneNumbersCategoriesContacts_PhoneNumbers
   Table: tklpPhoneNumbersCategories
   Foreign Table: tblContacts_PhoneNumbers
   PK: PhoneNumberCategoryID   FK:PhoneNumberCategoryID
 
-Name: lst_ProvincesContacts
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_ProvincesContacts
   Table: tlkpProvinces
   Foreign Table: tblContacts
   PK: ProvinceId   FK:ProvinceID
 
-Name: lst_Provinceslst_Cities
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_Provinceslst_Cities
   Table: tlkpProvinces
   Foreign Table: tlkpCities
   PK: ProvinceId   FK:ProvinceID

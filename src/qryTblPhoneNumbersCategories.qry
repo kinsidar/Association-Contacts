@@ -1,11 +1,11 @@
 Operation =1
 Option =0
 Begin InputTables
-    Name ="tklpEmailAddressTypes"
+    Name ="tklpPhoneNumbersCategories"
 End
 Begin OutputColumns
-    Expression ="tklpEmailAddressTypes.EmailAddressTypeID"
-    Expression ="tklpEmailAddressTypes.EmailAddressType"
+    Expression ="tklpPhoneNumbersCategories.PhoneNumberCategoryID"
+    Expression ="tklpPhoneNumbersCategories.PhoneNumberCategory"
 End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -14,7 +14,7 @@ dbBoolean "OrderByOn" ="0"
 dbByte "Orientation" ="0"
 dbByte "DefaultView" ="2"
 dbBinary "GUID" = Begin
-    0xf1a30bcb6bbb4b418ed87ec5f713914d
+    0x7a6b0d0a66388d4a8c19ddc7a3f486d6
 End
 dbBoolean "FilterOnLoad" ="0"
 dbBoolean "OrderByOnLoad" ="-1"
@@ -22,11 +22,11 @@ dbBoolean "TotalsRow" ="0"
 dbByte "PublishToWeb" ="1"
 Begin
     Begin
-        dbText "Name" ="tklpEmailAddressTypes.EmailAddressType"
+        dbText "Name" ="tklpPhoneNumbersCategories.PhoneNumberCategory"
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="tklpEmailAddressTypes.EmailAddressTypeID"
+        dbText "Name" ="tklpPhoneNumbersCategories.PhoneNumberCategoryID"
         dbLong "AggregateType" ="-1"
     End
 End
@@ -39,17 +39,17 @@ Begin
     Left =-1
     Top =-1
     Right =1161
-    Bottom =512
+    Bottom =580
     Left =0
     Top =0
     ColumnsShown =539
     Begin
-        Left =428
-        Top =185
-        Right =572
-        Bottom =329
+        Left =408
+        Top =183
+        Right =552
+        Bottom =327
         Top =0
-        Name ="tklpEmailAddressTypes"
+        Name ="tklpPhoneNumbersCategories"
         Name =""
     End
 End

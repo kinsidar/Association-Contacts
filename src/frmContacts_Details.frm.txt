@@ -21,12 +21,12 @@ Begin Form
     Bottom =12375
     DatasheetGridlinesColor =12632256
     RecSrcDt = Begin
-        0x2640ffe0bbcee440
+        0xb2930f1e5404e540
     End
     GUID = Begin
         0x04dcdd1c0d93094ba3166817aae1f856
     End
-    RecordSource ="Contacts"
+    RecordSource ="qryTblContacts"
     DatasheetFontName ="Arial"
     PrtMip = Begin
     End

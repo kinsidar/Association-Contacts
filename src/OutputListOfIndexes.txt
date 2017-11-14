@@ -163,3 +163,8 @@
                             Field Name:SalutationID
 >[SalutationID]             [SalutationID], 
 ========================================
+<<<[USysRibbons]>>>
+              Index:[PrimaryKey]
+                            Field Name:ID
+>[PrimaryKey] [ID], 
+========================================

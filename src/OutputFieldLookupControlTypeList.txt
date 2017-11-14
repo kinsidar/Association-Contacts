@@ -10,6 +10,8 @@
               [PostalCode]   109          TextBox
               [DOB]          109          TextBox
               [Notes]        109          TextBox
+              [LON]          109          TextBox
+              [LAT]          109          TextBox
 [tblContacts_EmailAddresses]
               [ContactEmailId]             109          TextBox
               [ContactId]    109          TextBox
@@ -49,10 +51,14 @@
               [SalutationID]               109          TextBox
               [Salutation]   109          TextBox
               [Order]        109          TextBox
+[USysRibbons]
+              [ID]           109          TextBox
+              [RibbonName]   109          TextBox
+              [RibbonXML]    109          TextBox
 Count of Check box = 0
-Count of Text box  = 39
+Count of Text box  = 44
 Count of List box  = 0
 Count of Combo box = 0
 Count of Else      = 1
-Count of Display Controls = 39
-Count of All Fields = 39
+Count of Display Controls = 44
+Count of All Fields = 44

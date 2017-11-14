@@ -19,12 +19,12 @@ Begin Form
     Bottom =12375
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
-        0xdfc18a0dbdcee440
+        0x3584c6352d04e540
     End
     GUID = Begin
         0x8a5df63f43785a4e87abcfbdfc93d2fb
     End
-    RecordSource ="Contacts_PhoneNumbers"
+    RecordSource ="qryTblContacts_PhoneNumbers"
     DatasheetFontName ="Calibri"
     PrtMip = Begin
     End
@@ -187,7 +187,7 @@ Begin Form
             End
         End
         Begin Section
-            Height =360
+            Height =480
             Name ="Detail"
             GUID = Begin
                 0xff23a5f03bfb74419b5556c99d2a399b
@@ -250,8 +250,8 @@ Begin Form
                     FontSize =8
                     TabIndex =2
                     BorderColor =13553360
-                    Name ="PhoneNumberExt"
-                    ControlSource ="=[qryTblContacts_PhoneNumbers]![PhoneNumberExt]"
+                    Name ="txtPhoneNumberExt"
+                    ControlSource ="PhoneNumberExt"
                     FontName ="Tahoma"
                     GUID = Begin
                         0xe608d26bcf5920459c126b9411017066
@@ -275,8 +275,8 @@ Begin Form
                     FontSize =8
                     TabIndex =3
                     BorderColor =13553360
-                    Name ="PhoneNumber"
-                    ControlSource ="=[qryTblContacts_PhoneNumbers]"
+                    Name ="txtPhoneNumber"
+                    ControlSource ="PhoneNumber"
                     FontName ="Tahoma"
                     GUID = Begin
                         0x269c88da66b76a4d9d9ec097088b7af1
@@ -296,7 +296,7 @@ Begin Form
                     OverlapFlags =247
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =3480
+                    Left =3540
                     Top =60
                     Width =2280
                     FontSize =8
@@ -306,19 +306,19 @@ Begin Form
                     GUID = Begin
                         0x25743a6dee14d94e8052f6d70ff9c517
                     End
-                    Name ="PhoneNumberCategoryID"
-                    ControlSource ="=[qryTblContacts_PhoneNumbers]![PhoneNumberCategoryID]"
+                    Name ="cboPhoneNumberCategoryID"
+                    ControlSource ="PhoneNumberCategoryID"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT lst_PhoneNumbersCategories.PhoneNumberCategoryID, lst_PhoneNumbersCategor"
-                        "ies.PhoneNumberCategory FROM lst_PhoneNumbersCategories ORDER BY lst_PhoneNumber"
-                        "sCategories.PhoneNumberCategory; "
+                    RowSource ="qryTblPhoneNumbersCategories"
                     ColumnWidths ="0"
                     FontName ="Tahoma"
+                    BaseInfo ="\"qryTblPhoneNumbersCategories\";\"tklpPhoneNumbersCategories\";\"\";\"PhoneNumb"
+                        "erCategoryID\";\"PhoneNumberCategory\";\"PrimaryKey\""
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =3480
+                    LayoutCachedLeft =3540
                     LayoutCachedTop =60
-                    LayoutCachedWidth =5760
+                    LayoutCachedWidth =5820
                     LayoutCachedHeight =300
                     ThemeFontIndex =-1
                     ForeThemeColorIndex =0

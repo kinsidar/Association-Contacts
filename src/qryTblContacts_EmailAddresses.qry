@@ -12,14 +12,14 @@ Begin OutputColumns
     Expression ="tklpEmailAddressTypes.EmailAddressType"
 End
 Begin Joins
+    LeftTable ="tblContacts"
+    RightTable ="tblContacts_EmailAddresses"
+    Expression ="tblContacts.ContactID = tblContacts_EmailAddresses.ContactId"
+    Flag =1
     LeftTable ="tklpEmailAddressTypes"
     RightTable ="tblContacts_EmailAddresses"
     Expression ="tklpEmailAddressTypes.EmailAddressTypeID = tblContacts_EmailAddresses.EmailAddre"
         "ssTypeID"
-    Flag =1
-    LeftTable ="tblContacts"
-    RightTable ="tblContacts_EmailAddresses"
-    Expression ="tblContacts.ContactID = tblContacts_EmailAddresses.ContactId"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -57,12 +57,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1444
+    Right =1177
     Bottom =842
     Left =-1
     Top =-1
-    Right =1428
-    Bottom =563
+    Right =1161
+    Bottom =546
     Left =0
     Top =0
     ColumnsShown =539
@@ -76,10 +76,10 @@ Begin
         Name =""
     End
     Begin
-        Left =724
-        Top =239
-        Right =868
-        Bottom =383
+        Left =730
+        Top =232
+        Right =874
+        Bottom =376
         Top =0
         Name ="tklpEmailAddressTypes"
         Name =""

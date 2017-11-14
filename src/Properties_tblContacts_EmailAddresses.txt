@@ -1,11 +1,11 @@
 |-- Name >> tblContacts_EmailAddresses
-|-- Updatable >> True
+|-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> 
-|-- Attributes >> 0
-|-- SourceTableName >> 
-|-- RecordCount >> 2
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tblContacts_EmailAddresses
+|-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
@@ -27,7 +27,6 @@
 |-- DatasheetGridlinesThemeColorIndex >> 3
 |-- DatasheetForeThemeColorIndex >> 0
 |-- PublishToWeb >> 1
-|-- GUID >> GUID
 --------------------------------------------------
 |-- ContactEmailId (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 17
@@ -53,7 +52,6 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- ContactId (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
@@ -80,7 +78,6 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- EmailAddress (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
@@ -109,7 +106,6 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- EmailAddressTypeID (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
@@ -127,7 +123,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ GUID >> GUID
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
