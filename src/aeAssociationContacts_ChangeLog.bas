@@ -34,7 +34,7 @@ Public Function getMyProject() As String
     getMyProject = gstrPROJECT_SVIPDB
 End Function
 
-Public Sub AssociationContacts_EXPORT(Optional ByVal varDebug As Variant)
+Public Sub AC_EXPORT(Optional ByVal varDebug As Variant)
 
     Const THE_FRONT_END_APP = True
     Const THE_SOURCE_FOLDER = ".\src\"
@@ -77,7 +77,6 @@ End Sub
 ' %017 -
 ' %016 -
 ' %015 -
-' %014 -
 ' %012 - Add Shift key blocking
 ' %011 - Add Splash form
 ' %003 - Relates to GH #9, include version tracking details in the app database change log module
@@ -88,6 +87,7 @@ End Sub
 '=============================================================================================================================
 '
 '20171114 - v003 -
+    ' FIXED - %014 - Fix error when deleting email and phone number record
     ' FIXED - %010 - Add Users table
     ' FIXED - %013 - Many many bug fixes from refactoring
     ' FIXED - %009 - Add Custom Ribbon

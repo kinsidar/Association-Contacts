@@ -424,8 +424,16 @@ Option Compare Database
 Option Explicit
 
 Private Sub cmd_RecDel_Click()
-    DoCmd.RunCommand acCmdSelectRecord
-    DoCmd.RunCommand acCmdDeleteRecord
+    'http://access.mvps.org/access/RunCommand/codeex/50-223.htm
+    
+    DoCmd.SetWarnings False
+    If MsgBox("Confirm Deletion of record?", vbQuestion + vbYesNo + vbDefaultButton2, "Delete?") = vbYes Then
+        DoCmd.RunCommand acCmdSelectRecord
+        DoCmd.RunCommand acCmdDeleteRecord
+    End If
+    
+    
+        
 End Sub
 
 Private Sub Form_Load()
