@@ -71,12 +71,15 @@
 >[PrimaryKey] [id], 
 ========================================
 <<<[tblUser]>>>
-              Index:[postalCode]
+              Index:[PostalCode]
                             Field Name:postalCode
->[postalCode] [postalCode], 
+>[PostalCode] [postalCode], 
               Index:[PrimaryKey]
-                            Field Name:ID
->[PrimaryKey] [ID], 
+                            Field Name:id
+>[PrimaryKey] [id], 
+              Index:[supervisorId]
+                            Field Name:supervisorId
+>[supervisorId]             [supervisorId], 
 ========================================
 <<<[tlkpCities]>>>
               Index:[City]

@@ -58,20 +58,32 @@ aFarField                Text            255
 TABLE: tblUser
 --------------
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-ID                       AutoNumber      4                  
-userName                 Text            255                
-userMiddleName           Text            255                
-userFirstName            Text            255                
-userLastName             Text            255                
-title                    Text            255                
-birthdate                Date/Time       8                  
-address                  Text            255                
-city                     Text            255                
-region                   Text            255                
-postalCode               Text            255                
-country                  Text            255                
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION                                     
+=====================    ============    ====    ================================================
+id                       AutoNumber      4       Number automatically assigned to new employee.  
+environName              Text            255     Login name in user environment                  
+password                 Text            21                                                      
+userName                 Text            255                                                     
+userFirstName            Text            255                                                     
+userMiddleName           Text            255                                                     
+userLastName             Text            255                                                     
+sortOrder                Long Integer    4                                                       
+title                    Text            50      Employee's title.                               
+userPassword             Text            12                                                      
+titleOfCourtesy          Text            12      Title used in salutations.                      
+supervisorId             Long Integer    4       Employee's supervisor.                          
+birthDate                Date/Time       8                                                       
+hireDate                 Date/Time       8                                                       
+address                  Text            60      Street or post-office box.                      
+city                     Text            15                                                      
+region                   Text            15      State or province.                              
+postalCode               Text            10                                                      
+country                  Text            15                                                      
+homePhone                Text            24      Phone number includes country code or area code.
+extension                Text            4       Internal telephone extension number.            
+photo                    OLE Object      0       Picture of employee.                            
+notes                    Memo            0       General information about employee's background.
+active                   Yes/No          1                                                       
 
 
 -----------------

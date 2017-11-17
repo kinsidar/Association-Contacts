@@ -27,20 +27,32 @@
               [id]           109          TextBox
               [aFarField]    109          TextBox
 [tblUser]
-              [ID]           109          TextBox
+              [id]           109          TextBox
+              [environName]  109          TextBox
+              [password]     109          TextBox
               [userName]     109          TextBox
-              [userMiddleName]             109          TextBox
               [userFirstName]              109          TextBox
+              [userMiddleName]             109          TextBox
               [userLastName]               109          TextBox
+              [sortOrder]    109          TextBox
               [title]        109          TextBox
-              [birthdate]    109          TextBox
+              [userPassword]               109          TextBox
+              [titleOfCourtesy]            109          TextBox
+              [supervisorId]               111          ComboBox
+              [birthDate]    111          ComboBox
+              [hireDate]     111          ComboBox
               [address]      109          TextBox
               [city]         109          TextBox
               [region]       109          TextBox
               [postalCode]   109          TextBox
               [country]      109          TextBox
+              [homePhone]    109          TextBox
+              [extension]    109          TextBox
+              [photo]        109          TextBox
+              [notes]        109          TextBox
+              [active]       106          CheckBox
 [tlkpCities]
-              [CityID]       109          TextBox
+              [CityID]       106          CheckBox
               [ProvinceID]   109          TextBox
               [City]         109          TextBox
 [tlkpContacts_Types]
@@ -68,10 +80,10 @@
               [ID]           109          TextBox
               [RibbonName]   109          TextBox
               [RibbonXML]    109          TextBox
-Count of Check box = 0
-Count of Text box  = 56
+Count of Check box = 2
+Count of Text box  = 63
 Count of List box  = 0
-Count of Combo box = 0
+Count of Combo box = 3
 Count of Else      = 1
-Count of Display Controls = 56
-Count of All Fields = 56
+Count of Display Controls = 68
+Count of All Fields = 68
