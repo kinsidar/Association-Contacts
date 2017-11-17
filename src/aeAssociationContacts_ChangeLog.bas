@@ -71,11 +71,15 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
+' %020 -
+' %019 -
+' %018 -
+' %017 -
+' %016 -
+' %015 -
 ' %014 -
-' %013 -
 ' %012 - Add Shift key blocking
 ' %011 - Add Splash form
-' %010 - Add Users table
 ' %003 - Relates to GH #9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
@@ -84,6 +88,8 @@ End Sub
 '=============================================================================================================================
 '
 '20171114 - v003 -
+    ' FIXED - %010 - Add Users table
+    ' FIXED - %013 - Many many bug fixes from refactoring
     ' FIXED - %009 - Add Custom Ribbon
     ' FIXED - %008 - Split database FE/BE
     ' FIXED - %007 - Update forms to use new queries to link to tables

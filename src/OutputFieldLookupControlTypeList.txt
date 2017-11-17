@@ -26,22 +26,35 @@
 [tblTestIt]
               [id]           109          TextBox
               [aFarField]    109          TextBox
-[tklpContacts_Types]
-              [ContactTypeId]              109          TextBox
-              [ContactType]  109          TextBox
-[tklpCountries]
-              [CountryID]    109          TextBox
-              [Country]      109          TextBox
-[tklpEmailAddressTypes]
-              [EmailAddressTypeID]         109          TextBox
-              [EmailAddressType]           109          TextBox
-[tklpPhoneNumbersCategories]
-              [PhoneNumberCategoryID]      109          TextBox
-              [PhoneNumberCategory]        109          TextBox
+[tblUser]
+              [ID]           109          TextBox
+              [userName]     109          TextBox
+              [userMiddleName]             109          TextBox
+              [userFirstName]              109          TextBox
+              [userLastName]               109          TextBox
+              [title]        109          TextBox
+              [birthdate]    109          TextBox
+              [address]      109          TextBox
+              [city]         109          TextBox
+              [region]       109          TextBox
+              [postalCode]   109          TextBox
+              [country]      109          TextBox
 [tlkpCities]
               [CityID]       109          TextBox
               [ProvinceID]   109          TextBox
               [City]         109          TextBox
+[tlkpContacts_Types]
+              [ContactTypeId]              109          TextBox
+              [ContactType]  109          TextBox
+[tlkpCountries]
+              [CountryID]    109          TextBox
+              [Country]      109          TextBox
+[tlkpEmailAddressTypes]
+              [EmailAddressTypeID]         109          TextBox
+              [EmailAddressType]           109          TextBox
+[tlkpPhoneNumbersCategories]
+              [PhoneNumberCategoryID]      109          TextBox
+              [PhoneNumberCategory]        109          TextBox
 [tlkpProvinces]
               [ProvinceId]   109          TextBox
               [CountryID]    109          TextBox
@@ -56,9 +69,9 @@
               [RibbonName]   109          TextBox
               [RibbonXML]    109          TextBox
 Count of Check box = 0
-Count of Text box  = 44
+Count of Text box  = 56
 Count of List box  = 0
 Count of Combo box = 0
 Count of Else      = 1
-Count of Display Controls = 44
-Count of All Fields = 44
+Count of Display Controls = 56
+Count of All Fields = 56

@@ -1,0 +1,13 @@
+[tblContacts] False
+[tblContacts_EmailAddresses]              False
+[tblContacts_PhoneNumbers]  False
+[tblTestIt]   False
+[tblUser]     False
+[tlkpCities]  False
+[tlkpContacts_Types]        False
+[tlkpCountries]             False
+[tlkpEmailAddressTypes]     False
+[tlkpPhoneNumbersCategories]              False
+[tlkpProvinces]             False
+[tlkpSalutations]           False
+[USysRibbons] True

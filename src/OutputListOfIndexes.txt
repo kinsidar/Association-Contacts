@@ -31,12 +31,12 @@
               Index:[EmailAddressTypeId]
                             Field Name:EmailAddressTypeID
 >[EmailAddressTypeId]       [EmailAddressTypeID], 
-              Index:[lst_EmailAddressTypesContacts_EmailAddresses]
-                            Field Name:EmailAddressTypeID
->[lst_EmailAddressTypesContacts_EmailAddresses]         [EmailAddressTypeID], 
               Index:[PrimaryKey]
                             Field Name:ContactEmailId
 >[PrimaryKey] [ContactEmailId], 
+              Index:[tklpEmailAddressTypestblContacts_EmailAddresses]
+                            Field Name:EmailAddressTypeID
+>[tklpEmailAddressTypestblContacts_EmailAddresses]      [EmailAddressTypeID], 
               Index:[UniqueEmailByContact]
                             Field Name:ContactId
                             Field Name:EmailAddress
@@ -70,49 +70,13 @@
                             Field Name:id
 >[PrimaryKey] [id], 
 ========================================
-<<<[tklpContacts_Types]>>>
-              Index:[ContactType]
-                            Field Name:ContactType
->[ContactType]              [ContactType], 
-              Index:[ContactTypeId]
-                            Field Name:ContactTypeId
->[ContactTypeId]            [ContactTypeId], 
+<<<[tblUser]>>>
+              Index:[postalCode]
+                            Field Name:postalCode
+>[postalCode] [postalCode], 
               Index:[PrimaryKey]
-                            Field Name:ContactTypeId
->[PrimaryKey] [ContactTypeId], 
-========================================
-<<<[tklpCountries]>>>
-              Index:[PrimaryKey]
-                            Field Name:CountryID
->[PrimaryKey] [CountryID], 
-              Index:[Province]
-                            Field Name:Country
->[Province]   [Country], 
-              Index:[ProvinceID]
-                            Field Name:CountryID
->[ProvinceID] [CountryID], 
-========================================
-<<<[tklpEmailAddressTypes]>>>
-              Index:[EmailAddressType]
-                            Field Name:EmailAddressType
->[EmailAddressType]         [EmailAddressType], 
-              Index:[EmailAddressTypeID]
-                            Field Name:EmailAddressTypeID
->[EmailAddressTypeID]       [EmailAddressTypeID], 
-              Index:[PrimaryKey]
-                            Field Name:EmailAddressTypeID
->[PrimaryKey] [EmailAddressTypeID], 
-========================================
-<<<[tklpPhoneNumbersCategories]>>>
-              Index:[PhoneNumberCategory]
-                            Field Name:PhoneNumberCategory
->[PhoneNumberCategory]      [PhoneNumberCategory], 
-              Index:[PhoneNumberCategoryID]
-                            Field Name:PhoneNumberCategoryID
->[PhoneNumberCategoryID]    [PhoneNumberCategoryID], 
-              Index:[PrimaryKey]
-                            Field Name:PhoneNumberCategoryID
->[PrimaryKey] [PhoneNumberCategoryID], 
+                            Field Name:ID
+>[PrimaryKey] [ID], 
 ========================================
 <<<[tlkpCities]>>>
               Index:[City]
@@ -130,6 +94,50 @@
               Index:[ProvinceID]
                             Field Name:CityID
 >[ProvinceID] [CityID], 
+========================================
+<<<[tlkpContacts_Types]>>>
+              Index:[ContactType]
+                            Field Name:ContactType
+>[ContactType]              [ContactType], 
+              Index:[ContactTypeId]
+                            Field Name:ContactTypeId
+>[ContactTypeId]            [ContactTypeId], 
+              Index:[PrimaryKey]
+                            Field Name:ContactTypeId
+>[PrimaryKey] [ContactTypeId], 
+========================================
+<<<[tlkpCountries]>>>
+              Index:[PrimaryKey]
+                            Field Name:CountryID
+>[PrimaryKey] [CountryID], 
+              Index:[Province]
+                            Field Name:Country
+>[Province]   [Country], 
+              Index:[ProvinceID]
+                            Field Name:CountryID
+>[ProvinceID] [CountryID], 
+========================================
+<<<[tlkpEmailAddressTypes]>>>
+              Index:[EmailAddressType]
+                            Field Name:EmailAddressType
+>[EmailAddressType]         [EmailAddressType], 
+              Index:[EmailAddressTypeID]
+                            Field Name:EmailAddressTypeID
+>[EmailAddressTypeID]       [EmailAddressTypeID], 
+              Index:[PrimaryKey]
+                            Field Name:EmailAddressTypeID
+>[PrimaryKey] [EmailAddressTypeID], 
+========================================
+<<<[tlkpPhoneNumbersCategories]>>>
+              Index:[PhoneNumberCategory]
+                            Field Name:PhoneNumberCategory
+>[PhoneNumberCategory]      [PhoneNumberCategory], 
+              Index:[PhoneNumberCategoryID]
+                            Field Name:PhoneNumberCategoryID
+>[PhoneNumberCategoryID]    [PhoneNumberCategoryID], 
+              Index:[PrimaryKey]
+                            Field Name:PhoneNumberCategoryID
+>[PrimaryKey] [PhoneNumberCategoryID], 
 ========================================
 <<<[tlkpProvinces]>>>
               Index:[CountryID]

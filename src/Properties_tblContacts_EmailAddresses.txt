@@ -10,8 +10,8 @@
 |-- ValidationText >> 
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- SubdatasheetName >> [None]
 |-- DefaultView >> 2
+|-- GUID >> GUID
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
@@ -23,10 +23,11 @@
 |-- AlternateBackThemeColorIndex >> 1
 |-- AlternateBackTint >> 100
 |-- AlternateBackShade >> 95
-|-- ReadOnlyWhenDisconnected >> False
 |-- DatasheetGridlinesThemeColorIndex >> 3
 |-- DatasheetForeThemeColorIndex >> 0
 |-- PublishToWeb >> 1
+|-- SubdatasheetName >> [None]
+|-- ReadOnlyWhenDisconnected >> False
 --------------------------------------------------
 |-- ContactEmailId (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 17
@@ -45,13 +46,13 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
 |------ ColumnWidth >> 1815
 |------ ColumnOrder >> 1
-|------ ColumnHidden >> False
 |------ TextAlign >> 0
-|------ AggregateType >> -1
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0
 |-- ContactId (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
@@ -69,15 +70,15 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
 |------ ColumnWidth >> 1305
 |------ ColumnOrder >> 0
-|------ ColumnHidden >> False
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
 |------ TextAlign >> 0
-|------ AggregateType >> -1
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0
 |-- EmailAddress (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
@@ -95,17 +96,17 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
 |------ ColumnWidth >> 5055
 |------ ColumnOrder >> 0
-|------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
 |------ UnicodeCompression >> True
 |------ TextAlign >> 0
-|------ AggregateType >> -1
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0
 |-- EmailAddressTypeID (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
@@ -123,12 +124,12 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
+|------ ColumnWidth >> 2325
 |------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ColumnOrder >> 0
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
 |------ TextAlign >> 0
-|------ AggregateType >> -1
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0

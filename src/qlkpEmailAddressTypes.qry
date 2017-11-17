@@ -1,11 +1,15 @@
 Operation =1
 Option =0
 Begin InputTables
-    Name ="tklpEmailAddressTypes"
+    Name ="tlkpEmailAddressTypes"
 End
 Begin OutputColumns
-    Expression ="tklpEmailAddressTypes.EmailAddressTypeID"
-    Expression ="tklpEmailAddressTypes.EmailAddressType"
+    Expression ="tlkpEmailAddressTypes.EmailAddressTypeID"
+    Expression ="tlkpEmailAddressTypes.EmailAddressType"
+End
+Begin OrderBy
+    Expression ="tlkpEmailAddressTypes.EmailAddressType"
+    Flag =0
 End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -22,11 +26,11 @@ dbBoolean "TotalsRow" ="0"
 dbByte "PublishToWeb" ="1"
 Begin
     Begin
-        dbText "Name" ="tklpEmailAddressTypes.EmailAddressType"
+        dbText "Name" ="tlkpEmailAddressTypes.EmailAddressType"
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="tklpEmailAddressTypes.EmailAddressTypeID"
+        dbText "Name" ="tlkpEmailAddressTypes.EmailAddressTypeID"
         dbLong "AggregateType" ="-1"
     End
 End
@@ -34,22 +38,22 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1177
+    Right =1196
     Bottom =842
     Left =-1
     Top =-1
-    Right =1161
-    Bottom =512
+    Right =1180
+    Bottom =240
     Left =0
     Top =0
     ColumnsShown =539
     Begin
-        Left =428
-        Top =185
-        Right =572
-        Bottom =329
+        Left =567
+        Top =30
+        Right =711
+        Bottom =174
         Top =0
-        Name ="tklpEmailAddressTypes"
+        Name ="tlkpEmailAddressTypes"
         Name =""
     End
 End

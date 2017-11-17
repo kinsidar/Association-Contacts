@@ -1,24 +1,25 @@
 Operation =1
 Option =0
 Begin InputTables
-    Name ="tblContacts_EmailAddresses"
-    Name ="tklpEmailAddressTypes"
+    Name ="tlkpEmailAddressTypes"
     Name ="tblContacts"
+    Name ="tblContacts_EmailAddresses"
 End
 Begin OutputColumns
     Expression ="tblContacts_EmailAddresses.ContactEmailId"
     Expression ="tblContacts_EmailAddresses.ContactId"
     Expression ="tblContacts_EmailAddresses.EmailAddress"
-    Expression ="tklpEmailAddressTypes.EmailAddressType"
+    Expression ="tblContacts_EmailAddresses.EmailAddressTypeID"
+    Expression ="tlkpEmailAddressTypes.EmailAddressType"
 End
 Begin Joins
     LeftTable ="tblContacts"
     RightTable ="tblContacts_EmailAddresses"
     Expression ="tblContacts.ContactID = tblContacts_EmailAddresses.ContactId"
     Flag =1
-    LeftTable ="tklpEmailAddressTypes"
+    LeftTable ="tlkpEmailAddressTypes"
     RightTable ="tblContacts_EmailAddresses"
-    Expression ="tklpEmailAddressTypes.EmailAddressTypeID = tblContacts_EmailAddresses.EmailAddre"
+    Expression ="tlkpEmailAddressTypes.EmailAddressTypeID = tblContacts_EmailAddresses.EmailAddre"
         "ssTypeID"
     Flag =1
 End
@@ -41,15 +42,19 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="tblContacts_EmailAddresses.EmailAddress"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="tblContacts_EmailAddresses.ContactId"
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="tklpEmailAddressTypes.EmailAddressType"
+        dbText "Name" ="tblContacts_EmailAddresses.EmailAddressTypeID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tlkpEmailAddressTypes.EmailAddressType"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_EmailAddresses.EmailAddress"
         dbLong "AggregateType" ="-1"
     End
 End
@@ -57,15 +62,33 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1177
+    Right =1463
     Bottom =842
     Left =-1
     Top =-1
-    Right =1161
-    Bottom =546
+    Right =1447
+    Bottom =478
     Left =0
     Top =0
     ColumnsShown =539
+    Begin
+        Left =48
+        Top =12
+        Right =192
+        Bottom =156
+        Top =0
+        Name ="tlkpEmailAddressTypes"
+        Name =""
+    End
+    Begin
+        Left =802
+        Top =133
+        Right =946
+        Bottom =277
+        Top =0
+        Name ="tblContacts"
+        Name =""
+    End
     Begin
         Left =386
         Top =102
@@ -73,24 +96,6 @@ Begin
         Bottom =357
         Top =0
         Name ="tblContacts_EmailAddresses"
-        Name =""
-    End
-    Begin
-        Left =730
-        Top =232
-        Right =874
-        Bottom =376
-        Top =0
-        Name ="tklpEmailAddressTypes"
-        Name =""
-    End
-    Begin
-        Left =121
-        Top =66
-        Right =265
-        Bottom =210
-        Top =0
-        Name ="tblContacts"
         Name =""
     End
 End

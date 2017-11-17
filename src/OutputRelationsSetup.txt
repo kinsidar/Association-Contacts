@@ -14,27 +14,22 @@ Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_CitiesCont
   PK: CityID   FK:CityID
 
 Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_Contacts_TypesContacts
-  Table: tklpContacts_Types
+  Table: tlkpContacts_Types
   Foreign Table: tblContacts
   PK: ContactTypeId   FK:ContactTypeID
 
 Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_CountriesContacts
-  Table: tklpCountries
+  Table: tlkpCountries
   Foreign Table: tblContacts
   PK: CountryID   FK:CountryID
 
 Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_Countrieslst_Provinces
-  Table: tklpCountries
+  Table: tlkpCountries
   Foreign Table: tlkpProvinces
   PK: CountryID   FK:CountryID
 
-Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_EmailAddressTypesContacts_EmailAddresses
-  Table: tklpEmailAddressTypes
-  Foreign Table: tblContacts_EmailAddresses
-  PK: EmailAddressTypeID   FK:EmailAddressTypeID
-
 Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_PhoneNumbersCategoriesContacts_PhoneNumbers
-  Table: tklpPhoneNumbersCategories
+  Table: tlkpPhoneNumbersCategories
   Foreign Table: tblContacts_PhoneNumbers
   PK: PhoneNumberCategoryID   FK:PhoneNumberCategoryID
 
@@ -47,4 +42,9 @@ Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].lst_Provincesl
   Table: tlkpProvinces
   Foreign Table: tlkpCities
   PK: ProvinceId   FK:ProvinceID
+
+Name: [C:\kd\Association-Contacts\AssociationContacts_DATA.accdb].tklpEmailAddressTypestblContacts_EmailAddresses
+  Table: tlkpEmailAddressTypes
+  Foreign Table: tblContacts_EmailAddresses
+  PK: EmailAddressTypeID   FK:EmailAddressTypeID
 

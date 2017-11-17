@@ -1,5 +1,5 @@
 [frmContacts] False
-[frmContacts_Details]       False
-[frmContacts_EmailAddresses]              False
-[frmContacts_PhoneNumbers]  False
 [frmUSysRibbons]            True
+[fsubContacts_Details]      False
+[fsubContacts_EmailAddresses]             False
+[fsubContacts_PhoneNumbers] False

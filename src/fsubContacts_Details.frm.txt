@@ -16,12 +16,14 @@ Begin Form
     GridY =24
     Width =13140
     DatasheetFontHeight =10
-    ItemSuffix =57
-    Right =17400
-    Bottom =12375
+    ItemSuffix =63
+    Left =3765
+    Top =1785
+    Right =16650
+    Bottom =7455
     DatasheetGridlinesColor =12632256
     RecSrcDt = Begin
-        0xb2930f1e5404e540
+        0x025c2dc6f205e540
     End
     GUID = Begin
         0x04dcdd1c0d93094ba3166817aae1f856
@@ -217,7 +219,7 @@ Begin Form
                     LayoutCachedHeight =1020
                 End
                 Begin Label
-                    OverlapFlags =85
+                    OverlapFlags =93
                     TextAlign =3
                     Left =60
                     Top =1140
@@ -235,7 +237,7 @@ Begin Form
                     LayoutCachedHeight =1380
                 End
                 Begin Label
-                    OverlapFlags =85
+                    OverlapFlags =93
                     TextAlign =3
                     Left =60
                     Top =1500
@@ -253,7 +255,7 @@ Begin Form
                     LayoutCachedHeight =1740
                 End
                 Begin Label
-                    OverlapFlags =85
+                    OverlapFlags =93
                     TextAlign =3
                     Left =60
                     Top =1860
@@ -405,11 +407,12 @@ Begin Form
                     Name ="ContactTypeID"
                     ControlSource ="ContactTypeID"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT lst_Contacts_Types.ContactTypeId, lst_Contacts_Types.ContactType FROM lst"
-                        "_Contacts_Types ORDER BY lst_Contacts_Types.ContactType; "
+                    RowSource ="qlkpContacts_Types"
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     Tag ="13"
+                    BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
+                        "pe\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =3120
@@ -445,8 +448,8 @@ Begin Form
                     Height =2160
                     TabIndex =11
                     BorderColor =13553360
-                    Name ="Contacts_EmailAddresses"
-                    SourceObject ="Form.frmContacts_EmailAddresses"
+                    Name ="fsubContacts_EmailAddresses"
+                    SourceObject ="Form.fsubContacts_EmailAddresses"
                     LinkChildFields ="ContactId"
                     LinkMasterFields ="ContactID"
                     GUID = Begin
@@ -468,8 +471,8 @@ Begin Form
                     Height =1800
                     TabIndex =12
                     BorderColor =13553360
-                    Name ="Contacts_PhoneNumbers"
-                    SourceObject ="Form.frmContacts_PhoneNumbers"
+                    Name ="fsubContacts_PhoneNumbers"
+                    SourceObject ="Form.fsubContacts_PhoneNumbers"
                     LinkChildFields ="ContactID"
                     LinkMasterFields ="ContactID"
                     GUID = Begin
@@ -490,9 +493,9 @@ Begin Form
                     OverlapFlags =87
                     BackStyle =0
                     IMESentenceMode =3
-                    Left =1980
+                    Left =1500
                     Top =2820
-                    Width =1920
+                    Width =1560
                     Height =255
                     TabIndex =8
                     Name ="Text55"
@@ -501,9 +504,9 @@ Begin Form
                         0xc743579f8b8ed543893e07d0d9610280
                     End
 
-                    LayoutCachedLeft =1980
+                    LayoutCachedLeft =1500
                     LayoutCachedTop =2820
-                    LayoutCachedWidth =3900
+                    LayoutCachedWidth =3060
                     LayoutCachedHeight =3075
                 End
                 Begin ComboBox
@@ -522,9 +525,7 @@ Begin Form
                     Name ="CityID"
                     ControlSource ="CityID"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT [tlkpCities].CityID, [tlkpCities].City FROM tlkpCities WHERE ((([tlkpCiti"
-                        "es].ProvinceID)=Forms!Contacts!Contacts_Details!ProvinceID)) ORDER BY [tlkpCitie"
-                        "s].City; "
+                    RowSource ="qlkpCities"
                     ColumnWidths ="0"
                     OnEnter ="=[CityID]"
                     Tag ="4"
@@ -550,9 +551,7 @@ Begin Form
                     Name ="ProvinceID"
                     ControlSource ="ProvinceID"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT lst_Provinces.ProvinceId, lst_Provinces.Province FROM lst_Provinces WHERE"
-                        " (((lst_Provinces.CountryID)=[Forms]![Contacts]![Contacts_Details]![CountryID]))"
-                        " ORDER BY lst_Provinces.Province; "
+                    RowSource ="qlkpProvinces"
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[ProvinceID]"
@@ -579,17 +578,77 @@ Begin Form
                     Name ="CountryID"
                     ControlSource ="CountryID"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT lst_Countries.CountryID, lst_Countries.Country FROM lst_Countries ORDER B"
-                        "Y lst_Countries.Country; "
+                    RowSource ="qlkpCountries"
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[CountryID]"
                     Tag ="6"
+                    BaseInfo ="\"qlkpCountries\";\"tlkpCountries\";\"\";\"CountryID\";\"Country\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =1860
                     LayoutCachedWidth =3720
                     LayoutCachedHeight =2100
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =60
+                    Top =1860
+                    Width =900
+                    Height =255
+                    TabIndex =13
+                    BackColor =2366701
+                    Name ="Text57"
+                    ControlSource ="CountryID"
+                    GUID = Begin
+                        0xd021b62505602542868471739c2d33ec
+                    End
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =960
+                    LayoutCachedHeight =2115
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =60
+                    Top =1500
+                    Width =900
+                    Height =255
+                    TabIndex =14
+                    BackColor =2366701
+                    Name ="Text59"
+                    ControlSource ="ProvinceID"
+                    GUID = Begin
+                        0x18d9c9171d7a3246b8fed3d61caf9a25
+                    End
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1500
+                    LayoutCachedWidth =960
+                    LayoutCachedHeight =1755
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =60
+                    Top =1140
+                    Width =840
+                    Height =255
+                    TabIndex =15
+                    BackColor =2366701
+                    Name ="Text61"
+                    ControlSource ="CityID"
+                    GUID = Begin
+                        0x6da05aa5cdbf5440a02259324018dbc2
+                    End
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1140
+                    LayoutCachedWidth =900
+                    LayoutCachedHeight =1395
                 End
             End
         End
@@ -603,8 +662,8 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-
 Private Sub ContactTypeID_AfterUpdate()
+    'MsgBox "ContactTypeID_AfterUpdate", vbInformation
     Me.Parent.cbo_ContactType.SetFocus
     Me.Parent.frm_SortBy_Click
 End Sub
@@ -616,16 +675,19 @@ Private Sub CountryID_AfterUpdate()
 End Sub
 
 Private Sub FirstName_AfterUpdate()
+    'MsgBox "FirstName_AfterUpdate", vbInformation
     If Me.Dirty = True Then Me.Dirty = False
     Me.Parent.lst_Contacts.Requery
 End Sub
 
 Private Sub LastName_AfterUpdate()
+    'MsgBox "LastName_AfterUpdate", vbInformation
     If Me.Dirty = True Then Me.Dirty = False
     Me.Parent.lst_Contacts.Requery
 End Sub
 
 Private Sub ProvinceID_AfterUpdate()
+    'MsgBox "ProvinceID_AfterUpdate", vbInformation
     Me.CityID = Null
     Me.CityID.Requery
 End Sub

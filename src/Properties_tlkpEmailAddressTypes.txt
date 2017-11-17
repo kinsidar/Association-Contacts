@@ -1,17 +1,17 @@
-|-- Name >> tklpCountries
+|-- Name >> tlkpEmailAddressTypes
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tklpCountries
+|-- SourceTableName >> tklpEmailAddressTypes
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
 |-- OrderByOn >> False
 |-- DefaultView >> 2
-|-- SubdatasheetName >> [None]
+|-- GUID >> GUID
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
@@ -23,44 +23,48 @@
 |-- AlternateBackThemeColorIndex >> -1
 |-- AlternateBackTint >> 100
 |-- AlternateBackShade >> 100
-|-- ReadOnlyWhenDisconnected >> False
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 |-- PublishToWeb >> 1
+|-- SubdatasheetName >> [None]
+|-- NameMap >> NameMap
 --------------------------------------------------
-|-- CountryID (Field in tklpCountries)
-|------ Attributes >> 17
+|-- EmailAddressTypeID (Field in tlkpEmailAddressTypes)
+|------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> CountryID
+|------ Name >> EmailAddressTypeID
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> CountryID
-|------ SourceTable >> tklpCountries
+|------ SourceField >> EmailAddressTypeID
+|------ SourceTable >> tklpEmailAddressTypes
 |------ DataUpdatable >> False
-|------ DefaultValue >> 
+|------ DefaultValue >> 0
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> False
+|------ Required >> True
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1350
-|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
+|------ ColumnWidth >> 2325
+|------ GUID >> GUID
+|------ ColumnOrder >> 0
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
 |------ ResultType >> 0
-|-- Country (Field in tklpCountries)
+|-- EmailAddressType (Field in tlkpEmailAddressTypes)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> Country
+|------ Name >> EmailAddressType
 |------ OrdinalPosition >> 1
-|------ Size >> 50
-|------ SourceField >> Country
-|------ SourceTable >> tklpCountries
+|------ Size >> 255
+|------ SourceField >> EmailAddressType
+|------ SourceTable >> tklpEmailAddressTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -69,14 +73,15 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1155
-|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ColumnWidth >> 2130
+|------ ColumnOrder >> 0
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
 |------ UnicodeCompression >> True
 |------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
 |------ ResultType >> 0
+|------ GUID >> GUID

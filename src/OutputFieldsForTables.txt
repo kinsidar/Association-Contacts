@@ -54,44 +54,24 @@ id                       AutoNumber      4
 aFarField                Text            255                
 
 
--------------------------
-TABLE: tklpContacts_Types
--------------------------
+--------------
+TABLE: tblUser
+--------------
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
-ContactTypeId            AutoNumber      4                  
-ContactType              Text            255                
-
-
---------------------
-TABLE: tklpCountries
---------------------
-Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-CountryID                AutoNumber      4                  
-Country                  Text            50                 
-
-
-----------------------------
-TABLE: tklpEmailAddressTypes
-----------------------------
-Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-EmailAddressTypeID       AutoNumber      4                  
-EmailAddressType         Text            255                
-
-
----------------------------------
-TABLE: tklpPhoneNumbersCategories
----------------------------------
-Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-PhoneNumberCategoryID    AutoNumber      4                  
-PhoneNumberCategory      Text            255                
+ID                       AutoNumber      4                  
+userName                 Text            255                
+userMiddleName           Text            255                
+userFirstName            Text            255                
+userLastName             Text            255                
+title                    Text            255                
+birthdate                Date/Time       8                  
+address                  Text            255                
+city                     Text            255                
+region                   Text            255                
+postalCode               Text            255                
+country                  Text            255                
 
 
 -----------------
@@ -103,6 +83,46 @@ FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 CityID                   AutoNumber      4                  
 ProvinceID               Long Integer    4                  
 City                     Text            50                 
+
+
+-------------------------
+TABLE: tlkpContacts_Types
+-------------------------
+Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+ContactTypeId            AutoNumber      4                  
+ContactType              Text            255                
+
+
+--------------------
+TABLE: tlkpCountries
+--------------------
+Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+CountryID                AutoNumber      4                  
+Country                  Text            50                 
+
+
+----------------------------
+TABLE: tlkpEmailAddressTypes
+----------------------------
+Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+EmailAddressTypeID       Long Integer    4                  
+EmailAddressType         Text            255                
+
+
+---------------------------------
+TABLE: tlkpPhoneNumbersCategories
+---------------------------------
+Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+PhoneNumberCategoryID    AutoNumber      4                  
+PhoneNumberCategory      Text            255                
 
 
 --------------------

@@ -1,10 +1,10 @@
-|-- Name >> tklpContacts_Types
+|-- Name >> tlkpPhoneNumbersCategories
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tklpContacts_Types
+|-- SourceTableName >> tklpPhoneNumbersCategories
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
@@ -26,15 +26,15 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 --------------------------------------------------
-|-- ContactTypeId (Field in tklpContacts_Types)
+|-- PhoneNumberCategoryID (Field in tlkpPhoneNumbersCategories)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactTypeId
+|------ Name >> PhoneNumberCategoryID
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> ContactTypeId
-|------ SourceTable >> tklpContacts_Types
+|------ SourceField >> PhoneNumberCategoryID
+|------ SourceTable >> tklpPhoneNumbersCategories
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -43,22 +43,22 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1755
+|------ ColumnWidth >> -1
 |------ ColumnOrder >> 1
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactType (Field in tklpContacts_Types)
+|-- PhoneNumberCategory (Field in tlkpPhoneNumbersCategories)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> ContactType
+|------ Name >> PhoneNumberCategory
 |------ OrdinalPosition >> 1
 |------ Size >> 255
-|------ SourceField >> ContactType
-|------ SourceTable >> tklpContacts_Types
+|------ SourceField >> PhoneNumberCategory
+|------ SourceTable >> tklpPhoneNumbersCategories
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -67,7 +67,7 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 3540
+|------ ColumnWidth >> 2610
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109

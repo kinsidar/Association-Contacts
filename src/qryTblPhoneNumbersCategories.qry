@@ -1,12 +1,7 @@
-Operation =1
-Option =0
-Begin InputTables
-    Name ="tklpPhoneNumbersCategories"
-End
-Begin OutputColumns
-    Expression ="tklpPhoneNumbersCategories.PhoneNumberCategoryID"
-    Expression ="tklpPhoneNumbersCategories.PhoneNumberCategory"
-End
+dbMemo "SQL" ="SELECT tlkpPhoneNumbersCategories.PhoneNumberCategoryID, tlkpPhoneNumbersCategor"
+    "ies.PhoneNumberCategory\015\012FROM tlkpPhoneNumbersCategories\015\012ORDER BY t"
+    "lkpPhoneNumbersCategories.PhoneNumberCategory;\015\012"
+dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbByte "RecordsetType" ="0"
@@ -21,35 +16,4 @@ dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 dbByte "PublishToWeb" ="1"
 Begin
-    Begin
-        dbText "Name" ="tklpPhoneNumbersCategories.PhoneNumberCategory"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tklpPhoneNumbersCategories.PhoneNumberCategoryID"
-        dbLong "AggregateType" ="-1"
-    End
-End
-Begin
-    State =0
-    Left =0
-    Top =0
-    Right =1177
-    Bottom =842
-    Left =-1
-    Top =-1
-    Right =1161
-    Bottom =580
-    Left =0
-    Top =0
-    ColumnsShown =539
-    Begin
-        Left =408
-        Top =183
-        Right =552
-        Bottom =327
-        Top =0
-        Name ="tklpPhoneNumbersCategories"
-        Name =""
-    End
 End
