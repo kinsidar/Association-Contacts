@@ -75,8 +75,6 @@ End Sub
 ' %019 -
 ' %018 -
 ' %017 -
-' %016 -
-' %015 -
 ' %012 - Add Shift key blocking
 ' %011 - Add Splash form
 ' %003 - Relates to GH #9, include version tracking details in the app database change log module
@@ -86,6 +84,9 @@ End Sub
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171127 - v004 -
+    ' FIXED - %016 - Rename linked ODBC tables to match database
+    ' FIXED - %015 - Link ODBC Driver
 '20171114 - v003 -
     ' FIXED - %014 - Fix error when deleting email and phone number record
     ' FIXED - %010 - Add Users table

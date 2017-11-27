@@ -2,63 +2,22 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-|-- Attributes >> 1073741824
-|-- SourceTableName >> tklpPhoneNumbersCategories
+|-- Connect >> ODBC;DSN=MS SQL 2017;Description=Microsoft SQL Server 2017;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
+|-- Attributes >> 536870912
+|-- SourceTableName >> dbo.tlkpPhoneNumbersCategories
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
-|-- Orientation >> 0
-|-- OrderByOn >> False
-|-- SubdatasheetName >> [None]
-|-- DefaultView >> 2
-|-- DisplayViewsOnSharePointSite >> 1
-|-- TotalsRow >> False
-|-- FilterOnLoad >> False
-|-- OrderByOnLoad >> True
-|-- HideNewField >> False
-|-- BackTint >> 100
-|-- BackShade >> 100
-|-- ThemeFontIndex >> -1
-|-- AlternateBackThemeColorIndex >> -1
-|-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 100
-|-- DatasheetGridlinesThemeColorIndex >> -1
-|-- DatasheetForeThemeColorIndex >> -1
 --------------------------------------------------
 |-- PhoneNumberCategoryID (Field in tlkpPhoneNumbersCategories)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> PhoneNumberCategoryID
-|------ OrdinalPosition >> 0
+|------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> PhoneNumberCategoryID
-|------ SourceTable >> tklpPhoneNumbersCategories
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 1
-|------ ColumnHidden >> False
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|-- PhoneNumberCategory (Field in tlkpPhoneNumbersCategories)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 10
-|------ Name >> PhoneNumberCategory
-|------ OrdinalPosition >> 1
-|------ Size >> 255
-|------ SourceField >> PhoneNumberCategory
-|------ SourceTable >> tklpPhoneNumbersCategories
+|------ SourceTable >> tlkpPhoneNumbersCategories
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -67,14 +26,20 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 2610
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
+|-- PhoneNumberCategory (Field in tlkpPhoneNumbersCategories)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> PhoneNumberCategory
+|------ OrdinalPosition >> 2
+|------ Size >> 255
+|------ SourceField >> PhoneNumberCategory
+|------ SourceTable >> tlkpPhoneNumbersCategories
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 

@@ -1,178 +1,195 @@
+<<<[sysdiagrams]>>>
+              Index:[PK__sysdiagr__C2B05B61E50B18B8]
+                            Field Name:diagram_id
+>[PK__sysdiagr__C2B05B61E50B18B8]         [diagram_id], 
+              Index:[UK_principal_name]
+                            Field Name:principal_id
+                            Field Name:name
+>[UK_principal_name]        [name], 
+========================================
 <<<[tblContacts]>>>
-              Index:[ContactTypeID]
+              Index:[tblContacts$ContactTypeID]
                             Field Name:ContactTypeID
->[ContactTypeID]            [ContactTypeID], 
-              Index:[lst_CitiesContacts]
+>[tblContacts$ContactTypeID]              [ContactTypeID], 
+              Index:[tblContacts$lst_CitiesContacts]
                             Field Name:CityID
->[lst_CitiesContacts]       [CityID], 
-              Index:[lst_Contacts_TypesContacts]
+>[tblContacts$lst_CitiesContacts]         [CityID], 
+              Index:[tblContacts$lst_Contacts_TypesContacts]
                             Field Name:ContactTypeID
->[lst_Contacts_TypesContacts]             [ContactTypeID], 
-              Index:[lst_CountriesContacts]
+>[tblContacts$lst_Contacts_TypesContacts] [ContactTypeID], 
+              Index:[tblContacts$lst_CountriesContacts]
                             Field Name:CountryID
->[lst_CountriesContacts]    [CountryID], 
-              Index:[lst_ProvincesContacts]
+>[tblContacts$lst_CountriesContacts]      [CountryID], 
+              Index:[tblContacts$lst_ProvincesContacts]
                             Field Name:ProvinceID
->[lst_ProvincesContacts]    [ProvinceID], 
-              Index:[PostalCode]
+>[tblContacts$lst_ProvincesContacts]      [ProvinceID], 
+              Index:[tblContacts$PostalCode]
                             Field Name:PostalCode
->[PostalCode] [PostalCode], 
-              Index:[PrimaryKey]
+>[tblContacts$PostalCode]   [PostalCode], 
+              Index:[tblContacts$PrimaryKey]
                             Field Name:ContactID
->[PrimaryKey] [ContactID], 
+>[tblContacts$PrimaryKey]   [ContactID], 
 ========================================
 <<<[tblContacts_EmailAddresses]>>>
-              Index:[ContactId]
+              Index:[tblContacts_EmailAddresses$ContactId]
                             Field Name:ContactId
->[ContactId]  [ContactId], 
-              Index:[ContactsContacts_EmailAddresses]
+>[tblContacts_EmailAddresses$ContactId]   [ContactId], 
+              Index:[tblContacts_EmailAddresses$ContactsContacts_EmailAddresses]
                             Field Name:ContactId
->[ContactsContacts_EmailAddresses]        [ContactId], 
-              Index:[EmailAddressTypeId]
+>[tblContacts_EmailAddresses$ContactsContacts_EmailAddresses]         [ContactId], 
+              Index:[tblContacts_EmailAddresses$EmailAddressTypeId]
                             Field Name:EmailAddressTypeID
->[EmailAddressTypeId]       [EmailAddressTypeID], 
-              Index:[PrimaryKey]
+>[tblContacts_EmailAddresses$EmailAddressTypeId]        [EmailAddressTypeID], 
+              Index:[tblContacts_EmailAddresses$PrimaryKey]
                             Field Name:ContactEmailId
->[PrimaryKey] [ContactEmailId], 
-              Index:[tklpEmailAddressTypestblContacts_EmailAddresses]
+>[tblContacts_EmailAddresses$PrimaryKey]  [ContactEmailId], 
+              Index:[tblContacts_EmailAddresses$tklpEmailAddressTypestblContacts_Emai]
                             Field Name:EmailAddressTypeID
->[tklpEmailAddressTypestblContacts_EmailAddresses]      [EmailAddressTypeID], 
-              Index:[UniqueEmailByContact]
+>[tblContacts_EmailAddresses$tklpEmailAddressTypestblContacts_Emai]   [EmailAddressTypeID], 
+              Index:[tblContacts_EmailAddresses$UniqueEmailByContact]
                             Field Name:ContactId
                             Field Name:EmailAddress
->[UniqueEmailByContact]     [EmailAddress], 
+>[tblContacts_EmailAddresses$UniqueEmailByContact]      [EmailAddress], 
 ========================================
 <<<[tblContacts_PhoneNumbers]>>>
-              Index:[ContactID]
+              Index:[tblContacts_PhoneNumbers$ContactID]
                             Field Name:ContactID
->[ContactID]  [ContactID], 
-              Index:[ContactsContacts_PhoneNumbers]
+>[tblContacts_PhoneNumbers$ContactID]     [ContactID], 
+              Index:[tblContacts_PhoneNumbers$ContactsContacts_PhoneNumbers]
                             Field Name:ContactID
->[ContactsContacts_PhoneNumbers]          [ContactID], 
-              Index:[lst_PhoneNumbersCategoriesContacts_PhoneNumbers]
+>[tblContacts_PhoneNumbers$ContactsContacts_PhoneNumbers]             [ContactID], 
+              Index:[tblContacts_PhoneNumbers$lst_PhoneNumbersCategoriesContacts_Phon]
                             Field Name:PhoneNumberCategoryID
->[lst_PhoneNumbersCategoriesContacts_PhoneNumbers]      [PhoneNumberCategoryID], 
-              Index:[PhoneNumberCategory]
+>[tblContacts_PhoneNumbers$lst_PhoneNumbersCategoriesContacts_Phon]   [PhoneNumberCategoryID], 
+              Index:[tblContacts_PhoneNumbers$PhoneNumberCategory]
                             Field Name:PhoneNumberCategoryID
->[PhoneNumberCategory]      [PhoneNumberCategoryID], 
-              Index:[PhoneNumberID]
+>[tblContacts_PhoneNumbers$PhoneNumberCategory]         [PhoneNumberCategoryID], 
+              Index:[tblContacts_PhoneNumbers$PhoneNumberID]
                             Field Name:PhoneNumberID
->[PhoneNumberID]            [PhoneNumberID], 
-              Index:[PrimaryKey]
+>[tblContacts_PhoneNumbers$PhoneNumberID] [PhoneNumberID], 
+              Index:[tblContacts_PhoneNumbers$PrimaryKey]
                             Field Name:PhoneNumberID
->[PrimaryKey] [PhoneNumberID], 
+>[tblContacts_PhoneNumbers$PrimaryKey]    [PhoneNumberID], 
+========================================
+<<<[tblInsurance]>>>
+              Index:[tblInsurance$PID]
+                            Field Name:PID
+>[tblInsurance$PID]         [PID], 
+              Index:[tblInsurance$PrimaryKey]
+                            Field Name:ID
+>[tblInsurance$PrimaryKey]  [ID], 
 ========================================
 <<<[tblTestIt]>>>
-              Index:[id]
+              Index:[tblTestIt$id]
                             Field Name:id
->[id]         [id], 
-              Index:[PrimaryKey]
+>[tblTestIt$id]             [id], 
+              Index:[tblTestIt$PrimaryKey]
                             Field Name:id
->[PrimaryKey] [id], 
+>[tblTestIt$PrimaryKey]     [id], 
 ========================================
 <<<[tblUser]>>>
-              Index:[PostalCode]
+              Index:[tblUser$PostalCode]
                             Field Name:postalCode
->[PostalCode] [postalCode], 
-              Index:[PrimaryKey]
+>[tblUser$PostalCode]       [postalCode], 
+              Index:[tblUser$PrimaryKey]
                             Field Name:id
->[PrimaryKey] [id], 
-              Index:[supervisorId]
+>[tblUser$PrimaryKey]       [id], 
+              Index:[tblUser$supervisorId]
                             Field Name:supervisorId
->[supervisorId]             [supervisorId], 
+>[tblUser$supervisorId]     [supervisorId], 
 ========================================
 <<<[tlkpCities]>>>
-              Index:[City]
+              Index:[tlkpCities$City]
                             Field Name:City
->[City]       [City], 
-              Index:[lst_Provinceslst_Cities]
+>[tlkpCities$City]          [City], 
+              Index:[tlkpCities$lst_Provinceslst_Cities]
                             Field Name:ProvinceID
->[lst_Provinceslst_Cities]  [ProvinceID], 
-              Index:[PrimaryKey]
+>[tlkpCities$lst_Provinceslst_Cities]     [ProvinceID], 
+              Index:[tlkpCities$PrimaryKey]
                             Field Name:CityID
->[PrimaryKey] [CityID], 
-              Index:[Province]
+>[tlkpCities$PrimaryKey]    [CityID], 
+              Index:[tlkpCities$Province]
                             Field Name:ProvinceID
->[Province]   [ProvinceID], 
-              Index:[ProvinceID]
+>[tlkpCities$Province]      [ProvinceID], 
+              Index:[tlkpCities$ProvinceID]
                             Field Name:CityID
->[ProvinceID] [CityID], 
+>[tlkpCities$ProvinceID]    [CityID], 
 ========================================
 <<<[tlkpContacts_Types]>>>
-              Index:[ContactType]
+              Index:[tklpContacts_Types$ContactType]
                             Field Name:ContactType
->[ContactType]              [ContactType], 
-              Index:[ContactTypeId]
+>[tklpContacts_Types$ContactType]         [ContactType], 
+              Index:[tklpContacts_Types$ContactTypeId]
                             Field Name:ContactTypeId
->[ContactTypeId]            [ContactTypeId], 
-              Index:[PrimaryKey]
+>[tklpContacts_Types$ContactTypeId]       [ContactTypeId], 
+              Index:[tklpContacts_Types$PrimaryKey]
                             Field Name:ContactTypeId
->[PrimaryKey] [ContactTypeId], 
+>[tklpContacts_Types$PrimaryKey]          [ContactTypeId], 
 ========================================
 <<<[tlkpCountries]>>>
-              Index:[PrimaryKey]
+              Index:[tklpCountries$PrimaryKey]
                             Field Name:CountryID
->[PrimaryKey] [CountryID], 
-              Index:[Province]
+>[tklpCountries$PrimaryKey] [CountryID], 
+              Index:[tklpCountries$Province]
                             Field Name:Country
->[Province]   [Country], 
-              Index:[ProvinceID]
+>[tklpCountries$Province]   [Country], 
+              Index:[tklpCountries$ProvinceID]
                             Field Name:CountryID
->[ProvinceID] [CountryID], 
+>[tklpCountries$ProvinceID] [CountryID], 
 ========================================
 <<<[tlkpEmailAddressTypes]>>>
-              Index:[EmailAddressType]
+              Index:[tklpEmailAddressTypes$EmailAddressType]
                             Field Name:EmailAddressType
->[EmailAddressType]         [EmailAddressType], 
-              Index:[EmailAddressTypeID]
+>[tklpEmailAddressTypes$EmailAddressType] [EmailAddressType], 
+              Index:[tklpEmailAddressTypes$EmailAddressTypeID]
                             Field Name:EmailAddressTypeID
->[EmailAddressTypeID]       [EmailAddressTypeID], 
-              Index:[PrimaryKey]
+>[tklpEmailAddressTypes$EmailAddressTypeID]             [EmailAddressTypeID], 
+              Index:[tklpEmailAddressTypes$PrimaryKey]
                             Field Name:EmailAddressTypeID
->[PrimaryKey] [EmailAddressTypeID], 
+>[tklpEmailAddressTypes$PrimaryKey]       [EmailAddressTypeID], 
 ========================================
 <<<[tlkpPhoneNumbersCategories]>>>
-              Index:[PhoneNumberCategory]
+              Index:[tklpPhoneNumbersCategories$PhoneNumberCategory]
                             Field Name:PhoneNumberCategory
->[PhoneNumberCategory]      [PhoneNumberCategory], 
-              Index:[PhoneNumberCategoryID]
+>[tklpPhoneNumbersCategories$PhoneNumberCategory]       [PhoneNumberCategory], 
+              Index:[tklpPhoneNumbersCategories$PhoneNumberCategoryID]
                             Field Name:PhoneNumberCategoryID
->[PhoneNumberCategoryID]    [PhoneNumberCategoryID], 
-              Index:[PrimaryKey]
+>[tklpPhoneNumbersCategories$PhoneNumberCategoryID]     [PhoneNumberCategoryID], 
+              Index:[tklpPhoneNumbersCategories$PrimaryKey]
                             Field Name:PhoneNumberCategoryID
->[PrimaryKey] [PhoneNumberCategoryID], 
+>[tklpPhoneNumbersCategories$PrimaryKey]  [PhoneNumberCategoryID], 
 ========================================
 <<<[tlkpProvinces]>>>
-              Index:[CountryID]
+              Index:[tlkpProvinces$CountryID]
                             Field Name:CountryID
->[CountryID]  [CountryID], 
-              Index:[lst_Countrieslst_Provinces]
+>[tlkpProvinces$CountryID]  [CountryID], 
+              Index:[tlkpProvinces$lst_Countrieslst_Provinces]
                             Field Name:CountryID
->[lst_Countrieslst_Provinces]             [CountryID], 
-              Index:[PrimaryKey]
+>[tlkpProvinces$lst_Countrieslst_Provinces]             [CountryID], 
+              Index:[tlkpProvinces$PrimaryKey]
                             Field Name:ProvinceId
->[PrimaryKey] [ProvinceId], 
-              Index:[Province]
+>[tlkpProvinces$PrimaryKey] [ProvinceId], 
+              Index:[tlkpProvinces$Province]
                             Field Name:Province
->[Province]   [Province], 
-              Index:[ProvinceID]
+>[tlkpProvinces$Province]   [Province], 
+              Index:[tlkpProvinces$ProvinceID]
                             Field Name:ProvinceId
->[ProvinceID] [ProvinceId], 
-              Index:[UniquePays]
+>[tlkpProvinces$ProvinceID] [ProvinceId], 
+              Index:[tlkpProvinces$UniquePays]
                             Field Name:CountryID
                             Field Name:Province
->[UniquePays] [Province], 
+>[tlkpProvinces$UniquePays] [Province], 
 ========================================
 <<<[tlkpSalutations]>>>
-              Index:[PrimaryKey]
+              Index:[tlkpSalutations$PrimaryKey]
                             Field Name:SalutationID
->[PrimaryKey] [SalutationID], 
-              Index:[Salutation]
+>[tlkpSalutations$PrimaryKey]             [SalutationID], 
+              Index:[tlkpSalutations$Salutation]
                             Field Name:Salutation
->[Salutation] [Salutation], 
-              Index:[SalutationID]
+>[tlkpSalutations$Salutation]             [Salutation], 
+              Index:[tlkpSalutations$SalutationID]
                             Field Name:SalutationID
->[SalutationID]             [SalutationID], 
+>[tlkpSalutations$SalutationID]           [SalutationID], 
 ========================================
 <<<[USysRibbons]>>>
               Index:[PrimaryKey]

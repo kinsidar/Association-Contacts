@@ -2,71 +2,21 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-|-- Attributes >> 1073741824
-|-- SourceTableName >> tlkpSalutations
+|-- Connect >> ODBC;DSN=associationContacts;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
+|-- Attributes >> 536870912
+|-- SourceTableName >> dbo.tlkpSalutations
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
-|-- Orientation >> 0
-|-- OrderByOn >> False
-|-- DefaultView >> 2
-|-- DisplayViewsOnSharePointSite >> 1
-|-- TotalsRow >> False
-|-- FilterOnLoad >> False
-|-- OrderByOnLoad >> True
-|-- HideNewField >> False
-|-- TabularCharSet >> 0
-|-- SubdatasheetName >> [None]
-|-- DatasheetFontName >> Calibri
-|-- DatasheetFontHeight >> 11
-|-- DatasheetFontWeight >> 400
-|-- DatasheetFontItalic >> False
-|-- DatasheetFontUnderline >> False
-|-- TabularFamily >> 34
-|-- DatasheetForeColor >> 0
-|-- DatasheetForeColor12 >> 0
-|-- BackTint >> 100
-|-- BackShade >> 100
-|-- ThemeFontIndex >> -1
-|-- AlternateBackThemeColorIndex >> -1
-|-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 100
-|-- DatasheetGridlinesThemeColorIndex >> -1
-|-- DatasheetForeThemeColorIndex >> -1
 --------------------------------------------------
 |-- SalutationID (Field in tlkpSalutations)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> SalutationID
-|------ OrdinalPosition >> 0
+|------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> SalutationID
-|------ SourceTable >> tlkpSalutations
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|-- Salutation (Field in tlkpSalutations)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 10
-|------ Name >> Salutation
-|------ OrdinalPosition >> 1
-|------ Size >> 18
-|------ SourceField >> Salutation
 |------ SourceTable >> tlkpSalutations
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -76,23 +26,29 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
+|-- Salutation (Field in tlkpSalutations)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> Salutation
+|------ OrdinalPosition >> 2
+|------ Size >> 18
+|------ SourceField >> Salutation
+|------ SourceTable >> tlkpSalutations
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
 |-- Order (Field in tlkpSalutations)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> Order
-|------ OrdinalPosition >> 2
+|------ OrdinalPosition >> 3
 |------ Size >> 4
 |------ SourceField >> Order
 |------ SourceTable >> tlkpSalutations
@@ -104,12 +60,3 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DecimalPlaces >> 255
-|------ DisplayControl >> 109
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0

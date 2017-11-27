@@ -1,89 +1,105 @@
+[sysdiagrams]
+              [name]         0            
+              [principal_id]               0            
+              [diagram_id]   0            
+              [version]      0            
+              [definition]   0            
 [tblContacts]
               [ContactID]    0            
-              [ContactTypeID]              109          TextBox
-              [FirstName]    109          TextBox
-              [LastName]     109          TextBox
-              [Address]      109          TextBox
-              [CityID]       109          TextBox
-              [ProvinceID]   109          TextBox
-              [CountryID]    109          TextBox
-              [PostalCode]   109          TextBox
-              [DOB]          109          TextBox
-              [Notes]        109          TextBox
-              [LON]          109          TextBox
-              [LAT]          109          TextBox
+              [ContactTypeID]              0            
+              [FirstName]    0            
+              [LastName]     0            
+              [Address]      0            
+              [CityID]       0            
+              [ProvinceID]   0            
+              [CountryID]    0            
+              [PostalCode]   0            
+              [DOB]          0            
+              [Notes]        0            
+              [LON]          0            
+              [LAT]          0            
+              [SSMA_TimeStamp]             0            
 [tblContacts_EmailAddresses]
-              [ContactEmailId]             109          TextBox
-              [ContactId]    109          TextBox
-              [EmailAddress]               109          TextBox
-              [EmailAddressTypeID]         109          TextBox
+              [ContactEmailId]             0            
+              [ContactId]    0            
+              [EmailAddress]               0            
+              [EmailAddressTypeID]         0            
 [tblContacts_PhoneNumbers]
-              [PhoneNumberID]              109          TextBox
-              [ContactID]    109          TextBox
-              [PhoneNumber]  109          TextBox
-              [PhoneNumberExt]             109          TextBox
-              [PhoneNumberCategoryID]      109          TextBox
+              [PhoneNumberID]              0            
+              [ContactID]    0            
+              [PhoneNumber]  0            
+              [PhoneNumberExt]             0            
+              [PhoneNumberCategoryID]      0            
+[tblInsurance]
+              [ID]           0            
+              [PID]          0            
+              [TIV_2011]     0            
+              [TIV_2012]     0            
+              [LAT]          0            
+              [LON]          0            
+              [SSMA_TimeStamp]             0            
 [tblTestIt]
-              [id]           109          TextBox
-              [aFarField]    109          TextBox
+              [id]           0            
+              [aFarField]    0            
 [tblUser]
-              [id]           109          TextBox
-              [environName]  109          TextBox
-              [password]     109          TextBox
-              [userName]     109          TextBox
-              [userFirstName]              109          TextBox
-              [userMiddleName]             109          TextBox
-              [userLastName]               109          TextBox
-              [sortOrder]    109          TextBox
-              [title]        109          TextBox
-              [userPassword]               109          TextBox
-              [titleOfCourtesy]            109          TextBox
-              [supervisorId]               111          ComboBox
-              [birthDate]    111          ComboBox
-              [hireDate]     111          ComboBox
-              [address]      109          TextBox
-              [city]         109          TextBox
-              [region]       109          TextBox
-              [postalCode]   109          TextBox
-              [country]      109          TextBox
-              [homePhone]    109          TextBox
-              [extension]    109          TextBox
-              [photo]        109          TextBox
-              [notes]        109          TextBox
-              [active]       106          CheckBox
+              [id]           0            
+              [environName]  0            
+              [password]     0            
+              [userName]     0            
+              [userFirstName]              0            
+              [userMiddleName]             0            
+              [userLastName]               0            
+              [sortOrder]    0            
+              [title]        0            
+              [userPassword]               0            
+              [titleOfCourtesy]            0            
+              [supervisorId]               0            
+              [birthDate]    0            
+              [hireDate]     0            
+              [address]      0            
+              [city]         0            
+              [region]       0            
+              [postalCode]   0            
+              [country]      0            
+              [homePhone]    0            
+              [extension]    0            
+              [photo]        0            
+              [notes]        0            
+              [active]       0            
+              [SSMA_TimeStamp]             0            
 [tlkpCities]
-              [CityID]       106          CheckBox
-              [ProvinceID]   109          TextBox
-              [City]         109          TextBox
+              [CityID]       0            
+              [ProvinceID]   0            
+              [City]         0            
 [tlkpContacts_Types]
-              [ContactTypeId]              109          TextBox
-              [ContactType]  109          TextBox
+              [ContactTypeId]              0            
+              [ContactType]  0            
 [tlkpCountries]
-              [CountryID]    109          TextBox
-              [Country]      109          TextBox
+              [CountryID]    0            
+              [Country]      0            
 [tlkpEmailAddressTypes]
-              [EmailAddressTypeID]         109          TextBox
-              [EmailAddressType]           109          TextBox
+              [EmailAddressTypeID]         0            
+              [EmailAddressType]           0            
 [tlkpPhoneNumbersCategories]
-              [PhoneNumberCategoryID]      109          TextBox
-              [PhoneNumberCategory]        109          TextBox
+              [PhoneNumberCategoryID]      0            
+              [PhoneNumberCategory]        0            
 [tlkpProvinces]
-              [ProvinceId]   109          TextBox
-              [CountryID]    109          TextBox
-              [Province]     109          TextBox
-              [ProvinceAbbr]               109          TextBox
+              [ProvinceId]   0            
+              [CountryID]    0            
+              [Province]     0            
+              [ProvinceAbbr]               0            
 [tlkpSalutations]
-              [SalutationID]               109          TextBox
-              [Salutation]   109          TextBox
-              [Order]        109          TextBox
+              [SalutationID]               0            
+              [Salutation]   0            
+              [Order]        0            
 [USysRibbons]
-              [ID]           109          TextBox
+              [ID]           0            
               [RibbonName]   109          TextBox
               [RibbonXML]    109          TextBox
-Count of Check box = 2
-Count of Text box  = 63
+Count of Check box = 0
+Count of Text box  = 2
 Count of List box  = 0
-Count of Combo box = 3
-Count of Else      = 1
-Count of Display Controls = 68
-Count of All Fields = 68
+Count of Combo box = 0
+Count of Else      = 81
+Count of Display Controls = 2
+Count of All Fields = 2

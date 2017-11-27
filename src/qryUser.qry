@@ -100,10 +100,6 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="active"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="tblUser.environName"
         dbLong "AggregateType" ="-1"
     End
