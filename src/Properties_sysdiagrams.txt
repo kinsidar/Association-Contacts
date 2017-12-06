@@ -1,57 +1,23 @@
-|-- Name >> tblContacts_EmailAddresses
+|-- Name >> sysdiagrams
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=MS SQL 2017;Description=Microsoft SQL Server 2017;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
+|-- Connect >> ODBC;DSN=associationContacts;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
 |-- Attributes >> 536870912
-|-- SourceTableName >> dbo.tblContacts_EmailAddresses
+|-- SourceTableName >> dbo.sysdiagrams
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 --------------------------------------------------
-|-- ContactEmailId (Field in tblContacts_EmailAddresses)
-|------ Attributes >> 17
-|------ CollatingOrder >> 1033
-|------ Type >> 4
-|------ Name >> ContactEmailId
-|------ OrdinalPosition >> 1
-|------ Size >> 4
-|------ SourceField >> ContactEmailId
-|------ SourceTable >> tblContacts_EmailAddresses
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> True
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|-- ContactId (Field in tblContacts_EmailAddresses)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 4
-|------ Name >> ContactId
-|------ OrdinalPosition >> 2
-|------ Size >> 4
-|------ SourceField >> ContactId
-|------ SourceTable >> tblContacts_EmailAddresses
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> True
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|-- EmailAddress (Field in tblContacts_EmailAddresses)
+|-- name (Field in sysdiagrams)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> EmailAddress
-|------ OrdinalPosition >> 3
-|------ Size >> 255
-|------ SourceField >> EmailAddress
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ Name >> name
+|------ OrdinalPosition >> 1
+|------ Size >> 128
+|------ SourceField >> name
+|------ SourceTable >> sysdiagrams
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -60,15 +26,66 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|-- EmailAddressTypeID (Field in tblContacts_EmailAddresses)
+|-- principal_id (Field in sysdiagrams)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> EmailAddressTypeID
+|------ Name >> principal_id
+|------ OrdinalPosition >> 2
+|------ Size >> 4
+|------ SourceField >> principal_id
+|------ SourceTable >> sysdiagrams
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|-- diagram_id (Field in sysdiagrams)
+|------ Attributes >> 17
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> diagram_id
+|------ OrdinalPosition >> 3
+|------ Size >> 4
+|------ SourceField >> diagram_id
+|------ SourceTable >> sysdiagrams
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|-- version (Field in sysdiagrams)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> version
 |------ OrdinalPosition >> 4
 |------ Size >> 4
-|------ SourceField >> EmailAddressTypeID
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> version
+|------ SourceTable >> sysdiagrams
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|-- definition (Field in sysdiagrams)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 11
+|------ Name >> definition
+|------ OrdinalPosition >> 5
+|------ Size >> 0
+|------ SourceField >> definition
+|------ SourceTable >> sysdiagrams
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 

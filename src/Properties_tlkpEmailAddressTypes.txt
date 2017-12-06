@@ -2,69 +2,22 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-|-- Attributes >> 1073741824
-|-- SourceTableName >> tklpEmailAddressTypes
+|-- Connect >> ODBC;DSN=MS SQL 2017;Description=Microsoft SQL Server 2017;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
+|-- Attributes >> 536870912
+|-- SourceTableName >> dbo.tlkpEmailAddressTypes
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
-|-- Orientation >> 0
-|-- OrderByOn >> False
-|-- DefaultView >> 2
-|-- GUID >> GUID
-|-- DisplayViewsOnSharePointSite >> 1
-|-- TotalsRow >> False
-|-- FilterOnLoad >> False
-|-- OrderByOnLoad >> True
-|-- HideNewField >> False
-|-- BackTint >> 100
-|-- BackShade >> 100
-|-- ThemeFontIndex >> -1
-|-- AlternateBackThemeColorIndex >> -1
-|-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 100
-|-- DatasheetGridlinesThemeColorIndex >> -1
-|-- DatasheetForeThemeColorIndex >> -1
-|-- PublishToWeb >> 1
-|-- SubdatasheetName >> [None]
-|-- NameMap >> NameMap
 --------------------------------------------------
 |-- EmailAddressTypeID (Field in tlkpEmailAddressTypes)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> EmailAddressTypeID
-|------ OrdinalPosition >> 0
+|------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> EmailAddressTypeID
-|------ SourceTable >> tklpEmailAddressTypes
-|------ DataUpdatable >> False
-|------ DefaultValue >> 0
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> True
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnWidth >> 2325
-|------ GUID >> GUID
-|------ ColumnOrder >> 0
-|------ DecimalPlaces >> 255
-|------ DisplayControl >> 109
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|-- EmailAddressType (Field in tlkpEmailAddressTypes)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 10
-|------ Name >> EmailAddressType
-|------ OrdinalPosition >> 1
-|------ Size >> 255
-|------ SourceField >> EmailAddressType
-|------ SourceTable >> tklpEmailAddressTypes
+|------ SourceTable >> tlkpEmailAddressTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -73,15 +26,20 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnWidth >> 2130
-|------ ColumnOrder >> 0
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
+|-- EmailAddressType (Field in tlkpEmailAddressTypes)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> EmailAddressType
+|------ OrdinalPosition >> 2
+|------ Size >> 255
+|------ SourceField >> EmailAddressType
+|------ SourceTable >> tlkpEmailAddressTypes
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 

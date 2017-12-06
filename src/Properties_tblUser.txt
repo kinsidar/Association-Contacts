@@ -2,42 +2,19 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
-|-- Attributes >> 1073741824
-|-- SourceTableName >> tblUser
+|-- Connect >> ODBC;DSN=associationContacts;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
+|-- Attributes >> 536870912
+|-- SourceTableName >> dbo.tblUser
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
-|-- Orientation >> 0
-|-- OrderByOn >> False
-|-- DefaultView >> 2
-|-- GUID >> GUID
-|-- DisplayViewsOnSharePointSite >> 1
-|-- TotalsRow >> False
-|-- FilterOnLoad >> False
-|-- OrderByOnLoad >> True
-|-- HideNewField >> False
-|-- BackTint >> 100
-|-- BackShade >> 100
-|-- ThemeFontIndex >> 1
-|-- AlternateBackThemeColorIndex >> 1
-|-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 95
-|-- DatasheetGridlinesThemeColorIndex >> 3
-|-- DatasheetForeThemeColorIndex >> 0
-|-- PublishToWeb >> 1
-|-- FilterOn >> False
-|-- Description >> Employees' names, titles, and personal information.
-|-- OrderOn >> False
-|-- ReadOnlyWhenDisconnected >> False
-|-- NameMap >> NameMap
 --------------------------------------------------
 |-- id (Field in tblUser)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> id
-|------ OrdinalPosition >> 0
+|------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> id
 |------ SourceTable >> tblUser
@@ -45,26 +22,16 @@
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> False
+|------ Required >> True
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ Description >> Number automatically assigned to new employee.
-|------ ColumnOrder >> 0
-|------ ColumnWidth >> 1350
-|------ FilterLookup >> 1
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- environName (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> environName
-|------ OrdinalPosition >> 1
+|------ OrdinalPosition >> 2
 |------ Size >> 255
 |------ SourceField >> environName
 |------ SourceTable >> tblUser
@@ -76,25 +43,12 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ Description >> Login name in user environment
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- password (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> password
-|------ OrdinalPosition >> 2
+|------ OrdinalPosition >> 3
 |------ Size >> 21
 |------ SourceField >> password
 |------ SourceTable >> tblUser
@@ -106,25 +60,12 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ InputMask >> Password
-|------ GUID >> GUID
 |-- userName (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> userName
-|------ OrdinalPosition >> 3
+|------ OrdinalPosition >> 4
 |------ Size >> 255
 |------ SourceField >> userName
 |------ SourceTable >> tblUser
@@ -136,24 +77,12 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnWidth >> 1680
-|------ ColumnOrder >> 0
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- userFirstName (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> userFirstName
-|------ OrdinalPosition >> 4
+|------ OrdinalPosition >> 5
 |------ Size >> 255
 |------ SourceField >> userFirstName
 |------ SourceTable >> tblUser
@@ -165,24 +94,12 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnWidth >> 1785
-|------ ColumnOrder >> 0
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- userMiddleName (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> userMiddleName
-|------ OrdinalPosition >> 5
+|------ OrdinalPosition >> 6
 |------ Size >> 255
 |------ SourceField >> userMiddleName
 |------ SourceTable >> tblUser
@@ -194,24 +111,12 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- userLastName (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> userLastName
-|------ OrdinalPosition >> 6
+|------ OrdinalPosition >> 7
 |------ Size >> 255
 |------ SourceField >> userLastName
 |------ SourceTable >> tblUser
@@ -223,51 +128,29 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- sortOrder (Field in tblUser)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> sortOrder
-|------ OrdinalPosition >> 7
+|------ OrdinalPosition >> 8
 |------ Size >> 4
 |------ SourceField >> sortOrder
 |------ SourceTable >> tblUser
 |------ DataUpdatable >> False
-|------ DefaultValue >> 0
+|------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DecimalPlaces >> 255
-|------ DisplayControl >> 109
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- title (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> title
-|------ OrdinalPosition >> 8
+|------ OrdinalPosition >> 9
 |------ Size >> 50
 |------ SourceField >> title
 |------ SourceTable >> tblUser
@@ -276,28 +159,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnWidth >> 4050
-|------ ColumnOrder >> 0
-|------ Description >> Employee's title.
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- userPassword (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> userPassword
-|------ OrdinalPosition >> 9
+|------ OrdinalPosition >> 10
 |------ Size >> 12
 |------ SourceField >> userPassword
 |------ SourceTable >> tblUser
@@ -306,28 +176,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ InputMask >> Password
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- titleOfCourtesy (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> titleOfCourtesy
-|------ OrdinalPosition >> 10
+|------ OrdinalPosition >> 11
 |------ Size >> 12
 |------ SourceField >> titleOfCourtesy
 |------ SourceTable >> tblUser
@@ -336,29 +193,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1980
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ Description >> Title used in salutations.
-|------ InputMask >> Password
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- supervisorId (Field in tblUser)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> supervisorId
-|------ OrdinalPosition >> 11
+|------ OrdinalPosition >> 12
 |------ Size >> 4
 |------ SourceField >> supervisorId
 |------ SourceTable >> tblUser
@@ -370,65 +213,29 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 2190
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ Description >> Employee's supervisor.
-|------ DecimalPlaces >> 255
-|------ DisplayControl >> 111
-|------ RowSourceType >> Table/Query
-|------ RowSource >> SELECT id, [userLastName] & ", " & [userFirstName] AS Name, Title FROM tblUser ORDER BY userLastName, userFirstName; 
-|------ BoundColumn >> 1
-|------ ColumnCount >> 3
-|------ ColumnHeads >> False
-|------ ColumnWidths >> 720;2880;4320
-|------ ListRows >> 24
-|------ ListWidth >> 7920twip
-|------ LimitToList >> True
-|------ TextAlign >> 0
-|------ AllowValueListEdits >> False
-|------ AggregateType >> -1
-|------ ShowOnlyRowSourceValues >> False
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ AllowMultipleValues >> False
-|------ GUID >> GUID
 |-- birthDate (Field in tblUser)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 8
 |------ Name >> birthDate
-|------ OrdinalPosition >> 12
+|------ OrdinalPosition >> 13
 |------ Size >> 8
 |------ SourceField >> birthDate
 |------ SourceTable >> tblUser
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
-|------ ValidationRule >> <Date()
-|------ ValidationText >> Birth date can't be in the future.
+|------ ValidationRule >> 
+|------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ Format >> Medium Date
-|------ ColumnOrder >> 0
-|------ ColumnWidth >> 1350
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ TextAlign >> 0
-|------ ShowDatePicker >> 1
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- hireDate (Field in tblUser)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 8
 |------ Name >> hireDate
-|------ OrdinalPosition >> 13
+|------ OrdinalPosition >> 14
 |------ Size >> 8
 |------ SourceField >> hireDate
 |------ SourceTable >> tblUser
@@ -440,25 +247,12 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Format >> Medium Date
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ ColumnWidth >> 1290
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ShowDatePicker >> 1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- address (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> address
-|------ OrdinalPosition >> 14
+|------ OrdinalPosition >> 15
 |------ Size >> 60
 |------ SourceField >> address
 |------ SourceTable >> tblUser
@@ -467,29 +261,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ Description >> Street or post-office box.
-|------ ColumnOrder >> 0
-|------ ColumnWidth >> 2220
-|------ DisplayControl >> 109
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- city (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> city
-|------ OrdinalPosition >> 15
+|------ OrdinalPosition >> 16
 |------ Size >> 15
 |------ SourceField >> city
 |------ SourceTable >> tblUser
@@ -498,28 +278,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnOrder >> 0
-|------ ColumnWidth >> 1215
-|------ DisplayControl >> 109
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- region (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> region
-|------ OrdinalPosition >> 16
+|------ OrdinalPosition >> 17
 |------ Size >> 15
 |------ SourceField >> region
 |------ SourceTable >> tblUser
@@ -528,29 +295,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ Description >> State or province.
-|------ ColumnOrder >> 0
-|------ ColumnWidth >> 945
-|------ DisplayControl >> 109
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- postalCode (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> postalCode
-|------ OrdinalPosition >> 17
+|------ OrdinalPosition >> 18
 |------ Size >> 10
 |------ SourceField >> postalCode
 |------ SourceTable >> tblUser
@@ -559,28 +312,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnOrder >> 0
-|------ ColumnWidth >> 1290
-|------ DisplayControl >> 109
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- country (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> country
-|------ OrdinalPosition >> 18
+|------ OrdinalPosition >> 19
 |------ Size >> 15
 |------ SourceField >> country
 |------ SourceTable >> tblUser
@@ -589,28 +329,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
-|------ ColumnOrder >> 0
-|------ ColumnWidth >> 885
-|------ DisplayControl >> 109
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ ResultType >> 0
-|------ GUID >> GUID
 |-- homePhone (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> homePhone
-|------ OrdinalPosition >> 19
+|------ OrdinalPosition >> 20
 |------ Size >> 24
 |------ SourceField >> homePhone
 |------ SourceTable >> tblUser
@@ -619,29 +346,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> Phone number includes country code or area code.
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ ColumnWidth >> 1440
-|------ DisplayControl >> 109
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- extension (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> extension
-|------ OrdinalPosition >> 20
+|------ OrdinalPosition >> 21
 |------ Size >> 4
 |------ SourceField >> extension
 |------ SourceTable >> tblUser
@@ -650,29 +363,15 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> Internal telephone extension number.
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ ColumnWidth >> 1080
-|------ DisplayControl >> 109
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- photo (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 11
 |------ Name >> photo
-|------ OrdinalPosition >> 21
+|------ OrdinalPosition >> 22
 |------ Size >> 0
 |------ SourceField >> photo
 |------ SourceTable >> tblUser
@@ -684,24 +383,31 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> Picture of employee.
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ ColumnWidth >> 1815
-|------ FilterLookup >> 1
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
 |-- notes (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 12
 |------ Name >> notes
-|------ OrdinalPosition >> 22
+|------ OrdinalPosition >> 23
 |------ Size >> 0
 |------ SourceField >> notes
+|------ SourceTable >> tblUser
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|-- active (Field in tblUser)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 1
+|------ Name >> active
+|------ OrdinalPosition >> 24
+|------ Size >> 1
+|------ SourceField >> active
 |------ SourceTable >> tblUser
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -711,44 +417,20 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> General information about employee's background.
-|------ ColumnWidth >> 4350
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ FilterLookup >> 1
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextFormat >> 0
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
-|-- active (Field in tblUser)
-|------ Attributes >> 1
+|-- SSMA_TimeStamp (Field in tblUser)
+|------ Attributes >> 2
 |------ CollatingOrder >> 1033
-|------ Type >> 1
-|------ Name >> active
-|------ OrdinalPosition >> 23
-|------ Size >> 1
-|------ SourceField >> active
+|------ Type >> 9
+|------ Name >> SSMA_TimeStamp
+|------ OrdinalPosition >> 25
+|------ Size >> 8
+|------ SourceField >> SSMA_TimeStamp
 |------ SourceTable >> tblUser
 |------ DataUpdatable >> False
-|------ DefaultValue >> No
+|------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> False
+|------ Required >> True
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ Format >> Yes/No
-|------ DisplayControl >> 106
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID

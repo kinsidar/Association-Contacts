@@ -16,8 +16,8 @@ Begin Form
     Width =16635
     DatasheetFontHeight =11
     ItemSuffix =19
-    Right =17685
-    Bottom =12375
+    Right =24285
+    Bottom =12630
     DatasheetGridlinesColor =15062992
     AfterInsert ="[Event Procedure]"
     RecSrcDt = Begin
@@ -435,7 +435,7 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Tahoma"
                     BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
-                        "pe\";\"PrimaryKey\""
+                        "pe\";\"tklpContacts_Types$PrimaryKey\""
                     GridlineColor =10921638
 
                     LayoutCachedLeft =60

@@ -190,6 +190,15 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
+>>>sysdiagrams
+              Name          sysdiagrams
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
 >>>tblContacts
               Name          tblContacts
               Owner         admin
@@ -199,24 +208,6 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              GUID          GUID
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
-              PublishToWeb   1 
 >>>tblContacts_EmailAddresses
               Name          tblContacts_EmailAddresses
               Owner         admin
@@ -226,26 +217,17 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              GUID          GUID
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex               1 
-              AlternateBackThemeColorIndex               1 
-              AlternateBackTint            100 
-              AlternateBackShade           95 
-              DatasheetGridlinesThemeColorIndex          3 
-              DatasheetForeThemeColorIndex               0 
-              PublishToWeb   1 
 >>>tblContacts_PhoneNumbers
               Name          tblContacts_PhoneNumbers
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tblInsurance
+              Name          tblInsurance
               Owner         admin
               UserName      admin
               Permissions    1048575 
@@ -271,24 +253,6 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              GUID          GUID
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex               1 
-              AlternateBackThemeColorIndex               1 
-              AlternateBackTint            100 
-              AlternateBackShade           95 
-              DatasheetGridlinesThemeColorIndex          3 
-              DatasheetForeThemeColorIndex               0 
-              PublishToWeb   1 
 >>>tlkpCities
               Name          tlkpCities
               Owner         admin
@@ -325,24 +289,6 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              DefaultView    2 
-              GUID          GUID
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex              -1 
-              AlternateBackThemeColorIndex              -1 
-              AlternateBackTint            100 
-              AlternateBackShade           100 
-              DatasheetGridlinesThemeColorIndex         -1 
-              DatasheetForeThemeColorIndex              -1 
-              PublishToWeb   1 
 >>>tlkpPhoneNumbersCategories
               Name          tlkpPhoneNumbersCategories
               Owner         admin
