@@ -30,15 +30,6 @@ Public Function getMyProject() As String
     getMyProject = gstrPROJECT_AC
 End Function
 
-Public Function IsDefaultRelativeFolderSetupVerified()
-    Debug.Print Application.GetOption("Default Database Directory")
-    If Left$(Application.GetOption("Default Database Directory"), 1) = "." Then
-        IsDefaultRelativeFolderSetupVerified = True
-    Else
-        IsDefaultRelativeFolderSetupVerified = False
-    End If
-End Function
-
 Public Sub AC_BackEnd_EXPORT(Optional ByVal varDebug As Variant)
 
     ' BACK END SETUP
@@ -52,17 +43,6 @@ Public Sub AC_BackEnd_EXPORT(Optional ByVal varDebug As Variant)
     Const THE_BACK_END_XML_DATA_FOLDER = ".\srcbe\xmldata\"
 
     On Error GoTo PROC_ERR
-
-'    ' Verify relative path setup
-'    If Left$(THE_BACK_END_SOURCE_FOLDER, 1) = "." Or Left$(THE_BACK_END_XML_FOLDER, 1) = "." _
-'        Or Left$(THE_BACK_END_XML_DATA_FOLDER, 1) = "." Then
-'        If IsDefaultRelativeFolderSetupVerified Then
-'            Else
-'                MsgBox "Database default folder option is not set for relative addressing: .\", vbInformation, gstrPROJECT_AC
-'                Exit Sub
-'        End If
-'    Else
-'    End If
 
     'Debug.Print "THE_BACK_END_DB1 = " & THE_BACK_END_DB1
     If Not IsMissing(varDebug) Then
@@ -131,7 +111,6 @@ End Sub
 ' %021 -
 ' %020 -
 ' %019 -
-' %017 - *BE - GH#22, Create srcbe folder for back end export and then export the back end
 ' %012 - Add Shift key blocking
 ' %011 - Add Splash form
 ' %003 - Relates to GH #9, include version tracking details in the app database change log module
@@ -143,6 +122,7 @@ End Sub
 '
 '20171207 - v005 -
     ' FIXED - %018 - *BE - Lookup tables use tlkp (not tklp)
+    ' FIXED - %017 - *BE - GH#22, Create srcbe folder for back end export and then export the back end
 '20171127 - v004 -
     ' FIXED - %016 - Rename linked ODBC tables to match database
     ' FIXED - %015 - Link ODBC Driver
