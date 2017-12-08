@@ -1,0 +1,90 @@
+>>>ContactsContacts_EmailAddresses
+              Name          ContactsContacts_EmailAddresses
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>ContactsContacts_PhoneNumbers
+              Name          ContactsContacts_PhoneNumbers
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>lst_CitiesContacts
+              Name          lst_CitiesContacts
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>lst_Contacts_TypesContacts
+              Name          lst_Contacts_TypesContacts
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>lst_CountriesContacts
+              Name          lst_CountriesContacts
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>lst_Countrieslst_Provinces
+              Name          lst_Countrieslst_Provinces
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>lst_PhoneNumbersCategoriesContacts_PhoneNumbers
+              Name          lst_PhoneNumbersCategoriesContacts_PhoneNumbers
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>lst_ProvincesContacts
+              Name          lst_ProvincesContacts
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>lst_Provinceslst_Cities
+              Name          lst_Provinceslst_Cities
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+>>>tklpEmailAddressTypestblContacts_EmailAddresses
+              Name          tklpEmailAddressTypestblContacts_EmailAddresses
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Relationships
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated

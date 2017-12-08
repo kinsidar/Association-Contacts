@@ -1,0 +1,92 @@
+[tblContacts]
+              [ContactID]    0            
+              [ContactTypeID]              109          TextBox
+              [FirstName]    109          TextBox
+              [LastName]     109          TextBox
+              [Address]      109          TextBox
+              [CityID]       109          TextBox
+              [ProvinceID]   109          TextBox
+              [CountryID]    109          TextBox
+              [PostalCode]   109          TextBox
+              [DOB]          109          TextBox
+              [Notes]        109          TextBox
+              [LON]          109          TextBox
+              [LAT]          109          TextBox
+[tblContacts_EmailAddresses]
+              [ContactEmailId]             109          TextBox
+              [ContactId]    109          TextBox
+              [EmailAddress]               109          TextBox
+              [EmailAddressTypeID]         109          TextBox
+[tblContacts_PhoneNumbers]
+              [PhoneNumberID]              109          TextBox
+              [ContactID]    109          TextBox
+              [PhoneNumber]  109          TextBox
+              [PhoneNumberExt]             109          TextBox
+              [PhoneNumberCategoryID]      109          TextBox
+[tblInsurance]
+              [ID]           109          TextBox
+              [PID]          109          TextBox
+              [TIV_2011]     109          TextBox
+              [TIV_2012]     109          TextBox
+              [LAT]          109          TextBox
+              [LON]          109          TextBox
+[tblTestIt]
+              [id]           109          TextBox
+              [aFarField]    109          TextBox
+[tblUser]
+              [id]           109          TextBox
+              [environName]  109          TextBox
+              [password]     109          TextBox
+              [userName]     109          TextBox
+              [userFirstName]              109          TextBox
+              [userMiddleName]             109          TextBox
+              [userLastName]               109          TextBox
+              [sortOrder]    109          TextBox
+              [title]        109          TextBox
+              [userPassword]               109          TextBox
+              [titleOfCourtesy]            109          TextBox
+              [supervisorId]               111          ComboBox
+              [birthDate]    111          ComboBox
+              [hireDate]     111          ComboBox
+              [address]      109          TextBox
+              [city]         109          TextBox
+              [region]       109          TextBox
+              [postalCode]   109          TextBox
+              [country]      109          TextBox
+              [homePhone]    109          TextBox
+              [extension]    109          TextBox
+              [photo]        109          TextBox
+              [notes]        109          TextBox
+              [active]       106          CheckBox
+[tlkpCities]
+              [CityID]       106          CheckBox
+              [ProvinceID]   109          TextBox
+              [City]         109          TextBox
+[tlkpContacts_Types]
+              [ContactTypeId]              109          TextBox
+              [ContactType]  109          TextBox
+[tlkpCountries]
+              [CountryID]    109          TextBox
+              [Country]      109          TextBox
+[tlkpEmailAddressTypes]
+              [EmailAddressTypeID]         109          TextBox
+              [EmailAddressType]           109          TextBox
+[tlkpPhoneNumbersCategories]
+              [PhoneNumberCategoryID]      109          TextBox
+              [PhoneNumberCategory]        109          TextBox
+[tlkpProvinces]
+              [ProvinceId]   109          TextBox
+              [CountryID]    109          TextBox
+              [Province]     109          TextBox
+              [ProvinceAbbr]               109          TextBox
+[tlkpSalutations]
+              [SalutationID]               109          TextBox
+              [Salutation]   109          TextBox
+              [Order]        109          TextBox
+Count of Check box = 2
+Count of Text box  = 66
+Count of List box  = 0
+Count of Combo box = 3
+Count of Else      = 1
+Count of Display Controls = 71
+Count of All Fields = 71
