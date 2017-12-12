@@ -7,31 +7,32 @@
 
 ## Intake Form
 
-* [Main](forms/intakeform.md)
+* [Main Form](forms/intakeform.md)
 
 ## Contact Form
 
-* [Main](forms/ContactForm.md)
+* [Main Form](forms/ContactForm.md)
+* [Add Contact Details](forms/contactDetails.md)
 
 ## Crisis Form
 
-* [Main](forms/CrisisForm.md)
+* [Main Form](forms/CrisisForm.md)
 
 ## Response Form
 
-* [Main](forms/ResponseForm.md)
+* [Main Form](forms/ResponseForm.md)
 
 ## Youth Resiliency
 
-* [Main](forms/youthResiliency.md)
+* [Main Form](forms/youthResiliency.md)
 
 ## Self Sufficiency
 
-* [Main](forms/selfSufficiency.md)
+* [Main Form](forms/selfSufficiency.md)
 
 ## Reports Directory
 
-* [Main](forms/ReportsDirectory.md)
+* [Main Page](forms/ReportsDirectory.md)
 
 ## How-tos
 
