@@ -2,9 +2,9 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=MS SQL 2017;Description=Microsoft SQL Server 2017;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
+|-- Connect >> ODBC;DSN=AC_BE;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=AC_BE;
 |-- Attributes >> 536870912
-|-- SourceTableName >> dbo.tlkpPhoneNumbersCategories
+|-- SourceTableName >> dbo.tklpPhoneNumbersCategories
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 

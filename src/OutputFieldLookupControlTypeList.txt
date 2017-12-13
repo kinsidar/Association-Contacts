@@ -1,9 +1,3 @@
-[sysdiagrams]
-              [name]         0            
-              [principal_id]               0            
-              [diagram_id]   0            
-              [version]      0            
-              [definition]   0            
 [tblContacts]
               [ContactID]    0            
               [ContactTypeID]              0            
@@ -100,6 +94,6 @@ Count of Check box = 0
 Count of Text box  = 2
 Count of List box  = 0
 Count of Combo box = 0
-Count of Else      = 81
+Count of Else      = 76
 Count of Display Controls = 2
 Count of All Fields = 2

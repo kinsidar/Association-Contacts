@@ -411,8 +411,6 @@ Begin Form
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     Tag ="13"
-                    BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
-                        "pe\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =3120
@@ -571,7 +569,6 @@ Begin Form
                     Top =1860
                     Width =2220
                     TabIndex =3
-                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
                     GUID = Begin
                         0x0e54a55a77b594478b705e9f34400403
                     End
@@ -583,7 +580,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[CountryID]"
                     Tag ="6"
-                    BaseInfo ="\"qlkpCountries\";\"tlkpCountries\";\"\";\"CountryID\";\"Country\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =1860

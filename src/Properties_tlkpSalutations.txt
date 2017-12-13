@@ -2,7 +2,7 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=associationContacts;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
+|-- Connect >> ODBC;DSN=AC_BE;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=AC_BE;
 |-- Attributes >> 536870912
 |-- SourceTableName >> dbo.tlkpSalutations
 |-- RecordCount >> -1

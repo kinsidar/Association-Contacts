@@ -1,12 +1,3 @@
-<<<[sysdiagrams]>>>
-              Index:[PK__sysdiagr__C2B05B61E50B18B8]
-                            Field Name:diagram_id
->[PK__sysdiagr__C2B05B61E50B18B8]         [diagram_id], 
-              Index:[UK_principal_name]
-                            Field Name:principal_id
-                            Field Name:name
->[UK_principal_name]        [name], 
-========================================
 <<<[tblContacts]>>>
               Index:[tblContacts$ContactTypeID]
                             Field Name:ContactTypeID

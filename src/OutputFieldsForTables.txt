@@ -1,12 +1,4 @@
 ------------------
-TABLE: sysdiagrams
-------------------
-Linked=>ODBC
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-
-
-------------------
 TABLE: tblContacts
 ------------------
 Linked=>ODBC
