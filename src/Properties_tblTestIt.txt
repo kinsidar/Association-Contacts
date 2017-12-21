@@ -2,19 +2,37 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=AC_BE;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=AC_BE;
-|-- Attributes >> 536870912
-|-- SourceTableName >> dbo.tblTestIt
+|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tblTestIt
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- NameMap >> NameMap
+|-- DefaultView >> 2
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> 1
+|-- AlternateBackThemeColorIndex >> 1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 95
+|-- DatasheetGridlinesThemeColorIndex >> 3
+|-- DatasheetForeThemeColorIndex >> 0
+|-- PublishToWeb >> 1
 --------------------------------------------------
 |-- id (Field in tblTestIt)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> id
-|------ OrdinalPosition >> 1
+|------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> id
 |------ SourceTable >> tblTestIt
@@ -22,16 +40,23 @@
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> True
+|------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- aFarField (Field in tblTestIt)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> aFarField
-|------ OrdinalPosition >> 2
+|------ OrdinalPosition >> 1
 |------ Size >> 255
 |------ SourceField >> aFarField
 |------ SourceTable >> tblTestIt
@@ -43,3 +68,14 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0

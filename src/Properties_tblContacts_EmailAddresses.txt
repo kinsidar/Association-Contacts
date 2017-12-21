@@ -2,19 +2,38 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=AC_BE;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=AC_BE;
-|-- Attributes >> 536870912
-|-- SourceTableName >> dbo.tblContacts_EmailAddresses
+|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tblContacts_EmailAddresses
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- SubdatasheetName >> [None]
+|-- DefaultView >> 2
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> 1
+|-- AlternateBackThemeColorIndex >> 1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 95
+|-- ReadOnlyWhenDisconnected >> False
+|-- DatasheetGridlinesThemeColorIndex >> 3
+|-- DatasheetForeThemeColorIndex >> 0
+|-- PublishToWeb >> 1
 --------------------------------------------------
 |-- ContactEmailId (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> ContactEmailId
-|------ OrdinalPosition >> 1
+|------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> ContactEmailId
 |------ SourceTable >> tblContacts_EmailAddresses
@@ -22,16 +41,23 @@
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> True
+|------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1815
+|------ ColumnOrder >> 1
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- ContactId (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> ContactId
-|------ OrdinalPosition >> 2
+|------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> ContactId
 |------ SourceTable >> tblContacts_EmailAddresses
@@ -43,12 +69,21 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1305
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- EmailAddress (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> EmailAddress
-|------ OrdinalPosition >> 3
+|------ OrdinalPosition >> 2
 |------ Size >> 255
 |------ SourceField >> EmailAddress
 |------ SourceTable >> tblContacts_EmailAddresses
@@ -57,15 +92,26 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> True
-|------ AllowZeroLength >> True
+|------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 5055
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- EmailAddressTypeID (Field in tblContacts_EmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> EmailAddressTypeID
-|------ OrdinalPosition >> 4
+|------ OrdinalPosition >> 3
 |------ Size >> 4
 |------ SourceField >> EmailAddressTypeID
 |------ SourceTable >> tblContacts_EmailAddresses
@@ -77,3 +123,12 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0

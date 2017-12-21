@@ -2,38 +2,49 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=AC_BE;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=AC_BE;
-|-- Attributes >> 536870912
-|-- SourceTableName >> dbo.tlkpProvinces
+|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tlkpProvinces
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- DefaultView >> 2
+|-- SubdatasheetName >> [None]
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- TabularCharSet >> 0
+|-- DatasheetFontName >> Calibri
+|-- DatasheetFontHeight >> 11
+|-- DatasheetFontWeight >> 400
+|-- DatasheetFontItalic >> False
+|-- DatasheetFontUnderline >> False
+|-- TabularFamily >> 34
+|-- DatasheetForeColor >> 0
+|-- DatasheetForeColor12 >> 0
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 100
+|-- ReadOnlyWhenDisconnected >> False
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
+|-- PublishToWeb >> 1
 --------------------------------------------------
 |-- ProvinceId (Field in tlkpProvinces)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> ProvinceId
-|------ OrdinalPosition >> 1
+|------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> ProvinceId
-|------ SourceTable >> tlkpProvinces
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> True
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|-- CountryID (Field in tlkpProvinces)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 4
-|------ Name >> CountryID
-|------ OrdinalPosition >> 2
-|------ Size >> 4
-|------ SourceField >> CountryID
 |------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -43,12 +54,45 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1410
+|------ ColumnOrder >> 1
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ResultType >> 0
+|-- CountryID (Field in tlkpProvinces)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> CountryID
+|------ OrdinalPosition >> 1
+|------ Size >> 4
+|------ SourceField >> CountryID
+|------ SourceTable >> tlkpProvinces
+|------ DataUpdatable >> False
+|------ DefaultValue >> 1
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 1350
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ResultType >> 0
 |-- Province (Field in tlkpProvinces)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> Province
-|------ OrdinalPosition >> 3
+|------ OrdinalPosition >> 2
 |------ Size >> 50
 |------ SourceField >> Province
 |------ SourceTable >> tlkpProvinces
@@ -57,15 +101,26 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> True
-|------ AllowZeroLength >> True
+|------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 2835
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ResultType >> 0
 |-- ProvinceAbbr (Field in tlkpProvinces)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> ProvinceAbbr
-|------ OrdinalPosition >> 4
+|------ OrdinalPosition >> 3
 |------ Size >> 5
 |------ SourceField >> ProvinceAbbr
 |------ SourceTable >> tlkpProvinces
@@ -74,6 +129,17 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> True
+|------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1680
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ResultType >> 0

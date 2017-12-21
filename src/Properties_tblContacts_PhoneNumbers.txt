@@ -2,19 +2,36 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=AC_BE;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=AC_BE;
-|-- Attributes >> 536870912
-|-- SourceTableName >> dbo.tblContacts_PhoneNumbers
+|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tblContacts_PhoneNumbers
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- SubdatasheetName >> [None]
+|-- DefaultView >> 2
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 100
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
 --------------------------------------------------
 |-- PhoneNumberID (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> PhoneNumberID
-|------ OrdinalPosition >> 1
+|------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> PhoneNumberID
 |------ SourceTable >> tblContacts_PhoneNumbers
@@ -22,16 +39,23 @@
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> True
+|------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- ContactID (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> ContactID
-|------ OrdinalPosition >> 2
+|------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> ContactID
 |------ SourceTable >> tblContacts_PhoneNumbers
@@ -43,12 +67,21 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- PhoneNumber (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> PhoneNumber
-|------ OrdinalPosition >> 3
+|------ OrdinalPosition >> 2
 |------ Size >> 255
 |------ SourceField >> PhoneNumber
 |------ SourceTable >> tblContacts_PhoneNumbers
@@ -57,15 +90,26 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> True
-|------ AllowZeroLength >> True
+|------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- PhoneNumberExt (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> PhoneNumberExt
-|------ OrdinalPosition >> 4
+|------ OrdinalPosition >> 3
 |------ Size >> 255
 |------ SourceField >> PhoneNumberExt
 |------ SourceTable >> tblContacts_PhoneNumbers
@@ -74,15 +118,26 @@
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> True
+|------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- PhoneNumberCategoryID (Field in tblContacts_PhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> PhoneNumberCategoryID
-|------ OrdinalPosition >> 5
+|------ OrdinalPosition >> 4
 |------ Size >> 4
 |------ SourceField >> PhoneNumberCategoryID
 |------ SourceTable >> tblContacts_PhoneNumbers
@@ -94,3 +149,12 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0

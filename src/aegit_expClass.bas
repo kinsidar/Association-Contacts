@@ -211,7 +211,7 @@ Private Sub Class_Initialize()
     aeintFDLen = 4          ' Set a minimum default
 
     With aegitExport
-        .ExportAll = False
+        .ExportAll = True
         .ExportCodeAndObjects = True
         .ExportModuleCodeOnly = True
         .EXPERIMENTAL_ExportQAT = False
