@@ -2,5 +2,5 @@
 [aebasChangeLog_aegit_expClass]           False
 [aebasTEST_aegit_expClass]  False
 [aegit_expClass]            False
-[basFunctions]              False
+[basDatesTimes]             False
 [modRibbon]   False
