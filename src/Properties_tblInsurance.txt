@@ -2,19 +2,39 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=AC_BE;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=AC_BE;
-|-- Attributes >> 536870912
-|-- SourceTableName >> dbo.tblInsurance
+|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tblInsurance
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- NameMap >> NameMap
+|-- DefaultView >> 2
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> 1
+|-- AlternateBackThemeColorIndex >> 1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 95
+|-- ReadOnlyWhenDisconnected >> False
+|-- DatasheetGridlinesThemeColorIndex >> 3
+|-- DatasheetForeThemeColorIndex >> 0
+|-- PublishToWeb >> 1
+|-- GUID >> GUID
 --------------------------------------------------
 |-- ID (Field in tblInsurance)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> ID
-|------ OrdinalPosition >> 1
+|------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> ID
 |------ SourceTable >> tblInsurance
@@ -22,109 +42,150 @@
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> True
+|------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 1
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- PID (Field in tblInsurance)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> PID
-|------ OrdinalPosition >> 2
+|------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> PID
 |------ SourceTable >> tblInsurance
 |------ DataUpdatable >> False
-|------ DefaultValue >> 
+|------ DefaultValue >> 0
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 2
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- TIV_2011 (Field in tblInsurance)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 7
+|------ Attributes >> 2
+|------ CollatingOrder >> 18
+|------ Type >> 20
 |------ Name >> TIV_2011
-|------ OrdinalPosition >> 3
-|------ Size >> 8
+|------ OrdinalPosition >> 2
+|------ Size >> 16
 |------ SourceField >> TIV_2011
 |------ SourceTable >> tblInsurance
 |------ DataUpdatable >> False
-|------ DefaultValue >> 
+|------ DefaultValue >> 0
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 2280
+|------ ColumnOrder >> 3
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 2
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- TIV_2012 (Field in tblInsurance)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 7
+|------ Attributes >> 2
+|------ CollatingOrder >> 18
+|------ Type >> 20
 |------ Name >> TIV_2012
-|------ OrdinalPosition >> 4
-|------ Size >> 8
+|------ OrdinalPosition >> 3
+|------ Size >> 16
 |------ SourceField >> TIV_2012
 |------ SourceTable >> tblInsurance
 |------ DataUpdatable >> False
-|------ DefaultValue >> 
+|------ DefaultValue >> 0
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 4
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 2
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- LAT (Field in tblInsurance)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 7
+|------ Attributes >> 2
+|------ CollatingOrder >> 18
+|------ Type >> 20
 |------ Name >> LAT
-|------ OrdinalPosition >> 5
-|------ Size >> 8
+|------ OrdinalPosition >> 4
+|------ Size >> 16
 |------ SourceField >> LAT
 |------ SourceTable >> tblInsurance
 |------ DataUpdatable >> False
-|------ DefaultValue >> 
+|------ DefaultValue >> 0
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 5
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 6
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- LON (Field in tblInsurance)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 7
+|------ Attributes >> 2
+|------ CollatingOrder >> 18
+|------ Type >> 20
 |------ Name >> LON
-|------ OrdinalPosition >> 6
-|------ Size >> 8
+|------ OrdinalPosition >> 5
+|------ Size >> 16
 |------ SourceField >> LON
 |------ SourceTable >> tblInsurance
 |------ DataUpdatable >> False
-|------ DefaultValue >> 
+|------ DefaultValue >> 0
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|-- SSMA_TimeStamp (Field in tblInsurance)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 9
-|------ Name >> SSMA_TimeStamp
-|------ OrdinalPosition >> 7
-|------ Size >> 8
-|------ SourceField >> SSMA_TimeStamp
-|------ SourceTable >> tblInsurance
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> True
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 6
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 6
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
