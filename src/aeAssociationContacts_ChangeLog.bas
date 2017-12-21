@@ -1,9 +1,6 @@
 Option Compare Database
 Option Explicit
 
-Public gstrClientId As String
-Public gstrSvipCrisisId As String
-Public gintCurrentUser As Integer
 Public gblnHideFormHeader As Boolean
 Public gblnDeveloper As Boolean
 Public gintUserId As Integer
@@ -71,9 +68,14 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
+' %040 -
+' %039 -
+' %038 -
+' %037 -
+' %036 -
 ' %035 -
 ' %034 -
-' %033 -
+' %033 - Create theme folder for icons, graphics etc. and use adaept as first test theme
 ' %031 - Create backend on network SQL Server
 ' %030 - Create backend on local SQL Server
 ' %029 - Create backend on SQL Azure
