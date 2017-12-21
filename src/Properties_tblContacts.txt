@@ -2,19 +2,39 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ODBC;DSN=associationContacts;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=associationContacts;
-|-- Attributes >> 536870912
-|-- SourceTableName >> dbo.tblContacts
+|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> tblContacts
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- DefaultView >> 2
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 100
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
+|-- SubdatasheetName >> [None]
+|-- PublishToWeb >> 1
+|-- NameMap >> NameMap
+|-- GUID >> GUID
 --------------------------------------------------
 |-- ContactID (Field in tblContacts)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> ContactID
-|------ OrdinalPosition >> 1
+|------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> ContactID
 |------ SourceTable >> tblContacts
@@ -22,16 +42,25 @@
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> True
+|------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1320
+|------ ColumnOrder >> 1
+|------ ColumnHidden >> False
+|------ Description >> Unique identifying number
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- ContactTypeID (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> ContactTypeID
-|------ OrdinalPosition >> 2
+|------ OrdinalPosition >> 1
 |------ Size >> 4
 |------ SourceField >> ContactTypeID
 |------ SourceTable >> tblContacts
@@ -43,12 +72,22 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1770
+|------ ColumnOrder >> 2
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- FirstName (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> FirstName
-|------ OrdinalPosition >> 3
+|------ OrdinalPosition >> 2
 |------ Size >> 50
 |------ SourceField >> FirstName
 |------ SourceTable >> tblContacts
@@ -60,12 +99,24 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 2025
+|------ ColumnOrder >> 3
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- LastName (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> LastName
-|------ OrdinalPosition >> 4
+|------ OrdinalPosition >> 3
 |------ Size >> 50
 |------ SourceField >> LastName
 |------ SourceTable >> tblContacts
@@ -77,12 +128,24 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1455
+|------ ColumnOrder >> 4
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- Address (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> Address
-|------ OrdinalPosition >> 5
+|------ OrdinalPosition >> 4
 |------ Size >> 100
 |------ SourceField >> Address
 |------ SourceTable >> tblContacts
@@ -94,12 +157,24 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 2535
+|------ ColumnOrder >> 5
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- CityID (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> CityID
-|------ OrdinalPosition >> 6
+|------ OrdinalPosition >> 5
 |------ Size >> 4
 |------ SourceField >> CityID
 |------ SourceTable >> tblContacts
@@ -111,12 +186,22 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1605
+|------ ColumnOrder >> 6
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- ProvinceID (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> ProvinceID
-|------ OrdinalPosition >> 7
+|------ OrdinalPosition >> 6
 |------ Size >> 4
 |------ SourceField >> ProvinceID
 |------ SourceTable >> tblContacts
@@ -128,12 +213,22 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1425
+|------ ColumnOrder >> 7
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- CountryID (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> CountryID
-|------ OrdinalPosition >> 8
+|------ OrdinalPosition >> 7
 |------ Size >> 4
 |------ SourceField >> CountryID
 |------ SourceTable >> tblContacts
@@ -145,12 +240,22 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1350
+|------ ColumnOrder >> 8
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- PostalCode (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> PostalCode
-|------ OrdinalPosition >> 9
+|------ OrdinalPosition >> 8
 |------ Size >> 7
 |------ SourceField >> PostalCode
 |------ SourceTable >> tblContacts
@@ -162,12 +267,24 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1185
+|------ ColumnOrder >> 9
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- DOB (Field in tblContacts)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 8
 |------ Name >> DOB
-|------ OrdinalPosition >> 10
+|------ OrdinalPosition >> 9
 |------ Size >> 8
 |------ SourceField >> DOB
 |------ SourceTable >> tblContacts
@@ -179,12 +296,23 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 1095
+|------ ColumnOrder >> 10
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ShowDatePicker >> 1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- Notes (Field in tblContacts)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 12
 |------ Name >> Notes
-|------ OrdinalPosition >> 11
+|------ OrdinalPosition >> 10
 |------ Size >> 0
 |------ SourceField >> Notes
 |------ SourceTable >> tblContacts
@@ -196,54 +324,69 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnWidth >> 2040
+|------ ColumnOrder >> 11
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextFormat >> 0
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- LON (Field in tblContacts)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 7
+|------ Attributes >> 2
+|------ CollatingOrder >> 18
+|------ Type >> 20
 |------ Name >> LON
-|------ OrdinalPosition >> 12
-|------ Size >> 8
+|------ OrdinalPosition >> 11
+|------ Size >> 16
 |------ SourceField >> LON
 |------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
-|------ DefaultValue >> 
+|------ DefaultValue >> 0
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 13
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 6
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |-- LAT (Field in tblContacts)
-|------ Attributes >> 1
-|------ CollatingOrder >> 1033
-|------ Type >> 7
+|------ Attributes >> 2
+|------ CollatingOrder >> 18
+|------ Type >> 20
 |------ Name >> LAT
-|------ OrdinalPosition >> 13
-|------ Size >> 8
+|------ OrdinalPosition >> 12
+|------ Size >> 16
 |------ SourceField >> LAT
 |------ SourceTable >> tblContacts
 |------ DataUpdatable >> False
-|------ DefaultValue >> 
+|------ DefaultValue >> 0
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|-- SSMA_TimeStamp (Field in tblContacts)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 9
-|------ Name >> SSMA_TimeStamp
-|------ OrdinalPosition >> 14
-|------ Size >> 8
-|------ SourceField >> SSMA_TimeStamp
-|------ SourceTable >> tblContacts
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> True
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 12
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 6
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0

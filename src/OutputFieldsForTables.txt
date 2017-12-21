@@ -1,113 +1,177 @@
 ------------------
-TABLE: sysdiagrams
-------------------
-Linked=>ODBC
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-
-
-------------------
 TABLE: tblContacts
 ------------------
-Linked=>ODBC
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION              
+=====================    ============    ====    =========================
+ContactID                AutoNumber      4       Unique identifying number
+ContactTypeID            Long Integer    4                                
+FirstName                Text            50                               
+LastName                 Text            50                               
+Address                  Text            100                              
+CityID                   Long Integer    4                                
+ProvinceID               Long Integer    4                                
+CountryID                Long Integer    4                                
+PostalCode               Text            7                                
+DOB                      Date/Time       8                                
+Notes                    Memo            0                                
+LON                      Decimal         16                               
+LAT                      Decimal         16                               
 
 
 ---------------------------------
 TABLE: tblContacts_EmailAddresses
 ---------------------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+ContactEmailId           AutoNumber      4                  
+ContactId                Long Integer    4                  
+EmailAddress             Text            255                
+EmailAddressTypeID       Long Integer    4                  
 
 
 -------------------------------
 TABLE: tblContacts_PhoneNumbers
 -------------------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+PhoneNumberID            AutoNumber      4                  
+ContactID                Long Integer    4                  
+PhoneNumber              Text            255                
+PhoneNumberExt           Text            255                
+PhoneNumberCategoryID    Long Integer    4                  
 
 
 -------------------
 TABLE: tblInsurance
 -------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+ID                       AutoNumber      4                  
+PID                      Long Integer    4                  
+TIV_2011                 Decimal         16                 
+TIV_2012                 Decimal         16                 
+LAT                      Decimal         16                 
+LON                      Decimal         16                 
 
 
 ----------------
 TABLE: tblTestIt
 ----------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+id                       AutoNumber      4                  
+aFarField                Text            255                
 
 
 --------------
 TABLE: tblUser
 --------------
-Linked=>ODBC
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION                                     
+=====================    ============    ====    ================================================
+id                       AutoNumber      4       Number automatically assigned to new employee.  
+environName              Text            255     Login name in user environment                  
+password                 Text            21                                                      
+userName                 Text            255                                                     
+userFirstName            Text            255                                                     
+userMiddleName           Text            255                                                     
+userLastName             Text            255                                                     
+sortOrder                Long Integer    4                                                       
+title                    Text            50      Employee's title.                               
+userPassword             Text            12                                                      
+titleOfCourtesy          Text            12      Title used in salutations.                      
+supervisorId             Long Integer    4       Employee's supervisor.                          
+birthDate                Date/Time       8                                                       
+hireDate                 Date/Time       8                                                       
+address                  Text            60      Street or post-office box.                      
+city                     Text            15                                                      
+region                   Text            15      State or province.                              
+postalCode               Text            10                                                      
+country                  Text            15                                                      
+homePhone                Text            24      Phone number includes country code or area code.
+extension                Text            4       Internal telephone extension number.            
+photo                    OLE Object      0       Picture of employee.                            
+notes                    Memo            0       General information about employee's background.
+active                   Yes/No          1                                                       
 
 
 -----------------
 TABLE: tlkpCities
 -----------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+CityID                   AutoNumber      4                  
+ProvinceID               Long Integer    4                  
+City                     Text            50                 
 
 
 -------------------------
 TABLE: tlkpContacts_Types
 -------------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+ContactTypeId            AutoNumber      4                  
+ContactType              Text            255                
 
 
 --------------------
 TABLE: tlkpCountries
 --------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+CountryID                AutoNumber      4                  
+Country                  Text            50                 
 
 
 ----------------------------
 TABLE: tlkpEmailAddressTypes
 ----------------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+EmailAddressTypeID       Long Integer    4                  
+EmailAddressType         Text            255                
 
 
 ---------------------------------
 TABLE: tlkpPhoneNumbersCategories
 ---------------------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+PhoneNumberCategoryID    AutoNumber      4                  
+PhoneNumberCategory      Text            255                
 
 
 --------------------
 TABLE: tlkpProvinces
 --------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+ProvinceId               AutoNumber      4                  
+CountryID                Long Integer    4                  
+Province                 Text            50                 
+ProvinceAbbr             Text            5                  
 
 
 ----------------------
 TABLE: tlkpSalutations
 ----------------------
-Linked=>ODBC
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
+SalutationID             AutoNumber      4                  
+Salutation               Text            18                 
+Order                    Long Integer    4                  
 
 
 ------------------

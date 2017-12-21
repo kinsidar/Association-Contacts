@@ -8,33 +8,33 @@ Public gblnHideFormHeader As Boolean
 Public gblnDeveloper As Boolean
 Public gintUserId As Integer
 
-' Constants for settings of "SVIPDB"
+' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
-Public Const gstrPROJECT_SVIPDB As String = "AssociationContacts"
-Private Const mstrVERSION_SVIPDB As String = "0.0.2"
-Private Const mstrDATE_SVIPDB As String = "October 18, 2017"
+Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
+Private Const mstrVERSION_ACDB As String = "0.0.6"
+Private Const mstrDATE_ACDB As String = "December 20, 2017"
 
-Public Const SVIPDB_SQL_FRONT_END = False
-Public Const SVIPDB_AZSQL_FRONT_END = False
-Public Const SVIPDB_STAFF_PERMISSIONS = False
+Public Const ACDB_SQL_FRONT_END = False
+Public Const ACDB_AZSQL_FRONT_END = False
+Public Const ACDB_STAFF_PERMISSIONS = False
 '
 
 Public Function getMyVersion() As String
     On Error GoTo 0
-    getMyVersion = mstrVERSION_SVIPDB
+    getMyVersion = mstrVERSION_ACDB
 End Function
 
 Public Function getMyDate() As String
     On Error GoTo 0
-    getMyDate = mstrDATE_SVIPDB
+    getMyDate = mstrDATE_ACDB
 End Function
 
 Public Function getMyProject() As String
     On Error GoTo 0
-    getMyProject = gstrPROJECT_SVIPDB
+    getMyProject = gstrPROJECT_ACDB
 End Function
 
-Public Sub AC_EXPORT(Optional ByVal varDebug As Variant)
+Public Sub ACDB_EXPORT(Optional ByVal varDebug As Variant)
 
     Const THE_FRONT_END_APP = True
     Const THE_SOURCE_FOLDER = ".\src\"
@@ -63,7 +63,7 @@ PROC_EXIT:
     Exit Sub
 
 PROC_ERR:
-    MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure SVIPDB_EXPORT"
+    MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure ACDB_EXPORT"
     Resume Next
 
 End Sub
@@ -71,19 +71,31 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
-' %020 -
-' %019 -
-' %018 -
-' %017 -
+' %030 -
+' %029 -
+' %028 -
+' %027 -
+' %025 - GH#25, Implement frmPersist and _tblPersist
+' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
+' %023 - GH#27, Add ribbon interface
+' %022 - GH#30, Filter by Type of Contact
+' %021 - GH#31, LAT and LON not included on the contact form
+' %020 - GH#32, Unique Id for tables
+' %019 - Update aegit to latest
 ' %012 - Add Shift key blocking
-' %011 - Add Splash form
-' %003 - Relates to GH #9, include version tracking details in the app database change log module
+' %011 - GH#20, Create splash form
+' %003 - Relates to GH#9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171220 - v006 -
+    ' FIXED - %026 - Fix name to ACDB
+'20171208 - v005 -
+    ' FIXED - %018 - *BE - Lookup tables use tlkp (not tklp)
+    ' FIXED - %017 - *BE - GH#22, Create srcbe folder for back end export and then export the back end
 '20171127 - v004 -
     ' FIXED - %016 - Rename linked ODBC tables to match database
     ' FIXED - %015 - Link ODBC Driver

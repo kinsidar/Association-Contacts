@@ -411,8 +411,6 @@ Begin Form
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     Tag ="13"
-                    BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
-                        "pe\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =3120
@@ -583,7 +581,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[CountryID]"
                     Tag ="6"
-                    BaseInfo ="\"qlkpCountries\";\"tlkpCountries\";\"\";\"CountryID\";\"Country\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =1860
@@ -595,7 +592,7 @@ Begin Form
                     IMESentenceMode =3
                     Left =60
                     Top =1860
-                    Width =900
+                    Width =660
                     Height =255
                     TabIndex =13
                     BackColor =2366701
@@ -607,7 +604,7 @@ Begin Form
 
                     LayoutCachedLeft =60
                     LayoutCachedTop =1860
-                    LayoutCachedWidth =960
+                    LayoutCachedWidth =720
                     LayoutCachedHeight =2115
                 End
                 Begin TextBox
@@ -615,7 +612,7 @@ Begin Form
                     IMESentenceMode =3
                     Left =60
                     Top =1500
-                    Width =900
+                    Width =660
                     Height =255
                     TabIndex =14
                     BackColor =2366701
@@ -627,7 +624,7 @@ Begin Form
 
                     LayoutCachedLeft =60
                     LayoutCachedTop =1500
-                    LayoutCachedWidth =960
+                    LayoutCachedWidth =720
                     LayoutCachedHeight =1755
                 End
                 Begin TextBox
@@ -635,7 +632,7 @@ Begin Form
                     IMESentenceMode =3
                     Left =60
                     Top =1140
-                    Width =840
+                    Width =660
                     Height =255
                     TabIndex =15
                     BackColor =2366701
@@ -647,7 +644,7 @@ Begin Form
 
                     LayoutCachedLeft =60
                     LayoutCachedTop =1140
-                    LayoutCachedWidth =900
+                    LayoutCachedWidth =720
                     LayoutCachedHeight =1395
                 End
             End
