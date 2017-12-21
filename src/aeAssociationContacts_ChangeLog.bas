@@ -8,8 +8,8 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.0.7"
-Private Const mstrDATE_ACDB As String = "December 20, 2017"
+Private Const mstrVERSION_ACDB As String = "0.0.8"
+Private Const mstrDATE_ACDB As String = "December 21, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
 Public Const ACDB_AZSQL_FRONT_END = False
@@ -87,7 +87,6 @@ End Sub
 ' %022 - GH#30, Filter by Type of Contact
 ' %021 - GH#31, LAT and LON not included on the contact form
 ' %020 - GH#32, Unique Id for tables
-' %019 - Update aegit to latest
 ' %012 - Add Shift key blocking
 ' %011 - GH#20, Create splash form
 ' %003 - Relates to GH#9, include version tracking details in the app database change log module
@@ -97,6 +96,8 @@ End Sub
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171221 - v008 -
+    ' FIXED - %019 - Update aegit to latest (2.0.7)
 '20171220 - v007 -
     ' FIXED - %032 - Use basFunctions and dte for Date
 '20171220 - v006 -

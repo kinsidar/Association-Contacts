@@ -1,0 +1,30 @@
+>>>AccessLayout
+              Name          AccessLayout
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Databases
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+              KeepLocal     T
+>>>SummaryInfo
+              Name          SummaryInfo
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Databases
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+              Title         PersonalContacts
+>>>UserDefined
+              Name          UserDefined
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Databases
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+              ReplicateProject            True

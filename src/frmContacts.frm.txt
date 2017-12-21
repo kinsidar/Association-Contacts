@@ -1,0 +1,692 @@
+Version =20
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    BorderStyle =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =16635
+    DatasheetFontHeight =11
+    ItemSuffix =19
+    Right =24285
+    Bottom =12630
+    DatasheetGridlinesColor =15062992
+    AfterInsert ="[Event Procedure]"
+    RecSrcDt = Begin
+        0xe2fad9a4d005e540
+    End
+    GUID = Begin
+        0xdf033d1dc77c724e8272ddb839848c96
+    End
+    Caption ="Contacts"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+    End
+    PrtDevMode = Begin
+    End
+    PrtDevNames = Begin
+    End
+    FilterOnLoad =0
+    DatasheetBackColor12 =-2147483643
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =16053492
+    DatasheetGridlinesColor12 =15062992
+    FitToScreen =1
+    PrtDevModeW = Begin
+    End
+    PrtDevNamesW = Begin
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            ForeThemeColorIndex =2
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BackColor =-2147483633
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =90.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin Tab
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BackColor =-2147483633
+            BorderLineStyle =0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin Page
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =15064278
+            Name ="FormHeader"
+            GUID = Begin
+                0xd1161165d620ad42baade842928483fd
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =6900
+            Name ="Detail"
+            GUID = Begin
+                0x639f16d25676124aaee03c26236b2991
+            End
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Subform
+                    OverlapFlags =85
+                    Left =3420
+                    Top =900
+                    Width =13155
+                    Height =5940
+                    BorderColor =13553360
+                    Name ="fsubContacts_Details"
+                    SourceObject ="Form.fsubContacts_Details"
+                    GUID = Begin
+                        0xaaada9a65f6004408518e7a584fc5306
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3420
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =16575
+                    LayoutCachedHeight =6840
+                End
+                Begin ListBox
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    TextFontFamily =0
+                    IMESentenceMode =3
+                    ColumnCount =3
+                    Left =60
+                    Top =1860
+                    Width =3240
+                    Height =4980
+                    FontSize =10
+                    TabIndex =1
+                    BackColor =0
+                    ForeColor =65280
+                    Name ="lst_Contacts"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT ContactID, LastName, FirstName\015\012 FROM qryTblContacts\015\012 ORDER "
+                        "BY LastName, FirstName;"
+                    ColumnWidths ="0;1440;1800"
+                    FontName ="Manuscript"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x7f14aff0157c96439fc9e64bbcde966f
+                    End
+                    AllowValueListEdits =0
+                    InheritValueList =0
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =3300
+                    LayoutCachedHeight =6840
+                    ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    ForeThemeColorIndex =-1
+                    ForeShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            OverlapFlags =85
+                            TextAlign =2
+                            Left =60
+                            Top =1560
+                            Width =3240
+                            Height =245
+                            FontSize =8
+                            FontWeight =700
+                            BackColor =12632256
+                            ForeColor =6697881
+                            Name ="lst_Contacts_lbl"
+                            Caption ="Alphabetic Name Search"
+                            FontName ="Tahoma"
+                            GUID = Begin
+                                0x7dadac452d2b594087c02be07c619438
+                            End
+                            LayoutCachedLeft =60
+                            LayoutCachedTop =1560
+                            LayoutCachedWidth =3300
+                            LayoutCachedHeight =1805
+                            ThemeFontIndex =-1
+                            BackThemeColorIndex =-1
+                            BorderThemeColorIndex =-1
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            GridlineThemeColorIndex =-1
+                            GridlineShade =100.0
+                        End
+                    End
+                End
+                Begin OptionGroup
+                    OverlapFlags =85
+                    Left =60
+                    Top =60
+                    Width =3242
+                    Height =780
+                    TabIndex =2
+                    BorderColor =13553360
+                    Name ="frm_SortBy"
+                    DefaultValue ="1"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xc174a6ef58b8184980a80ca46f77e916
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3302
+                    LayoutCachedHeight =840
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OverlapFlags =215
+                            Left =180
+                            Width =1110
+                            Height =240
+                            FontSize =8
+                            FontWeight =700
+                            BorderColor =16777215
+                            Name ="Label6"
+                            Caption ="Sort By"
+                            FontName ="Tahoma"
+                            GUID = Begin
+                                0x9801ac162a034347a2fc3ae3c2c97e9f
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =180
+                            LayoutCachedWidth =1290
+                            LayoutCachedHeight =240
+                            ThemeFontIndex =-1
+                            BackThemeColorIndex =-1
+                            ForeThemeColorIndex =0
+                            ForeTint =100.0
+                        End
+                        Begin OptionButton
+                            SpecialEffect =2
+                            OverlapFlags =87
+                            Left =246
+                            Top =298
+                            OptionValue =1
+                            BorderColor =13553360
+                            Name ="Option8"
+                            GUID = Begin
+                                0x1813da72f135514bb987509a9242ea22
+                            End
+                            GridlineColor =10921638
+
+                            LayoutCachedLeft =246
+                            LayoutCachedTop =298
+                            LayoutCachedWidth =506
+                            LayoutCachedHeight =538
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =476
+                                    Top =270
+                                    Width =1500
+                                    Height =240
+                                    FontSize =8
+                                    BorderColor =16777215
+                                    Name ="Label9"
+                                    Caption ="By Last Name"
+                                    FontName ="Tahoma"
+                                    GUID = Begin
+                                        0x6392ea4f55f8304885bbc6289445ef45
+                                    End
+                                    GridlineColor =10921638
+                                    LayoutCachedLeft =476
+                                    LayoutCachedTop =270
+                                    LayoutCachedWidth =1976
+                                    LayoutCachedHeight =510
+                                    ThemeFontIndex =-1
+                                    ForeThemeColorIndex =0
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            SpecialEffect =2
+                            OverlapFlags =87
+                            Left =240
+                            Top =568
+                            TabIndex =1
+                            OptionValue =2
+                            BorderColor =13553360
+                            Name ="Option10"
+                            GUID = Begin
+                                0xa47cff97da49fc47ba40db4580dfb6dc
+                            End
+                            GridlineColor =10921638
+
+                            LayoutCachedLeft =240
+                            LayoutCachedTop =568
+                            LayoutCachedWidth =500
+                            LayoutCachedHeight =808
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =470
+                                    Top =540
+                                    Width =1515
+                                    Height =240
+                                    FontSize =8
+                                    BorderColor =16777215
+                                    Name ="Label11"
+                                    Caption ="By First Name"
+                                    FontName ="Tahoma"
+                                    GUID = Begin
+                                        0x2807008b93be744e9a9718cca30cdf36
+                                    End
+                                    GridlineColor =10921638
+                                    LayoutCachedLeft =470
+                                    LayoutCachedTop =540
+                                    LayoutCachedWidth =1985
+                                    LayoutCachedHeight =780
+                                    ThemeFontIndex =-1
+                                    ForeThemeColorIndex =0
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =60
+                    Top =1200
+                    Width =3120
+                    FontSize =8
+                    TabIndex =3
+                    BorderColor =13553360
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0xf6000b4b76016a40946ce41f58cd5c82
+                    End
+                    Name ="cbo_ContactType"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qlkpContacts_Types"
+                    ColumnWidths ="0"
+                    AfterUpdate ="[Event Procedure]"
+                    FontName ="Tahoma"
+                    BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
+                        "pe\";\"tklpContacts_Types$PrimaryKey\""
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1200
+                    LayoutCachedWidth =3180
+                    LayoutCachedHeight =1440
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =900
+                            Width =2145
+                            Height =240
+                            FontSize =8
+                            FontWeight =700
+                            BorderColor =16777215
+                            Name ="Label16"
+                            Caption ="Filter by Type of Contact"
+                            FontName ="Tahoma"
+                            GUID = Begin
+                                0xb94f88b177ff494cbebf2db3c2bdc86f
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =60
+                            LayoutCachedTop =900
+                            LayoutCachedWidth =2205
+                            LayoutCachedHeight =1140
+                            ThemeFontIndex =-1
+                            ForeThemeColorIndex =0
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =7200
+                    Top =180
+                    Width =9360
+                    Height =540
+                    FontSize =18
+                    TabIndex =4
+                    BorderColor =16777215
+                    Name ="lbl_ContactName"
+                    ControlSource ="=Replace([fsubContacts_Details].[Form]![FirstName] & \" \" & [fsubContacts_Detai"
+                        "ls].[Form]![LastName],\"&\",\"&&\")"
+                    GUID = Begin
+                        0x885837a734a6e846ae7900499e3bc9fb
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =7200
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =16560
+                    LayoutCachedHeight =720
+                    BorderThemeColorIndex =1
+                    BorderShade =100.0
+                    ForeThemeColorIndex =0
+                    ForeShade =100.0
+                End
+            End
+        End
+        Begin FormFooter
+            Height =660
+            BackColor =9211020
+            Name ="FormFooter"
+            GUID = Begin
+                0x07e182156005714d9576d48c5e54c555
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =14580
+                    Top =60
+                    Width =1980
+                    Height =540
+                    ForeColor =3484194
+                    Name ="cmd_frmClose"
+                    Caption ="Close"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x2db25dce7c336847a58d252472e9d6f2
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =14580
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =16560
+                    LayoutCachedHeight =600
+                    BorderColor =13553360
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =60
+                    Top =60
+                    Width =1980
+                    Height =540
+                    TabIndex =1
+                    ForeColor =3484194
+                    Name ="cmd_ContactAdd"
+                    Caption ="New Contact"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x2ec044803a876a45851f1922fc1ff16c
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =2040
+                    LayoutCachedHeight =600
+                    BorderColor =13553360
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3360
+                    Top =60
+                    Width =1980
+                    Height =540
+                    TabIndex =2
+                    ForeColor =3484194
+                    Name ="cmd_ContactDel"
+                    Caption ="Delete Contact"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x1107cecdf775c146af11b92452c8a583
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3360
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5340
+                    LayoutCachedHeight =600
+                    BorderColor =13553360
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private Sub cbo_ContactType_AfterUpdate()
+    Call ApplyFilters2Lst
+End Sub
+
+Private Sub cmd_ContactAdd_Click()
+    Me.fsubContacts_Details.Form.Visible = True
+    Me.fsubContacts_Details.Form.RecordSource = "SELECT * FROM Contacts WHERE (FALSE);"
+    Me.lbl_ContactName.Visible = True
+End Sub
+
+Private Sub cmd_ContactDel_Click()
+    Dim db As DAO.Database
+    Dim sSQL As String
+
+    If vbYes = MsgBox("Are you certain you wish to permanently delete the entry for " & Replace(Trim(Me.fsubContacts_Details.Form.FirstName & " " & Me.fsubContacts_Details.Form.LastName), "&", "&&") & "?", vbYesNo + vbExclamation, "Are you sure") Then
+        Set db = CurrentDb
+        sSQL = "DELETE FROM Contacts WHERE ([ContactID]=" & Me.fsubContacts_Details.Form.ContactID & ");"
+        db.Execute sSQL, dbFailOnError
+        Set db = Nothing
+        Me.lst_Contacts.SetFocus
+        Me.fsubContacts_Details.Form.Visible = True
+        Call ApplyFilters2Lst
+    End If
+End Sub
+
+Private Sub cmd_frmClose_Click()
+    DoCmd.Close
+End Sub
+
+Private Sub Form_AfterInsert()
+    Me.lst_Contacts.Requery
+End Sub
+
+Private Sub Form_Open(Cancel As Integer)
+    Me.frm_SortBy_Click
+End Sub
+
+Public Sub frm_SortBy_Click()
+    ApplyFilters2Lst
+End Sub
+
+Private Sub lst_Contacts_Click()
+    Me.fsubContacts_Details.Form.Visible = True
+    Me.fsubContacts_Details.Form.RecordSource = "SELECT * FROM tblContacts WHERE ([ContactID] = " & Me.lst_Contacts & ");"
+    Me.lbl_ContactName.Visible = True
+End Sub
+
+Private Sub ApplyFilters2Lst()
+
+    ' Add some debugging error trap
+    
+    On Error GoTo PROC_ERR
+
+    Dim sSQL As String
+
+    sSQL = "SELECT ContactID, LastName, FirstName" & vbCrLf & _
+           " FROM tblContacts" & vbCrLf
+
+    If IsNull(Me.cbo_ContactType) = False Then
+        sSQL = sSQL & " WHERE ([ContactTypeId]=" & Me.cbo_ContactType & ")" & vbCrLf
+    End If
+
+    Select Case Me.frm_SortBy
+        Case 1    'Last Name
+            sSQL = sSQL & " ORDER BY LastName, FirstName;"
+            Me.lst_Contacts.ColumnWidths = "0," & (1 * 1440) & "," & (1.25 * 1440)
+        Case 2    'First Name
+            sSQL = sSQL & " ORDER BY FirstName, LastName;"
+            Me.lst_Contacts.ColumnWidths = "0," & (1.25 * 1440) & "," & (1 * 1440)
+    End Select
+    Me.lst_Contacts.RowSource = sSQL
+'    Me.Contacts_Details.Form.Visible = False
+'    Me.lbl_ContactName.Visible = False
+    Me.lst_Contacts = ""
+
+PROC_EXIT:
+    Exit Sub
+
+PROC_ERR:
+    Select Case Err.Number
+        Case Else
+            MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure ApplyFilters2Lst", vbInformation, Me.Name
+            Stop
+    End Select
+
+End Sub

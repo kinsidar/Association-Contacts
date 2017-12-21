@@ -1,0 +1,48 @@
+<<<[qlkpCities]>>>
+SELECT [tlkpCities].CityID, [tlkpCities].City
+FROM tlkpCities
+WHERE ((([tlkpCities].ProvinceID)=Forms!frmContacts!fsubContacts_Details!ProvinceID))
+ORDER BY [tlkpCities].City;
+
+<<<[qlkpContacts_Types]>>>
+SELECT tlkpContacts_Types.ContactTypeId, tlkpContacts_Types.ContactType
+FROM tlkpContacts_Types
+ORDER BY tlkpContacts_Types.ContactType;
+
+<<<[qlkpCountries]>>>
+SELECT tlkpCountries.CountryID, tlkpCountries.Country
+FROM tlkpCountries
+ORDER BY tlkpCountries.Country;
+
+<<<[qlkpEmailAddressTypes]>>>
+SELECT tlkpEmailAddressTypes.EmailAddressTypeID, tlkpEmailAddressTypes.EmailAddressType
+FROM tlkpEmailAddressTypes
+ORDER BY tlkpEmailAddressTypes.EmailAddressType;
+
+<<<[qlkpProvinces]>>>
+SELECT tlkpProvinces.ProvinceId, tlkpProvinces.Province
+FROM tlkpProvinces
+WHERE (((tlkpProvinces.CountryID)=[Forms]![frmContacts]![fsubContacts_Details]![CountryID]))
+ORDER BY tlkpProvinces.Province;
+
+<<<[qryTblContacts]>>>
+SELECT tblContacts.ContactID, tblContacts.ContactTypeID, tblContacts.FirstName, tblContacts.LastName, tblContacts.Address, tblContacts.CityID, tblContacts.ProvinceID, tblContacts.CountryID, tblContacts.PostalCode, tblContacts.DOB, tblContacts.Notes
+FROM tblContacts;
+
+<<<[qryTblContacts_EmailAddresses]>>>
+SELECT tblContacts_EmailAddresses.ContactEmailId, tblContacts_EmailAddresses.ContactId, tblContacts_EmailAddresses.EmailAddress, tblContacts_EmailAddresses.EmailAddressTypeID, tlkpEmailAddressTypes.EmailAddressType
+FROM tlkpEmailAddressTypes INNER JOIN (tblContacts INNER JOIN tblContacts_EmailAddresses ON tblContacts.ContactID = tblContacts_EmailAddresses.ContactId) ON tlkpEmailAddressTypes.EmailAddressTypeID = tblContacts_EmailAddresses.EmailAddressTypeID;
+
+<<<[qryTblContacts_PhoneNumbers]>>>
+SELECT tblContacts_PhoneNumbers.PhoneNumberID, tblContacts_PhoneNumbers.ContactID, tblContacts_PhoneNumbers.PhoneNumber, tblContacts_PhoneNumbers.PhoneNumberExt, tblContacts_PhoneNumbers.PhoneNumberCategoryID
+FROM tlkpPhoneNumbersCategories INNER JOIN (tblContacts INNER JOIN tblContacts_PhoneNumbers ON tblContacts.ContactID = tblContacts_PhoneNumbers.ContactID) ON tlkpPhoneNumbersCategories.PhoneNumberCategoryID = tblContacts_PhoneNumbers.PhoneNumberCategoryID;
+
+<<<[qryTblPhoneNumbersCategories]>>>
+SELECT tlkpPhoneNumbersCategories.PhoneNumberCategoryID, tlkpPhoneNumbersCategories.PhoneNumberCategory
+FROM tlkpPhoneNumbersCategories
+ORDER BY tlkpPhoneNumbersCategories.PhoneNumberCategory;
+
+<<<[qryUser]>>>
+SELECT tblUser.id, tblUser.environName, tblUser.password, tblUser.userName, tblUser.userFirstName, tblUser.userMiddleName, tblUser.userLastName, tblUser.sortOrder, tblUser.title, tblUser.userPassword, tblUser.titleOfCourtesy, tblUser.supervisorId, tblUser.birthDate, tblUser.hireDate, tblUser.address, tblUser.city, tblUser.region, tblUser.postalCode, tblUser.country, tblUser.homePhone, tblUser.extension, tblUser.photo, tblUser.notes, tblUser.active
+FROM tblUser;
+

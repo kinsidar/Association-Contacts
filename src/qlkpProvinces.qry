@@ -1,0 +1,25 @@
+dbMemo "SQL" ="SELECT tlkpProvinces.ProvinceId, tlkpProvinces.Province\015\012FROM tlkpProvince"
+    "s\015\012WHERE (((tlkpProvinces.CountryID)=[Forms]![frmContacts]![fsubContacts_D"
+    "etails]![CountryID]))\015\012ORDER BY tlkpProvinces.Province;\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0x0b0f5ad1a388884499af12705e537caa
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbByte "PublishToWeb" ="1"
+Begin
+    Begin
+        dbText "Name" ="tlkpProvinces.Province"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tlkpProvinces.ProvinceId"
+        dbLong "AggregateType" ="-1"
+    End
+End

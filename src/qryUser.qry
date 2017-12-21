@@ -1,0 +1,165 @@
+Operation =1
+Option =0
+Begin InputTables
+    Name ="tblUser"
+End
+Begin OutputColumns
+    Expression ="tblUser.id"
+    Expression ="tblUser.environName"
+    Expression ="tblUser.password"
+    Expression ="tblUser.userName"
+    Expression ="tblUser.userFirstName"
+    Expression ="tblUser.userMiddleName"
+    Expression ="tblUser.userLastName"
+    Expression ="tblUser.sortOrder"
+    Expression ="tblUser.title"
+    Expression ="tblUser.userPassword"
+    Expression ="tblUser.titleOfCourtesy"
+    Expression ="tblUser.supervisorId"
+    Expression ="tblUser.birthDate"
+    Expression ="tblUser.hireDate"
+    Expression ="tblUser.address"
+    Expression ="tblUser.city"
+    Expression ="tblUser.region"
+    Expression ="tblUser.postalCode"
+    Expression ="tblUser.country"
+    Expression ="tblUser.homePhone"
+    Expression ="tblUser.extension"
+    Expression ="tblUser.photo"
+    Expression ="tblUser.notes"
+    Expression ="tblUser.active"
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0xb371e1a99948634eb4ef6fecf8c82d16
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+dbByte "PublishToWeb" ="1"
+Begin
+    Begin
+        dbText "Name" ="tblUser.country"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.userName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.ID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.userLastName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.userFirstName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.userMiddleName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.password"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.address"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.birthdate"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.title"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.city"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.region"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.postalCode"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.active"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.environName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.sortOrder"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.userPassword"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.titleOfCourtesy"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.supervisorId"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.hireDate"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.homePhone"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.extension"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.photo"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblUser.notes"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =1619
+    Bottom =842
+    Left =-1
+    Top =-1
+    Right =1180
+    Bottom =271
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =176
+        Top =-13
+        Right =320
+        Bottom =131
+        Top =0
+        Name ="tblUser"
+        Name =""
+    End
+End
