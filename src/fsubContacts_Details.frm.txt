@@ -1,0 +1,690 @@
+Version =20
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    TabularFamily =119
+    BorderStyle =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =13140
+    DatasheetFontHeight =10
+    ItemSuffix =63
+    Left =3765
+    Top =1785
+    Right =16650
+    Bottom =7455
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x025c2dc6f205e540
+    End
+    GUID = Begin
+        0x04dcdd1c0d93094ba3166817aae1f856
+    End
+    RecordSource ="qryTblContacts"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+    End
+    PrtDevMode = Begin
+    End
+    PrtDevNames = Begin
+    End
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DatasheetGridlinesColor12 =12632256
+    PrtDevModeW = Begin
+    End
+    PrtDevNamesW = Begin
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+        End
+        Begin Line
+            BorderLineStyle =0
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            BorderLineStyle =0
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            FontName ="Tahoma"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            FontName ="Tahoma"
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            FontName ="Tahoma"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =90.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin Section
+            CanGrow = NotDefault
+            SpecialEffect =1
+            Height =5676
+            BackColor =-2147483633
+            Name ="Detail"
+            GUID = Begin
+                0xd15fd786eab4b14d923ebd39350f0939
+            End
+            Begin
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =60
+                    Width =2220
+                    Name ="FirstName"
+                    ControlSource ="FirstName"
+                    AfterUpdate ="[Event Procedure]"
+                    OnEnter ="=[FirstName]"
+                    Tag ="1"
+                    GUID = Begin
+                        0x30711d67ee168e42b802057cc0a22f0d
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =300
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =60
+                    Top =60
+                    Width =1380
+                    Height =240
+                    FontWeight =700
+                    Name ="Label2"
+                    Caption ="First Name:"
+                    GUID = Begin
+                        0x237e8de37292634a9e34b466259fd672
+                    End
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =300
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =420
+                    Width =2220
+                    TabIndex =1
+                    Name ="LastName"
+                    ControlSource ="LastName"
+                    AfterUpdate ="[Event Procedure]"
+                    OnEnter ="=[LastName]"
+                    Tag ="2"
+                    GUID = Begin
+                        0xd3c24a65163a744cbd5fd162071ece33
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =660
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =60
+                    Top =420
+                    Width =1380
+                    Height =240
+                    FontWeight =700
+                    Name ="Label4"
+                    Caption ="Last Name:"
+                    GUID = Begin
+                        0xc7ee7397474f2248b64984e2a5f29ba7
+                    End
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =660
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =780
+                    Width =2220
+                    TabIndex =2
+                    Name ="Address"
+                    ControlSource ="Address"
+                    OnEnter ="=[Address]"
+                    Tag ="3"
+                    GUID = Begin
+                        0x68a6603599ada541aa74ddb74dc5d5cb
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =1020
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =60
+                    Top =780
+                    Width =1380
+                    Height =240
+                    FontWeight =700
+                    Name ="Label6"
+                    Caption ="Address:"
+                    GUID = Begin
+                        0xee9e71ddd342cc4ea5aa24be40541fa8
+                    End
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =1020
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =3
+                    Left =60
+                    Top =1140
+                    Width =1380
+                    Height =240
+                    FontWeight =700
+                    Name ="Label8"
+                    Caption ="City:"
+                    GUID = Begin
+                        0xaddb3019a2933f41bb1e72ed8c4ea750
+                    End
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1140
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =1380
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =3
+                    Left =60
+                    Top =1500
+                    Width =1380
+                    Height =240
+                    FontWeight =700
+                    Name ="Label10"
+                    Caption ="Province/State:"
+                    GUID = Begin
+                        0xadd79419a8ca9141a68629778eb12cf1
+                    End
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1500
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =1740
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =3
+                    Left =60
+                    Top =1860
+                    Width =1380
+                    Height =240
+                    FontWeight =700
+                    Name ="Label12"
+                    Caption ="Country:"
+                    GUID = Begin
+                        0x3b10dd0af15fc640b532701fd2199650
+                    End
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =2100
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =2220
+                    Width =1080
+                    TabIndex =6
+                    Name ="PostalCode"
+                    ControlSource ="PostalCode"
+                    OnEnter ="=[PostalCode]"
+                    InputMask =">L0L\\ 0L0;0;_"
+                    Tag ="7"
+                    GUID = Begin
+                        0xe45488a4bd090a4fb836a1ad2676b5c2
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =2220
+                    LayoutCachedWidth =2580
+                    LayoutCachedHeight =2460
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =60
+                    Top =2220
+                    Width =1380
+                    Height =240
+                    FontWeight =700
+                    Name ="Label14"
+                    Caption ="Postal Code:"
+                    GUID = Begin
+                        0xb3e6de8ae445bf46b11e9302d5f1eb60
+                    End
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =2220
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =2460
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =4320
+                    Width =11580
+                    Height =1260
+                    TabIndex =10
+                    Name ="Notes"
+                    ControlSource ="Notes"
+                    OnEnter ="=[Notes]"
+                    Tag ="14"
+                    GUID = Begin
+                        0xa70cc49b70e1004e8b151449ea00c162
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =4320
+                    LayoutCachedWidth =13080
+                    LayoutCachedHeight =5580
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Top =4320
+                    Width =1380
+                    Height =240
+                    FontWeight =700
+                    Name ="Label24"
+                    Caption ="Notes:"
+                    GUID = Begin
+                        0x7217a1ac8aa49e4a96977a4fba67d294
+                    End
+                    LayoutCachedTop =4320
+                    LayoutCachedWidth =1380
+                    LayoutCachedHeight =4560
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =93
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =2580
+                    Width =1380
+                    TabIndex =7
+                    Name ="DOB"
+                    ControlSource ="DOB"
+                    Format ="yyyy-mmm-dd"
+                    OnEnter ="=[DOB]"
+                    Tag ="12"
+                    GUID = Begin
+                        0x3af11b0ebb2f7744b28a670d5d9ff07b
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =2580
+                    LayoutCachedWidth =2880
+                    LayoutCachedHeight =2820
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =240
+                    Top =2580
+                    Width =1200
+                    Height =240
+                    FontWeight =700
+                    Name ="Label28"
+                    Caption ="Birthday:"
+                    GUID = Begin
+                        0x9d5d23657b410540a9495abdf9d3c975
+                    End
+                    LayoutCachedLeft =240
+                    LayoutCachedTop =2580
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =2820
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =1500
+                    Top =3120
+                    Width =2220
+                    TabIndex =9
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x22e17d5fd4f53841b15d2eb783752d86
+                    End
+                    Name ="ContactTypeID"
+                    ControlSource ="ContactTypeID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qlkpContacts_Types"
+                    ColumnWidths ="0"
+                    AfterUpdate ="[Event Procedure]"
+                    Tag ="13"
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =3120
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =3360
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =240
+                            Top =3120
+                            Width =1200
+                            Height =245
+                            FontWeight =700
+                            Name ="ContactType_Label"
+                            Caption ="Contact Type"
+                            GUID = Begin
+                                0x61de06f89f6d234a947ccd56ff005274
+                            End
+                            LayoutCachedLeft =240
+                            LayoutCachedTop =3120
+                            LayoutCachedWidth =1440
+                            LayoutCachedHeight =3365
+                        End
+                    End
+                End
+                Begin Subform
+                    OverlapFlags =85
+                    OldBorderStyle =0
+                    Left =3960
+                    Top =60
+                    Width =9135
+                    Height =2160
+                    TabIndex =11
+                    BorderColor =13553360
+                    Name ="fsubContacts_EmailAddresses"
+                    SourceObject ="Form.fsubContacts_EmailAddresses"
+                    LinkChildFields ="ContactId"
+                    LinkMasterFields ="ContactID"
+                    GUID = Begin
+                        0x5638d6c2ab089d4f8830b49e43c534cb
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3960
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =13095
+                    LayoutCachedHeight =2220
+                End
+                Begin Subform
+                    OverlapFlags =85
+                    OldBorderStyle =0
+                    Left =3960
+                    Top =2280
+                    Width =9135
+                    Height =1800
+                    TabIndex =12
+                    BorderColor =13553360
+                    Name ="fsubContacts_PhoneNumbers"
+                    SourceObject ="Form.fsubContacts_PhoneNumbers"
+                    LinkChildFields ="ContactID"
+                    LinkMasterFields ="ContactID"
+                    GUID = Begin
+                        0x47c126317029fd4982d7326370363955
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3960
+                    LayoutCachedTop =2280
+                    LayoutCachedWidth =13095
+                    LayoutCachedHeight =4080
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =87
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =2820
+                    Width =1560
+                    Height =255
+                    TabIndex =8
+                    Name ="Text55"
+                    ControlSource ="=GetAge([DOB])"
+                    GUID = Begin
+                        0xc743579f8b8ed543893e07d0d9610280
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =2820
+                    LayoutCachedWidth =3060
+                    LayoutCachedHeight =3075
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1500
+                    Top =1140
+                    Width =2220
+                    TabIndex =5
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0xab72fa6fc90921458b647469476f9d5c
+                    End
+                    Name ="CityID"
+                    ControlSource ="CityID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qlkpCities"
+                    ColumnWidths ="0"
+                    OnEnter ="=[CityID]"
+                    Tag ="4"
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =1140
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =1380
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1500
+                    Top =1500
+                    Width =2220
+                    TabIndex =4
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x139ad6ffb6ad924699ea3680ff874077
+                    End
+                    Name ="ProvinceID"
+                    ControlSource ="ProvinceID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qlkpProvinces"
+                    ColumnWidths ="0"
+                    AfterUpdate ="[Event Procedure]"
+                    OnEnter ="=[ProvinceID]"
+                    Tag ="5"
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =1500
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =1740
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1500
+                    Top =1860
+                    Width =2220
+                    TabIndex =3
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x0e54a55a77b594478b705e9f34400403
+                    End
+                    Name ="CountryID"
+                    ControlSource ="CountryID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qlkpCountries"
+                    ColumnWidths ="0"
+                    AfterUpdate ="[Event Procedure]"
+                    OnEnter ="=[CountryID]"
+                    Tag ="6"
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =2100
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =60
+                    Top =1860
+                    Width =660
+                    Height =255
+                    TabIndex =13
+                    BackColor =2366701
+                    Name ="Text57"
+                    ControlSource ="CountryID"
+                    GUID = Begin
+                        0xd021b62505602542868471739c2d33ec
+                    End
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1860
+                    LayoutCachedWidth =720
+                    LayoutCachedHeight =2115
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =60
+                    Top =1500
+                    Width =660
+                    Height =255
+                    TabIndex =14
+                    BackColor =2366701
+                    Name ="Text59"
+                    ControlSource ="ProvinceID"
+                    GUID = Begin
+                        0x18d9c9171d7a3246b8fed3d61caf9a25
+                    End
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1500
+                    LayoutCachedWidth =720
+                    LayoutCachedHeight =1755
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =60
+                    Top =1140
+                    Width =660
+                    Height =255
+                    TabIndex =15
+                    BackColor =2366701
+                    Name ="Text61"
+                    ControlSource ="CityID"
+                    GUID = Begin
+                        0x6da05aa5cdbf5440a02259324018dbc2
+                    End
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =1140
+                    LayoutCachedWidth =720
+                    LayoutCachedHeight =1395
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private Sub ContactTypeID_AfterUpdate()
+    'MsgBox "ContactTypeID_AfterUpdate", vbInformation
+    Me.Parent.cbo_ContactType.SetFocus
+    Me.Parent.frm_SortBy_Click
+End Sub
+
+Private Sub CountryID_AfterUpdate()
+    Me.ProvinceID = Null
+    Me.ProvinceID.Requery
+    Me.CityID = Null
+End Sub
+
+Private Sub FirstName_AfterUpdate()
+    'MsgBox "FirstName_AfterUpdate", vbInformation
+    If Me.Dirty = True Then Me.Dirty = False
+    Me.Parent.lst_Contacts.Requery
+End Sub
+
+Private Sub LastName_AfterUpdate()
+    'MsgBox "LastName_AfterUpdate", vbInformation
+    If Me.Dirty = True Then Me.Dirty = False
+    Me.Parent.lst_Contacts.Requery
+End Sub
+
+Private Sub ProvinceID_AfterUpdate()
+    'MsgBox "ProvinceID_AfterUpdate", vbInformation
+    Me.CityID = Null
+    Me.CityID.Requery
+End Sub
