@@ -74,7 +74,6 @@ End Sub
 ' %035 -
 ' %034 -
 ' %033 -
-' %032 -
 ' %031 - Create backend on network SQL Server
 ' %030 - Create backend on local SQL Server
 ' %029 - Create backend on SQL Azure
@@ -96,6 +95,8 @@ End Sub
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171220 - v007 -
+    ' FIXED - %032 - Use basFunctions and dte for Date
 '20171220 - v006 -
     ' FIXED - %026 - Fix name to ACDB
 '20171208 - v005 -
