@@ -69,10 +69,13 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
+' %045 -
+' %044 -
+' %043 -
+' %042 -
+' %041 -
 ' %040 -
-' %039 -
-' %038 -
-' %037 -
+' %038 - Implement tblBinary for loading theme artwork internally
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
@@ -91,6 +94,8 @@ End Sub
 '=============================================================================================================================
 '
 '20171221 - v009 -
+    ' FIXED - %039 - Display document tabs
+    ' FIXED - %037 - Add logo on forms and tabs
     ' FIXED - %036 - Use hover property to set sensible color of command buttons
     ' FIXED - %035 - Update look of contacts form for Access 2016
     ' FIXED - %034 - Add userdev/admin peter

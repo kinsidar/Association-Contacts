@@ -105,7 +105,7 @@ Inherited: False;
 ---
 Name: UseAppIconForFrmRpt
 Type: dbBoolean
-Value: False
+Value: True
 Inherited: False;
 ---
 Name: AppTitle
@@ -271,5 +271,10 @@ Inherited: False;
 Name: AllowByPassKey
 Type: dbBoolean
 Value: True
+Inherited: False;
+---
+Name: AppIcon
+Type: dbText
+Value: .\adaept64.ico
 Inherited: False;
 ---

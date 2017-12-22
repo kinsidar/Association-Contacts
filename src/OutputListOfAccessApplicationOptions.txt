@@ -1,5 +1,6 @@
 >>>Standard Options
               2000          AppTitle                    AssociationContacts
+              2000          AppIcon                     .\adaept64.ico
               2000          AllowFullMenus              True
               2000          AllowShortcutMenus          True
               2000          StartupForm                 frmSplash
