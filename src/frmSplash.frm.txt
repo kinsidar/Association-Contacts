@@ -29,8 +29,8 @@ Begin Form
     ItemSuffix =26
     Left =4515
     Top =2640
-    Right =28545
-    Bottom =15015
+    Right =23745
+    Bottom =12315
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
         0x3f7d40673804e540
@@ -606,8 +606,8 @@ PROC_EXIT:
     If ACDB_STAFF_PERMISSIONS And ACDB_SHOW_LOGIN_FORM Then
         'DoCmd.OpenForm "frmLogin"
     Else
-        MsgBox "Open The Startup Form Here!"
-        'DoCmd.OpenForm "frmWhateverTheStartupIs"
+        'MsgBox "Open The Startup Form Here!"
+        DoCmd.OpenForm "frmContacts"
     End If
     Exit Sub
 

@@ -1,11 +1,11 @@
-|-- Name >> _versionApp
-|-- Updatable >> True
+|-- Name >> _versionData
+|-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> 
-|-- Attributes >> 0
-|-- SourceTableName >> 
-|-- RecordCount >> 3
+|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> _versionData
+|-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
@@ -26,8 +26,10 @@
 |-- DatasheetGridlinesThemeColorIndex >> 3
 |-- DatasheetForeThemeColorIndex >> 0
 |-- PublishToWeb >> 1
+|-- NameMap >> NameMap
+|-- GUID >> GUID
 --------------------------------------------------
-|-- id (Field in _versionApp)
+|-- id (Field in _versionData)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -35,7 +37,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> id
-|------ SourceTable >> _versionApp
+|------ SourceTable >> _versionData
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -45,21 +47,22 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- expectedDbVersion (Field in _versionApp)
+|------ GUID >> GUID
+|-- dbVersion (Field in _versionData)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> expectedDbVersion
+|------ Name >> dbVersion
 |------ OrdinalPosition >> 1
 |------ Size >> 12
-|------ SourceField >> expectedDbVersion
-|------ SourceTable >> _versionApp
+|------ SourceField >> dbVersion
+|------ SourceTable >> _versionData
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -79,43 +82,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- appVersion (Field in _versionApp)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 10
-|------ Name >> appVersion
-|------ OrdinalPosition >> 2
-|------ Size >> 12
-|------ SourceField >> appVersion
-|------ SourceTable >> _versionApp
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> True
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|-- updatedDate (Field in _versionApp)
+|------ GUID >> GUID
+|-- UpdatedDate (Field in _versionData)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 8
-|------ Name >> updatedDate
-|------ OrdinalPosition >> 3
+|------ Name >> UpdatedDate
+|------ OrdinalPosition >> 2
 |------ Size >> 8
-|------ SourceField >> updatedDate
-|------ SourceTable >> _versionApp
+|------ SourceField >> UpdatedDate
+|------ SourceTable >> _versionData
 |------ DataUpdatable >> False
 |------ DefaultValue >> =Now()
 |------ ValidationRule >> 
@@ -124,7 +100,7 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 4905
+|------ ColumnWidth >> 2340
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ IMEMode >> 0
@@ -135,3 +111,4 @@
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ Description >> =now()
+|------ GUID >> GUID

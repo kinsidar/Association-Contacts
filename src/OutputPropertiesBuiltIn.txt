@@ -190,7 +190,7 @@ Inherited: False;
 ---
 Name: NavPane Sort By
 Type: dbLong
-Value: 1
+Value: 0
 Inherited: False;
 ---
 Name: Show Navigation Pane Search Bar
@@ -250,7 +250,7 @@ Inherited: False;
 ---
 Name: Theme Resource Name
 Type: dbText
-Value: Office Theme
+Value: 1_Office Theme
 Inherited: False;
 ---
 Name: HasOfflineLists

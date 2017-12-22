@@ -5,6 +5,8 @@
 "Form","fsubContacts_Details","DateCreated"
 "Form","fsubContacts_EmailAddresses","DateCreated"
 "Form","fsubContacts_PhoneNumbers","DateCreated"
+"Linked Table","_tblPersist","DateCreated"
+"Linked Table","_versionData","DateCreated"
 "Linked Table","tblContacts","DateCreated"
 "Linked Table","tblContacts_EmailAddresses","DateCreated"
 "Linked Table","tblContacts_PhoneNumbers","DateCreated"

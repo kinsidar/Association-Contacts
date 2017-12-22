@@ -15,8 +15,8 @@ Begin Form
     Width =8884
     DatasheetFontHeight =11
     ItemSuffix =5
-    Left =8055
-    Top =2460
+    Left =8070
+    Top =2475
     Right =16935
     Bottom =4365
     DatasheetGridlinesColor =15062992
@@ -108,14 +108,14 @@ Begin Form
         End
         Begin FormHeader
             Height =300
-            BackColor =15064278
+            BackColor =14282978
             Name ="FormHeader"
             GUID = Begin
                 0x65a7071dde8ae3429ff170644049561c
             End
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
-            BackThemeColorIndex =2
+            BackThemeColorIndex =9
             BackTint =20.0
             Begin
                 Begin Label
@@ -125,6 +125,7 @@ Begin Form
                     Width =5100
                     Height =240
                     FontSize =8
+                    FontWeight =700
                     BorderColor =16777215
                     Name ="Label2"
                     Caption ="E-mail Address"
@@ -148,6 +149,7 @@ Begin Form
                     Width =2040
                     Height =240
                     FontSize =8
+                    FontWeight =700
                     BorderColor =16777215
                     Name ="Label3"
                     Caption ="Type"

@@ -94,11 +94,13 @@ Begin Form
             CanGrow = NotDefault
             SpecialEffect =1
             Height =5676
-            BackColor =-2147483633
+            BackColor =14282978
             Name ="Detail"
             GUID = Begin
                 0xd15fd786eab4b14d923ebd39350f0939
             End
+            BackThemeColorIndex =9
+            BackTint =20.0
             Begin
                 Begin TextBox
                     EnterKeyBehavior = NotDefault
@@ -411,6 +413,8 @@ Begin Form
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     Tag ="13"
+                    BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
+                        "pe\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =3120
@@ -439,13 +443,12 @@ Begin Form
                 End
                 Begin Subform
                     OverlapFlags =85
-                    OldBorderStyle =0
                     Left =3960
                     Top =60
                     Width =9135
                     Height =2160
                     TabIndex =11
-                    BorderColor =13553360
+                    BorderColor =3506772
                     Name ="fsubContacts_EmailAddresses"
                     SourceObject ="Form.fsubContacts_EmailAddresses"
                     LinkChildFields ="ContactId"
@@ -459,16 +462,17 @@ Begin Form
                     LayoutCachedTop =60
                     LayoutCachedWidth =13095
                     LayoutCachedHeight =2220
+                    BorderThemeColorIndex =9
+                    BorderShade =75.0
                 End
                 Begin Subform
                     OverlapFlags =85
-                    OldBorderStyle =0
                     Left =3960
                     Top =2280
                     Width =9135
                     Height =1800
                     TabIndex =12
-                    BorderColor =13553360
+                    BorderColor =3506772
                     Name ="fsubContacts_PhoneNumbers"
                     SourceObject ="Form.fsubContacts_PhoneNumbers"
                     LinkChildFields ="ContactID"
@@ -482,6 +486,8 @@ Begin Form
                     LayoutCachedTop =2280
                     LayoutCachedWidth =13095
                     LayoutCachedHeight =4080
+                    BorderThemeColorIndex =9
+                    BorderShade =75.0
                 End
                 Begin TextBox
                     Enabled = NotDefault
@@ -581,6 +587,7 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[CountryID]"
                     Tag ="6"
+                    BaseInfo ="\"qlkpCountries\";\"tlkpCountries\";\"\";\"CountryID\";\"Country\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =1860

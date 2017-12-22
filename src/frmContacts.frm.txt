@@ -15,7 +15,7 @@ Begin Form
     GridY =24
     Width =16635
     DatasheetFontHeight =11
-    ItemSuffix =19
+    ItemSuffix =22
     Right =24285
     Bottom =12630
     DatasheetGridlinesColor =15062992
@@ -219,8 +219,7 @@ Begin Form
                     Height =4980
                     FontSize =10
                     TabIndex =1
-                    BackColor =0
-                    ForeColor =65280
+                    BackColor =14282978
                     Name ="lst_Contacts"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT ContactID, LastName, FirstName\015\012 FROM qryTblContacts\015\012 ORDER "
@@ -239,10 +238,11 @@ Begin Form
                     LayoutCachedWidth =3300
                     LayoutCachedHeight =6840
                     ThemeFontIndex =-1
-                    BackThemeColorIndex =-1
+                    BackThemeColorIndex =9
+                    BackTint =20.0
                     BorderThemeColorIndex =-1
                     BorderShade =100.0
-                    ForeThemeColorIndex =-1
+                    ForeThemeColorIndex =0
                     ForeShade =100.0
                     GridlineThemeColorIndex =-1
                     GridlineShade =100.0
@@ -506,16 +506,19 @@ Begin Form
             End
         End
         Begin FormFooter
-            Height =660
-            BackColor =9211020
+            Height =780
+            BackColor =14282978
             Name ="FormFooter"
             GUID = Begin
                 0x07e182156005714d9576d48c5e54c555
             End
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
+            BackThemeColorIndex =9
+            BackTint =20.0
             Begin
                 Begin CommandButton
+                    Visible = NotDefault
                     OverlapFlags =85
                     Left =14580
                     Top =60
@@ -534,7 +537,10 @@ Begin Form
                     LayoutCachedTop =60
                     LayoutCachedWidth =16560
                     LayoutCachedHeight =600
-                    BorderColor =13553360
+                    UseTheme =1
+                    BorderColor =2366701
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
                     WebImagePaddingRight =1
@@ -542,25 +548,31 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =60
-                    Top =60
+                    AccessKey =78
+                    Left =120
+                    Top =120
                     Width =1980
                     Height =540
                     TabIndex =1
                     ForeColor =3484194
-                    Name ="cmd_ContactAdd"
-                    Caption ="New Contact"
+                    Name ="cmdNewContact"
+                    Caption ="&New Contact"
                     OnClick ="[Event Procedure]"
                     GUID = Begin
                         0x2ec044803a876a45851f1922fc1ff16c
                     End
+                    UnicodeAccessKey =78
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =60
-                    LayoutCachedTop =60
-                    LayoutCachedWidth =2040
-                    LayoutCachedHeight =600
-                    BorderColor =13553360
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =2100
+                    LayoutCachedHeight =660
+                    UseTheme =1
+                    BackColor =-2147483604
+                    BorderColor =-2147483598
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
                     WebImagePaddingRight =1
@@ -568,25 +580,31 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =3360
-                    Top =60
+                    AccessKey =68
+                    Left =2220
+                    Top =120
                     Width =1980
                     Height =540
                     TabIndex =2
                     ForeColor =3484194
-                    Name ="cmd_ContactDel"
-                    Caption ="Delete Contact"
+                    Name ="cmdDeleteContact"
+                    Caption ="&Delete Contact"
                     OnClick ="[Event Procedure]"
                     GUID = Begin
                         0x1107cecdf775c146af11b92452c8a583
                     End
+                    UnicodeAccessKey =68
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =3360
-                    LayoutCachedTop =60
-                    LayoutCachedWidth =5340
-                    LayoutCachedHeight =600
-                    BorderColor =13553360
+                    LayoutCachedLeft =2220
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =4200
+                    LayoutCachedHeight =660
+                    UseTheme =1
+                    BackColor =-2147483604
+                    BorderColor =-2147483598
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
                     WebImagePaddingRight =1
@@ -608,29 +626,31 @@ Private Sub cbo_ContactType_AfterUpdate()
     Call ApplyFilters2Lst
 End Sub
 
-Private Sub cmd_ContactAdd_Click()
-    Me.fsubContacts_Details.Form.Visible = True
-    Me.fsubContacts_Details.Form.RecordSource = "SELECT * FROM Contacts WHERE (FALSE);"
-    Me.lbl_ContactName.Visible = True
+Private Sub cmd_frmClose_Click()
+    DoCmd.Close
 End Sub
 
-Private Sub cmd_ContactDel_Click()
-    Dim db As DAO.Database
-    Dim sSQL As String
+Private Sub cmdDeleteContact_Click()
+
+    Dim dbs As DAO.Database
+    Dim strSQL As String
 
     If vbYes = MsgBox("Are you certain you wish to permanently delete the entry for " & Replace(Trim(Me.fsubContacts_Details.Form.FirstName & " " & Me.fsubContacts_Details.Form.LastName), "&", "&&") & "?", vbYesNo + vbExclamation, "Are you sure") Then
-        Set db = CurrentDb
-        sSQL = "DELETE FROM Contacts WHERE ([ContactID]=" & Me.fsubContacts_Details.Form.ContactID & ");"
-        db.Execute sSQL, dbFailOnError
-        Set db = Nothing
+        Set dbs = CurrentDb
+        strSQL = "DELETE FROM Contacts WHERE ([ContactID]=" & Me.fsubContacts_Details.Form.ContactID & ");"
+        dbs.Execute strSQL, dbFailOnError
+        Set dbs = Nothing
         Me.lst_Contacts.SetFocus
         Me.fsubContacts_Details.Form.Visible = True
         Call ApplyFilters2Lst
     End If
+
 End Sub
 
-Private Sub cmd_frmClose_Click()
-    DoCmd.Close
+Private Sub cmdNewContact_Click()
+    Me.fsubContacts_Details.Form.Visible = True
+    Me.fsubContacts_Details.Form.RecordSource = "SELECT * FROM Contacts WHERE (FALSE);"
+    Me.lbl_ContactName.Visible = True
 End Sub
 
 Private Sub Form_AfterInsert()

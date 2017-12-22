@@ -8,8 +8,8 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.0.9"
-Private Const mstrDATE_ACDB As String = "December 21, 2017"
+Private Const mstrVERSION_ACDB As String = "0.1.0"
+Private Const mstrDATE_ACDB As String = "December 22, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
 Public Const ACDB_AZSQL_FRONT_END = False
@@ -73,8 +73,7 @@ End Sub
 ' %039 -
 ' %038 -
 ' %037 -
-' %036 -
-' %035 -
+' %036 - Use hover property to set sensible color of command buttons
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
@@ -85,7 +84,6 @@ End Sub
 ' %022 - GH#30, Filter by Type of Contact
 ' %021 - GH#31, LAT and LON not included on the contact form
 ' %020 - GH#32, Unique Id for tables
-' %012 - Add Shift key blocking
 ' %003 - Relates to GH#9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
@@ -94,8 +92,10 @@ End Sub
 '=============================================================================================================================
 '
 '20171221 - v009 -
+    ' FIXED - %035 - Update look of contacts form for Access 2016
     ' FIXED - %034 - Add userdev/admin peter
     ' FIXED - %025 - GH#25, Implement frmPersist (FE) and _tblPersist (BE), Ref: https://www.devhut.net/2012/09/29/ms-access-persistent-connection-in-a-split-database/
+    ' FIXED - %012 - Add Shift key blocking (basDisableShiftKey etc.)
 '20171221 - v008 -
     ' FIXED - %033 - Create theme folder for icons, graphics etc. and use adaept as first test theme
     ' FIXED - %019 - Update aegit to latest (2.0.7)

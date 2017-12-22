@@ -1,0 +1,85 @@
+|-- Name >> _tblPersist
+|-- Updatable >> False
+|-- DateCreated >> DateCreated
+|-- LastUpdated >> LastUpdated
+|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Attributes >> 1073741824
+|-- SourceTableName >> _tblPersist
+|-- RecordCount >> -1
+|-- ValidationRule >> 
+|-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- DefaultView >> 2
+|-- GUID >> GUID
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> 1
+|-- AlternateBackThemeColorIndex >> 1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 95
+|-- DatasheetGridlinesThemeColorIndex >> 3
+|-- DatasheetForeThemeColorIndex >> 0
+|-- PublishToWeb >> 1
+|-- ReadOnlyWhenDisconnected >> False
+|-- NameMap >> NameMap
+--------------------------------------------------
+|-- id (Field in _tblPersist)
+|------ Attributes >> 17
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> id
+|------ OrdinalPosition >> 0
+|------ Size >> 4
+|------ SourceField >> id
+|------ SourceTable >> _tblPersist
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ TextAlign >> 0
+|------ ResultType >> 0
+|------ GUID >> GUID
+|-- persist (Field in _tblPersist)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> persist
+|------ OrdinalPosition >> 1
+|------ Size >> 255
+|------ SourceField >> persist
+|------ SourceTable >> _tblPersist
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ ResultType >> 0
+|------ GUID >> GUID
