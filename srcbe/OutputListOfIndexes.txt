@@ -1,3 +1,19 @@
+<<<[_tblPersist]>>>
+              Index:[id]
+                            Field Name:id
+>[id]         [id], 
+              Index:[PrimaryKey]
+                            Field Name:id
+>[PrimaryKey] [id], 
+========================================
+<<<[_versionData]>>>
+              Index:[PrimaryKey]
+                            Field Name:id
+>[PrimaryKey] [id], 
+              Index:[VersionID]
+                            Field Name:id
+>[VersionID]  [id], 
+========================================
 <<<[tblContacts]>>>
               Index:[ContactTypeID]
                             Field Name:ContactTypeID

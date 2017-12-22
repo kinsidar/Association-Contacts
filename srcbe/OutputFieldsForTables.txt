@@ -1,4 +1,23 @@
 ------------------
+TABLE: _tblPersist
+------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+id                       AutoNumber      4                  
+persist                  Text            255                
+
+
+-------------------
+TABLE: _versionData
+-------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+id                       AutoNumber      4                  
+dbVersion                Text            12                 
+UpdatedDate              Date/Time       8       =now()     
+
+
+------------------
 TABLE: tblContacts
 ------------------
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION              

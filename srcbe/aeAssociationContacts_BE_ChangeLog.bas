@@ -11,8 +11,9 @@ Public gintUserId As Integer
 ' Constants for project settings
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_AC As String = "AssociationContacts"
-Private Const mstrVERSION_AC As String = "0.0.5"
-Private Const mstrDATE_AC As String = "December 7, 2017"
+Public Const gstrPROJECT_ACDB_BE  As String = "AssociationContactsData"
+Private Const mstrVERSION_AC As String = "0.0.9"
+Private Const mstrDATE_AC As String = "December 21, 2017"
 '
 
 Public Function getMyVersion() As String
@@ -30,7 +31,7 @@ Public Function getMyProject() As String
     getMyProject = gstrPROJECT_AC
 End Function
 
-Public Sub AC_BackEnd_EXPORT(Optional ByVal varDebug As Variant)
+Public Sub ACDB_EXPORT_BE(Optional ByVal varDebug As Variant)
 
     ' BACK END SETUP
     Const THE_FRONT_END_APP = False
@@ -67,15 +68,17 @@ PROC_ERR:
 
 End Sub
 
-Public Sub AC_EXPORT(Optional ByVal varDebug As Variant)
+Public Sub ACDB_BE_EXPORT(Optional ByVal varDebug As Variant)
 
-    Const THE_FRONT_END_APP = True
-    Const THE_SOURCE_FOLDER = ".\src\"
-    Const THE_XML_FOLDER = ".\src\xml\"
-    Const THE_XML_DATA_FOLDER = ".\src\xmldata\"
-    Const THE_BACK_END_SOURCE_FOLDER = "NONE"
-    Const THE_BACK_END_XML_FOLDER = "NONE"
+    ' BACK END SETUP
+    Const THE_FRONT_END_APP = False
+    Const THE_SOURCE_FOLDER = "NONE"                     ' ".\src\"
+    Const THE_XML_FOLDER = "NONE"                        ' ".\src\xml\"
+    Const THE_XML_DATA_FOLDER = "NONE"                   ' ".\src\xmldata\"
     Const THE_BACK_END_DB1 = "NONE"
+    Const THE_BACK_END_SOURCE_FOLDER = ".\srcbe\"
+    Const THE_BACK_END_XML_FOLDER = ".\srcbe\xml\"
+    Const THE_BACK_END_XML_DATA_FOLDER = ".\srcbe\xmldata\"
 
     On Error GoTo PROC_ERR
 
@@ -111,15 +114,16 @@ End Sub
 ' %021 -
 ' %020 -
 ' %019 -
-' %012 - Add Shift key blocking
-' %011 - Add Splash form
-' %003 - Relates to GH #9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171221 - v009 -
+    ' FIXED - %012 - Add Shift key blocking
+    ' FIXED - %011 - Add Splash form
+    ' FIXED - %003 - Relates to GH #9, include version tracking details in the app database change log module
 '20171207 - v005 -
     ' FIXED - %018 - *BE - Lookup tables use tlkp (not tklp)
     ' FIXED - %017 - *BE - GH#22, Create srcbe folder for back end export and then export the back end

@@ -150,7 +150,7 @@ Inherited: False;
 ---
 Name: UseMDIMode
 Type: dbByte
-Value: 1
+Value: 0
 Inherited: False;
 ---
 Name: ShowDocumentTabs
@@ -201,5 +201,20 @@ Inherited: False;
 Name: Picture Property Storage Format
 Type: dbLong
 Value: 1
+Inherited: False;
+---
+Name: AppTitle
+Type: dbText
+Value: Association-Contacts
+Inherited: False;
+---
+Name: StartUpForm
+Type: dbText
+Value: frmSplash
+Inherited: False;
+---
+Name: AllowByPassKey
+Type: dbBoolean
+Value: True
 Inherited: False;
 ---
