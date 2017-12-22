@@ -1,3 +1,4 @@
+[_frmPersist] True
 [frmContacts] False
 [frmSplash]   False
 [frmUSysRibbons]            True

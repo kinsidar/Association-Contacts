@@ -1,3 +1,4 @@
+"Form","_frmPersist","DateCreated"
 "Form","frmContacts","DateCreated"
 "Form","frmSplash","DateCreated"
 "Form","frmUSysRibbons","DateCreated"
@@ -37,6 +38,7 @@
 "Query","qryTblPhoneNumbersCategories","DateCreated"
 "Query","qryUser","DateCreated"
 "Query","qryVersionApp","DateCreated"
+"Query","qryVersionData","DateCreated"
 "Table","_versionApp","DateCreated"
 "Table","f_BBEB85A2AF9E42E8AD8323A8EC43B77D_Data","DateCreated"
 "Table","USysRibbons","DateCreated"

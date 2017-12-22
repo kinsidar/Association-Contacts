@@ -51,3 +51,8 @@ SELECT TOP 1 [_versionApp].appVersion, [_versionApp].expectedDbVersion, [_versio
 FROM _versionApp
 ORDER BY [_versionApp].id DESC;
 
+<<<[qryVersionData]>>>
+SELECT [_versionData].dbVersion
+FROM _versionData
+ORDER BY [_versionData].ID DESC;
+

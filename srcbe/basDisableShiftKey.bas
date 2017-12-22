@@ -57,7 +57,7 @@ PROC_ERR:
     Else
         MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ")" & vbCrLf & _
             "Function 'ap_DisableShift' did not complete successfully." & vbCrLf & _
-            "Please contact your system administrator.", vbCritical, gstrPROJECT_ACDB
+            "Please contact your system administrator.", vbCritical, gstrPROJECT_ACDB_BE
         ErrorCall
         Resume PROC_EXIT
     End If
