@@ -46,3 +46,8 @@ ORDER BY tlkpPhoneNumbersCategories.PhoneNumberCategory;
 SELECT tblUser.id, tblUser.environName, tblUser.password, tblUser.userName, tblUser.userFirstName, tblUser.userMiddleName, tblUser.userLastName, tblUser.sortOrder, tblUser.title, tblUser.userPassword, tblUser.titleOfCourtesy, tblUser.supervisorId, tblUser.birthDate, tblUser.hireDate, tblUser.address, tblUser.city, tblUser.region, tblUser.postalCode, tblUser.country, tblUser.homePhone, tblUser.extension, tblUser.photo, tblUser.notes, tblUser.active
 FROM tblUser;
 
+<<<[qryVersionApp]>>>
+SELECT TOP 1 [_versionApp].appVersion, [_versionApp].expectedDbVersion, [_versionApp].updatedDate
+FROM _versionApp
+ORDER BY [_versionApp].id DESC;
+

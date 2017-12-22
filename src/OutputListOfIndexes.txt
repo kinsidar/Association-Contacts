@@ -1,3 +1,11 @@
+<<<[_versionApp]>>>
+              Index:[PrimaryKey]
+                            Field Name:id
+>[PrimaryKey] [id], 
+              Index:[VersionID]
+                            Field Name:id
+>[VersionID]  [id], 
+========================================
 <<<[tblContacts]>>>
               Index:[ContactTypeID]
                             Field Name:ContactTypeID

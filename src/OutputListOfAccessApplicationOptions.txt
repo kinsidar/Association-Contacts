@@ -10,6 +10,7 @@
 >>>Advanced Option
               2000          AllowSpecialKeys            True
 >>>Extra Options
+              2000          AllowBypassKey              True
 >>>View Tab
               XP, 2003      Show Status Bar                           -1 
               XP, 2003      Show Startup Dialog Box                   -1 

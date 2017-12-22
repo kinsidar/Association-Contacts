@@ -435,7 +435,7 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Tahoma"
                     BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
-                        "pe\";\"tklpContacts_Types$PrimaryKey\""
+                        "pe\";\"PrimaryKey\""
                     GridlineColor =10921638
 
                     LayoutCachedLeft =60

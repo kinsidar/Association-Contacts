@@ -268,3 +268,8 @@ Type: dbText
 Value: Developer
 Inherited: False;
 ---
+Name: AllowByPassKey
+Type: dbBoolean
+Value: True
+Inherited: False;
+---
