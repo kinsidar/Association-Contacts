@@ -71,6 +71,8 @@ Public Function IsDeveloper() As Boolean
     userName = VBA.Environ("Username")
 
     Select Case userName
+        Case "peter"
+            IsDeveloper = True
         Case "petere"
             IsDeveloper = True
         Case "peterennis"
@@ -107,6 +109,8 @@ Public Function IsValidUser() As Boolean
     'Debug.Print UserName
 
     Select Case userName
+        Case "peter"
+            IsValidUser = True
         Case "petere"
             IsValidUser = True
         Case "peterennis"
@@ -131,6 +135,8 @@ Public Function IsAdmin() As Boolean
     Debug.Print userName
 
     Select Case userName
+        Case "peter"
+            IsAdmin = True
         Case "petere"
             IsAdmin = True
         Case "peterennis"

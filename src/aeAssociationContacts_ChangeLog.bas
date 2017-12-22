@@ -8,7 +8,7 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.0.8"
+Private Const mstrVERSION_ACDB As String = "0.0.9"
 Private Const mstrDATE_ACDB As String = "December 21, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
@@ -75,13 +75,11 @@ End Sub
 ' %037 -
 ' %036 -
 ' %035 -
-' %034 -
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
 ' %028 - Connect to SQL Azure with node.js, https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-nodejs
 ' %027 - GH#34, Use basic validation for email addresses
-' %025 - GH#25, Implement frmPersist and _tblPersist
 ' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
 ' %023 - GH#27, Add ribbon interface
 ' %022 - GH#30, Filter by Type of Contact
@@ -95,6 +93,9 @@ End Sub
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171221 - v009 -
+    ' FIXED - %034 - Add userdev/admin peter
+    ' FIXED - %025 - GH#25, Implement frmPersist (FE) and _tblPersist (BE), Ref: https://www.devhut.net/2012/09/29/ms-access-persistent-connection-in-a-split-database/
 '20171221 - v008 -
     ' FIXED - %033 - Create theme folder for icons, graphics etc. and use adaept as first test theme
     ' FIXED - %019 - Update aegit to latest (2.0.7)
