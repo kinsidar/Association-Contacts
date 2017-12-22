@@ -1,0 +1,292 @@
+Version =20
+VersionRequired =20
+PublishOption =1
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =12480
+    DatasheetFontHeight =11
+    ItemSuffix =5
+    Right =24285
+    Bottom =12345
+    DatasheetGridlinesColor =15132391
+    RecSrcDt = Begin
+        0xa54ffa241605e540
+    End
+    GUID = Begin
+        0xf48b5add637ca64d9411fccd3c0fcfb6
+    End
+    RecordSource ="USysRibbons"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+    End
+    PrtDevMode = Begin
+    End
+    PrtDevNames = Begin
+    End
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    PrtDevModeW = Begin
+    End
+    PrtDevNamesW = Begin
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderColor =16777215
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            Height =11340
+            Name ="Detail"
+            GUID = Begin
+                0x98dfed9c4bd5af42a9f1613e91e49f47
+            End
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1800
+                    Top =360
+                    Height =315
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ID"
+                    ControlSource ="ID"
+                    GUID = Begin
+                        0x0ba619f175de9b4d9c831df53ed98321
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1800
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =3240
+                    LayoutCachedHeight =675
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Top =360
+                            Width =270
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label0"
+                            Caption ="ID"
+                            GUID = Begin
+                                0xd54339074441b243a2ea07e95c03998a
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedTop =360
+                            LayoutCachedWidth =270
+                            LayoutCachedHeight =675
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1800
+                    Top =780
+                    Width =3000
+                    Height =315
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="RibbonName"
+                    ControlSource ="RibbonName"
+                    GUID = Begin
+                        0x979adde16afc0e4982d2c2b3c42c271e
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1800
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =4800
+                    LayoutCachedHeight =1095
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Top =780
+                            Width =1290
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label1"
+                            Caption ="RibbonName"
+                            GUID = Begin
+                                0x6ce996c9c5a61c4695bc4a70fda683a8
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedTop =780
+                            LayoutCachedWidth =1290
+                            LayoutCachedHeight =1095
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextFontFamily =49
+                    IMESentenceMode =3
+                    Left =1800
+                    Top =1200
+                    Width =9960
+                    Height =5523
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="RibbonXML"
+                    ControlSource ="RibbonXML"
+                    FontName ="Consolas"
+                    GUID = Begin
+                        0xc211a7446831184cae1623cf33efa3b3
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1800
+                    LayoutCachedTop =1200
+                    LayoutCachedWidth =11760
+                    LayoutCachedHeight =6723
+                    ThemeFontIndex =-1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Top =1200
+                            Width =1125
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label2"
+                            Caption ="RibbonXML"
+                            GUID = Begin
+                                0x790b76024efcb14c9988a13b0d285e62
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedTop =1200
+                            LayoutCachedWidth =1125
+                            LayoutCachedHeight =1515
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8880
+                    Top =300
+                    Width =2820
+                    Height =780
+                    TabIndex =3
+                    ForeColor =4210752
+                    Name ="Select Text"
+                    Caption ="Select All Text"
+                    OnClick ="[Event Procedure]"
+                    EventProcPrefix ="Select_Text"
+                    GUID = Begin
+                        0x645fbb24ecdb204ea4520d8ec2c2c300
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =8880
+                    LayoutCachedTop =300
+                    LayoutCachedWidth =11700
+                    LayoutCachedHeight =1080
+                    BackColor =15123357
+                    BorderColor =15123357
+                    HoverColor =15652797
+                    PressedColor =11957550
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+
+Private Sub Select_Text_Click()
+    Dim lngLen As Long
+    
+    RibbonXML.SetFocus
+End Sub

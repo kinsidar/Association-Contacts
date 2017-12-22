@@ -1,0 +1,42 @@
+dbMemo "SQL" ="SELECT tblContacts_PhoneNumbers.PhoneNumberID, tblContacts_PhoneNumbers.ContactI"
+    "D, tblContacts_PhoneNumbers.PhoneNumber, tblContacts_PhoneNumbers.PhoneNumberExt"
+    ", tblContacts_PhoneNumbers.PhoneNumberCategoryID\015\012FROM tlkpPhoneNumbersCat"
+    "egories INNER JOIN (tblContacts INNER JOIN tblContacts_PhoneNumbers ON tblContac"
+    "ts.ContactID = tblContacts_PhoneNumbers.ContactID) ON tlkpPhoneNumbersCategories"
+    ".PhoneNumberCategoryID = tblContacts_PhoneNumbers.PhoneNumberCategoryID;\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0xaf403783427e4e4ca4713acf4fd3bb2a
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+dbByte "PublishToWeb" ="1"
+Begin
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumberCategoryID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumberID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumber"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.ContactID"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts_PhoneNumbers.PhoneNumberExt"
+        dbLong "AggregateType" ="-1"
+    End
+End

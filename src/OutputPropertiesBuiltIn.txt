@@ -1,6 +1,6 @@
 Name: Name
 Type: dbMemo
-Value: C:\ae\Association-Contacts\zzzAssociationContacts.accdb
+Value: C:\ae\Association-Contacts\AssociationContacts.accdb
 Inherited: False;
 ---
 Name: Connect
@@ -260,11 +260,16 @@ Inherited: False;
 ---
 Name: StartUpForm
 Type: dbText
-Value: frmContacts
+Value: frmSplash
 Inherited: False;
 ---
 Name: CustomRibbonID
 Type: dbText
 Value: Developer
+Inherited: False;
+---
+Name: AllowByPassKey
+Type: dbBoolean
+Value: True
 Inherited: False;
 ---

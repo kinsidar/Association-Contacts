@@ -1,3 +1,5 @@
+[_tblPersist] False
+[_versionData]              False
 [tblContacts] False
 [tblContacts_EmailAddresses]              False
 [tblContacts_PhoneNumbers]  False

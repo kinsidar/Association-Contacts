@@ -1,0 +1,644 @@
+Version =20
+VersionRequired =20
+Begin Form
+    AllowFilters = NotDefault
+    PopUp = NotDefault
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    ShortcutMenu = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =0
+    PictureAlignment =2
+    PictureSizeMode =3
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =11520
+    DatasheetFontHeight =11
+    ItemSuffix =26
+    Left =4515
+    Top =2640
+    Right =28545
+    Bottom =15015
+    DatasheetGridlinesColor =15062992
+    RecSrcDt = Begin
+        0x3f7d40673804e540
+    End
+    GUID = Begin
+        0x7c4defd2c59fb0479efea470484bcd05
+    End
+    RecordSource ="qryVersionApp"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+    End
+    PrtDevMode = Begin
+    End
+    PrtDevNames = Begin
+    End
+    OnTimer ="[Event Procedure]"
+    OnLoad ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    DatasheetBackColor12 =-2147483643
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    AllowLayoutView =0
+    DatasheetAlternateBackColor =16053492
+    PictureSizeMode =3
+    DatasheetGridlinesColor12 =15062992
+    RibbonName ="SVIP7"
+    FitToScreen =1
+    PrtDevModeW = Begin
+    End
+    PrtDevNamesW = Begin
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BorderColor =16777215
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BackColor =-2147483633
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Attachment
+            BackStyle =0
+            BorderLineStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            LabelX =-1800
+            AddColon =0
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineColor =12632256
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =15064278
+            Name ="FormHeader"
+            GUID = Begin
+                0x8beedcb3fde8fa489969b7fe83f98ae1
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+        End
+        Begin Section
+            Height =6720
+            Name ="Detail"
+            GUID = Begin
+                0x065f80f6b4d24749b66c9c3be9b62845
+            End
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =9360
+                    Top =6000
+                    Width =2040
+                    Height =315
+                    ColumnOrder =0
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtGetMyDate"
+                    GUID = Begin
+                        0xc527bbd901535546a2c648d1f2d69348
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =6000
+                    LayoutCachedWidth =11400
+                    LayoutCachedHeight =6315
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =8040
+                            Top =6000
+                            Width =855
+                            Height =300
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label8"
+                            Caption ="Date:"
+                            GUID = Begin
+                                0x140aa461b43fec4d86f4fe982f55488e
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8040
+                            LayoutCachedTop =6000
+                            LayoutCachedWidth =8895
+                            LayoutCachedHeight =6300
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =9360
+                    Top =6300
+                    Width =2040
+                    Height =315
+                    ColumnOrder =1
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtGetMyProject"
+                    GUID = Begin
+                        0xaf379d241cf9d249a506ac12de55102c
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =6300
+                    LayoutCachedWidth =11400
+                    LayoutCachedHeight =6615
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            Left =8040
+                            Top =6300
+                            Width =855
+                            Height =300
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label10"
+                            Caption ="Project:"
+                            GUID = Begin
+                                0xadb9c9128607634a8576bc94f09112a9
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8040
+                            LayoutCachedTop =6300
+                            LayoutCachedWidth =8895
+                            LayoutCachedHeight =6600
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    Left =9360
+                    Top =5700
+                    Width =2040
+                    Height =315
+                    ColumnOrder =2
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtAppVersion"
+                    ControlSource ="appVersion"
+                    GUID = Begin
+                        0x073cf05cde1479448da908b3219cfdc2
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =5700
+                    LayoutCachedWidth =11400
+                    LayoutCachedHeight =6015
+                    Begin
+                        Begin Label
+                            OverlapFlags =95
+                            Left =8040
+                            Top =5700
+                            Width =1200
+                            Height =300
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label14"
+                            Caption ="Application:"
+                            GUID = Begin
+                                0xa3eccaa746a3f9438770c9ca04e25907
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8040
+                            LayoutCachedTop =5700
+                            LayoutCachedWidth =9240
+                            LayoutCachedHeight =6000
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =9360
+                    Top =5100
+                    Width =2040
+                    Height =315
+                    ColumnOrder =3
+                    TabIndex =3
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtDbVersion"
+                    GUID = Begin
+                        0x693fe1942f7e444d9c7a988a2978cb39
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =5100
+                    LayoutCachedWidth =11400
+                    LayoutCachedHeight =5415
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =8040
+                            Top =5100
+                            Width =990
+                            Height =300
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label34"
+                            Caption ="Database:"
+                            GUID = Begin
+                                0xfadb4d095bd83a44892a8d618900db7d
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8040
+                            LayoutCachedTop =5100
+                            LayoutCachedWidth =9030
+                            LayoutCachedHeight =5400
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =9360
+                    Top =5400
+                    Width =2040
+                    Height =315
+                    ColumnOrder =4
+                    TabIndex =4
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtExpectedDbVersion"
+                    ControlSource ="expectedDbVersion"
+                    GUID = Begin
+                        0x0d7ac0cb093e434fb03144b6fb0c99bd
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =5400
+                    LayoutCachedWidth =11400
+                    LayoutCachedHeight =5715
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            Left =8040
+                            Top =5400
+                            Width =1290
+                            Height =300
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label37"
+                            Caption ="Expected DB:"
+                            GUID = Begin
+                                0x4daa43798fe5944180df1094927560ef
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =8040
+                            LayoutCachedTop =5400
+                            LayoutCachedWidth =9330
+                            LayoutCachedHeight =5700
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =120
+                    Width =2820
+                    Height =300
+                    FontWeight =700
+                    TabIndex =5
+                    BackColor =62207
+                    BorderColor =16777215
+                    ForeColor =8355711
+                    Name ="txtErrorTrapping"
+                    GUID = Begin
+                        0xd07114d19cc88b4fb3636ebf367a18e8
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =4320
+                    LayoutCachedHeight =420
+                    BackThemeColorIndex =-1
+                    BorderShade =100.0
+                    ForeTint =50.0
+                    Begin
+                        Begin Label
+                            OldBorderStyle =1
+                            OverlapFlags =93
+                            Left =60
+                            Top =120
+                            Width =1440
+                            Height =300
+                            BorderColor =16777215
+                            ForeColor =8355711
+                            Name ="lblErrorTrapping"
+                            Caption ="Error Trapping:"
+                            GUID = Begin
+                                0x2056e99500ab3d4eb4b8a50ece538cf9
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =60
+                            LayoutCachedTop =120
+                            LayoutCachedWidth =1500
+                            LayoutCachedHeight =420
+                            BorderThemeColorIndex =1
+                            BorderTint =100.0
+                        End
+                    End
+                End
+                Begin Image
+                    PictureType =2
+                    Left =1440
+                    Top =1440
+                    Width =2880
+                    Height =2880
+                    BorderColor =13553360
+                    Name ="imgSplash"
+                    OnClick ="[Event Procedure]"
+                    Picture ="aelogo_256x256"
+                    GUID = Begin
+                        0x1df5ac94eb64414bbb87cbe3db574c1a
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1440
+                    LayoutCachedTop =1440
+                    LayoutCachedWidth =4320
+                    LayoutCachedHeight =4320
+                    TabIndex =6
+                End
+            End
+        End
+        Begin FormFooter
+            Height =360
+            Name ="FormFooter"
+            GUID = Begin
+                0xa7ba5637dbe8c84182945d42d47316d0
+            End
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
+
+Private gintC As Integer
+'Private i As Long
+Private Const mintTIMERINTERVAL = 10
+Private mblnClose As Boolean
+
+Private Sub DebugStart()
+    Application.SetOption "Error Trapping", 0
+End Sub
+
+Private Sub SafeStart()
+    Application.SetOption "Error Trapping", 1
+End Sub
+
+Private Sub UnhandledStart()
+    Application.SetOption "Error Trapping", 2
+End Sub
+
+Private Function GetErrorTrappingOption() As String
+    ' Ref: http://www.fmsinc.com/tpapers/vbacode/debug.asp
+
+    Dim strSetting As String
+
+    Select Case Application.GetOption("Error Trapping")
+        Case 0
+            strSetting = "Break on All Errors"
+        Case 1
+            strSetting = "Break in Class Modules"
+        Case 2
+            strSetting = "Break on Unhandled Errors"
+    End Select
+    GetErrorTrappingOption = strSetting
+
+End Function
+
+Private Sub Form_Load()
+
+    On Error GoTo PROC_ERR
+
+    gblnDeveloper = IsDeveloper()
+    ap_DisableShift
+
+    mblnClose = False
+
+    Dim userName As String
+    userName = VBA.Environ("Username")
+
+    '
+    'DebugStart
+    'SafeStart
+    UnhandledStart
+    '
+    ' Keep connection open
+    DoCmd.OpenForm "_frmPersist", acNormal, , , acFormReadOnly, acHidden
+    '
+    Me.txtErrorTrapping.ControlSource = "=GetErrorTrappingOption()"
+    Me.txtDbVersion.Value = DLookup("dbVersion", "qryVersionData")
+    CheckDataVersion
+    'CheckDeveloperKey
+    Me.TimerInterval = mintTIMERINTERVAL
+    'MyFadeForm Me, Fadezero, 1, 15
+    '
+    Me.txtGetMyDate = getMyDate()
+    Me.txtGetMyProject = getMyProject()
+
+PROC_EXIT:
+    Exit Sub
+
+PROC_ERR:
+    If Err = 3151 Then      ' SQL login error
+        MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure Form_Load frmSplash"
+    Resume PROC_EXIT
+    Else
+        MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure Form_Load frmSplash"
+        Resume Next
+    End If
+
+End Sub
+
+Private Sub Form_Timer()
+
+    On Error GoTo PROC_ERR
+
+    Dim dteTime As Date
+    dteTime = DateAdd("s", mintTIMERINTERVAL, Now)
+
+    'If IsEmpty(gintC) Then
+    '    MyFadeForm Me, Fadein, 1, 15
+    'End If
+    'gintC = 1
+    
+    Do
+        Sleep 100
+        DoEvents
+    Loop Until Now >= dteTime Or mblnClose
+'    Me.TimerInterval = 0
+'    DoCmd.Close
+
+PROC_EXIT:
+'    Me.TimerInterval = 0
+    DoCmd.Close
+    If ACDB_STAFF_PERMISSIONS And ACDB_SHOW_LOGIN_FORM Then
+        'DoCmd.OpenForm "frmLogin"
+    Else
+        MsgBox "Open The Startup Form Here!"
+        'DoCmd.OpenForm "frmWhateverTheStartupIs"
+    End If
+    Exit Sub
+
+PROC_ERR:
+    MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure Form_Timer frmSplash"
+    Resume PROC_EXIT
+
+End Sub
+
+Private Sub imgSplash_Click()
+    mblnClose = True
+End Sub
+
+Private Sub CheckDataVersion()
+
+    On Error GoTo PROC_ERR
+
+    If (Me.txtDbVersion.Value <> Me.txtExpectedDbVersion.Value) Then
+        MsgBox "Application expecting Database Version " & Me.txtExpectedDbVersion.Value & vbCrLf & _
+            "Please contact your database administrator to update the application!", vbCritical, gstrPROJECT_ACDB
+        DoCmd.Quit acQuitSaveNone
+    Else
+        'MsgBox "Welcome!" & vbCrLf & "ExpectedDb Version (" & Me.txtExpectedDbVersion.Value & " ) and Database Version (" & Me.txtDbVersion.Value & ")" & _
+                vbCrLf & "MATCH!", vbInformation, gstrPROJECT_SVIPDB
+    End If
+
+PROC_EXIT:
+    Exit Sub
+
+PROC_ERR:
+    MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure CheckDataVersion frmSplash"
+    Resume PROC_EXIT
+
+End Sub

@@ -1,4 +1,15 @@
 ------------------
+TABLE: _versionApp
+------------------
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+id                       AutoNumber      4                  
+expectedDbVersion        Text            12                 
+appVersion               Text            12                 
+updatedDate              Date/Time       8       =now()     
+
+
+------------------
 TABLE: tblContacts
 ------------------
 Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb

@@ -1,5 +1,10 @@
+[_versionApp]
+              [id]           0            
+              [expectedDbVersion]          109          TextBox
+              [appVersion]   109          TextBox
+              [updatedDate]  109          TextBox
 [tblContacts]
-              [ContactID]    0            
+              [ContactID]    109          TextBox
               [ContactTypeID]              109          TextBox
               [FirstName]    109          TextBox
               [LastName]     109          TextBox
@@ -88,9 +93,9 @@
               [RibbonName]   109          TextBox
               [RibbonXML]    109          TextBox
 Count of Check box = 2
-Count of Text box  = 69
+Count of Text box  = 73
 Count of List box  = 0
 Count of Combo box = 3
 Count of Else      = 1
-Count of Display Controls = 74
-Count of All Fields = 74
+Count of Display Controls = 78
+Count of All Fields = 78

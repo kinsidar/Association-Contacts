@@ -1,4 +1,4 @@
-Name: C:\ae\Association-Contacts\zzzAssociationContacts.accdb, 12, False;
+Name: C:\ae\Association-Contacts\AssociationContacts.accdb, 12, False;
 Connect: , 12, False;
 Transactions: True, 1, False;
 Updatable: True, 1, False;
@@ -50,5 +50,6 @@ Track Name AutoCorrect Info: 0, 4, False;
 Perform Name AutoCorrect: 1, 4, False;
 Theme Resource Name: Office Theme, 10, False;
 HasOfflineLists: 70, 3, False;
-StartUpForm: frmContacts, 10, False;
+StartUpForm: frmSplash, 10, False;
 CustomRibbonID: Developer, 10, False;
+AllowByPassKey: True, 1, False;
