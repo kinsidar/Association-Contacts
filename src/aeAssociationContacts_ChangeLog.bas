@@ -76,7 +76,6 @@ End Sub
 ' %036 -
 ' %035 -
 ' %034 -
-' %033 - Create theme folder for icons, graphics etc. and use adaept as first test theme
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
@@ -97,6 +96,7 @@ End Sub
 '=============================================================================================================================
 '
 '20171221 - v008 -
+    ' FIXED - %033 - Create theme folder for icons, graphics etc. and use adaept as first test theme
     ' FIXED - %019 - Update aegit to latest (2.0.7)
     ' FIXED - %011 - GH#20, Create splash form
 '20171220 - v007 -
