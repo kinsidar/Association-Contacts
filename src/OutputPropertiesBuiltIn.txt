@@ -260,7 +260,7 @@ Inherited: False;
 ---
 Name: StartUpForm
 Type: dbText
-Value: frmContacts
+Value: frmSplash
 Inherited: False;
 ---
 Name: CustomRibbonID
