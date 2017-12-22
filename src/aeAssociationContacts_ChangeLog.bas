@@ -73,7 +73,6 @@ End Sub
 ' %039 -
 ' %038 -
 ' %037 -
-' %036 - Use hover property to set sensible color of command buttons
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
@@ -92,6 +91,7 @@ End Sub
 '=============================================================================================================================
 '
 '20171221 - v009 -
+    ' FIXED - %036 - Use hover property to set sensible color of command buttons
     ' FIXED - %035 - Update look of contacts form for Access 2016
     ' FIXED - %034 - Add userdev/admin peter
     ' FIXED - %025 - GH#25, Implement frmPersist (FE) and _tblPersist (BE), Ref: https://www.devhut.net/2012/09/29/ms-access-persistent-connection-in-a-split-database/

@@ -16,8 +16,8 @@ Begin Form
     Width =16635
     DatasheetFontHeight =11
     ItemSuffix =22
-    Right =24285
-    Bottom =12630
+    Right =18870
+    Bottom =12375
     DatasheetGridlinesColor =15062992
     AfterInsert ="[Event Procedure]"
     RecSrcDt = Begin
@@ -573,6 +573,7 @@ Begin Form
                     BorderColor =-2147483598
                     BorderThemeColorIndex =-1
                     BorderShade =100.0
+                    HoverColor =-2147483601
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
                     WebImagePaddingRight =1
@@ -605,6 +606,7 @@ Begin Form
                     BorderColor =-2147483598
                     BorderThemeColorIndex =-1
                     BorderShade =100.0
+                    HoverColor =-2147483601
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
                     WebImagePaddingRight =1
