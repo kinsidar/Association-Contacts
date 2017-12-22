@@ -1,0 +1,6 @@
+[frmContacts] False
+[frmSplash]   False
+[frmUSysRibbons]            True
+[fsubContacts_Details]      False
+[fsubContacts_EmailAddresses]             False
+[fsubContacts_PhoneNumbers] False

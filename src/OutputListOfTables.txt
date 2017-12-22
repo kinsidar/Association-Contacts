@@ -1,3 +1,4 @@
+[_versionApp] False
 [tblContacts] False
 [tblContacts_EmailAddresses]              False
 [tblContacts_PhoneNumbers]  False

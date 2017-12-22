@@ -1,0 +1,19 @@
+dbMemo "SQL" ="SELECT tlkpPhoneNumbersCategories.PhoneNumberCategoryID, tlkpPhoneNumbersCategor"
+    "ies.PhoneNumberCategory\015\012FROM tlkpPhoneNumbersCategories\015\012ORDER BY t"
+    "lkpPhoneNumbersCategories.PhoneNumberCategory;\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0x7a6b0d0a66388d4a8c19ddc7a3f486d6
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+dbByte "PublishToWeb" ="1"
+Begin
+End

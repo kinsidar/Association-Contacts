@@ -1,0 +1,137 @@
+|-- Name >> _versionApp
+|-- Updatable >> True
+|-- DateCreated >> DateCreated
+|-- LastUpdated >> LastUpdated
+|-- Connect >> 
+|-- Attributes >> 0
+|-- SourceTableName >> 
+|-- RecordCount >> 1
+|-- ValidationRule >> 
+|-- ValidationText >> 
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- DefaultView >> 2
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> 1
+|-- AlternateBackThemeColorIndex >> 1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 95
+|-- ReadOnlyWhenDisconnected >> False
+|-- DatasheetGridlinesThemeColorIndex >> 3
+|-- DatasheetForeThemeColorIndex >> 0
+|-- PublishToWeb >> 1
+--------------------------------------------------
+|-- id (Field in _versionApp)
+|------ Attributes >> 17
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> id
+|------ OrdinalPosition >> 0
+|------ Size >> 4
+|------ SourceField >> id
+|------ SourceTable >> _versionApp
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 1
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|-- expectedDbVersion (Field in _versionApp)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> expectedDbVersion
+|------ OrdinalPosition >> 1
+|------ Size >> 12
+|------ SourceField >> expectedDbVersion
+|------ SourceTable >> _versionApp
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|-- appVersion (Field in _versionApp)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> appVersion
+|------ OrdinalPosition >> 2
+|------ Size >> 12
+|------ SourceField >> appVersion
+|------ SourceTable >> _versionApp
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|-- updatedDate (Field in _versionApp)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> updatedDate
+|------ OrdinalPosition >> 3
+|------ Size >> 8
+|------ SourceField >> updatedDate
+|------ SourceTable >> _versionApp
+|------ DataUpdatable >> False
+|------ DefaultValue >> =Now()
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 4905
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ShowDatePicker >> 1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ Description >> =now()

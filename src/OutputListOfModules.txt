@@ -3,4 +3,7 @@
 [aebasTEST_aegit_expClass]  False
 [aegit_expClass]            False
 [basDatesTimes]             False
+[basDisableShiftKey]        False
+[basErrorLog] False
+[basErrorTextWrite]         False
 [modRibbon]   False

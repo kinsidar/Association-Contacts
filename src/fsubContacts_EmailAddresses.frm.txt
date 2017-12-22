@@ -1,0 +1,400 @@
+Version =20
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    ScrollBars =2
+    BorderStyle =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =8884
+    DatasheetFontHeight =11
+    ItemSuffix =5
+    Left =8055
+    Top =2460
+    Right =16935
+    Bottom =4365
+    DatasheetGridlinesColor =15062992
+    RecSrcDt = Begin
+        0x15e732c1d605e540
+    End
+    GUID = Begin
+        0xd67cfede1386b9439ced84e6f8c3a609
+    End
+    RecordSource ="qryTblContacts_EmailAddresses"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+    End
+    PrtDevMode = Begin
+    End
+    PrtDevNames = Begin
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    DatasheetBackColor12 =-2147483643
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =16053492
+    DatasheetGridlinesColor12 =15062992
+    FitToScreen =1
+    PrtDevModeW = Begin
+    End
+    PrtDevNamesW = Begin
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            ForeThemeColorIndex =2
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BackColor =-2147483633
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =300
+            BackColor =15064278
+            Name ="FormHeader"
+            GUID = Begin
+                0x65a7071dde8ae3429ff170644049561c
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =60
+                    Top =60
+                    Width =5100
+                    Height =240
+                    FontSize =8
+                    BorderColor =16777215
+                    Name ="Label2"
+                    Caption ="E-mail Address"
+                    FontName ="Tahoma"
+                    GUID = Begin
+                        0x52004c2c80a02847b893392267acf567
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5160
+                    LayoutCachedHeight =300
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =5220
+                    Top =60
+                    Width =2040
+                    Height =240
+                    FontSize =8
+                    BorderColor =16777215
+                    Name ="Label3"
+                    Caption ="Type"
+                    FontName ="Tahoma"
+                    GUID = Begin
+                        0x80556a3069be8248a4bb9fc34e91a8fd
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5220
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =7260
+                    LayoutCachedHeight =300
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin Section
+            Height =360
+            Name ="Detail"
+            GUID = Begin
+                0xa1281af937db3943a8a602b7e577b201
+            End
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =60
+                    Top =60
+                    Width =5100
+                    ColumnWidth =5055
+                    FontSize =8
+                    TabIndex =2
+                    BorderColor =13553360
+                    ForeColor =3484194
+                    Name ="txtEmailAddress"
+                    ControlSource ="EmailAddress"
+                    FontName ="Tahoma"
+                    GUID = Begin
+                        0x811e060014848e4190d2ecb2cb96de52
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5160
+                    LayoutCachedHeight =300
+                    ThemeFontIndex =-1
+                End
+                Begin TextBox
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =1380
+                    Width =1140
+                    Height =315
+                    ColumnWidth =1815
+                    FontSize =8
+                    BackColor =2366701
+                    BorderColor =13553360
+                    ForeColor =3484194
+                    Name ="ContactEmailId"
+                    ControlSource ="ContactEmailId"
+                    FontName ="Tahoma"
+                    GUID = Begin
+                        0x42d31dfc43cd49458740e761e80a24cc
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1380
+                    LayoutCachedWidth =2520
+                    LayoutCachedHeight =315
+                    BackThemeColorIndex =-1
+                    ThemeFontIndex =-1
+                End
+                Begin TextBox
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =3420
+                    Height =315
+                    ColumnWidth =1305
+                    FontSize =8
+                    TabIndex =1
+                    BackColor =2366701
+                    BorderColor =13553360
+                    ForeColor =3484194
+                    Name ="ContactId"
+                    ControlSource ="ContactId"
+                    FontName ="Tahoma"
+                    GUID = Begin
+                        0xb104eb74419fdc4a8cd7f62bb0bfdc43
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3420
+                    LayoutCachedWidth =4860
+                    LayoutCachedHeight =315
+                    BackThemeColorIndex =-1
+                    ThemeFontIndex =-1
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =5220
+                    Top =60
+                    Width =2040
+                    FontSize =8
+                    TabIndex =3
+                    BorderColor =13553360
+                    ForeColor =3484194
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x69250b2241bd4f438310eecaae4ad4b0
+                    End
+                    Name ="cboEmailAddressType"
+                    ControlSource ="EmailAddressTypeID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qlkpEmailAddressTypes"
+                    ColumnWidths ="0;1440"
+                    FontName ="Tahoma"
+                    BaseInfo ="\"qlkpEmailAddressTypes\";\"tlkpEmailAddressTypes\";\"\";\"EmailAddressTypeID\";"
+                        "\"EmailAddressType\";\"PrimaryKey\""
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =5220
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =7260
+                    LayoutCachedHeight =300
+                    ThemeFontIndex =-1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8460
+                    Top =30
+                    Width =366
+                    Height =306
+                    TabIndex =4
+                    ForeColor =3484194
+                    Name ="cmd_RecDel"
+                    Caption ="Command4"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dddddddddddddddddddddddddddddddddddddddddddddddd ,
+                        0xdddddddddddddddddddd177ddddd77dd1ddd1177dddd17dd11dd7117ddd71ddd ,
+                        0x111dd1177d117ddd1111d7117711dddd11111d11111ddddd1111dd71117ddddd ,
+                        0x111d77111177dddd11d711dd71177ddd1dddddddd71177ddddddddddddd11ddd ,
+                        0xdddddddddddddddd000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Delete Record"
+                    GUID = Begin
+                        0x24b92fbf9a02e847bdd5d44d41c44716
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =8460
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8826
+                    LayoutCachedHeight =336
+                    BorderColor =13553360
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="FormFooter"
+            GUID = Begin
+                0x2898af5ea71ccd4d96ab6cbfa2191384
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private Sub cmd_RecDel_Click()
+    'http://access.mvps.org/access/RunCommand/codeex/50-223.htm
+    
+    DoCmd.SetWarnings False
+    If MsgBox("Confirm Deletion of record?", vbQuestion + vbYesNo + vbDefaultButton2, "Delete?") = vbYes Then
+        DoCmd.RunCommand acCmdSelectRecord
+        DoCmd.RunCommand acCmdDeleteRecord
+    End If
+End Sub
+
+Private Sub Form_Load()
+
+    On Error GoTo PROC_ERR
+    
+    MsgBox "My Parent is " & Me.Parent, vbInformation, Me.Name & " Form_Load"
+
+PROC_EXIT:
+    Exit Sub
+
+PROC_ERR:
+    If Err = 2452 Then
+        MsgBox "This form only works when the contact form is opened.", vbCritical, Me.Name & " Form_Load"
+        DoCmd.Close acForm, Me.Name
+    End If
+End Sub

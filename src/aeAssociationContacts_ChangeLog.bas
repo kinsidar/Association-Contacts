@@ -8,12 +8,13 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.0.7"
-Private Const mstrDATE_ACDB As String = "December 20, 2017"
+Private Const mstrVERSION_ACDB As String = "0.0.8"
+Private Const mstrDATE_ACDB As String = "December 21, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
 Public Const ACDB_AZSQL_FRONT_END = False
 Public Const ACDB_STAFF_PERMISSIONS = False
+Public Const ACDB_SHOW_LOGIN_FORM = False
 '
 
 Public Function getMyVersion() As String
@@ -75,10 +76,9 @@ End Sub
 ' %036 -
 ' %035 -
 ' %034 -
-' %033 - Create theme folder for icons, graphics etc. and use adaept as first test theme
-' %031 - Create backend on network SQL Server
-' %030 - Create backend on local SQL Server
-' %029 - Create backend on SQL Azure
+' %031 - Create backend on network SQL Server with renamed front end
+' %030 - Create backend on local SQL Server with renamed front end
+' %029 - Create backend on SQL Azure with renamed front end
 ' %028 - Connect to SQL Azure with node.js, https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-nodejs
 ' %027 - GH#34, Use basic validation for email addresses
 ' %025 - GH#25, Implement frmPersist and _tblPersist
@@ -87,9 +87,7 @@ End Sub
 ' %022 - GH#30, Filter by Type of Contact
 ' %021 - GH#31, LAT and LON not included on the contact form
 ' %020 - GH#32, Unique Id for tables
-' %019 - Update aegit to latest
 ' %012 - Add Shift key blocking
-' %011 - GH#20, Create splash form
 ' %003 - Relates to GH#9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
@@ -97,6 +95,10 @@ End Sub
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171221 - v008 -
+    ' FIXED - %033 - Create theme folder for icons, graphics etc. and use adaept as first test theme
+    ' FIXED - %019 - Update aegit to latest (2.0.7)
+    ' FIXED - %011 - GH#20, Create splash form
 '20171220 - v007 -
     ' FIXED - %032 - Use basFunctions and dte for Date
 '20171220 - v006 -
