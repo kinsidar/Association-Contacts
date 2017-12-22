@@ -2,22 +2,26 @@ Option Compare Database
 Option Explicit
 
 Public Sub ErrorTest()
-    On Error GoTo Err_ErrorTest          ' Initialize error handling.
+
+    On Error GoTo PROC_ERR          ' Initialize error handling
     ' Code to do something here.
     'Dim i As Integer
     'i = 1 / 0
-Exit_ErrorTest:                           ' Label to resume after error.
-     Exit Sub                 ' Exit before error handler.
-Err_ErrorTest:                           ' Label to jump to on error.
+
+PROC_EXIT:                          ' Label to resume after error
+     Exit Sub                       ' Exit before error handler
+
+PROC_ERR:                           ' Label to jump to on error
     Select Case Err.Number
-    Case 9999                        ' Whatever number you anticipate.
-        Resume Next                  ' Use this to just ignore the line.
+    Case 9999                       ' Whatever number you anticipate
+        Resume Next                 ' Use this to just ignore the line
     Case 999
-        Resume Exit_ErrorTest         ' Use this to give up on the proc.
-    Case Else                        ' Any unexpected error.
+        Resume PROC_EXIT            ' Use this to give up on the proc
+    Case Else                       ' Any unexpected error
         Call LogError(Err.Number, Err.Description, "ErrorTest()")
-        Resume Exit_ErrorTest
-    End Select             ' Pick up again and quit.
+        Resume PROC_EXIT
+    End Select                      ' Pick up again and quit
+
 End Sub
 
 Public Sub ErrorCall()
