@@ -26,10 +26,10 @@ Begin Form
     GridY =24
     Width =11520
     DatasheetFontHeight =11
-    ItemSuffix =26
+    ItemSuffix =27
     Left =4515
     Top =2640
-    Right =28545
+    Right =23385
     Bottom =15015
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
@@ -57,7 +57,6 @@ Begin Form
     DatasheetAlternateBackColor =16053492
     PictureSizeMode =3
     DatasheetGridlinesColor12 =15062992
-    RibbonName ="SVIP7"
     FitToScreen =1
     PrtDevModeW = Begin
     End
@@ -75,6 +74,16 @@ Begin Form
             BorderTint =50.0
             ForeThemeColorIndex =0
             ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
@@ -167,7 +176,8 @@ Begin Form
             BackTint =20.0
         End
         Begin Section
-            Height =6720
+            Height =6780
+            BackColor =14282978
             Name ="Detail"
             GUID = Begin
                 0x065f80f6b4d24749b66c9c3be9b62845
@@ -175,7 +185,8 @@ Begin Form
             AlternateBackColor =15921906
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
-            BackThemeColorIndex =1
+            BackThemeColorIndex =9
+            BackTint =20.0
             Begin
                 Begin TextBox
                     Enabled = NotDefault
@@ -224,7 +235,7 @@ Begin Form
                 Begin TextBox
                     Enabled = NotDefault
                     TabStop = NotDefault
-                    OverlapFlags =247
+                    OverlapFlags =255
                     IMESentenceMode =3
                     Left =9360
                     Top =6300
@@ -246,7 +257,7 @@ Begin Form
                     LayoutCachedHeight =6615
                     Begin
                         Begin Label
-                            OverlapFlags =87
+                            OverlapFlags =95
                             Left =8040
                             Top =6300
                             Width =855
@@ -360,7 +371,7 @@ Begin Form
                 Begin TextBox
                     Enabled = NotDefault
                     TabStop = NotDefault
-                    OverlapFlags =247
+                    OverlapFlags =255
                     IMESentenceMode =3
                     Left =9360
                     Top =5400
@@ -383,7 +394,7 @@ Begin Form
                     LayoutCachedHeight =5715
                     Begin
                         Begin Label
-                            OverlapFlags =87
+                            OverlapFlags =95
                             Left =8040
                             Top =5400
                             Width =1290
@@ -408,10 +419,10 @@ Begin Form
                     Enabled = NotDefault
                     Locked = NotDefault
                     TabStop = NotDefault
-                    OverlapFlags =87
+                    OverlapFlags =95
                     IMESentenceMode =3
-                    Left =1500
-                    Top =120
+                    Left =8520
+                    Top =180
                     Width =2820
                     Height =300
                     FontWeight =700
@@ -425,10 +436,10 @@ Begin Form
                     End
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =1500
-                    LayoutCachedTop =120
-                    LayoutCachedWidth =4320
-                    LayoutCachedHeight =420
+                    LayoutCachedLeft =8520
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =11340
+                    LayoutCachedHeight =480
                     BackThemeColorIndex =-1
                     BorderShade =100.0
                     ForeTint =50.0
@@ -436,8 +447,8 @@ Begin Form
                         Begin Label
                             OldBorderStyle =1
                             OverlapFlags =93
-                            Left =60
-                            Top =120
+                            Left =7080
+                            Top =180
                             Width =1440
                             Height =300
                             BorderColor =16777215
@@ -448,10 +459,10 @@ Begin Form
                                 0x2056e99500ab3d4eb4b8a50ece538cf9
                             End
                             GridlineColor =10921638
-                            LayoutCachedLeft =60
-                            LayoutCachedTop =120
-                            LayoutCachedWidth =1500
-                            LayoutCachedHeight =420
+                            LayoutCachedLeft =7080
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =8520
+                            LayoutCachedHeight =480
                             BorderThemeColorIndex =1
                             BorderTint =100.0
                         End
@@ -459,8 +470,8 @@ Begin Form
                 End
                 Begin Image
                     PictureType =2
-                    Left =1440
-                    Top =1440
+                    Left =180
+                    Top =180
                     Width =2880
                     Height =2880
                     BorderColor =13553360
@@ -472,21 +483,38 @@ Begin Form
                     End
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =1440
-                    LayoutCachedTop =1440
-                    LayoutCachedWidth =4320
-                    LayoutCachedHeight =4320
+                    LayoutCachedLeft =180
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =3060
+                    LayoutCachedHeight =3060
                     TabIndex =6
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BorderWidth =4
+                    OverlapFlags =247
+                    Width =11520
+                    Height =6780
+                    BorderColor =9359785
+                    Name ="Box26"
+                    GUID = Begin
+                        0x08817531488d4642b41adb182f908f94
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedWidth =11520
+                    LayoutCachedHeight =6780
+                    BorderThemeColorIndex =9
+                    BorderTint =60.0
+                    BorderShade =100.0
                 End
             End
         End
         Begin FormFooter
-            Height =360
+            Height =0
             Name ="FormFooter"
             GUID = Begin
                 0xa7ba5637dbe8c84182945d42d47316d0
             End
-            AutoHeight =1
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
@@ -606,8 +634,8 @@ PROC_EXIT:
     If ACDB_STAFF_PERMISSIONS And ACDB_SHOW_LOGIN_FORM Then
         'DoCmd.OpenForm "frmLogin"
     Else
-        MsgBox "Open The Startup Form Here!"
-        'DoCmd.OpenForm "frmWhateverTheStartupIs"
+        'MsgBox "Open The Startup Form Here!"
+        DoCmd.OpenForm "frmContacts"
     End If
     Exit Sub
 
