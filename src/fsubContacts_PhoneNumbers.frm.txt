@@ -15,8 +15,8 @@ Begin Form
     Width =6966
     DatasheetFontHeight =11
     ItemSuffix =6
-    Left =8055
-    Top =4680
+    Left =8070
+    Top =4695
     Right =16935
     Bottom =6225
     DatasheetGridlinesColor =15062992
@@ -108,14 +108,14 @@ Begin Form
         End
         Begin FormHeader
             Height =300
-            BackColor =15064278
+            BackColor =14282978
             Name ="FormHeader"
             GUID = Begin
                 0xd2fa66aceec8fa418615c5db35af7847
             End
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
-            BackThemeColorIndex =2
+            BackThemeColorIndex =9
             BackTint =20.0
             Begin
                 Begin Label
@@ -125,6 +125,7 @@ Begin Form
                     Width =1860
                     Height =240
                     FontSize =8
+                    FontWeight =700
                     BorderColor =16777215
                     Name ="Label2"
                     Caption ="Phone Number"
@@ -148,6 +149,7 @@ Begin Form
                     Width =1440
                     Height =240
                     FontSize =8
+                    FontWeight =700
                     BorderColor =16777215
                     Name ="Label3"
                     Caption ="Extension"
@@ -171,6 +173,7 @@ Begin Form
                     Width =2280
                     Height =240
                     FontSize =8
+                    FontWeight =700
                     BorderColor =16777215
                     Name ="Label4"
                     Caption ="Category"

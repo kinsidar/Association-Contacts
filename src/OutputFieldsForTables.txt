@@ -1,4 +1,14 @@
 ------------------
+TABLE: _tblPersist
+------------------
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+id                       AutoNumber      4                  
+persist                  Text            255                
+
+
+------------------
 TABLE: _versionApp
 ------------------
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
@@ -7,6 +17,17 @@ id                       AutoNumber      4
 expectedDbVersion        Text            12                 
 appVersion               Text            12                 
 updatedDate              Date/Time       8       =now()     
+
+
+-------------------
+TABLE: _versionData
+-------------------
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
+=====================    ============    ====    ===========
+id                       AutoNumber      4                  
+dbVersion                Text            12                 
+UpdatedDate              Date/Time       8       =now()     
 
 
 ------------------
