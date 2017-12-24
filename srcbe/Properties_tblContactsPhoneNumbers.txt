@@ -1,16 +1,16 @@
-|-- Name >> tblInsurance
+|-- Name >> tblContactsPhoneNumbers
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> 
 |-- Attributes >> 0
 |-- SourceTableName >> 
-|-- RecordCount >> 5
+|-- RecordCount >> 4
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- NameMap >> NameMap
+|-- SubdatasheetName >> [None]
 |-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
@@ -19,25 +19,25 @@
 |-- HideNewField >> False
 |-- BackTint >> 100
 |-- BackShade >> 100
-|-- ThemeFontIndex >> 1
-|-- AlternateBackThemeColorIndex >> 1
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
 |-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 95
-|-- ReadOnlyWhenDisconnected >> False
-|-- DatasheetGridlinesThemeColorIndex >> 3
-|-- DatasheetForeThemeColorIndex >> 0
-|-- PublishToWeb >> 1
+|-- AlternateBackShade >> 100
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
 |-- GUID >> GUID
+|-- NameMap >> NameMap
+|-- PublishToWeb >> 1
 --------------------------------------------------
-|-- ID (Field in tblInsurance)
+|-- id (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ID
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> ID
-|------ SourceTable >> tblInsurance
+|------ SourceField >> id
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -47,32 +47,32 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- PID (Field in tblInsurance)
+|-- contactId (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> PID
+|------ Name >> contactId
 |------ OrdinalPosition >> 1
 |------ Size >> 4
-|------ SourceField >> PID
-|------ SourceTable >> tblInsurance
+|------ SourceField >> contactId
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
-|------ DefaultValue >> 0
+|------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> False
+|------ Required >> True
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 2
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
@@ -81,44 +81,46 @@
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- TIV_2011 (Field in tblInsurance)
+|-- phoneNumber (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 2
-|------ CollatingOrder >> 18
-|------ Type >> 20
-|------ Name >> TIV_2011
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> phoneNumber
 |------ OrdinalPosition >> 2
-|------ Size >> 16
-|------ SourceField >> TIV_2011
-|------ SourceTable >> tblInsurance
+|------ Size >> 255
+|------ SourceField >> phoneNumber
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
-|------ DefaultValue >> 0
+|------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> False
+|------ Required >> True
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 2280
-|------ ColumnOrder >> 3
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ DecimalPlaces >> 2
 |------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- TIV_2012 (Field in tblInsurance)
+|-- phoneNumberExt (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 2
-|------ CollatingOrder >> 18
-|------ Type >> 20
-|------ Name >> TIV_2012
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> phoneNumberExt
 |------ OrdinalPosition >> 3
-|------ Size >> 16
-|------ SourceField >> TIV_2012
-|------ SourceTable >> tblInsurance
+|------ Size >> 255
+|------ SourceField >> phoneNumberExt
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
-|------ DefaultValue >> 0
+|------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
@@ -126,26 +128,28 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 4
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ DecimalPlaces >> 2
 |------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- LAT (Field in tblInsurance)
-|------ Attributes >> 2
-|------ CollatingOrder >> 18
-|------ Type >> 20
-|------ Name >> LAT
+|-- phoneNumberCategoryId (Field in tblContactsPhoneNumbers)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> phoneNumberCategoryId
 |------ OrdinalPosition >> 4
-|------ Size >> 16
-|------ SourceField >> LAT
-|------ SourceTable >> tblInsurance
+|------ Size >> 4
+|------ SourceField >> phoneNumberCategoryId
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
-|------ DefaultValue >> 0
+|------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
@@ -153,36 +157,9 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 5
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ DecimalPlaces >> 6
-|------ DisplayControl >> 109
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
-|-- LON (Field in tblInsurance)
-|------ Attributes >> 2
-|------ CollatingOrder >> 18
-|------ Type >> 20
-|------ Name >> LON
-|------ OrdinalPosition >> 5
-|------ Size >> 16
-|------ SourceField >> LON
-|------ SourceTable >> tblInsurance
-|------ DataUpdatable >> False
-|------ DefaultValue >> 0
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 6
-|------ ColumnHidden >> False
-|------ DecimalPlaces >> 6
+|------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
 |------ TextAlign >> 0
 |------ AggregateType >> -1

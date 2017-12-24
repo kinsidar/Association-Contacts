@@ -11,59 +11,59 @@
   <xsd:element name="tblContacts">
     <xsd:annotation>
       <xsd:appinfo>
-        <od:index index-name="ContactTypeID" index-key="ContactTypeID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="lst_CitiesContacts" index-key="CityID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="lst_Contacts_TypesContacts" index-key="ContactTypeID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="lst_CountriesContacts" index-key="CountryID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="lst_ProvincesContacts" index-key="ProvinceID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="PostalCode" index-key="PostalCode " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="PrimaryKey" index-key="ContactID " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="ContactTypeID" index-key="contactTypeId " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="lst_CitiesContacts" index-key="cityId " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="lst_Contacts_TypesContacts" index-key="contactTypeId " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="lst_CountriesContacts" index-key="countryId " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="lst_ProvincesContacts" index-key="provinceId " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PostalCode" index-key="postalCode " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="id " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
       </xsd:appinfo>
     </xsd:annotation>
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element name="ContactID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
-        <xsd:element name="ContactTypeID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
-        <xsd:element name="FirstName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+        <xsd:element name="id" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
+        <xsd:element name="contactTypeId" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="firstName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
               <xsd:maxLength value="50"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="LastName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+        <xsd:element name="lastName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
               <xsd:maxLength value="50"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="Address" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+        <xsd:element name="address" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
               <xsd:maxLength value="100"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="CityID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
-        <xsd:element name="ProvinceID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
-        <xsd:element name="CountryID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
-        <xsd:element name="PostalCode" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+        <xsd:element name="cityId" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="provinceId" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="countryId" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="postalCode" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
               <xsd:maxLength value="7"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="DOB" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
-        <xsd:element name="Notes" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+        <xsd:element name="dateOfBirth" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="notes" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
               <xsd:maxLength value="536870910"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="LON" minOccurs="0" od:jetType="decimal" od:sqlSType="decimal">
+        <xsd:element name="lon" minOccurs="0" od:jetType="decimal" od:sqlSType="decimal">
           <xsd:simpleType>
             <xsd:restriction base="xsd:decimal">
               <xsd:totalDigits value="18"></xsd:totalDigits>
@@ -71,7 +71,7 @@
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="LAT" minOccurs="0" od:jetType="decimal" od:sqlSType="decimal">
+        <xsd:element name="lat" minOccurs="0" od:jetType="decimal" od:sqlSType="decimal">
           <xsd:simpleType>
             <xsd:restriction base="xsd:decimal">
               <xsd:totalDigits value="18"></xsd:totalDigits>
