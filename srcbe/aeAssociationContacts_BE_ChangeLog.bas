@@ -10,25 +10,25 @@ Public gintUserId As Integer
 
 ' Constants for project settings
 Public Const gblnTEST As Boolean = True
-Public Const gstrPROJECT_AC As String = "AssociationContacts"
+'''Public Const gstrPROJECT_AC As String = "AssociationContacts"
 Public Const gstrPROJECT_ACDB_BE  As String = "AssociationContactsData"
-Private Const mstrVERSION_AC As String = "0.0.9"
-Private Const mstrDATE_AC As String = "December 21, 2017"
+Private Const mstrVERSION_ACDB_BE As String = "0.0.9"
+Private Const mstrDATE_ACDB_BE As String = "December 21, 2017"
 '
 
 Public Function getMyVersion() As String
     On Error GoTo 0
-    getMyVersion = mstrVERSION_AC
+    getMyVersion = mstrVERSION_ACDB_BE
 End Function
 
 Public Function getMyDate() As String
     On Error GoTo 0
-    getMyDate = mstrDATE_AC
+    getMyDate = mstrDATE_ACDB_BE
 End Function
 
 Public Function getMyProject() As String
     On Error GoTo 0
-    getMyProject = gstrPROJECT_AC
+    getMyProject = gstrPROJECT_ACDB_BE
 End Function
 
 Public Sub ACDB_EXPORT_BE(Optional ByVal varDebug As Variant)
