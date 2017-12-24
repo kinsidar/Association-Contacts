@@ -12,8 +12,8 @@ Public gintUserId As Integer
 Public Const gblnTEST As Boolean = True
 '''Public Const gstrPROJECT_AC As String = "AssociationContacts"
 Public Const gstrPROJECT_ACDB_BE  As String = "AssociationContactsData"
-Private Const mstrVERSION_ACDB_BE As String = "0.0.9"
-Private Const mstrDATE_ACDB_BE As String = "December 21, 2017"
+Private Const mstrVERSION_ACDB_BE As String = "0.1.1"
+Private Const mstrDATE_ACDB_BE As String = "December 23, 2017"
 '
 
 Public Function getMyVersion() As String
@@ -107,19 +107,15 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
-' %025 -
-' %024 -
-' %023 -
-' %022 -
-' %021 -
-' %020 -
-' %019 -
+'
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171223 - v011 -
+    ' FIXED - %020 - *BE - GH#32, Unique Id for tables
 '20171221 - v009 -
     ' FIXED - %012 - Add Shift key blocking
     ' FIXED - %011 - Add Splash form
