@@ -1,10 +1,10 @@
-|-- Name >> tlkpContacts_Types
+|-- Name >> tlkpContactsTypes
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tlkpContacts_Types
+|-- SourceTableName >> tlkpContactsTypes
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
@@ -25,16 +25,19 @@
 |-- AlternateBackShade >> 100
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
+|-- PublishToWeb >> 1
 --------------------------------------------------
-|-- ContactTypeId (Field in tlkpContacts_Types)
+|-- id (Field in tlkpContactsTypes)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactTypeId
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> ContactTypeId
-|------ SourceTable >> tlkpContacts_Types
+|------ SourceField >> id
+|------ SourceTable >> tlkpContactsTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -44,21 +47,22 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 1755
-|------ ColumnOrder >> 1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactType (Field in tlkpContacts_Types)
+|------ GUID >> GUID
+|-- contactType (Field in tlkpContactsTypes)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> ContactType
+|------ Name >> contactType
 |------ OrdinalPosition >> 1
 |------ Size >> 255
-|------ SourceField >> ContactType
-|------ SourceTable >> tlkpContacts_Types
+|------ SourceField >> contactType
+|------ SourceTable >> tlkpContactsTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -74,6 +78,34 @@
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
 |------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
+|-- sortOrder (Field in tlkpContactsTypes)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 3
+|------ Name >> sortOrder
+|------ OrdinalPosition >> 2
+|------ Size >> 2
+|------ SourceField >> sortOrder
+|------ SourceTable >> tlkpContactsTypes
+|------ DataUpdatable >> False
+|------ DefaultValue >> 0
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0

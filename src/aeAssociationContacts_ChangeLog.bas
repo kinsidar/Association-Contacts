@@ -8,8 +8,8 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.1.0"
-Private Const mstrDATE_ACDB As String = "December 22, 2017"
+Private Const mstrVERSION_ACDB As String = "0.1.1"
+Private Const mstrDATE_ACDB As String = "December 24, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
 Public Const ACDB_AZSQL_FRONT_END = False
@@ -74,7 +74,6 @@ End Sub
 ' %043 -
 ' %042 -
 ' %041 -
-' %040 -
 ' %038 - Implement tblBinary for loading theme artwork internally
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
@@ -85,7 +84,7 @@ End Sub
 ' %023 - GH#27, Add ribbon interface
 ' %022 - GH#30, Filter by Type of Contact
 ' %021 - GH#31, LAT and LON not included on the contact form
-' %020 - GH#32, Unique Id for tables
+' %020 - *BE - GH#32, Unique Id for tables
 ' %003 - Relates to GH#9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
@@ -93,6 +92,8 @@ End Sub
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171224 - v011 -
+    ' FIXED - %040 - Fix queries to match id/field naming standard
 '20171221 - v009 -
     ' FIXED - %039 - Display document tabs
     ' FIXED - %037 - Add logo on forms and tabs

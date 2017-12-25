@@ -1,0 +1,22 @@
+dbMemo "SQL" ="SELECT tblContactsPhoneNumbers.id, tblContactsPhoneNumbers.contactID, tblContact"
+    "sPhoneNumbers.phoneNumber, tblContactsPhoneNumbers.phoneNumberExt, tblContactsPh"
+    "oneNumbers.phoneNumberCategoryID\015\012FROM tlkpPhoneNumbersCategories INNER JO"
+    "IN (tblContacts INNER JOIN tblContactsPhoneNumbers ON tblContacts.id = tblContac"
+    "tsPhoneNumbers.contactId) ON tlkpPhoneNumbersCategories.id = tblContactsPhoneNum"
+    "bers.phoneNumberCategoryId;\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0xaf403783427e4e4ca4713acf4fd3bb2a
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+dbByte "PublishToWeb" ="1"
+Begin
+End

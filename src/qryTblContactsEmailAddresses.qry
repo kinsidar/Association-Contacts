@@ -1,0 +1,26 @@
+dbMemo "SQL" ="SELECT tblContactsEmailAddresses.id, tblContactsEmailAddresses.contactId, tblCon"
+    "tactsEmailAddresses.emailAddress, tblContactsEmailAddresses.emailAddressTypeId, "
+    "tlkpEmailAddressTypes.emailAddressType\015\012FROM tlkpEmailAddressTypes INNER J"
+    "OIN (tblContacts INNER JOIN tblContactsEmailAddresses ON tblContacts.id = tblCon"
+    "tactsEmailAddresses.contactId) ON tlkpEmailAddressTypes.id = tblContactsEmailAdd"
+    "resses.emailAddressTypeId;\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0x37a467724eb39247848c4926ee2991f1
+End
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+dbByte "PublishToWeb" ="1"
+Begin
+    Begin
+        dbText "Name" ="tlkpEmailAddressTypes.EmailAddressType"
+        dbLong "AggregateType" ="-1"
+    End
+End

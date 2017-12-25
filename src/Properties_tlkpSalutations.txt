@@ -34,15 +34,18 @@
 |-- AlternateBackShade >> 100
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
+|-- PublishToWeb >> 1
 --------------------------------------------------
-|-- SalutationID (Field in tlkpSalutations)
+|-- id (Field in tlkpSalutations)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> SalutationID
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> SalutationID
+|------ SourceField >> id
 |------ SourceTable >> tlkpSalutations
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -59,14 +62,15 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- Salutation (Field in tlkpSalutations)
+|------ GUID >> GUID
+|-- salutation (Field in tlkpSalutations)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> Salutation
+|------ Name >> salutation
 |------ OrdinalPosition >> 1
 |------ Size >> 18
-|------ SourceField >> Salutation
+|------ SourceField >> salutation
 |------ SourceTable >> tlkpSalutations
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -87,14 +91,15 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- Order (Field in tlkpSalutations)
+|------ GUID >> GUID
+|-- sortOrder (Field in tlkpSalutations)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> Order
+|------ Name >> sortOrder
 |------ OrdinalPosition >> 2
 |------ Size >> 4
-|------ SourceField >> Order
+|------ SourceField >> sortOrder
 |------ SourceTable >> tlkpSalutations
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -113,3 +118,4 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID
