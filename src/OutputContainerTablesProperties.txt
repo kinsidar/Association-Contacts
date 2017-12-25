@@ -153,6 +153,26 @@
               FilterOnLoad  False
               OrderByOnLoad True
               PublishToWeb   1 
+>>>qryContactsList
+              Name          qryContactsList
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+              RecordLocks    0 
+              ODBCTimeout    60 
+              RecordsetType  0 
+              OrderByOn     False
+              Orientation    0 
+              DefaultView    2 
+              GUID          GUID
+              FilterOnLoad  False
+              OrderByOnLoad True
+              TotalsRow     False
+              PublishToWeb   1 
 >>>qryTblContacts
               Name          qryTblContacts
               Owner         admin

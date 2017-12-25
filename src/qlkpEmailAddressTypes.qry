@@ -20,12 +20,4 @@ Begin
         dbText "Name" ="tlkpEmailAddressTypes.EmailAddressType"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="tlkpEmailAddressTypes.EmailAddressTypeID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr1"
-        dbLong "AggregateType" ="-1"
-    End
 End

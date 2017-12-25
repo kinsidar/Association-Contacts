@@ -25,6 +25,10 @@ FROM tlkpProvinces
 WHERE (((tlkpProvinces.countryId)=[Forms]![frmContacts]![fsubContactsDetails]![countryId]))
 ORDER BY tlkpProvinces.province;
 
+<<<[qryContactsList]>>>
+SELECT tblContacts.id, tblContacts.firstName, tblContacts.lastName
+FROM tblContacts;
+
 <<<[qryTblContacts]>>>
 SELECT tblContacts.id, tblContacts.contactTypeId, tblContacts.firstName, tblContacts.lastName, tblContacts.address, tblContacts.cityId, tblContacts.provinceId, tblContacts.countryId, tblContacts.postalCode, tblContacts.dateOfBirth, tblContacts.notes
 FROM tblContacts;
@@ -34,7 +38,7 @@ SELECT tblContactsEmailAddresses.id, tblContactsEmailAddresses.contactId, tblCon
 FROM tlkpEmailAddressTypes INNER JOIN (tblContacts INNER JOIN tblContactsEmailAddresses ON tblContacts.id = tblContactsEmailAddresses.contactId) ON tlkpEmailAddressTypes.id = tblContactsEmailAddresses.emailAddressTypeId;
 
 <<<[qryTblContactsPhoneNumbers]>>>
-SELECT tblContactsPhoneNumbers.id, tblContactsPhoneNumbers.contactID, tblContactsPhoneNumbers.phoneNumber, tblContactsPhoneNumbers.phoneNumberExt, tblContactsPhoneNumbers.phoneNumberCategoryID
+SELECT tblContactsPhoneNumbers.id, tblContactsPhoneNumbers.contactId, tblContactsPhoneNumbers.phoneNumber, tblContactsPhoneNumbers.phoneNumberExt, tblContactsPhoneNumbers.phoneNumberCategoryId
 FROM tlkpPhoneNumbersCategories INNER JOIN (tblContacts INNER JOIN tblContactsPhoneNumbers ON tblContacts.id = tblContactsPhoneNumbers.contactId) ON tlkpPhoneNumbersCategories.id = tblContactsPhoneNumbers.phoneNumberCategoryId;
 
 <<<[qryTblPhoneNumbersCategories]>>>

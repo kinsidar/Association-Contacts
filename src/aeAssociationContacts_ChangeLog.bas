@@ -73,7 +73,6 @@ End Sub
 ' %044 -
 ' %043 -
 ' %042 -
-' %041 -
 ' %038 - Implement tblBinary for loading theme artwork internally
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
@@ -93,6 +92,7 @@ End Sub
 '=============================================================================================================================
 '
 '20171224 - v011 -
+    ' FIXED - %041 - Fix forms to match id/field naming standard
     ' FIXED - %040 - Fix queries to match id/field naming standard
 '20171221 - v009 -
     ' FIXED - %039 - Display document tabs

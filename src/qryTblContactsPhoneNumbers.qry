@@ -1,6 +1,6 @@
-dbMemo "SQL" ="SELECT tblContactsPhoneNumbers.id, tblContactsPhoneNumbers.contactID, tblContact"
+dbMemo "SQL" ="SELECT tblContactsPhoneNumbers.id, tblContactsPhoneNumbers.contactId, tblContact"
     "sPhoneNumbers.phoneNumber, tblContactsPhoneNumbers.phoneNumberExt, tblContactsPh"
-    "oneNumbers.phoneNumberCategoryID\015\012FROM tlkpPhoneNumbersCategories INNER JO"
+    "oneNumbers.phoneNumberCategoryId\015\012FROM tlkpPhoneNumbersCategories INNER JO"
     "IN (tblContacts INNER JOIN tblContactsPhoneNumbers ON tblContacts.id = tblContac"
     "tsPhoneNumbers.contactId) ON tlkpPhoneNumbersCategories.id = tblContactsPhoneNum"
     "bers.phoneNumberCategoryId;\015\012"
