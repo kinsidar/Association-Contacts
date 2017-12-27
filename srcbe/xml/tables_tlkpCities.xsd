@@ -11,18 +11,18 @@
   <xsd:element name="tlkpCities">
     <xsd:annotation>
       <xsd:appinfo>
-        <od:index index-name="City" index-key="City " primary="no" unique="yes" clustered="no" order="asc"></od:index>
-        <od:index index-name="lst_Provinceslst_Cities" index-key="ProvinceID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="PrimaryKey" index-key="CityID " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
-        <od:index index-name="Province" index-key="ProvinceID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="ProvinceID" index-key="CityID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="City" index-key="city " primary="no" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="lst_Provinceslst_Cities" index-key="provinceId " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="id " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="Province" index-key="provinceId " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="ProvinceID" index-key="id " primary="no" unique="no" clustered="no" order="asc"></od:index>
       </xsd:appinfo>
     </xsd:annotation>
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element name="CityID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
-        <xsd:element name="ProvinceID" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int"></xsd:element>
-        <xsd:element name="City" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+        <xsd:element name="id" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
+        <xsd:element name="provinceId" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int"></xsd:element>
+        <xsd:element name="city" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
               <xsd:maxLength value="50"></xsd:maxLength>

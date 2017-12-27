@@ -54,8 +54,8 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
-              GUID          GUID
               NameMap       Track name AutoCorrect info is ON!
+              GUID          GUID
 >>>tblContacts
               Name          tblContacts
               Owner         admin
@@ -85,8 +85,8 @@
               PublishToWeb   1 
               NameMap       Track name AutoCorrect info is ON!
               GUID          GUID
->>>tblContacts_EmailAddresses
-              Name          tblContacts_EmailAddresses
+>>>tblContactsEmailAddresses
+              Name          tblContactsEmailAddresses
               Owner         admin
               UserName      admin
               Permissions    1048319 
@@ -113,8 +113,10 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
->>>tblContacts_PhoneNumbers
-              Name          tblContacts_PhoneNumbers
+              GUID          GUID
+              NameMap       Track name AutoCorrect info is ON!
+>>>tblContactsPhoneNumbers
+              Name          tblContactsPhoneNumbers
               Owner         admin
               UserName      admin
               Permissions    1048319 
@@ -139,61 +141,8 @@
               AlternateBackShade           100 
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
->>>tblInsurance
-              Name          tblInsurance
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
-              NameMap       Track name AutoCorrect info is ON!
-              DefaultView    2 
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex               1 
-              AlternateBackThemeColorIndex               1 
-              AlternateBackTint            100 
-              AlternateBackShade           95 
-              ReadOnlyWhenDisconnected    False
-              DatasheetGridlinesThemeColorIndex          3 
-              DatasheetForeThemeColorIndex               0 
-              PublishToWeb   1 
               GUID          GUID
->>>tblTestIt
-              Name          tblTestIt
-              Owner         admin
-              UserName      admin
-              Permissions    1048319 
-              AllPermissions               1048319 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
-              Orientation    0 
-              OrderByOn     False
               NameMap       Track name AutoCorrect info is ON!
-              DefaultView    2 
-              DisplayViewsOnSharePointSite               1 
-              TotalsRow     False
-              FilterOnLoad  False
-              OrderByOnLoad True
-              HideNewField  False
-              BackTint       100 
-              BackShade      100 
-              ThemeFontIndex               1 
-              AlternateBackThemeColorIndex               1 
-              AlternateBackTint            100 
-              AlternateBackShade           95 
-              DatasheetGridlinesThemeColorIndex          3 
-              DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
 >>>tblUser
               Name          tblUser
@@ -225,8 +174,8 @@
               DatasheetForeThemeColorIndex              -1 
               ReadOnlyWhenDisconnected    False
               PublishToWeb   1 
-              GUID          GUID
               NameMap       Track name AutoCorrect info is ON!
+              GUID          GUID
 >>>tlkpCities
               Name          tlkpCities
               Owner         admin
@@ -255,8 +204,10 @@
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
               PublishToWeb   1 
->>>tlkpContacts_Types
-              Name          tlkpContacts_Types
+              GUID          GUID
+              NameMap       Track name AutoCorrect info is ON!
+>>>tlkpContactsTypes
+              Name          tlkpContactsTypes
               Owner         admin
               UserName      admin
               Permissions    1048319 
@@ -281,6 +232,9 @@
               AlternateBackShade           100 
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
+              GUID          GUID
+              NameMap       Track name AutoCorrect info is ON!
+              PublishToWeb   1 
 >>>tlkpCountries
               Name          tlkpCountries
               Owner         admin
@@ -309,6 +263,8 @@
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
               PublishToWeb   1 
+              GUID          GUID
+              NameMap       Track name AutoCorrect info is ON!
 >>>tlkpEmailAddressTypes
               Name          tlkpEmailAddressTypes
               Owner         admin
@@ -364,6 +320,9 @@
               AlternateBackShade           100 
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
+              GUID          GUID
+              NameMap       Track name AutoCorrect info is ON!
+              PublishToWeb   1 
 >>>tlkpProvinces
               Name          tlkpProvinces
               Owner         admin
@@ -401,6 +360,8 @@
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
               PublishToWeb   1 
+              GUID          GUID
+              NameMap       Track name AutoCorrect info is ON!
 >>>tlkpSalutations
               Name          tlkpSalutations
               Owner         admin
@@ -436,3 +397,6 @@
               AlternateBackShade           100 
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
+              GUID          GUID
+              NameMap       Track name AutoCorrect info is ON!
+              PublishToWeb   1 

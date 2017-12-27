@@ -26,11 +26,19 @@ Begin Form
     GridY =24
     Width =11520
     DatasheetFontHeight =11
+<<<<<<< HEAD
     ItemSuffix =46
     Left =4515
     Top =2610
     Right =16095
     Bottom =11775
+=======
+    ItemSuffix =27
+    Left =4515
+    Top =2640
+    Right =23385
+    Bottom =15015
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
         0x3f7d40673804e540
@@ -58,7 +66,6 @@ Begin Form
     DatasheetAlternateBackColor =16053492
     PictureSizeMode =3
     DatasheetGridlinesColor12 =15062992
-    RibbonName ="SVIP7"
     FitToScreen =1
     PrtDevModeW = Begin
     End
@@ -76,6 +83,16 @@ Begin Form
             BorderTint =50.0
             ForeThemeColorIndex =0
             ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
@@ -168,7 +185,8 @@ Begin Form
             BackTint =20.0
         End
         Begin Section
-            Height =6720
+            Height =6780
+            BackColor =14282978
             Name ="Detail"
             OnClick ="[Event Procedure]"
             GUID = Begin
@@ -177,7 +195,8 @@ Begin Form
             AlternateBackColor =15921906
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
-            BackThemeColorIndex =1
+            BackThemeColorIndex =9
+            BackTint =20.0
             Begin
                 Begin TextBox
                     Enabled = NotDefault
@@ -226,7 +245,7 @@ Begin Form
                 Begin TextBox
                     Enabled = NotDefault
                     TabStop = NotDefault
-                    OverlapFlags =247
+                    OverlapFlags =255
                     IMESentenceMode =3
                     Left =9360
                     Top =6300
@@ -248,7 +267,7 @@ Begin Form
                     LayoutCachedHeight =6615
                     Begin
                         Begin Label
-                            OverlapFlags =87
+                            OverlapFlags =95
                             Left =8040
                             Top =6300
                             Width =855
@@ -362,7 +381,7 @@ Begin Form
                 Begin TextBox
                     Enabled = NotDefault
                     TabStop = NotDefault
-                    OverlapFlags =247
+                    OverlapFlags =255
                     IMESentenceMode =3
                     Left =9360
                     Top =5400
@@ -385,7 +404,7 @@ Begin Form
                     LayoutCachedHeight =5715
                     Begin
                         Begin Label
-                            OverlapFlags =87
+                            OverlapFlags =95
                             Left =8040
                             Top =5400
                             Width =1290
@@ -410,10 +429,10 @@ Begin Form
                     Enabled = NotDefault
                     Locked = NotDefault
                     TabStop = NotDefault
-                    OverlapFlags =87
+                    OverlapFlags =95
                     IMESentenceMode =3
-                    Left =1500
-                    Top =120
+                    Left =8520
+                    Top =180
                     Width =2820
                     Height =300
                     FontWeight =700
@@ -427,10 +446,10 @@ Begin Form
                     End
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =1500
-                    LayoutCachedTop =120
-                    LayoutCachedWidth =4320
-                    LayoutCachedHeight =420
+                    LayoutCachedLeft =8520
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =11340
+                    LayoutCachedHeight =480
                     BackThemeColorIndex =-1
                     BorderShade =100.0
                     ForeTint =50.0
@@ -438,8 +457,8 @@ Begin Form
                         Begin Label
                             OldBorderStyle =1
                             OverlapFlags =93
-                            Left =60
-                            Top =120
+                            Left =7080
+                            Top =180
                             Width =1440
                             Height =300
                             BorderColor =16777215
@@ -450,24 +469,65 @@ Begin Form
                                 0x4d05345353584b48a538a626acfeba6a
                             End
                             GridlineColor =10921638
-                            LayoutCachedLeft =60
-                            LayoutCachedTop =120
-                            LayoutCachedWidth =1500
-                            LayoutCachedHeight =420
+                            LayoutCachedLeft =7080
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =8520
+                            LayoutCachedHeight =480
                             BorderThemeColorIndex =1
                             BorderTint =100.0
                         End
                     End
                 End
+<<<<<<< HEAD
+=======
+                Begin Image
+                    PictureType =2
+                    Left =180
+                    Top =180
+                    Width =2880
+                    Height =2880
+                    BorderColor =13553360
+                    Name ="imgSplash"
+                    OnClick ="[Event Procedure]"
+                    Picture ="aelogo_256x256"
+                    GUID = Begin
+                        0x1df5ac94eb64414bbb87cbe3db574c1a
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =180
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =3060
+                    LayoutCachedHeight =3060
+                    TabIndex =6
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BorderWidth =4
+                    OverlapFlags =247
+                    Width =11520
+                    Height =6780
+                    BorderColor =9359785
+                    Name ="Box26"
+                    GUID = Begin
+                        0x08817531488d4642b41adb182f908f94
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedWidth =11520
+                    LayoutCachedHeight =6780
+                    BorderThemeColorIndex =9
+                    BorderTint =60.0
+                    BorderShade =100.0
+                End
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
             End
         End
         Begin FormFooter
-            Height =360
+            Height =0
             Name ="FormFooter"
             GUID = Begin
                 0xc2a3b1468bd55449a4e9a0b2f69a8fd1
             End
-            AutoHeight =1
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1

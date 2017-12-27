@@ -1,10 +1,10 @@
-|-- Name >> tblContacts_EmailAddresses
+|-- Name >> tblContactsEmailAddresses
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tblContacts_EmailAddresses
+|-- SourceTableName >> tblContactsEmailAddresses
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
@@ -27,16 +27,18 @@
 |-- DatasheetGridlinesThemeColorIndex >> 3
 |-- DatasheetForeThemeColorIndex >> 0
 |-- PublishToWeb >> 1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
 --------------------------------------------------
-|-- ContactEmailId (Field in tblContacts_EmailAddresses)
+|-- id (Field in tblContactsEmailAddresses)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactEmailId
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> ContactEmailId
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> id
+|------ SourceTable >> tblContactsEmailAddresses
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -46,21 +48,22 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 1815
-|------ ColumnOrder >> 1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactId (Field in tblContacts_EmailAddresses)
+|------ GUID >> GUID
+|-- contactId (Field in tblContactsEmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactId
+|------ Name >> contactId
 |------ OrdinalPosition >> 1
 |------ Size >> 4
-|------ SourceField >> ContactId
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> contactId
+|------ SourceTable >> tblContactsEmailAddresses
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -78,15 +81,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- EmailAddress (Field in tblContacts_EmailAddresses)
+|------ GUID >> GUID
+|-- emailAddress (Field in tblContactsEmailAddresses)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> EmailAddress
+|------ Name >> emailAddress
 |------ OrdinalPosition >> 2
 |------ Size >> 255
-|------ SourceField >> EmailAddress
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> emailAddress
+|------ SourceTable >> tblContactsEmailAddresses
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -106,15 +110,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- EmailAddressTypeID (Field in tblContacts_EmailAddresses)
+|------ GUID >> GUID
+|-- emailAddressTypeId (Field in tblContactsEmailAddresses)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> EmailAddressTypeID
+|------ Name >> emailAddressTypeId
 |------ OrdinalPosition >> 3
 |------ Size >> 4
-|------ SourceField >> EmailAddressTypeID
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> emailAddressTypeId
+|------ SourceTable >> tblContactsEmailAddresses
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -132,3 +137,4 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID

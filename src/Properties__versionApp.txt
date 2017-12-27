@@ -5,7 +5,11 @@
 |-- Connect >> 
 |-- Attributes >> 0
 |-- SourceTableName >> 
+<<<<<<< HEAD
 |-- RecordCount >> 2
+=======
+|-- RecordCount >> 4
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0

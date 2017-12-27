@@ -25,7 +25,7 @@
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="UpdatedDate" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime"></xsd:element>
+        <xsd:element name="updatedDate" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime"></xsd:element>
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>

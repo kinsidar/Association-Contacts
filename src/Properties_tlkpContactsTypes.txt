@@ -1,16 +1,16 @@
-|-- Name >> tblTestIt
+|-- Name >> tlkpContactsTypes
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tblTestIt
+|-- SourceTableName >> tlkpContactsTypes
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- NameMap >> NameMap
+|-- SubdatasheetName >> [None]
 |-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
@@ -19,15 +19,17 @@
 |-- HideNewField >> False
 |-- BackTint >> 100
 |-- BackShade >> 100
-|-- ThemeFontIndex >> 1
-|-- AlternateBackThemeColorIndex >> 1
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
 |-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 95
-|-- DatasheetGridlinesThemeColorIndex >> 3
-|-- DatasheetForeThemeColorIndex >> 0
+|-- AlternateBackShade >> 100
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
 |-- PublishToWeb >> 1
 --------------------------------------------------
-|-- id (Field in tblTestIt)
+|-- id (Field in tlkpContactsTypes)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -35,7 +37,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> id
-|------ SourceTable >> tblTestIt
+|------ SourceTable >> tlkpContactsTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -44,37 +46,66 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
+|------ ColumnWidth >> 1755
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- aFarField (Field in tblTestIt)
+|------ GUID >> GUID
+|-- contactType (Field in tlkpContactsTypes)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> aFarField
+|------ Name >> contactType
 |------ OrdinalPosition >> 1
 |------ Size >> 255
-|------ SourceField >> aFarField
-|------ SourceTable >> tblTestIt
+|------ SourceField >> contactType
+|------ SourceTable >> tlkpContactsTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> True
+|------ Required >> True
+|------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> -1
+|------ ColumnWidth >> 3540
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
 |------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
+|-- sortOrder (Field in tlkpContactsTypes)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 3
+|------ Name >> sortOrder
+|------ OrdinalPosition >> 2
+|------ Size >> 2
+|------ SourceField >> sortOrder
+|------ SourceTable >> tlkpContactsTypes
+|------ DataUpdatable >> False
+|------ DefaultValue >> 0
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0

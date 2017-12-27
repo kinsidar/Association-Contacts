@@ -1,10 +1,10 @@
-|-- Name >> tblContacts_PhoneNumbers
+|-- Name >> tblContactsPhoneNumbers
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tblContacts_PhoneNumbers
+|-- SourceTableName >> tblContactsPhoneNumbers
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
@@ -25,16 +25,19 @@
 |-- AlternateBackShade >> 100
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
+|-- PublishToWeb >> 1
 --------------------------------------------------
-|-- PhoneNumberID (Field in tblContacts_PhoneNumbers)
+|-- id (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> PhoneNumberID
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> PhoneNumberID
-|------ SourceTable >> tblContacts_PhoneNumbers
+|------ SourceField >> id
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -50,15 +53,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactID (Field in tblContacts_PhoneNumbers)
+|------ GUID >> GUID
+|-- contactId (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactID
+|------ Name >> contactId
 |------ OrdinalPosition >> 1
 |------ Size >> 4
-|------ SourceField >> ContactID
-|------ SourceTable >> tblContacts_PhoneNumbers
+|------ SourceField >> contactId
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -76,15 +80,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumber (Field in tblContacts_PhoneNumbers)
+|------ GUID >> GUID
+|-- phoneNumber (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> PhoneNumber
+|------ Name >> phoneNumber
 |------ OrdinalPosition >> 2
 |------ Size >> 255
-|------ SourceField >> PhoneNumber
-|------ SourceTable >> tblContacts_PhoneNumbers
+|------ SourceField >> phoneNumber
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -104,15 +109,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumberExt (Field in tblContacts_PhoneNumbers)
+|------ GUID >> GUID
+|-- phoneNumberExt (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> PhoneNumberExt
+|------ Name >> phoneNumberExt
 |------ OrdinalPosition >> 3
 |------ Size >> 255
-|------ SourceField >> PhoneNumberExt
-|------ SourceTable >> tblContacts_PhoneNumbers
+|------ SourceField >> phoneNumberExt
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -132,15 +138,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumberCategoryID (Field in tblContacts_PhoneNumbers)
+|------ GUID >> GUID
+|-- phoneNumberCategoryId (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> PhoneNumberCategoryID
+|------ Name >> phoneNumberCategoryId
 |------ OrdinalPosition >> 4
 |------ Size >> 4
-|------ SourceField >> PhoneNumberCategoryID
-|------ SourceTable >> tblContacts_PhoneNumbers
+|------ SourceField >> phoneNumberCategoryId
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -158,3 +165,4 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID

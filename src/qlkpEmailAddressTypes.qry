@@ -1,16 +1,7 @@
-Operation =1
-Option =0
-Begin InputTables
-    Name ="tlkpEmailAddressTypes"
-End
-Begin OutputColumns
-    Expression ="tlkpEmailAddressTypes.EmailAddressTypeID"
-    Expression ="tlkpEmailAddressTypes.EmailAddressType"
-End
-Begin OrderBy
-    Expression ="tlkpEmailAddressTypes.EmailAddressType"
-    Flag =0
-End
+dbMemo "SQL" ="SELECT tlkpEmailAddressTypes.id, tlkpEmailAddressTypes.emailAddressType\015\012F"
+    "ROM tlkpEmailAddressTypes\015\012ORDER BY tlkpEmailAddressTypes.emailAddressType"
+    ";\015\012"
+dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbByte "RecordsetType" ="0"
@@ -29,6 +20,7 @@ Begin
         dbText "Name" ="tlkpEmailAddressTypes.EmailAddressType"
         dbLong "AggregateType" ="-1"
     End
+<<<<<<< HEAD
     Begin
         dbText "Name" ="tlkpEmailAddressTypes.EmailAddressTypeID"
         dbLong "AggregateType" ="-1"
@@ -56,4 +48,6 @@ Begin
         Name ="tlkpEmailAddressTypes"
         Name =""
     End
+=======
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 End
