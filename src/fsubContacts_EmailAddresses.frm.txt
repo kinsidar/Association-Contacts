@@ -26,6 +26,8 @@ Begin Form
     GUID = Begin
         0xd67cfede1386b9439ced84e6f8c3a609
     End
+    NameMap = Begin
+    End
     RecordSource ="qryTblContacts_EmailAddresses"
     DatasheetFontName ="Calibri"
     PrtMip = Begin

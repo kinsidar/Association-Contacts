@@ -1,16 +1,15 @@
-|-- Name >> tlkpPhoneNumbersCategories
+|-- Name >> _tblPersist
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tlkpPhoneNumbersCategories
+|-- SourceTableName >> _tblPersist
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- SubdatasheetName >> [None]
 |-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
@@ -19,22 +18,26 @@
 |-- HideNewField >> False
 |-- BackTint >> 100
 |-- BackShade >> 100
-|-- ThemeFontIndex >> -1
-|-- AlternateBackThemeColorIndex >> -1
+|-- ThemeFontIndex >> 1
+|-- AlternateBackThemeColorIndex >> 1
 |-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 100
-|-- DatasheetGridlinesThemeColorIndex >> -1
-|-- DatasheetForeThemeColorIndex >> -1
+|-- AlternateBackShade >> 95
+|-- ReadOnlyWhenDisconnected >> False
+|-- DatasheetGridlinesThemeColorIndex >> 3
+|-- DatasheetForeThemeColorIndex >> 0
+|-- PublishToWeb >> 1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
 --------------------------------------------------
-|-- PhoneNumberCategoryID (Field in tlkpPhoneNumbersCategories)
+|-- id (Field in _tblPersist)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> PhoneNumberCategoryID
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> PhoneNumberCategoryID
-|------ SourceTable >> tlkpPhoneNumbersCategories
+|------ SourceField >> id
+|------ SourceTable >> _tblPersist
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -44,30 +47,31 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumberCategory (Field in tlkpPhoneNumbersCategories)
+|------ GUID >> GUID
+|-- persist (Field in _tblPersist)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> PhoneNumberCategory
+|------ Name >> persist
 |------ OrdinalPosition >> 1
 |------ Size >> 255
-|------ SourceField >> PhoneNumberCategory
-|------ SourceTable >> tlkpPhoneNumbersCategories
+|------ SourceField >> persist
+|------ SourceTable >> _tblPersist
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
-|------ Required >> True
-|------ AllowZeroLength >> False
+|------ Required >> False
+|------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 2610
+|------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
@@ -78,3 +82,4 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID

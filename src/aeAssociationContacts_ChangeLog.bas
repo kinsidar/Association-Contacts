@@ -85,7 +85,6 @@ End Sub
 ' %022 - GH#30, Filter by Type of Contact
 ' %021 - GH#31, LAT and LON not included on the contact form
 ' %020 - GH#32, Unique Id for tables
-' %012 - Add Shift key blocking
 ' %003 - Relates to GH#9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
@@ -96,6 +95,7 @@ End Sub
 '20171221 - v009 -
     ' FIXED - %034 - Add userdev/admin peter
     ' FIXED - %025 - GH#25, Implement frmPersist (FE) and _tblPersist (BE), Ref: https://www.devhut.net/2012/09/29/ms-access-persistent-connection-in-a-split-database/
+    ' FIXED - %012 - Add Shift key blocking (basDisableShiftKey etc.)
 '20171221 - v008 -
     ' FIXED - %033 - Create theme folder for icons, graphics etc. and use adaept as first test theme
     ' FIXED - %019 - Update aegit to latest (2.0.7)

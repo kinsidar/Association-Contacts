@@ -1,3 +1,12 @@
+>>>_tblPersist
+              Name          _tblPersist
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
 >>>_versionApp
               Name          _versionApp
               Owner         admin
@@ -25,6 +34,16 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
+              GUID          GUID
+>>>_versionData
+              Name          _versionData
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
 >>>qlkpCities
               Name          qlkpCities
               Owner         admin
@@ -236,6 +255,7 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
+              GUID          GUID
 >>>qryVersionData
               Name          qryVersionData
               Owner         admin
@@ -255,6 +275,7 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
+              GUID          GUID
 >>>tblContacts
               Name          tblContacts
               Owner         admin

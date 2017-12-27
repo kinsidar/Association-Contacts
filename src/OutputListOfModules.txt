@@ -6,4 +6,5 @@
 [basDisableShiftKey]        False
 [basErrorLog] False
 [basErrorTextWrite]         False
+[basFunctions]              False
 [modRibbon]   False
