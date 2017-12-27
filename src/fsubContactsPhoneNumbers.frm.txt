@@ -15,18 +15,18 @@ Begin Form
     Width =6966
     DatasheetFontHeight =11
     ItemSuffix =6
-    Left =8070
+    Left =3375
     Top =4695
-    Right =16935
+    Right =12240
     Bottom =6225
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
-        0x186c9a08d805e540
+        0x1df0ab4dbe0ae540
     End
     GUID = Begin
         0x8a5df63f43785a4e87abcfbdfc93d2fb
     End
-    RecordSource ="qryTblContacts_PhoneNumbers"
+    RecordSource ="qryTblContactsPhoneNumbers"
     DatasheetFontName ="Calibri"
     PrtMip = Begin
     End
@@ -213,7 +213,7 @@ Begin Form
                     TabIndex =3
                     BorderColor =13553360
                     Name ="txtPhoneNumber"
-                    ControlSource ="PhoneNumber"
+                    ControlSource ="phoneNumber"
                     FontName ="Tahoma"
                     GUID = Begin
                         0x269c88da66b76a4d9d9ec097088b7af1
@@ -237,7 +237,7 @@ Begin Form
                     TabIndex =2
                     BorderColor =13553360
                     Name ="txtPhoneNumberExt"
-                    ControlSource ="PhoneNumberExt"
+                    ControlSource ="phoneNumberExt"
                     FontName ="Tahoma"
                     GUID = Begin
                         0xe608d26bcf5920459c126b9411017066
@@ -261,8 +261,8 @@ Begin Form
                     FontSize =8
                     BackColor =2366701
                     BorderColor =13553360
-                    Name ="PhoneNumberID"
-                    ControlSource ="PhoneNumberID"
+                    Name ="txtId"
+                    ControlSource ="id"
                     FontName ="Tahoma"
                     GUID = Begin
                         0x656ec84b6e3b234a85041c8b0993c15d
@@ -293,14 +293,14 @@ Begin Form
                     GUID = Begin
                         0x25743a6dee14d94e8052f6d70ff9c517
                     End
-                    Name ="cboPhoneNumberCategoryID"
-                    ControlSource ="PhoneNumberCategoryID"
+                    Name ="cboPhoneNumberCategoryId"
+                    ControlSource ="phoneNumberCategoryId"
                     RowSourceType ="Table/Query"
                     RowSource ="qryTblPhoneNumbersCategories"
                     ColumnWidths ="0"
                     FontName ="Tahoma"
-                    BaseInfo ="\"qryTblPhoneNumbersCategories\";\"tlkpPhoneNumbersCategories\";\"\";\"PhoneNumb"
-                        "erCategoryID\";\"PhoneNumberCategory\";\"PrimaryKey\""
+                    BaseInfo ="\"qryTblPhoneNumbersCategories\";\"tlkpPhoneNumbersCategories\";\"\";\"id\";\"ph"
+                        "oneNumberCategory\";\"PrimaryKey\""
                     GridlineColor =10921638
 
                     LayoutCachedLeft =3540
@@ -387,8 +387,8 @@ Begin Form
                     TabIndex =1
                     BackColor =2366701
                     BorderColor =13553360
-                    Name ="ContactID"
-                    ControlSource ="ContactID"
+                    Name ="txtContactId"
+                    ControlSource ="contactId"
                     FontName ="Tahoma"
                     GUID = Begin
                         0xf23afc80d9056d458bac94f508553254

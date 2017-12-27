@@ -29,8 +29,8 @@
 |-- DatasheetForeThemeColorIndex >> -1
 |-- ReadOnlyWhenDisconnected >> False
 |-- PublishToWeb >> 1
-|-- GUID >> GUID
 |-- NameMap >> NameMap
+|-- GUID >> GUID
 --------------------------------------------------
 |-- id (Field in tblUser)
 |------ Attributes >> 17
@@ -49,7 +49,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> Number automatically assigned to new employee.
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ ColumnWidth >> 1350
@@ -79,7 +78,6 @@
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ Description >> Login name in user environment
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
@@ -89,26 +87,27 @@
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- password (Field in tblUser)
+|-- userPassword (Field in tblUser)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> password
+|------ Name >> userPassword
 |------ OrdinalPosition >> 2
-|------ Size >> 21
-|------ SourceField >> password
+|------ Size >> 12
+|------ SourceField >> userPassword
 |------ SourceTable >> tblUser
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> False
-|------ AllowZeroLength >> True
+|------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
+|------ InputMask >> Password
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
@@ -117,7 +116,6 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|------ InputMask >> Password
 |------ GUID >> GUID
 |-- userName (Field in tblUser)
 |------ Attributes >> 2
@@ -282,37 +280,6 @@
 |------ ColumnWidth >> 4050
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ Description >> Employee's title.
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
-|-- userPassword (Field in tblUser)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 10
-|------ Name >> userPassword
-|------ OrdinalPosition >> 9
-|------ Size >> 12
-|------ SourceField >> userPassword
-|------ SourceTable >> tblUser
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> False
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ InputMask >> Password
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
@@ -327,7 +294,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> titleOfCourtesy
-|------ OrdinalPosition >> 10
+|------ OrdinalPosition >> 9
 |------ Size >> 12
 |------ SourceField >> titleOfCourtesy
 |------ SourceTable >> tblUser
@@ -342,7 +309,6 @@
 |------ ColumnWidth >> 1980
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ Description >> Title used in salutations.
 |------ InputMask >> Password
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
@@ -358,7 +324,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 4
 |------ Name >> supervisorId
-|------ OrdinalPosition >> 11
+|------ OrdinalPosition >> 10
 |------ Size >> 4
 |------ SourceField >> supervisorId
 |------ SourceTable >> tblUser
@@ -373,7 +339,6 @@
 |------ ColumnWidth >> 2190
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ Description >> Employee's supervisor.
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 111
 |------ RowSourceType >> Table/Query
@@ -398,7 +363,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 8
 |------ Name >> birthDate
-|------ OrdinalPosition >> 12
+|------ OrdinalPosition >> 11
 |------ Size >> 8
 |------ SourceField >> birthDate
 |------ SourceTable >> tblUser
@@ -428,7 +393,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 8
 |------ Name >> hireDate
-|------ OrdinalPosition >> 13
+|------ OrdinalPosition >> 12
 |------ Size >> 8
 |------ SourceField >> hireDate
 |------ SourceTable >> tblUser
@@ -458,7 +423,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> address
-|------ OrdinalPosition >> 14
+|------ OrdinalPosition >> 13
 |------ Size >> 60
 |------ SourceField >> address
 |------ SourceTable >> tblUser
@@ -470,7 +435,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> Street or post-office box.
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ ColumnWidth >> 2220
@@ -489,7 +453,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> city
-|------ OrdinalPosition >> 15
+|------ OrdinalPosition >> 14
 |------ Size >> 15
 |------ SourceField >> city
 |------ SourceTable >> tblUser
@@ -519,7 +483,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> region
-|------ OrdinalPosition >> 16
+|------ OrdinalPosition >> 15
 |------ Size >> 15
 |------ SourceField >> region
 |------ SourceTable >> tblUser
@@ -531,7 +495,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> State or province.
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ ColumnWidth >> 945
@@ -550,7 +513,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> postalCode
-|------ OrdinalPosition >> 17
+|------ OrdinalPosition >> 16
 |------ Size >> 10
 |------ SourceField >> postalCode
 |------ SourceTable >> tblUser
@@ -580,7 +543,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> country
-|------ OrdinalPosition >> 18
+|------ OrdinalPosition >> 17
 |------ Size >> 15
 |------ SourceField >> country
 |------ SourceTable >> tblUser
@@ -610,7 +573,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> homePhone
-|------ OrdinalPosition >> 19
+|------ OrdinalPosition >> 18
 |------ Size >> 24
 |------ SourceField >> homePhone
 |------ SourceTable >> tblUser
@@ -622,7 +585,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> Phone number includes country code or area code.
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ ColumnWidth >> 1440
@@ -641,7 +603,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 10
 |------ Name >> extension
-|------ OrdinalPosition >> 20
+|------ OrdinalPosition >> 19
 |------ Size >> 4
 |------ SourceField >> extension
 |------ SourceTable >> tblUser
@@ -653,7 +615,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> Internal telephone extension number.
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ ColumnWidth >> 1080
@@ -672,7 +633,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 11
 |------ Name >> photo
-|------ OrdinalPosition >> 21
+|------ OrdinalPosition >> 20
 |------ Size >> 0
 |------ SourceField >> photo
 |------ SourceTable >> tblUser
@@ -684,7 +645,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> Picture of employee.
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ ColumnWidth >> 1815
@@ -699,7 +659,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 12
 |------ Name >> notes
-|------ OrdinalPosition >> 22
+|------ OrdinalPosition >> 21
 |------ Size >> 0
 |------ SourceField >> notes
 |------ SourceTable >> tblUser
@@ -711,7 +671,6 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ Description >> General information about employee's background.
 |------ ColumnWidth >> 4350
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
@@ -730,7 +689,7 @@
 |------ CollatingOrder >> 1033
 |------ Type >> 1
 |------ Name >> active
-|------ OrdinalPosition >> 23
+|------ OrdinalPosition >> 22
 |------ Size >> 1
 |------ SourceField >> active
 |------ SourceTable >> tblUser

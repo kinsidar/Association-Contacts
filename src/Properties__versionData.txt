@@ -83,14 +83,14 @@
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- UpdatedDate (Field in _versionData)
+|-- updatedDate (Field in _versionData)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 8
-|------ Name >> UpdatedDate
+|------ Name >> updatedDate
 |------ OrdinalPosition >> 2
 |------ Size >> 8
-|------ SourceField >> UpdatedDate
+|------ SourceField >> updatedDate
 |------ SourceTable >> _versionData
 |------ DataUpdatable >> False
 |------ DefaultValue >> =Now()
@@ -110,5 +110,4 @@
 |------ ShowDatePicker >> 1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|------ Description >> =now()
 |------ GUID >> GUID

@@ -15,18 +15,18 @@ Begin Form
     Width =8884
     DatasheetFontHeight =11
     ItemSuffix =5
-    Left =8070
+    Left =3375
     Top =2475
-    Right =16935
+    Right =12240
     Bottom =4365
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
-        0x15e732c1d605e540
+        0xc9cbae5bbe0ae540
     End
     GUID = Begin
         0xd67cfede1386b9439ced84e6f8c3a609
     End
-    RecordSource ="qryTblContacts_EmailAddresses"
+    RecordSource ="qryTblContactsEmailAddresses"
     DatasheetFontName ="Calibri"
     PrtMip = Begin
     End
@@ -191,7 +191,7 @@ Begin Form
                     BorderColor =13553360
                     ForeColor =3484194
                     Name ="txtEmailAddress"
-                    ControlSource ="EmailAddress"
+                    ControlSource ="emailAddress"
                     FontName ="Tahoma"
                     GUID = Begin
                         0x811e060014848e4190d2ecb2cb96de52
@@ -215,8 +215,8 @@ Begin Form
                     BackColor =2366701
                     BorderColor =13553360
                     ForeColor =3484194
-                    Name ="ContactEmailId"
-                    ControlSource ="ContactEmailId"
+                    Name ="txtId"
+                    ControlSource ="id"
                     FontName ="Tahoma"
                     GUID = Begin
                         0x42d31dfc43cd49458740e761e80a24cc
@@ -240,8 +240,8 @@ Begin Form
                     BackColor =2366701
                     BorderColor =13553360
                     ForeColor =3484194
-                    Name ="ContactId"
-                    ControlSource ="ContactId"
+                    Name ="txtContactId"
+                    ControlSource ="contactId"
                     FontName ="Tahoma"
                     GUID = Begin
                         0xb104eb74419fdc4a8cd7f62bb0bfdc43
@@ -272,7 +272,7 @@ Begin Form
                         0x69250b2241bd4f438310eecaae4ad4b0
                     End
                     Name ="cboEmailAddressType"
-                    ControlSource ="EmailAddressTypeID"
+                    ControlSource ="emailAddressTypeId"
                     RowSourceType ="Table/Query"
                     RowSource ="qlkpEmailAddressTypes"
                     ColumnWidths ="0;1440"

@@ -109,10 +109,10 @@ Begin Form
                     Left =1500
                     Top =60
                     Width =2220
-                    Name ="FirstName"
+                    Name ="txtFirstName"
                     ControlSource ="FirstName"
                     AfterUpdate ="[Event Procedure]"
-                    OnEnter ="=[FirstName]"
+                    OnEnter ="=[firstName]"
                     Tag ="1"
                     GUID = Begin
                         0x30711d67ee168e42b802057cc0a22f0d
@@ -149,10 +149,10 @@ Begin Form
                     Top =420
                     Width =2220
                     TabIndex =1
-                    Name ="LastName"
+                    Name ="txtLastName"
                     ControlSource ="LastName"
                     AfterUpdate ="[Event Procedure]"
-                    OnEnter ="=[LastName]"
+                    OnEnter ="=[lastName]"
                     Tag ="2"
                     GUID = Begin
                         0xd3c24a65163a744cbd5fd162071ece33
@@ -189,7 +189,7 @@ Begin Form
                     Top =780
                     Width =2220
                     TabIndex =2
-                    Name ="Address"
+                    Name ="txtAddress"
                     ControlSource ="Address"
                     OnEnter ="=[Address]"
                     Tag ="3"
@@ -282,7 +282,7 @@ Begin Form
                     Top =2220
                     Width =1080
                     TabIndex =6
-                    Name ="PostalCode"
+                    Name ="txtPostalCode"
                     ControlSource ="PostalCode"
                     OnEnter ="=[PostalCode]"
                     InputMask =">L0L\\ 0L0;0;_"
@@ -323,8 +323,8 @@ Begin Form
                     Width =11580
                     Height =1260
                     TabIndex =10
-                    Name ="Notes"
-                    ControlSource ="Notes"
+                    Name ="txtNotes"
+                    ControlSource ="notes"
                     OnEnter ="=[Notes]"
                     Tag ="14"
                     GUID = Begin
@@ -361,8 +361,8 @@ Begin Form
                     Top =2580
                     Width =1380
                     TabIndex =7
-                    Name ="DOB"
-                    ControlSource ="DOB"
+                    Name ="dteDateOfBirth"
+                    ControlSource ="dateOfBirth"
                     Format ="yyyy-mmm-dd"
                     OnEnter ="=[DOB]"
                     Tag ="12"
@@ -406,15 +406,13 @@ Begin Form
                     GUID = Begin
                         0x22e17d5fd4f53841b15d2eb783752d86
                     End
-                    Name ="ContactTypeID"
-                    ControlSource ="ContactTypeID"
+                    Name ="cboContactTypeId"
+                    ControlSource ="contactTypeId"
                     RowSourceType ="Table/Query"
                     RowSource ="qlkpContacts_Types"
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     Tag ="13"
-                    BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
-                        "pe\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =3120
@@ -449,10 +447,10 @@ Begin Form
                     Height =2160
                     TabIndex =11
                     BorderColor =3506772
-                    Name ="fsubContacts_EmailAddresses"
-                    SourceObject ="Form.fsubContacts_EmailAddresses"
-                    LinkChildFields ="ContactId"
-                    LinkMasterFields ="ContactID"
+                    Name ="fsubContactsEmailAddresses"
+                    SourceObject ="Form.fsubContactsEmailAddresses"
+                    LinkChildFields ="contactId"
+                    LinkMasterFields ="id"
                     GUID = Begin
                         0x5638d6c2ab089d4f8830b49e43c534cb
                     End
@@ -473,10 +471,10 @@ Begin Form
                     Height =1800
                     TabIndex =12
                     BorderColor =3506772
-                    Name ="fsubContacts_PhoneNumbers"
-                    SourceObject ="Form.fsubContacts_PhoneNumbers"
-                    LinkChildFields ="ContactID"
-                    LinkMasterFields ="ContactID"
+                    Name ="fsubContactsPhoneNumbers"
+                    SourceObject ="Form.fsubContactsPhoneNumbers"
+                    LinkChildFields ="contactId"
+                    LinkMasterFields ="id"
                     GUID = Begin
                         0x47c126317029fd4982d7326370363955
                     End
@@ -503,7 +501,7 @@ Begin Form
                     Height =255
                     TabIndex =8
                     Name ="Text55"
-                    ControlSource ="=GetAge([DOB])"
+                    ControlSource ="=GetAge([dateOfBirth])"
                     GUID = Begin
                         0xc743579f8b8ed543893e07d0d9610280
                     End
@@ -526,8 +524,8 @@ Begin Form
                     GUID = Begin
                         0xab72fa6fc90921458b647469476f9d5c
                     End
-                    Name ="CityID"
-                    ControlSource ="CityID"
+                    Name ="cboCityId"
+                    ControlSource ="cityId"
                     RowSourceType ="Table/Query"
                     RowSource ="qlkpCities"
                     ColumnWidths ="0"
@@ -552,13 +550,13 @@ Begin Form
                     GUID = Begin
                         0x139ad6ffb6ad924699ea3680ff874077
                     End
-                    Name ="ProvinceID"
-                    ControlSource ="ProvinceID"
+                    Name ="cboProvinceId"
+                    ControlSource ="provinceId"
                     RowSourceType ="Table/Query"
                     RowSource ="qlkpProvinces"
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
-                    OnEnter ="=[ProvinceID]"
+                    OnEnter ="=[provinceId]"
                     Tag ="5"
 
                     LayoutCachedLeft =1500
@@ -579,13 +577,13 @@ Begin Form
                     GUID = Begin
                         0x0e54a55a77b594478b705e9f34400403
                     End
-                    Name ="CountryID"
-                    ControlSource ="CountryID"
+                    Name ="cboCountryId"
+                    ControlSource ="countryId"
                     RowSourceType ="Table/Query"
                     RowSource ="qlkpCountries"
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
-                    OnEnter ="=[CountryID]"
+                    OnEnter ="=[countryId]"
                     Tag ="6"
                     BaseInfo ="\"qlkpCountries\";\"tlkpCountries\";\"\";\"CountryID\";\"Country\";\"PrimaryKey\""
 
@@ -666,32 +664,31 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-Private Sub ContactTypeID_AfterUpdate()
-    'MsgBox "ContactTypeID_AfterUpdate", vbInformation
+Private Sub LastName_AfterUpdate()
+End Sub
+
+Private Sub cboContactTypeId_AfterUpdate()
     Me.Parent.cbo_ContactType.SetFocus
     Me.Parent.frm_SortBy_Click
 End Sub
 
-Private Sub CountryID_AfterUpdate()
-    Me.ProvinceID = Null
-    Me.ProvinceID.Requery
-    Me.CityID = Null
+Private Sub cboCountryId_AfterUpdate()
+    Me.cboProvinceId = Null
+    Me.cboProvinceId.Requery
+    Me.cboCityId = Null
 End Sub
 
-Private Sub FirstName_AfterUpdate()
-    'MsgBox "FirstName_AfterUpdate", vbInformation
+Private Sub cboProvinceId_AfterUpdate()
+    Me.cboCityId = Null
+    Me.cboCityId.Requery
+End Sub
+
+Private Sub txtFirstName_AfterUpdate()
     If Me.Dirty = True Then Me.Dirty = False
-    Me.Parent.lst_Contacts.Requery
+    Me.Parent.lstContacts.Requery
 End Sub
 
-Private Sub LastName_AfterUpdate()
-    'MsgBox "LastName_AfterUpdate", vbInformation
+Private Sub txtLastName_AfterUpdate()
     If Me.Dirty = True Then Me.Dirty = False
-    Me.Parent.lst_Contacts.Requery
-End Sub
-
-Private Sub ProvinceID_AfterUpdate()
-    'MsgBox "ProvinceID_AfterUpdate", vbInformation
-    Me.CityID = Null
-    Me.CityID.Requery
+    Me.Parent.lstContacts.Requery
 End Sub

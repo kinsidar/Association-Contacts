@@ -11,21 +11,22 @@
   <xsd:element name="tlkpCountries">
     <xsd:annotation>
       <xsd:appinfo>
-        <od:index index-name="PrimaryKey" index-key="CountryID " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
-        <od:index index-name="Province" index-key="Country " primary="no" unique="yes" clustered="no" order="asc"></od:index>
-        <od:index index-name="ProvinceID" index-key="CountryID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="id " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="Province" index-key="country " primary="no" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="ProvinceID" index-key="id " primary="no" unique="no" clustered="no" order="asc"></od:index>
       </xsd:appinfo>
     </xsd:annotation>
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element name="CountryID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
-        <xsd:element name="Country" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+        <xsd:element name="id" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
+        <xsd:element name="country" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
               <xsd:maxLength value="50"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
+        <xsd:element name="sortOrder" minOccurs="0" od:jetType="integer" od:sqlSType="smallint" type="xsd:short"></xsd:element>
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>

@@ -29,14 +29,14 @@
 |-- GUID >> GUID
 |-- NameMap >> NameMap
 --------------------------------------------------
-|-- EmailAddressTypeID (Field in tlkpEmailAddressTypes)
+|-- id (Field in tlkpEmailAddressTypes)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> EmailAddressTypeID
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> EmailAddressTypeID
+|------ SourceField >> id
 |------ SourceTable >> tlkpEmailAddressTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 0
@@ -56,14 +56,14 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- EmailAddressType (Field in tlkpEmailAddressTypes)
+|-- emailAddressType (Field in tlkpEmailAddressTypes)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> EmailAddressType
+|------ Name >> emailAddressType
 |------ OrdinalPosition >> 1
 |------ Size >> 255
-|------ SourceField >> EmailAddressType
+|------ SourceField >> emailAddressType
 |------ SourceTable >> tlkpEmailAddressTypes
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -85,3 +85,30 @@
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
 |------ GUID >> GUID
+|-- sortOrder (Field in tlkpEmailAddressTypes)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 3
+|------ Name >> sortOrder
+|------ OrdinalPosition >> 2
+|------ Size >> 2
+|------ SourceField >> sortOrder
+|------ SourceTable >> tlkpEmailAddressTypes
+|------ DataUpdatable >> False
+|------ DefaultValue >> 0
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0

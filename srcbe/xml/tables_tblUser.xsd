@@ -26,10 +26,10 @@
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="password" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+        <xsd:element name="userPassword" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
-              <xsd:maxLength value="21"></xsd:maxLength>
+              <xsd:maxLength value="12"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
@@ -66,13 +66,6 @@
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
               <xsd:maxLength value="50"></xsd:maxLength>
-            </xsd:restriction>
-          </xsd:simpleType>
-        </xsd:element>
-        <xsd:element name="userPassword" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
-          <xsd:simpleType>
-            <xsd:restriction base="xsd:string">
-              <xsd:maxLength value="12"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>

@@ -3,30 +3,30 @@
   <xsd:element name="dataroot">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element ref="tlkpSalutations" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        <xsd:element ref="tlkpContactsTypes" minOccurs="0" maxOccurs="unbounded"></xsd:element>
       </xsd:sequence>
       <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
     </xsd:complexType>
   </xsd:element>
-  <xsd:element name="tlkpSalutations">
+  <xsd:element name="tlkpContactsTypes">
     <xsd:annotation>
       <xsd:appinfo>
+        <od:index index-name="ContactType" index-key="contactType " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="ContactTypeId" index-key="id " primary="no" unique="no" clustered="no" order="asc"></od:index>
         <od:index index-name="PrimaryKey" index-key="id " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
-        <od:index index-name="Salutation" index-key="salutation " primary="no" unique="yes" clustered="no" order="asc"></od:index>
-        <od:index index-name="SalutationID" index-key="id " primary="no" unique="yes" clustered="no" order="asc"></od:index>
       </xsd:appinfo>
     </xsd:annotation>
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="id" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
-        <xsd:element name="salutation" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+        <xsd:element name="contactType" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
           <xsd:simpleType>
             <xsd:restriction base="xsd:string">
-              <xsd:maxLength value="18"></xsd:maxLength>
+              <xsd:maxLength value="255"></xsd:maxLength>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="sortOrder" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+        <xsd:element name="sortOrder" minOccurs="0" od:jetType="integer" od:sqlSType="smallint" type="xsd:short"></xsd:element>
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
