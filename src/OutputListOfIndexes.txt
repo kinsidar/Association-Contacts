@@ -22,6 +22,11 @@
                             Field Name:id
 >[VersionID]  [id], 
 ========================================
+<<<[tblBinary]>>>
+              Index:[ID]
+                            Field Name:id
+>[ID]         [id], 
+========================================
 <<<[tblContacts]>>>
               Index:[ContactTypeID]
                             Field Name:contactTypeId
@@ -192,6 +197,6 @@
 ========================================
 <<<[USysRibbons]>>>
               Index:[PrimaryKey]
-                            Field Name:ID
->[PrimaryKey] [ID], 
+                            Field Name:id
+>[PrimaryKey] [id], 
 ========================================

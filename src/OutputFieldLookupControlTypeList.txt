@@ -10,6 +10,10 @@
               [id]           109          TextBox
               [dbVersion]    109          TextBox
               [updatedDate]  109          TextBox
+[tblBinary]
+              [id]           109          TextBox
+              [fileName]     109          TextBox
+              [binary]       109          TextBox
 [tblContacts]
               [id]           109          TextBox
               [contactTypeId]              109          TextBox
@@ -89,13 +93,13 @@
               [salutation]   109          TextBox
               [sortOrder]    109          TextBox
 [USysRibbons]
-              [ID]           109          TextBox
+              [id]           109          TextBox
               [RibbonName]   109          TextBox
               [RibbonXML]    109          TextBox
 Count of Check box = 2
-Count of Text box  = 73
+Count of Text box  = 76
 Count of List box  = 0
 Count of Combo box = 3
 Count of Else      = 1
-Count of Display Controls = 78
-Count of All Fields = 78
+Count of Display Controls = 81
+Count of All Fields = 81

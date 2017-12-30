@@ -258,11 +258,6 @@ Type: dbInteger
 Value: 70
 Inherited: False;
 ---
-Name: StartUpForm
-Type: dbText
-Value: frmSplash
-Inherited: False;
----
 Name: CustomRibbonID
 Type: dbText
 Value: Developer

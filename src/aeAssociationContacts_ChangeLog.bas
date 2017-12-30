@@ -77,7 +77,6 @@ End Sub
 ' %045 -
 ' %044 -
 ' %043 -
-' %038 - Implement tblBinary for loading theme artwork internally
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
@@ -93,6 +92,7 @@ End Sub
 '
 '20171230 - v012 -
     ' FIXED - %042 - Fix stray contact_details reference
+    ' FIXED - %038 - Implement tblBinary for loading theme artwork internally
     ' FIXED - %027 - GH#34, Use basic validation for email addresses
     ' FIXED - %021 - GH#31, LAT and LON not included on the contact form
     ' FIXED - %020 - *BE - GH#32, Unique Id for tables

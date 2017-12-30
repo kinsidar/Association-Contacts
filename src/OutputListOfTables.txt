@@ -1,6 +1,7 @@
 [_tblPersist] False
 [_versionApp] False
 [_versionData]              False
+[tblBinary]   True
 [tblContacts] False
 [tblContactsEmailAddresses] False
 [tblContactsPhoneNumbers]   False
