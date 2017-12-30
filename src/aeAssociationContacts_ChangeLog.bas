@@ -77,7 +77,6 @@ End Sub
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
 ' %028 - Connect to SQL Azure with node.js, https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-nodejs
-' %027 - GH#34, Use basic validation for email addresses
 ' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
 ' %023 - GH#27, Add ribbon interface
 ' %022 - GH#30, Filter by Type of Contact
@@ -91,6 +90,7 @@ End Sub
 '
 '20171230 - v012 -
     ' FIXED - %042 - Fix stray contact_details reference
+    ' FIXED - %027 - GH#34, Use basic validation for email addresses
     ' FIXED - %021 - GH#31, LAT and LON not included on the contact form
 '20171224 - v011 -
     ' FIXED - %041 - Fix forms to match id/field naming standard
