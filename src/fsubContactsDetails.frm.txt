@@ -585,7 +585,7 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[countryId]"
                     Tag ="6"
-                    BaseInfo ="\"qlkpCountries\";\"tlkpCountries\";\"\";\"CountryID\";\"Country\";\"PrimaryKey\""
+                    BaseInfo ="\"qlkpCountries\";\"tlkpCountries\";\"\";\"id\";\"country\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =1860

@@ -1,7 +1,7 @@
 <<<[qlkpCities]>>>
 SELECT [tlkpCities].id, [tlkpCities].city
 FROM tlkpCities
-WHERE ((([tlkpCities].provinceId)=Forms!frmContacts!fsubContacts_Details!provinceId))
+WHERE ((([tlkpCities].provinceId)=Forms!frmContacts!fsubContactsDetails!provinceId))
 ORDER BY [tlkpCities].city;
 
 <<<[qlkpContactsTypes]>>>

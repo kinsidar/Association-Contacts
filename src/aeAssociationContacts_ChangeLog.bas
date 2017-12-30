@@ -8,8 +8,8 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.1.1"
-Private Const mstrDATE_ACDB As String = "December 24, 2017"
+Private Const mstrVERSION_ACDB As String = "0.1.2"
+Private Const mstrDATE_ACDB As String = "December 30, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
 Public Const ACDB_AZSQL_FRONT_END = False
@@ -72,7 +72,6 @@ End Sub
 ' %045 -
 ' %044 -
 ' %043 -
-' %042 -
 ' %038 - Implement tblBinary for loading theme artwork internally
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
@@ -91,6 +90,8 @@ End Sub
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171230 - v012 -
+    ' FIXED - %042 - Fix stray contact_details reference
 '20171224 - v011 -
     ' FIXED - %041 - Fix forms to match id/field naming standard
     ' FIXED - %040 - Fix queries to match id/field naming standard
