@@ -7,4 +7,5 @@
 [basErrorLog] False
 [basErrorTextWrite]         False
 [basFunctions]              False
-[modRibbon]   False
+[basGDIPlus]  False
+[basRibbonCallbacks]        False

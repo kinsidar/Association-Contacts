@@ -8,7 +8,7 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.1.2"
+Private Const mstrVERSION_ACDB As String = "0.1.3"
 Private Const mstrDATE_ACDB As String = "December 30, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
@@ -69,6 +69,11 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
+' %050 -
+' %049 -
+' %048 -
+' %047 -
+' %046 -
 ' %045 -
 ' %044 -
 ' %043 -
@@ -80,8 +85,6 @@ End Sub
 ' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
 ' %023 - GH#27, Add ribbon interface
 ' %022 - GH#30, Filter by Type of Contact
-' %020 - *BE - GH#32, Unique Id for tables
-' %003 - Relates to GH#9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
@@ -92,6 +95,8 @@ End Sub
     ' FIXED - %042 - Fix stray contact_details reference
     ' FIXED - %027 - GH#34, Use basic validation for email addresses
     ' FIXED - %021 - GH#31, LAT and LON not included on the contact form
+    ' FIXED - %020 - *BE - GH#32, Unique Id for tables
+    ' FIXED - %003 - Relates to GH#9, include version tracking details in the app database change log module
 '20171224 - v011 -
     ' FIXED - %041 - Fix forms to match id/field naming standard
     ' FIXED - %040 - Fix queries to match id/field naming standard
