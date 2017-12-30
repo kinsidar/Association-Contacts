@@ -16,14 +16,14 @@ Begin Form
     GridY =24
     Width =13140
     DatasheetFontHeight =10
-    ItemSuffix =63
+    ItemSuffix =67
     Left =3765
     Top =1785
     Right =16650
     Bottom =7455
     DatasheetGridlinesColor =12632256
     RecSrcDt = Begin
-        0x025c2dc6f205e540
+        0x923be2e46e0be540
     End
     GUID = Begin
         0x04dcdd1c0d93094ba3166817aae1f856
@@ -110,7 +110,7 @@ Begin Form
                     Top =60
                     Width =2220
                     Name ="txtFirstName"
-                    ControlSource ="FirstName"
+                    ControlSource ="firstName"
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[firstName]"
                     Tag ="1"
@@ -150,7 +150,7 @@ Begin Form
                     Width =2220
                     TabIndex =1
                     Name ="txtLastName"
-                    ControlSource ="LastName"
+                    ControlSource ="lastName"
                     AfterUpdate ="[Event Procedure]"
                     OnEnter ="=[lastName]"
                     Tag ="2"
@@ -190,7 +190,7 @@ Begin Form
                     Width =2220
                     TabIndex =2
                     Name ="txtAddress"
-                    ControlSource ="Address"
+                    ControlSource ="address"
                     OnEnter ="=[Address]"
                     Tag ="3"
                     GUID = Begin
@@ -283,7 +283,7 @@ Begin Form
                     Width =1080
                     TabIndex =6
                     Name ="txtPostalCode"
-                    ControlSource ="PostalCode"
+                    ControlSource ="postalCode"
                     OnEnter ="=[PostalCode]"
                     InputMask =">L0L\\ 0L0;0;_"
                     Tag ="7"
@@ -651,6 +651,88 @@ Begin Form
                     LayoutCachedTop =1140
                     LayoutCachedWidth =720
                     LayoutCachedHeight =1395
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =3480
+                    Width =2220
+                    TabIndex =16
+                    Name ="txtLat"
+                    ControlSource ="lat"
+                    OnEnter ="=[firstName]"
+                    Tag ="1"
+                    GUID = Begin
+                        0xcde8ce7c33f7324d849eaa8db568399a
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =3480
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =3720
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =60
+                            Top =3480
+                            Width =1380
+                            Height =240
+                            FontWeight =700
+                            Name ="Label64"
+                            Caption ="Latitude:"
+                            GUID = Begin
+                                0x5b570f2683ba6a42947d65cc6a2a34c6
+                            End
+                            LayoutCachedLeft =60
+                            LayoutCachedTop =3480
+                            LayoutCachedWidth =1440
+                            LayoutCachedHeight =3720
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1500
+                    Top =3840
+                    Width =2220
+                    TabIndex =17
+                    Name ="txtLon"
+                    ControlSource ="lon"
+                    OnEnter ="=[firstName]"
+                    Tag ="1"
+                    GUID = Begin
+                        0x94cf457a36ce3a49b5f14364f7e13caa
+                    End
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =3840
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =4080
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =60
+                            Top =3840
+                            Width =1380
+                            Height =240
+                            FontWeight =700
+                            Name ="Label66"
+                            Caption ="Longitude:"
+                            GUID = Begin
+                                0x5d57ee05b5a09244b1f53a6b81b9c2f4
+                            End
+                            LayoutCachedLeft =60
+                            LayoutCachedTop =3840
+                            LayoutCachedWidth =1440
+                            LayoutCachedHeight =4080
+                        End
+                    End
                 End
             End
         End

@@ -30,7 +30,7 @@ SELECT tblContacts.id, tblContacts.firstName, tblContacts.lastName
 FROM tblContacts;
 
 <<<[qryTblContacts]>>>
-SELECT tblContacts.id, tblContacts.contactTypeId, tblContacts.firstName, tblContacts.lastName, tblContacts.address, tblContacts.cityId, tblContacts.provinceId, tblContacts.countryId, tblContacts.postalCode, tblContacts.dateOfBirth, tblContacts.notes
+SELECT tblContacts.id, tblContacts.contactTypeId, tblContacts.firstName, tblContacts.lastName, tblContacts.address, tblContacts.cityId, tblContacts.provinceId, tblContacts.countryId, tblContacts.postalCode, tblContacts.dateOfBirth, tblContacts.notes, tblContacts.lon, tblContacts.lat
 FROM tblContacts;
 
 <<<[qryTblContactsEmailAddresses]>>>
