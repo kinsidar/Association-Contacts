@@ -30,8 +30,8 @@ Public Function aeNtryPoint(strControl As String, strAction As String)
     ' Callback name for XML "onAction"
     Select Case strControl
         Case "btn0"
-            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
-            'DoCmd.OpenForm "frm..."
+            'MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frmSplash"
         Case "btn1"
             MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
             'DoCmd.OpenForm "frm..."
