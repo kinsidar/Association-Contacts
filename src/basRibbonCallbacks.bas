@@ -35,6 +35,44 @@ End Sub
 
 ' Callbacks:
 
+Public Sub MyAddinInitialize(ribbon As IRibbonUI)
+    ' Callback name for XML "onLoad"
+    Set gobjRibbon = ribbon
+End Sub
+
+' Button
+Public Function aeNtryPoint(strControl As String, strAction As String)
+    ' Callback name for XML "onAction"
+    Select Case strControl
+        Case "btn0"
+            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frm..."
+        Case "btn1"
+            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frm..."
+        Case "btn2"
+            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frm..."
+        Case "btn3"
+            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frm..."
+        Case "btn4"
+            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frm..."
+        Case "btn5"
+            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frm..."
+        Case "btn6"
+            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frm..."
+        Case "btn7"
+            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            Debug.Print "Button """ & strControl & """ Action"
+        Case Else
+            MsgBox "Button """ & strControl & """ clicked", vbInformation, "aeNtryPoint"
+    End Select
+End Function
+
 Public Sub OnRibbonLoad(ribbon As IRibbonUI)
     ' Callbackname in XML File "onLoad"
     Set gobjRibbon = ribbon

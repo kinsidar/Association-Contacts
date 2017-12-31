@@ -76,13 +76,11 @@ End Sub
 ' %046 -
 ' %045 -
 ' %044 -
-' %043 -
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
 ' %028 - Connect to SQL Azure with node.js, https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-nodejs
 ' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
-' %023 - GH#27, Add ribbon interface
 ' %022 - GH#30, Filter by Type of Contact
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
@@ -91,9 +89,11 @@ End Sub
 '=============================================================================================================================
 '
 '20171230 - v012 -
+    ' FIXED - %043 - Error - cannot run MyAddInInitialize
     ' FIXED - %042 - Fix stray contact_details reference
     ' FIXED - %038 - Implement tblBinary for loading theme artwork internally
     ' FIXED - %027 - GH#34, Use basic validation for email addresses
+    ' FIXED - %023 - GH#27, Add ribbon interface
     ' FIXED - %021 - GH#31, LAT and LON not included on the contact form
     ' FIXED - %020 - *BE - GH#32, Unique Id for tables
     ' FIXED - %003 - Relates to GH#9, include version tracking details in the app database change log module
