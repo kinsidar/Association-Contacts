@@ -3,9 +3,9 @@ Option Explicit
 
 ' Globals:
 
-Public Const bolUsePicturesFromTable As Boolean = True        ' True = The images should be loaded from the table "tblBinary"
+Public Const bolUsePicturesFromTable As Boolean = False       ' True = The images should be loaded from the table "tblBinary"
 
-Public Const strAppPicturePath As String = "Pics"             ' The pictures/icons are available in the following directory
+Public Const strAppPicturePath As String = "pix"              ' The pictures/icons are available in the following directory
                                                               ' below the database directory
                                                               ' %Databasepath%\Pics
 
@@ -64,7 +64,6 @@ Public Sub LoadImages(Control, ByRef Image)
     Else
         Set Image = Nothing
     End If
-    
 End Sub
 
 Public Sub GetImages(Control As IRibbonControl, ByRef Image)
@@ -87,7 +86,6 @@ Public Sub GetImages(Control As IRibbonControl, ByRef Image)
         End If
         Set Image = LoadPictureGDIP(strPicturePath & strPicture)
     End If
-
 End Sub
 
 Public Sub GetEnabled(Control As IRibbonControl, ByRef Enabled)
@@ -99,7 +97,6 @@ Public Sub GetEnabled(Control As IRibbonControl, ByRef Enabled)
         Case Else
             Enabled = True
     End Select
-
 End Sub
 
 Public Sub GetVisible(Control As IRibbonControl, ByRef Visible)
@@ -111,7 +108,6 @@ Public Sub GetVisible(Control As IRibbonControl, ByRef Visible)
         Case Else
             Visible = True
     End Select
-
 End Sub
 
 Public Sub GetLabel(Control As IRibbonControl, ByRef label)
@@ -123,7 +119,6 @@ Public Sub GetLabel(Control As IRibbonControl, ByRef label)
         Case Else
             label = "*getLabel*"
     End Select
-
 End Sub
 
 Public Sub GetScreentip(Control As IRibbonControl, ByRef screentip)
@@ -134,7 +129,6 @@ Public Sub GetScreentip(Control As IRibbonControl, ByRef screentip)
         Case Else
             screentip = "*getScreentip*"
     End Select
-
 End Sub
 
 Public Sub GetSupertip(Control As IRibbonControl, ByRef supertip)
@@ -145,7 +139,6 @@ Public Sub GetSupertip(Control As IRibbonControl, ByRef supertip)
         Case Else
             supertip = "*getSupertip*"
     End Select
-
 End Sub
 
 Public Sub GetDescription(Control As IRibbonControl, ByRef Description)
@@ -156,7 +149,6 @@ Public Sub GetDescription(Control As IRibbonControl, ByRef Description)
         Case Else
             Description = "*getDescription*"
     End Select
-
 End Sub
 
 Public Sub GetTitle(Control As IRibbonControl, ByRef title)
@@ -167,7 +159,6 @@ Public Sub GetTitle(Control As IRibbonControl, ByRef title)
         Case Else
             title = "*getTitle*"
     End Select
-
 End Sub
 
 ' Button
@@ -180,7 +171,6 @@ Public Sub OnActionButton(Control As IRibbonControl)
         Case Else
             MsgBox "Button """ & Control.id & """ clicked", vbInformation
     End Select
-
 End Sub
 
 ' Command Button
@@ -191,7 +181,6 @@ Public Sub OnActionButtonHelp(Control As IRibbonControl, ByRef CancelDefault)
 
     MsgBox "Button ""Help"" clicked", vbInformation
     CancelDefault = True
-
 End Sub
 
 ' CheckBox
@@ -205,7 +194,6 @@ Sub OnActionCheckBox(Control As IRibbonControl, _
         Case Else
             MsgBox "The Value of the Checkbox """ & Control.id & """ is: " & pressed, vbInformation
     End Select
-
 End Sub
 
 Sub GetPressedCheckBox(Control As IRibbonControl, _
@@ -222,7 +210,6 @@ Sub GetPressedCheckBox(Control As IRibbonControl, _
                 bolReturn = False
             End If
     End Select
-
 End Sub
 
 ' ToggleButton
@@ -236,7 +223,6 @@ Sub OnActionTglButton(Control As IRibbonControl, _
         Case Else
             MsgBox "The Value of the Toggle Button """ & Control.id & """ is: " & pressed, vbInformation
     End Select
-
 End Sub
 
 Public Sub GetPressedTglButton(Control As IRibbonControl, _
@@ -252,7 +238,6 @@ Public Sub GetPressedTglButton(Control As IRibbonControl, _
                 pressed = False
             End If
     End Select
-
 End Sub
 
 'EditBox
@@ -267,7 +252,6 @@ Public Sub GetTextEditBox(Control As IRibbonControl, _
         Case Else
             strText = getTheValue(Control.Tag, "DefaultValue")
     End Select
-    
 End Sub
 
 Public Sub OnChangeEditBox(Control As IRibbonControl, _
@@ -279,7 +263,6 @@ Public Sub OnChangeEditBox(Control As IRibbonControl, _
         Case Else
             MsgBox "The Value of the EditBox """ & Control.id & """ is: " & strText, vbInformation
     End Select
-
 End Sub
 
 ' DropDown
@@ -297,7 +280,6 @@ Public Sub OnActionDropDown(Control As IRibbonControl, _
                     MsgBox "The selected ItemID of DropDown-Control """ & Control.id & """ is : """ & selectedId & """", vbInformation
             End Select
     End Select
-
 End Sub
 
 Public Sub GetSelectedItemIndexDropDown(Control As IRibbonControl, _
@@ -314,7 +296,6 @@ Public Sub GetSelectedItemIndexDropDown(Control As IRibbonControl, _
                 Index = getTheValue(Control.Tag, "DefaultValue")
         End Select
     End If
-
 End Sub
 
 ' Gallery
@@ -333,7 +314,6 @@ Public Sub GetSelectedItemIndexGallery(Control As IRibbonControl, _
                 Index = varIndex
         End Select
     End If
-
 End Sub
 
 Public Sub OnActionGallery(Control As IRibbonControl, _
@@ -349,7 +329,6 @@ Public Sub OnActionGallery(Control As IRibbonControl, _
                     MsgBox "The selected ItemID of Gallery-Control """ & Control.id & """ is : """ & selectedId & """", vbInformation
             End Select
     End Select
-
 End Sub
 
 ' Combobox
@@ -363,7 +342,6 @@ Public Sub GetTextComboBox(Control As IRibbonControl, _
         Case Else
             strText = getTheValue(Control.Tag, "DefaultValue")
     End Select
-
 End Sub
 
 Public Sub OnChangeComboBox(Control As IRibbonControl, _
@@ -375,7 +353,6 @@ Public Sub OnChangeComboBox(Control As IRibbonControl, _
         Case Else
             MsgBox "The selected Item of Combobox-Control """ & Control.id & """ is : """ & strText & """", vbInformation
     End Select
-
 End Sub
 
 ' DynamicMenu
@@ -389,7 +366,6 @@ Public Sub GetContent(Control As IRibbonControl, ByRef XMLString)
         Case Else
             XMLString = getXMLForDynamicMenu()
     End Select
- 
 End Sub
 
 ' Helper Function
@@ -430,7 +406,6 @@ Public Function getXMLForDynamicMenu() As String
 
     strDummy = strDummy & strContent & "</menu>"
     getXMLForDynamicMenu = strDummy
-
 End Function
 
 Public Function getTheValue(strTag As String, strValue As String) As String
@@ -467,7 +442,6 @@ Public Function getTheValue(strTag As String, strValue As String) As String
             getTheValue = myVariabs(i, 1)
         End If
     Next
-
 End Function
 
 Public Function getAppPath() As String
@@ -483,7 +457,7 @@ Public Function getIconFromTable(strFileName As String) As Picture
     Dim arrBin() As Byte
     Dim rs As DAO.Recordset
  
-    On Error GoTo Errr
+    On Error GoTo PROC_ERR
  
     Set rs = DBEngine(0)(0).OpenRecordset("tblBinary", dbOpenDynaset)
     rs.FindFirst "[FileName]='" & strFileName & "'"
@@ -497,13 +471,14 @@ Public Function getIconFromTable(strFileName As String) As Picture
     End If
     rs.Close
  
-fExit:
+PROC_EXIT:
     Reset
     Erase arrBin
     Set rs = Nothing
     Exit Function
-Errr:
-    Resume fExit
+
+PROC_ERR:
+    Resume PROC_EXIT
 
 End Function
 
