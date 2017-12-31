@@ -124,28 +124,28 @@
 |                    |                    |         <group id="grp0" label="Association Contacts"                                                                         |
 |                    |                    |             tag="RibbonName:=ACDB">                                                                                           |
 |                    |                    |           <button id="btn0" size="large" label="Button0" screentip="Button0" supertip="Button0 "                              |
-|                    |                    |               imageMso="BevelTextGallery"                                                                                     |
+|                    |                    |               imageMso="BevelShapeGallery"                                                                                    |
 |                    |                    |               onAction="=aeNtryPoint('btn0', 'Button0')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
 |                    |                    |           <button id="btn1" size="large" label="Button1" screentip="Button1" supertip="Button1"                               |
-|                    |                    |               imageMso="CalendarViewZoom"                                                                                     |
+|                    |                    |               imageMso="BevelShapeGallery"                                                                                    |
 |                    |                    |               onAction="=aeNtryPoint('btn1', 'Button1')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
 |                    |                    |           <button id="btn2" size="large" label="Button2" screentip="Button2" supertip="Button2"                               |
-|                    |                    |               imageMso="OptionEditableForm"                                                                                   |
+|                    |                    |               imageMso="BevelShapeGallery"                                                                                    |
 |                    |                    |               onAction="=aeNtryPoint('btn2', 'Button2')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
 |                    |                    |           <button id="btn3" size="large" label="Button3" screentip="Button3" supertip="Button3"                               |
-|                    |                    |               imageMso="MeetingsWorkspace"                                                                                    |
+|                    |                    |               imageMso="BevelShapeGallery"                                                                                    |
 |                    |                    |               onAction="=aeNtryPoint('btn3', 'Button3')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
 |                    |                    |           <button id="btn4" size="large" label="Crisis" screentip="Crisis" supertip="Crisis"                                  |
-|                    |                    |               imageMso="AddAccount"                                                                                           |
+|                    |                    |               imageMso="BevelShapeGallery"                                                                                    |
 |                    |                    |               onAction="=aeNtryPoint('btn4', 'Button4')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
 |                    |                    |           <button id="btn5" size="large" label="Button4" screentip="Button4" supertip="Button4"                               |
-|                    |                    |               imageMso="AddUserToPermissionGroup"                                                                             |
+|                    |                    |               imageMso="BevelShapeGallery"                                                                                    |
 |                    |                    |               onAction="=aeNtryPoint('btn5', 'Button5')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
 |                    |                    |           <button id="btn6" size="large" label="Button6" screentip="Button6" supertip="Button6 "                              |
-|                    |                    |               imageMso="CreateReport" tag="RibbonName:=ACDB;inMenu:=;"                                                        |
+|                    |                    |               imageMso="BevelShapeGallery" tag="RibbonName:=ACDB;inMenu:=;"                                                   |
 |                    |                    |               onAction="=aeNtryPoint('btn6','Button6')"/>                                                                     |
 |                    |                    |           <button id="btn7" size="large" label="Button7" screentip="Button7" supertip="Button7 "                              |
-|                    |                    |               imageMso="ToolboxGallery" tag="RibbonName:=ACDB;inMenu:=;"                                                      |
+|                    |                    |               imageMso="BevelShapeGallery" tag="RibbonName:=ACDB;inMenu:=;"                                                   |
 |                    |                    |               onAction="=aeNtryPoint('btn7','Button7')"/>                                                                     |
 |                    |                    |         </group>                                                                                                              |
 |                    |                    |       </tab>                                                                                                                  |
