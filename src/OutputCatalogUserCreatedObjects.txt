@@ -22,7 +22,6 @@
 "Module","aebasChangeLog_aegit_expClass","DateCreated"
 "Module","aebasTEST_aegit_expClass","DateCreated"
 "Module","aegit_expClass","DateCreated"
-"Module","basDatesTimes","DateCreated"
 "Module","basDisableShiftKey","DateCreated"
 "Module","basErrorLog","DateCreated"
 "Module","basErrorTextWrite","DateCreated"
