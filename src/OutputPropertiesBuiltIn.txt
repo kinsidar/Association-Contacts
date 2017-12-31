@@ -260,7 +260,7 @@ Inherited: False;
 ---
 Name: CustomRibbonID
 Type: dbText
-Value: Developer
+Value: ACDB
 Inherited: False;
 ---
 Name: AllowByPassKey

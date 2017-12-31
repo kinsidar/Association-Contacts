@@ -1,0 +1,275 @@
+|-- Name >> USysApplicationLog
+|-- Updatable >> True
+|-- DateCreated >> DateCreated
+|-- LastUpdated >> LastUpdated
+|-- Connect >> 
+|-- Attributes >> 0
+|-- SourceTableName >> 
+|-- RecordCount >> 0
+|-- ValidationRule >> 
+|-- ValidationText >> 
+|-- LogTable >> 1
+|-- Orientation >> 0
+|-- OrderByOn >> False
+|-- DefaultView >> 2
+|-- DisplayViewsOnSharePointSite >> 1
+|-- TotalsRow >> False
+|-- FilterOnLoad >> False
+|-- OrderByOnLoad >> True
+|-- HideNewField >> False
+|-- BackTint >> 100
+|-- BackShade >> 100
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
+|-- AlternateBackTint >> 100
+|-- AlternateBackShade >> 100
+|-- ReadOnlyWhenDisconnected >> False
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
+|-- PublishToWeb >> 1
+--------------------------------------------------
+|-- id (Field in USysApplicationLog)
+|------ Attributes >> 18
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> id
+|------ OrdinalPosition >> 0
+|------ Size >> 4
+|------ SourceField >> id
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ ResultType >> 0
+|-- sourceObject (Field in USysApplicationLog)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> sourceObject
+|------ OrdinalPosition >> 1
+|------ Size >> 255
+|------ SourceField >> sourceObject
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> False
+|------ ResultType >> 0
+|-- dataMacroInstanceId (Field in USysApplicationLog)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> dataMacroInstanceId
+|------ OrdinalPosition >> 2
+|------ Size >> 255
+|------ SourceField >> dataMacroInstanceId
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 4260
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> False
+|------ ResultType >> 0
+|-- errorNumber (Field in USysApplicationLog)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 4
+|------ Name >> errorNumber
+|------ OrdinalPosition >> 3
+|------ Size >> 4
+|------ SourceField >> errorNumber
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ ResultType >> 0
+|-- category (Field in USysApplicationLog)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> category
+|------ OrdinalPosition >> 4
+|------ Size >> 255
+|------ SourceField >> category
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> False
+|------ ResultType >> 0
+|-- objectType (Field in USysApplicationLog)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> objectType
+|------ OrdinalPosition >> 5
+|------ Size >> 255
+|------ SourceField >> objectType
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> False
+|------ ResultType >> 0
+|-- description (Field in USysApplicationLog)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 12
+|------ Name >> description
+|------ OrdinalPosition >> 6
+|------ Size >> 0
+|------ SourceField >> description
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 12150
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> False
+|------ TextFormat >> 0
+|------ ResultType >> 0
+|-- context (Field in USysApplicationLog)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> context
+|------ OrdinalPosition >> 7
+|------ Size >> 255
+|------ SourceField >> context
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> False
+|------ ResultType >> 0
+|-- created (Field in USysApplicationLog)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> created
+|------ OrdinalPosition >> 8
+|------ Size >> 8
+|------ SourceField >> created
+|------ SourceTable >> USysApplicationLog
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ ShowDatePicker >> 1
+|------ ResultType >> 0

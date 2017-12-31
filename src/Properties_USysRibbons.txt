@@ -5,7 +5,7 @@
 |-- Connect >> 
 |-- Attributes >> 0
 |-- SourceTableName >> 
-|-- RecordCount >> 2
+|-- RecordCount >> 3
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- PublishToWeb >> 1
@@ -26,7 +26,7 @@
 |-- AlternateBackShade >> 95
 |-- DatasheetGridlinesThemeColorIndex >> 3
 |-- DatasheetForeThemeColorIndex >> 0
-|-- RowHeight >> 6435
+|-- RowHeight >> 9135
 --------------------------------------------------
 |-- id (Field in USysRibbons)
 |------ Attributes >> 17
@@ -46,7 +46,7 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
+|------ ColumnOrder >> 1
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
@@ -97,7 +97,7 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 8550
+|------ ColumnWidth >> 10065
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ IMEMode >> 0

@@ -50,6 +50,6 @@ Track Name AutoCorrect Info: 0, 4, False;
 Perform Name AutoCorrect: 1, 4, False;
 Theme Resource Name: 1_Office Theme, 10, False;
 HasOfflineLists: 70, 3, False;
-CustomRibbonID: Developer, 10, False;
+CustomRibbonID: ACDB, 10, False;
 AllowByPassKey: True, 1, False;
 AppIcon: .\adaept64.ico, 10, False;

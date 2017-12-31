@@ -195,6 +195,14 @@
                             Field Name:id
 >[SalutationID]             [id], 
 ========================================
+<<<[USysApplicationLog]>>>
+              Index:[Data Macro Instance ID]
+                            Field Name:dataMacroInstanceId
+>[Data Macro Instance ID]   [dataMacroInstanceId], 
+              Index:[PrimaryKey]
+                            Field Name:id
+>[PrimaryKey] [id], 
+========================================
 <<<[USysRibbons]>>>
               Index:[PrimaryKey]
                             Field Name:id

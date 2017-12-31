@@ -13,4 +13,5 @@
 [tlkpPhoneNumbersCategories]              False
 [tlkpProvinces]             False
 [tlkpSalutations]           False
+[USysApplicationLog]        True
 [USysRibbons] True

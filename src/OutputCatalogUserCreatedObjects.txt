@@ -45,4 +45,5 @@
 "Table","_versionApp","DateCreated"
 "Table","f_BBEB85A2AF9E42E8AD8323A8EC43B77D_Data","DateCreated"
 "Table","tblBinary","DateCreated"
+"Table","USysApplicationLog","DateCreated"
 "Table","USysRibbons","DateCreated"

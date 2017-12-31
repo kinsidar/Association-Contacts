@@ -92,14 +92,24 @@
               [id]           109          TextBox
               [salutation]   109          TextBox
               [sortOrder]    109          TextBox
+[USysApplicationLog]
+              [id]           109          TextBox
+              [sourceObject]               109          TextBox
+              [dataMacroInstanceId]        109          TextBox
+              [errorNumber]  109          TextBox
+              [category]     109          TextBox
+              [objectType]   109          TextBox
+              [description]  109          TextBox
+              [context]      109          TextBox
+              [created]      109          TextBox
 [USysRibbons]
               [id]           109          TextBox
               [RibbonName]   109          TextBox
               [RibbonXML]    109          TextBox
 Count of Check box = 2
-Count of Text box  = 76
+Count of Text box  = 85
 Count of List box  = 0
 Count of Combo box = 3
 Count of Else      = 1
-Count of Display Controls = 81
-Count of All Fields = 81
+Count of Display Controls = 90
+Count of All Fields = 90

@@ -4080,7 +4080,7 @@ Private Sub OutputListOfCommandBarIDs(ByVal strOutputFile As String, Optional By
     For Each CBR In Application.CommandBars
         For Each CBTN In CBR.Controls
             If Not IsMissing(varDebug) Then
-                CbtnLCid = CBTN.ID
+                CbtnLCid = CBTN.id
                 Debug.Print CBR.Name & ": " & CbtnLCid & " - " & CBTN.Caption
             End If
             Print #fle, CBR.Name & ": " & CbtnLCid & " - " & CBTN.Caption

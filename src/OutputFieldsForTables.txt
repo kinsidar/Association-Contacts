@@ -195,6 +195,22 @@ salutation               Text                  18
 sortOrder                Long Integer          4                  
 
 
+-------------------------
+TABLE: USysApplicationLog
+-------------------------
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+sourceObject             Text                  255                
+dataMacroInstanceId      Text                  255                
+errorNumber              Long Integer          4                  
+category                 Text                  255                
+objectType               Text                  255                
+description              Memo                  0                  
+context                  Text                  255                
+created                  Date/Time             8                  
+
+
 ------------------
 TABLE: USysRibbons
 ------------------

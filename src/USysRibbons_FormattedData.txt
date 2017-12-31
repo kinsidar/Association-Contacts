@@ -1,85 +1,177 @@
---------------------------------------------------------------------------------------------------------------------------------------------------------
-|         id         |     RibbonName     |                                                 RibbonXML                                                  |
---------------------------------------------------------------------------------------------------------------------------------------------------------
-|                  1 | Developer          | <?xml version="1.0" encoding="utf-8"?>                                                                     |
-|                    |                    | <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">                                    |
-|                    |                    |     <ribbon startFromScratch="false"> <!-- don't replace default tabs  -->                                 |
-|                    |                    |         <tabs>                                                                                             |
-|                    |                    |                                                                                                            |
-|                    |                    |             <tab id="Contacts" label="Home">                                                               |
-|                    |                    |                 <group id="AssociationContacts" label="Association Contacts">                              |
-|                    |                    |                     <button id="btn0" label="About" imageMso="OptionEditableForm"                          |
-|                    |                    |                         size="large" supertip="Splash Page"                                                |
-|                    |                    |                         />                                                                                 |
-|                    |                    |                     <button id="btn1" label="Contacts" imageMso="BlogHomePage"                             |
-|                    |                    |                         size="large" supertip="Open Contacts Form"                                         |
-|                    |                    |                         tag="frmContacts" onAction="ribOpenForm"                                           |
-|                    |                    |                         />                                                                                 |
-|                    |                    |                     <button id="btn2" label="ribbon" imageMso="AllCategories"                              |
-|                    |                    |                         size="large" supertip="Open ribbons Form"                                          |
-|                    |                    |                         tag="frmUsysRibbons" onAction="ribOpenForm"                                        |
-|                    |                    |                         />                                                                                 |
-|                    |                    |                 </group>                                                                                   |
-|                    |                    |                 <group idMso="GroupTextFormatting"/>                                                       |
-|                    |                    |                 <group idMso="GroupRichText"/>                                                             |
-|                    |                    |             </tab>                                                                                         |
-|                    |                    |                                                                                                            |
-|                    |                    |             <tab id="Maintenance" label="Maintenance">                                                     |
-|                    |                    |                 <group id="GroupM1" label="Group M1">                                                      |
-|                    |                    |                     <button id="Button21" label="Button 21"                                                |
-|                    |                    |                         size="normal" supertip="Small button 21"/>                                         |
-|                    |                    |                     <button id="Button22" label="Button 22"                                                |
-|                    |                    |                         size="normal" supertip="Small button 22"/>                                         |
-|                    |                    |                     <button id="Button23" label="Button 23"                                                |
-|                    |                    |                         size="normal" supertip="Small button 23"/>                                         |
-|                    |                    |                 </group>                                                                                   |
-|                    |                    |                 <group id="Db" label="Database">                                                           |
-|                    |                    |                     <button idMso="FileCompactAndRepairDatabase" label="Compact and Repair" visible="true" |
-|                    |                    |                                                                                                            |
-|                    |                    |                         size="large" supertip="Maintain the health of your database by compacting and      |
-|                    |                    | repairing"/>                                                                                               |
-|                    |                    |                 </group>                                                                                   |
-|                    |                    |             </tab>                                                                                         |
-|                    |                    |                                                                                                            |
---------------------------------------------------------------------------------------------------------------------------------------------------------
-|                  2 | Users              | <?xml version="1.0" encoding="utf-8"?>                                                                     |
-|                    |                    | <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">                                    |
-|                    |                    |     <ribbon startFromScratch="true"> <!-- replace default tabs  -->                                        |
-|                    |                    |         <tabs>                                                                                             |
-|                    |                    |                                                                                                            |
-|                    |                    |             <tab id="Contacts" label="Home">                                                               |
-|                    |                    |                 <group id="Group1" label="Group1">                                                         |
-|                    |                    |                     <button id="MainMenu" label="Main Menu"                                                |
-|                    |                    |                         size="large" supertip="Open the Main Menu"/>                                       |
-|                    |                    |                     <button id="Form2" label="Form2"                                                       |
-|                    |                    |                         size="large" supertip="Open form 2"/>                                              |
-|                    |                    |                 </group>                                                                                   |
-|                    |                    |                 <group idMso="GroupTextFormatting"/>                                                       |
-|                    |                    |                 <group idMso="GroupRichText"/>                                                             |
-|                    |                    |             </tab>                                                                                         |
-|                    |                    |                                                                                                            |
-|                    |                    |             <tab id="Maintenance" label="Maintenance">                                                     |
-|                    |                    |                 <group id="GroupM1" label="Group M1">                                                      |
-|                    |                    |                 <button id="Button21" label="Button 21"                                                    |
-|                    |                    |                     size="normal" supertip="Small button 21"/>                                             |
-|                    |                    |                 <button id="Button22" label="Button 22"                                                    |
-|                    |                    |                     size="normal" supertip="Small button 22"/>                                             |
-|                    |                    |                 <button id="Button23" label="Button 23"                                                    |
-|                    |                    |                     size="normal" supertip="Small button 23"/>                                             |
-|                    |                    |                 </group>                                                                                   |
-|                    |                    |                 <group id="Db" label="Database">                                                           |
-|                    |                    |                 <button idMso="FileCompactAndRepairDatabase" label="Compact and Repair" visible="false"    |
-|                    |                    |                     size="large" supertip="Maintain the health of your database by compacting and          |
-|                    |                    | repairing"/>                                                                                               |
-|                    |                    |                 </group>                                                                                   |
-|                    |                    |             </tab>                                                                                         |
-|                    |                    |                                                                                                            |
-|                    |                    |         </tabs>                                                                                            |
-|                    |                    |     </ribbon>                                                                                              |
-|                    |                    | </customUI>                                                                                                |
-|                    |                    |                                                                                                            |
-|                    |                    |                                                                                                            |
-|                    |                    |                                                                                                            |
-|                    |                    |                                                                                                            |
-|                    |                    |                                                                                                            |
---------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|         id         |     RibbonName     |                                                           RibbonXML                                                           |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                  1 | Developer          | <?xml version="1.0" encoding="utf-8"?>                                                                                        |
+|                    |                    | <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">                                                       |
+|                    |                    |     <ribbon startFromScratch="false"> <!-- don't replace default tabs  -->                                                    |
+|                    |                    |         <tabs>                                                                                                                |
+|                    |                    |                                                                                                                               |
+|                    |                    |             <tab id="Contacts" label="Home">                                                                                  |
+|                    |                    |                 <group id="AssociationContacts" label="Association Contacts">                                                 |
+|                    |                    |                     <button id="btn0" label="About" imageMso="OptionEditableForm"                                             |
+|                    |                    |                         size="large" supertip="Splash Page"                                                                   |
+|                    |                    |                         />                                                                                                    |
+|                    |                    |                     <button id="btn1" label="Contacts" imageMso="BlogHomePage"                                                |
+|                    |                    |                         size="large" supertip="Open Contacts Form"                                                            |
+|                    |                    |                         tag="frmContacts" onAction="ribOpenForm"                                                              |
+|                    |                    |                         />                                                                                                    |
+|                    |                    |                     <button id="btn2" label="ribbon" imageMso="AllCategories"                                                 |
+|                    |                    |                         size="large" supertip="Open ribbons Form"                                                             |
+|                    |                    |                         tag="frmUsysRibbons" onAction="ribOpenForm"                                                           |
+|                    |                    |                         />                                                                                                    |
+|                    |                    |                 </group>                                                                                                      |
+|                    |                    |                 <group idMso="GroupTextFormatting"/>                                                                          |
+|                    |                    |                 <group idMso="GroupRichText"/>                                                                                |
+|                    |                    |             </tab>                                                                                                            |
+|                    |                    |                                                                                                                               |
+|                    |                    |             <tab id="Maintenance" label="Maintenance">                                                                        |
+|                    |                    |                 <group id="GroupM1" label="Group M1">                                                                         |
+|                    |                    |                     <button id="Button21" label="Button 21"                                                                   |
+|                    |                    |                         size="normal" supertip="Small button 21"/>                                                            |
+|                    |                    |                     <button id="Button22" label="Button 22"                                                                   |
+|                    |                    |                         size="normal" supertip="Small button 22"/>                                                            |
+|                    |                    |                     <button id="Button23" label="Button 23"                                                                   |
+|                    |                    |                         size="normal" supertip="Small button 23"/>                                                            |
+|                    |                    |                 </group>                                                                                                      |
+|                    |                    |                 <group id="Db" label="Database">                                                                              |
+|                    |                    |                     <button idMso="FileCompactAndRepairDatabase" label="Compact and Repair" visible="true"                    |
+|                    |                    |                         size="large" supertip="Maintain the health of your database by compacting and repairing"/>            |
+|                    |                    |                 </group>                                                                                                      |
+|                    |                    |             </tab>                                                                                                            |
+|                    |                    |                                                                                                                               |
+|                    |                    |         </tabs>                                                                                                               |
+|                    |                    |     </ribbon>                                                                                                                 |
+|                    |                    | </customUI>                                                                                                                   |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                  2 | Users              | <?xml version="1.0" encoding="utf-8"?>                                                                                        |
+|                    |                    | <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">                                                       |
+|                    |                    |     <ribbon startFromScratch="true"> <!-- replace default tabs  -->                                                           |
+|                    |                    |         <tabs>                                                                                                                |
+|                    |                    |                                                                                                                               |
+|                    |                    |             <tab id="Contacts" label="Home">                                                                                  |
+|                    |                    |                 <group id="Group1" label="Group1">                                                                            |
+|                    |                    |                     <button id="MainMenu" label="Main Menu"                                                                   |
+|                    |                    |                         size="large" supertip="Open the Main Menu"/>                                                          |
+|                    |                    |                     <button id="Form2" label="Form2"                                                                          |
+|                    |                    |                         size="large" supertip="Open form 2"/>                                                                 |
+|                    |                    |                 </group>                                                                                                      |
+|                    |                    |                 <group idMso="GroupTextFormatting"/>                                                                          |
+|                    |                    |                 <group idMso="GroupRichText"/>                                                                                |
+|                    |                    |             </tab>                                                                                                            |
+|                    |                    |                                                                                                                               |
+|                    |                    |             <tab id="Maintenance" label="Maintenance">                                                                        |
+|                    |                    |                 <group id="GroupM1" label="Group M1">                                                                         |
+|                    |                    |                 <button id="Button21" label="Button 21"                                                                       |
+|                    |                    |                     size="normal" supertip="Small button 21"/>                                                                |
+|                    |                    |                 <button id="Button22" label="Button 22"                                                                       |
+|                    |                    |                     size="normal" supertip="Small button 22"/>                                                                |
+|                    |                    |                 <button id="Button23" label="Button 23"                                                                       |
+|                    |                    |                     size="normal" supertip="Small button 23"/>                                                                |
+|                    |                    |                 </group>                                                                                                      |
+|                    |                    |                 <group id="Db" label="Database">                                                                              |
+|                    |                    |                 <button idMso="FileCompactAndRepairDatabase" label="Compact and Repair" visible="false"                       |
+|                    |                    |                     size="large" supertip="Maintain the health of your database by compacting and repairing"/>                |
+|                    |                    |                 </group>                                                                                                      |
+|                    |                    |             </tab>                                                                                                            |
+|                    |                    |                                                                                                                               |
+|                    |                    |         </tabs>                                                                                                               |
+|                    |                    |     </ribbon>                                                                                                                 |
+|                    |                    | </customUI>                                                                                                                   |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                  3 | ACDB               | <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="MyAddInInitialize">                            |
+|                    |                    |   <ribbon startFromScratch="false">                                                                                           |
+|                    |                    |     <tabs>                                                                                                                    |
+|                    |                    |       <tab id="tab1" label="ACDB" tag="RibbonName:=ACDB;">                                                                    |
+|                    |                    |         <group id="grp0" label="Association Contacts"                                                                         |
+|                    |                    |             tag="RibbonName:=ACDB">                                                                                           |
+|                    |                    |           <button id="btn0" size="large" label="Button0" screentip="Button0" supertip="Button0 "                              |
+|                    |                    |               imageMso="BevelTextGallery"                                                                                     |
+|                    |                    |               onAction="=aeNtryPoint('btn0', 'Button0')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
+|                    |                    |           <button id="btn1" size="large" label="Button1" screentip="Button1" supertip="Button1"                               |
+|                    |                    |               imageMso="CalendarViewZoom"                                                                                     |
+|                    |                    |               onAction="=aeNtryPoint('btn1', 'Button1')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
+|                    |                    |           <button id="btn2" size="large" label="Button2" screentip="Button2" supertip="Button2"                               |
+|                    |                    |               imageMso="OptionEditableForm"                                                                                   |
+|                    |                    |               onAction="=aeNtryPoint('btn2', 'Button2')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
+|                    |                    |           <button id="btn3" size="large" label="Button3" screentip="Button3" supertip="Button3"                               |
+|                    |                    |               imageMso="MeetingsWorkspace"                                                                                    |
+|                    |                    |               onAction="=aeNtryPoint('btn3', 'Button3')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
+|                    |                    |           <button id="btn4" size="large" label="Crisis" screentip="Crisis" supertip="Crisis"                                  |
+|                    |                    |               imageMso="AddAccount"                                                                                           |
+|                    |                    |               onAction="=aeNtryPoint('btn4', 'Button4')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
+|                    |                    |           <button id="btn5" size="large" label="Button4" screentip="Button4" supertip="Button4"                               |
+|                    |                    |               imageMso="AddUserToPermissionGroup"                                                                             |
+|                    |                    |               onAction="=aeNtryPoint('btn5', 'Button5')" getVisible="GetVisible" getEnabled="GetEnabled"/>                    |
+|                    |                    |           <button id="btn6" size="large" label="Button6" screentip="Button6" supertip="Button6 "                              |
+|                    |                    |               imageMso="CreateReport" tag="RibbonName:=ACDB;inMenu:=;"                                                        |
+|                    |                    |               onAction="=aeNtryPoint('btn6','Button6')"/>                                                                     |
+|                    |                    |           <button id="btn7" size="large" label="Button7" screentip="Button7" supertip="Button7 "                              |
+|                    |                    |               imageMso="ToolboxGallery" tag="RibbonName:=ACDB;inMenu:=;"                                                      |
+|                    |                    |               onAction="=aeNtryPoint('btn7','Button7')"/>                                                                     |
+|                    |                    |         </group>                                                                                                              |
+|                    |                    |       </tab>                                                                                                                  |
+|                    |                    |     </tabs>                                                                                                                   |
+|                    |                    |   </ribbon>                                                                                                                   |
+|                    |                    |   <backstage>                                                                                                                 |
+|                    |                    |     <button idMso="FileSave" visible="false"/>                                                                                |
+|                    |                    |     <button idMso="SaveObjectAs" visible="false"/>                                                                            |
+|                    |                    |     <button idMso="FileSaveAsCurrentFileFormat" visible="false"/>                                                             |
+|                    |                    |     <button idMso="FileOpen" visible="false"/>                                                                                |
+|                    |                    |     <button idMso="FileCloseDatabase" visible="false"/>                                                                       |
+|                    |                    |     <tab idMso ="TabInfo" visible="false"/>                                                                                   |
+|                    |                    |     <tab idMso ="TabOfficeStart" visible="false"/>                                                                            |
+|                    |                    |     <tab idMso="TabSave" visible="false"/>                                                                                    |
+|                    |                    |     <tab idMso ="TabRecent" visible="false"/>                                                                                 |
+|                    |                    |     <tab idMso ="TabNew" visible="false"/>                                                                                    |
+|                    |                    |     <tab idMso ="TabPrint" visible="false"/>                                                                                  |
+|                    |                    |     <tab idMso ="TabShare" visible="false"/>                                                                                  |
+|                    |                    |     <tab idMso ="TabHelp" visible="false"/>                                                                                   |
+|                    |                    |     <button idMso="ApplicationOptionsDialog" visible="false"/>                                                                |
+|                    |                    |     <button idMso="FileExit" visible="false"/>                                                                                |
+|                    |                    |   </backstage>                                                                                                                |
+|                    |                    | </customUI>                                                                                                                   |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+|                    |                    |                                                                                                                               |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
