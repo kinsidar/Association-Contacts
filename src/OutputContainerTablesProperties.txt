@@ -97,6 +97,8 @@
               FilterOnLoad  False
               OrderByOnLoad True
               PublishToWeb   1 
+              RecordsetType  0 
+              TotalsRow     False
 >>>qlkpCountries
               Name          qlkpCountries
               Owner         admin
@@ -401,6 +403,25 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
+              Orientation    0 
+              OrderBy       [tlkpContactsTypes].[sortOrder], [tlkpContactsTypes].[contactType]
+              OrderByOn     True
+              DefaultView    2 
+              GUID          GUID
+              DisplayViewsOnSharePointSite               1 
+              TotalsRow     False
+              FilterOnLoad  False
+              OrderByOnLoad True
+              HideNewField  False
+              BackTint       100 
+              BackShade      100 
+              ThemeFontIndex              -1 
+              AlternateBackThemeColorIndex              -1 
+              AlternateBackTint            100 
+              AlternateBackShade           100 
+              DatasheetGridlinesThemeColorIndex         -1 
+              DatasheetForeThemeColorIndex              -1 
+              PublishToWeb   1 
 >>>tlkpCountries
               Name          tlkpCountries
               Owner         admin

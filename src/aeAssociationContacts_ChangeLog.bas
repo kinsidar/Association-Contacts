@@ -80,7 +80,6 @@ End Sub
 ' %029 - Create backend on SQL Azure with renamed front end
 ' %028 - Connect to SQL Azure with node.js, https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-nodejs
 ' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
-' %022 - GH#30, Filter by Type of Contact
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
@@ -89,6 +88,7 @@ End Sub
 '
 '20171230 - v014 -
     ' FIXED - %044 - Fix ribbon button for splash form
+    ' FIXED - %022 - GH#30, Filter by Type of Contact
 '20171230 - v012 -
     ' FIXED - %043 - Error - cannot run MyAddInInitialize
     ' FIXED - %042 - Fix stray contact_details reference
