@@ -91,10 +91,10 @@
           <button id=""btn3"" size=""large"" label=""Button3"" screentip=""Button3"" supertip=""Button3""
               imageMso=""BevelShapeGallery""
               onAction=""=aeNtryPoint('btn3', 'Button3')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
-          <button id=""btn4"" size=""large"" label=""Crisis"" screentip=""Crisis"" supertip=""Crisis""
+          <button id=""btn4"" size=""large"" label=""Button4"" screentip=""Button4"" supertip=""Button4""
               imageMso=""BevelShapeGallery""
               onAction=""=aeNtryPoint('btn4', 'Button4')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
-          <button id=""btn5"" size=""large"" label=""Button4"" screentip=""Button4"" supertip=""Button4""
+          <button id=""btn5"" size=""large"" label=""Button5"" screentip=""Button5"" supertip=""Button5""
               imageMso=""BevelShapeGallery""
               onAction=""=aeNtryPoint('btn5', 'Button5')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
           <button id=""btn6"" size=""large"" label=""Button6"" screentip=""Button6"" supertip=""Button6 ""
