@@ -26,17 +26,25 @@ Begin Form
     GridY =24
     Width =11520
     DatasheetFontHeight =11
+<<<<<<< HEAD
+    ItemSuffix =46
+    Left =4515
+    Top =2610
+    Right =16095
+    Bottom =11775
+=======
     ItemSuffix =27
     Left =4515
     Top =2640
     Right =23385
     Bottom =15015
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
         0x3f7d40673804e540
     End
     GUID = Begin
-        0x7c4defd2c59fb0479efea470484bcd05
+        0x3721c963ac99ea45be536b97561856c5
     End
     RecordSource ="qryVersionApp"
     DatasheetFontName ="Calibri"
@@ -47,6 +55,7 @@ Begin Form
     PrtDevNames = Begin
     End
     OnTimer ="[Event Procedure]"
+    OnClick ="[Event Procedure]"
     OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
@@ -164,11 +173,11 @@ Begin Form
             GridlineShade =65.0
         End
         Begin FormHeader
-            Height =0
+            Height =542
             BackColor =15064278
             Name ="FormHeader"
             GUID = Begin
-                0x8beedcb3fde8fa489969b7fe83f98ae1
+                0x9480cbebb76db74c87453fce578277fe
             End
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -179,8 +188,9 @@ Begin Form
             Height =6780
             BackColor =14282978
             Name ="Detail"
+            OnClick ="[Event Procedure]"
             GUID = Begin
-                0x065f80f6b4d24749b66c9c3be9b62845
+                0x16962da4a3abea4abd4dd55f41130ff3
             End
             AlternateBackColor =15921906
             AlternateBackThemeColorIndex =1
@@ -202,7 +212,7 @@ Begin Form
                     ForeColor =4210752
                     Name ="txtGetMyDate"
                     GUID = Begin
-                        0xc527bbd901535546a2c648d1f2d69348
+                        0x9e15288b557a1f43b6df6e4174023b35
                     End
                     GridlineColor =10921638
 
@@ -222,7 +232,7 @@ Begin Form
                             Name ="Label8"
                             Caption ="Date:"
                             GUID = Begin
-                                0x140aa461b43fec4d86f4fe982f55488e
+                                0xf31be9bfbbc648468120422ebcbe9e87
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =8040
@@ -247,7 +257,7 @@ Begin Form
                     ForeColor =4210752
                     Name ="txtGetMyProject"
                     GUID = Begin
-                        0xaf379d241cf9d249a506ac12de55102c
+                        0x539f15089df50a408fec38987d3b4b8e
                     End
                     GridlineColor =10921638
 
@@ -267,7 +277,7 @@ Begin Form
                             Name ="Label10"
                             Caption ="Project:"
                             GUID = Begin
-                                0xadb9c9128607634a8576bc94f09112a9
+                                0xa0843a347c39ab418bd66fdc8666f803
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =8040
@@ -293,7 +303,7 @@ Begin Form
                     Name ="txtAppVersion"
                     ControlSource ="appVersion"
                     GUID = Begin
-                        0x073cf05cde1479448da908b3219cfdc2
+                        0xd74d235f03c0de4183945b02cc1dc6dd
                     End
                     GridlineColor =10921638
 
@@ -313,7 +323,7 @@ Begin Form
                             Name ="Label14"
                             Caption ="Application:"
                             GUID = Begin
-                                0xa3eccaa746a3f9438770c9ca04e25907
+                                0xda74749f01a0c64b8975949c3c463ad1
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =8040
@@ -338,7 +348,7 @@ Begin Form
                     ForeColor =4210752
                     Name ="txtDbVersion"
                     GUID = Begin
-                        0x693fe1942f7e444d9c7a988a2978cb39
+                        0x37e2b728e5ab864f895ac5c6d588cee9
                     End
                     GridlineColor =10921638
 
@@ -358,7 +368,7 @@ Begin Form
                             Name ="Label34"
                             Caption ="Database:"
                             GUID = Begin
-                                0xfadb4d095bd83a44892a8d618900db7d
+                                0xc99b6ad96b864949b89cca2a701d987c
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =8040
@@ -384,7 +394,7 @@ Begin Form
                     Name ="txtExpectedDbVersion"
                     ControlSource ="expectedDbVersion"
                     GUID = Begin
-                        0x0d7ac0cb093e434fb03144b6fb0c99bd
+                        0x267bd6b2f4254e45a18e5f79effd9f9d
                     End
                     GridlineColor =10921638
 
@@ -404,7 +414,7 @@ Begin Form
                             Name ="Label37"
                             Caption ="Expected DB:"
                             GUID = Begin
-                                0x4daa43798fe5944180df1094927560ef
+                                0x92f855344b8e4f4eaa03265dd52726a6
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =8040
@@ -432,7 +442,7 @@ Begin Form
                     ForeColor =8355711
                     Name ="txtErrorTrapping"
                     GUID = Begin
-                        0xd07114d19cc88b4fb3636ebf367a18e8
+                        0x0304952081802b45aba79700bbe4c425
                     End
                     GridlineColor =10921638
 
@@ -456,7 +466,7 @@ Begin Form
                             Name ="lblErrorTrapping"
                             Caption ="Error Trapping:"
                             GUID = Begin
-                                0x2056e99500ab3d4eb4b8a50ece538cf9
+                                0x4d05345353584b48a538a626acfeba6a
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =7080
@@ -468,6 +478,8 @@ Begin Form
                         End
                     End
                 End
+<<<<<<< HEAD
+=======
                 Begin Image
                     PictureType =2
                     Left =180
@@ -507,13 +519,14 @@ Begin Form
                     BorderTint =60.0
                     BorderShade =100.0
                 End
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
             End
         End
         Begin FormFooter
             Height =0
             Name ="FormFooter"
             GUID = Begin
-                0xa7ba5637dbe8c84182945d42d47316d0
+                0xc2a3b1468bd55449a4e9a0b2f69a8fd1
             End
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -564,6 +577,14 @@ Private Function GetErrorTrappingOption() As String
     GetErrorTrappingOption = strSetting
 
 End Function
+
+Private Sub Detail_Click()
+    DoCmd.Close
+End Sub
+
+Private Sub Form_Click()
+    DoCmd.Close
+End Sub
 
 Private Sub Form_Load()
 

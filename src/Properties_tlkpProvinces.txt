@@ -2,7 +2,7 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
 |-- SourceTableName >> tlkpProvinces
 |-- RecordCount >> -1
@@ -36,15 +36,17 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 |-- PublishToWeb >> 1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
 --------------------------------------------------
-|-- ProvinceId (Field in tlkpProvinces)
+|-- id (Field in tlkpProvinces)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ProvinceId
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> ProvinceId
+|------ SourceField >> id
 |------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -55,20 +57,21 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> 1410
-|------ ColumnOrder >> 1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|-- CountryID (Field in tlkpProvinces)
+|------ GUID >> GUID
+|-- countryId (Field in tlkpProvinces)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> CountryID
+|------ Name >> countryId
 |------ OrdinalPosition >> 1
 |------ Size >> 4
-|------ SourceField >> CountryID
+|------ SourceField >> countryId
 |------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 1
@@ -87,14 +90,15 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|-- Province (Field in tlkpProvinces)
+|------ GUID >> GUID
+|-- province (Field in tlkpProvinces)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> Province
+|------ Name >> province
 |------ OrdinalPosition >> 2
 |------ Size >> 50
-|------ SourceField >> Province
+|------ SourceField >> province
 |------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -115,14 +119,15 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|-- ProvinceAbbr (Field in tlkpProvinces)
+|------ GUID >> GUID
+|-- provinceAbbr (Field in tlkpProvinces)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> ProvinceAbbr
+|------ Name >> provinceAbbr
 |------ OrdinalPosition >> 3
 |------ Size >> 5
-|------ SourceField >> ProvinceAbbr
+|------ SourceField >> provinceAbbr
 |------ SourceTable >> tlkpProvinces
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -143,3 +148,4 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
+|------ GUID >> GUID

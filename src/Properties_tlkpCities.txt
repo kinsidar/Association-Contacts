@@ -2,7 +2,7 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
 |-- SourceTableName >> tlkpCities
 |-- RecordCount >> -1
@@ -27,15 +27,17 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 |-- PublishToWeb >> 1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
 --------------------------------------------------
-|-- CityID (Field in tlkpCities)
+|-- id (Field in tlkpCities)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> CityID
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> CityID
+|------ SourceField >> id
 |------ SourceTable >> tlkpCities
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -52,14 +54,15 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|-- ProvinceID (Field in tlkpCities)
+|------ GUID >> GUID
+|-- provinceId (Field in tlkpCities)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ProvinceID
+|------ Name >> provinceId
 |------ OrdinalPosition >> 1
 |------ Size >> 4
-|------ SourceField >> ProvinceID
+|------ SourceField >> provinceId
 |------ SourceTable >> tlkpCities
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -78,14 +81,15 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|-- City (Field in tlkpCities)
+|------ GUID >> GUID
+|-- city (Field in tlkpCities)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> City
+|------ Name >> city
 |------ OrdinalPosition >> 2
 |------ Size >> 50
-|------ SourceField >> City
+|------ SourceField >> city
 |------ SourceTable >> tlkpCities
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -106,3 +110,4 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
+|------ GUID >> GUID

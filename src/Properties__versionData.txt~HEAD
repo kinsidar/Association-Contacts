@@ -1,16 +1,15 @@
-|-- Name >> tblTestIt
+|-- Name >> _versionData
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tblTestIt
+|-- SourceTableName >> _versionData
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
 |-- OrderByOn >> False
-|-- NameMap >> NameMap
 |-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
@@ -23,11 +22,14 @@
 |-- AlternateBackThemeColorIndex >> 1
 |-- AlternateBackTint >> 100
 |-- AlternateBackShade >> 95
+|-- ReadOnlyWhenDisconnected >> False
 |-- DatasheetGridlinesThemeColorIndex >> 3
 |-- DatasheetForeThemeColorIndex >> 0
 |-- PublishToWeb >> 1
+|-- NameMap >> NameMap
+|-- GUID >> GUID
 --------------------------------------------------
-|-- id (Field in tblTestIt)
+|-- id (Field in _versionData)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -35,7 +37,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> id
-|------ SourceTable >> tblTestIt
+|------ SourceTable >> _versionData
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -51,15 +53,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- aFarField (Field in tblTestIt)
+|------ GUID >> GUID
+|-- dbVersion (Field in _versionData)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> aFarField
+|------ Name >> dbVersion
 |------ OrdinalPosition >> 1
-|------ Size >> 255
-|------ SourceField >> aFarField
-|------ SourceTable >> tblTestIt
+|------ Size >> 12
+|------ SourceField >> dbVersion
+|------ SourceTable >> _versionData
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -74,8 +77,38 @@
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
+|------ UnicodeCompression >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID
+|-- UpdatedDate (Field in _versionData)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> UpdatedDate
+|------ OrdinalPosition >> 2
+|------ Size >> 8
+|------ SourceField >> UpdatedDate
+|------ SourceTable >> _versionData
+|------ DataUpdatable >> False
+|------ DefaultValue >> =Now()
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 2340
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ShowDatePicker >> 1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ Description >> =now()
+|------ GUID >> GUID

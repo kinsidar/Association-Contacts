@@ -1,14 +1,12 @@
 Operation =1
 Option =0
 Begin InputTables
-    Name ="_versionData"
+    Name ="tblContacts"
 End
 Begin OutputColumns
-    Expression ="[_versionData].dbVersion"
-End
-Begin OrderBy
-    Expression ="[_versionData].ID"
-    Flag =1
+    Expression ="tblContacts.id"
+    Expression ="tblContacts.firstName"
+    Expression ="tblContacts.lastName"
 End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -16,16 +14,24 @@ dbByte "RecordsetType" ="0"
 dbBoolean "OrderByOn" ="0"
 dbByte "Orientation" ="0"
 dbByte "DefaultView" ="2"
+dbBinary "GUID" = Begin
+    0x87063fb2d315b747a556ea2112a7cb49
+End
 dbBoolean "FilterOnLoad" ="0"
 dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 dbByte "PublishToWeb" ="1"
-dbBinary "GUID" = Begin
-    0xb3d31214ac984143b2f919b06f5393d4
-End
 Begin
     Begin
-        dbText "Name" ="[_versionData].dbVersion"
+        dbText "Name" ="tblContacts.id"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.firstName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.lastName"
         dbLong "AggregateType" ="-1"
     End
 End
@@ -33,12 +39,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1235
-    Bottom =628
+    Right =884
+    Bottom =662
     Left =-1
     Top =-1
-    Right =1219
-    Bottom =542
+    Right =868
+    Bottom =417
     Left =0
     Top =0
     ColumnsShown =539
@@ -48,7 +54,7 @@ Begin
         Right =192
         Bottom =156
         Top =0
-        Name ="_versionData"
+        Name ="tblContacts"
         Name =""
     End
 End

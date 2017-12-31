@@ -13,14 +13,21 @@ Begin Form
     Width =3398
     DatasheetFontHeight =11
     ItemSuffix =1
+<<<<<<< HEAD
+    Right =19455
+    Bottom =12510
+=======
     Right =24285
     Bottom =12345
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
     DatasheetGridlinesColor =15132391
     RecSrcDt = Begin
         0x9ff79ea29592e440
     End
     GUID = Begin
-        0x27eab937bed71946a44b4034d14b5980
+        0x32e41c1258c3c84c85480b8904a586d3
+    End
+    NameMap = Begin
     End
     DatasheetFontName ="Calibri"
     AllowDatasheetView =0
@@ -56,7 +63,7 @@ Begin Form
             Height =3390
             Name ="Detail"
             GUID = Begin
-                0xe889070fe7612442ad1eda809c342598
+                0x91813a578825b747b143f23af8c3f95b
             End
             AutoHeight =1
             AlternateBackColor =15921906
@@ -75,7 +82,7 @@ Begin Form
                     SourceObject ="Table._tblPersist"
                     EventProcPrefix ="Ctl_tblPersist"
                     GUID = Begin
-                        0x3cd5a05f31511649b61be5ba7fe1529a
+                        0x3294156d539e0747a54433a8b75ad608
                     End
                     GroupTable =1
                     GridlineColor =10921638

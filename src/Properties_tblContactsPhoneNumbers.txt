@@ -1,10 +1,10 @@
-|-- Name >> tblContacts_EmailAddresses
+|-- Name >> tblContactsPhoneNumbers
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> tblContacts_EmailAddresses
+|-- SourceTableName >> tblContactsPhoneNumbers
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
@@ -19,24 +19,25 @@
 |-- HideNewField >> False
 |-- BackTint >> 100
 |-- BackShade >> 100
-|-- ThemeFontIndex >> 1
-|-- AlternateBackThemeColorIndex >> 1
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
 |-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 95
-|-- ReadOnlyWhenDisconnected >> False
-|-- DatasheetGridlinesThemeColorIndex >> 3
-|-- DatasheetForeThemeColorIndex >> 0
+|-- AlternateBackShade >> 100
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
 |-- PublishToWeb >> 1
 --------------------------------------------------
-|-- ContactEmailId (Field in tblContacts_EmailAddresses)
+|-- id (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactEmailId
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> ContactEmailId
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> id
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -45,22 +46,23 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1815
-|------ ColumnOrder >> 1
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- ContactId (Field in tblContacts_EmailAddresses)
+|------ GUID >> GUID
+|-- contactId (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> ContactId
+|------ Name >> contactId
 |------ OrdinalPosition >> 1
 |------ Size >> 4
-|------ SourceField >> ContactId
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> contactId
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -69,7 +71,7 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 1305
+|------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DecimalPlaces >> 255
@@ -78,15 +80,16 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- EmailAddress (Field in tblContacts_EmailAddresses)
+|------ GUID >> GUID
+|-- phoneNumber (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> EmailAddress
+|------ Name >> phoneNumber
 |------ OrdinalPosition >> 2
 |------ Size >> 255
-|------ SourceField >> EmailAddress
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> phoneNumber
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -95,7 +98,7 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 5055
+|------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ DisplayControl >> 109
@@ -106,15 +109,45 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- EmailAddressTypeID (Field in tblContacts_EmailAddresses)
+|------ GUID >> GUID
+|-- phoneNumberExt (Field in tblContactsPhoneNumbers)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 10
+|------ Name >> phoneNumberExt
+|------ OrdinalPosition >> 3
+|------ Size >> 255
+|------ SourceField >> phoneNumberExt
+|------ SourceTable >> tblContactsPhoneNumbers
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
+|-- phoneNumberCategoryId (Field in tblContactsPhoneNumbers)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> EmailAddressTypeID
-|------ OrdinalPosition >> 3
+|------ Name >> phoneNumberCategoryId
+|------ OrdinalPosition >> 4
 |------ Size >> 4
-|------ SourceField >> EmailAddressTypeID
-|------ SourceTable >> tblContacts_EmailAddresses
+|------ SourceField >> phoneNumberCategoryId
+|------ SourceTable >> tblContactsPhoneNumbers
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -132,3 +165,4 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID

@@ -2,7 +2,7 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
 |-- SourceTableName >> tlkpPhoneNumbersCategories
 |-- RecordCount >> -1
@@ -25,15 +25,18 @@
 |-- AlternateBackShade >> 100
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
+|-- PublishToWeb >> 1
 --------------------------------------------------
-|-- PhoneNumberCategoryID (Field in tlkpPhoneNumbersCategories)
+|-- id (Field in tlkpPhoneNumbersCategories)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> PhoneNumberCategoryID
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> PhoneNumberCategoryID
+|------ SourceField >> id
 |------ SourceTable >> tlkpPhoneNumbersCategories
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -44,20 +47,21 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|-- PhoneNumberCategory (Field in tlkpPhoneNumbersCategories)
+|------ GUID >> GUID
+|-- phoneNumberCategory (Field in tlkpPhoneNumbersCategories)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> PhoneNumberCategory
+|------ Name >> phoneNumberCategory
 |------ OrdinalPosition >> 1
 |------ Size >> 255
-|------ SourceField >> PhoneNumberCategory
+|------ SourceField >> phoneNumberCategory
 |------ SourceTable >> tlkpPhoneNumbersCategories
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -74,6 +78,34 @@
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
 |------ UnicodeCompression >> True
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
+|-- sortOrder (Field in tlkpPhoneNumbersCategories)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 3
+|------ Name >> sortOrder
+|------ OrdinalPosition >> 2
+|------ Size >> 2
+|------ SourceField >> sortOrder
+|------ SourceTable >> tlkpPhoneNumbersCategories
+|------ DataUpdatable >> False
+|------ DefaultValue >> 0
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0

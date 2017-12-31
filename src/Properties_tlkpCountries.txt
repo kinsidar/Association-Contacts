@@ -2,7 +2,7 @@
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
-|-- Connect >> ;DATABASE=C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+|-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
 |-- SourceTableName >> tlkpCountries
 |-- RecordCount >> -1
@@ -27,15 +27,17 @@
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
 |-- PublishToWeb >> 1
+|-- GUID >> GUID
+|-- NameMap >> NameMap
 --------------------------------------------------
-|-- CountryID (Field in tlkpCountries)
+|-- id (Field in tlkpCountries)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
-|------ Name >> CountryID
+|------ Name >> id
 |------ OrdinalPosition >> 0
 |------ Size >> 4
-|------ SourceField >> CountryID
+|------ SourceField >> id
 |------ SourceTable >> tlkpCountries
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -52,14 +54,15 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
-|-- Country (Field in tlkpCountries)
+|------ GUID >> GUID
+|-- country (Field in tlkpCountries)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> Country
+|------ Name >> country
 |------ OrdinalPosition >> 1
 |------ Size >> 50
-|------ SourceField >> Country
+|------ SourceField >> country
 |------ SourceTable >> tlkpCountries
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
@@ -80,3 +83,31 @@
 |------ AggregateType >> -1
 |------ CurrencyLCID >> 0
 |------ ResultType >> 0
+|------ GUID >> GUID
+|-- sortOrder (Field in tlkpCountries)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 3
+|------ Name >> sortOrder
+|------ OrdinalPosition >> 2
+|------ Size >> 2
+|------ SourceField >> sortOrder
+|------ SourceTable >> tlkpCountries
+|------ DataUpdatable >> False
+|------ DefaultValue >> 0
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> False
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ GUID >> GUID
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DecimalPlaces >> 255
+|------ DisplayControl >> 109
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0

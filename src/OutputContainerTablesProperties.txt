@@ -7,6 +7,8 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
+<<<<<<< HEAD
+=======
               Orientation    0 
               OrderByOn     False
               DefaultView    2 
@@ -25,6 +27,7 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 >>>_versionApp
               Name          _versionApp
               Owner         admin
@@ -52,6 +55,10 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
+<<<<<<< HEAD
+              GUID          GUID
+=======
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 >>>_versionData
               Name          _versionData
               Owner         admin
@@ -79,8 +86,8 @@
               FilterOnLoad  False
               OrderByOnLoad True
               PublishToWeb   1 
->>>qlkpContacts_Types
-              Name          qlkpContacts_Types
+>>>qlkpContactsTypes
+              Name          qlkpContactsTypes
               Owner         admin
               UserName      admin
               Permissions    1048575 
@@ -153,6 +160,26 @@
               FilterOnLoad  False
               OrderByOnLoad True
               PublishToWeb   1 
+>>>qryContactsList
+              Name          qryContactsList
+              Owner         admin
+              UserName      admin
+              Permissions    1048575 
+              AllPermissions               1048575 
+              Container     Tables
+              DateCreated   DateCreated
+              LastUpdated   LastUpdated
+              RecordLocks    0 
+              ODBCTimeout    60 
+              RecordsetType  0 
+              OrderByOn     False
+              Orientation    0 
+              DefaultView    2 
+              GUID          GUID
+              FilterOnLoad  False
+              OrderByOnLoad True
+              TotalsRow     False
+              PublishToWeb   1 
 >>>qryTblContacts
               Name          qryTblContacts
               Owner         admin
@@ -173,8 +200,8 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
->>>qryTblContacts_EmailAddresses
-              Name          qryTblContacts_EmailAddresses
+>>>qryTblContactsEmailAddresses
+              Name          qryTblContactsEmailAddresses
               Owner         admin
               UserName      admin
               Permissions    1048575 
@@ -193,8 +220,8 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
->>>qryTblContacts_PhoneNumbers
-              Name          qryTblContacts_PhoneNumbers
+>>>qryTblContactsPhoneNumbers
+              Name          qryTblContactsPhoneNumbers
               Owner         admin
               UserName      admin
               Permissions    1048575 
@@ -272,6 +299,7 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
+              GUID          GUID
 >>>qryVersionData
               Name          qryVersionData
               Owner         admin
@@ -291,6 +319,7 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
+              GUID          GUID
 >>>tblContacts
               Name          tblContacts
               Owner         admin
@@ -300,8 +329,8 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
->>>tblContacts_EmailAddresses
-              Name          tblContacts_EmailAddresses
+>>>tblContactsEmailAddresses
+              Name          tblContactsEmailAddresses
               Owner         admin
               UserName      admin
               Permissions    1048575 
@@ -309,26 +338,8 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
->>>tblContacts_PhoneNumbers
-              Name          tblContacts_PhoneNumbers
-              Owner         admin
-              UserName      admin
-              Permissions    1048575 
-              AllPermissions               1048575 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
->>>tblInsurance
-              Name          tblInsurance
-              Owner         admin
-              UserName      admin
-              Permissions    1048575 
-              AllPermissions               1048575 
-              Container     Tables
-              DateCreated   DateCreated
-              LastUpdated   LastUpdated
->>>tblTestIt
-              Name          tblTestIt
+>>>tblContactsPhoneNumbers
+              Name          tblContactsPhoneNumbers
               Owner         admin
               UserName      admin
               Permissions    1048575 
@@ -354,8 +365,8 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
->>>tlkpContacts_Types
-              Name          tlkpContacts_Types
+>>>tlkpContactsTypes
+              Name          tlkpContactsTypes
               Owner         admin
               UserName      admin
               Permissions    1048575 

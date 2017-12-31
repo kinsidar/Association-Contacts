@@ -2,13 +2,11 @@
 [_versionApp] False
 [_versionData]              False
 [tblContacts] False
-[tblContacts_EmailAddresses]              False
-[tblContacts_PhoneNumbers]  False
-[tblInsurance]              False
-[tblTestIt]   False
+[tblContactsEmailAddresses] False
+[tblContactsPhoneNumbers]   False
 [tblUser]     False
 [tlkpCities]  False
-[tlkpContacts_Types]        False
+[tlkpContactsTypes]         False
 [tlkpCountries]             False
 [tlkpEmailAddressTypes]     False
 [tlkpPhoneNumbersCategories]              False

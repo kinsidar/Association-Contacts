@@ -1,5 +1,5 @@
-dbMemo "SQL" ="SELECT tlkpCountries.CountryID, tlkpCountries.Country\015\012FROM tlkpCountries\015"
-    "\012ORDER BY tlkpCountries.Country;\015\012"
+dbMemo "SQL" ="SELECT tlkpCountries.id, tlkpCountries.country\015\012FROM tlkpCountries\015\012"
+    "ORDER BY tlkpCountries.country;\015\012"
 dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"

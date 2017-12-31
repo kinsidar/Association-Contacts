@@ -1,21 +1,8 @@
-Operation =1
-Option =0
-Begin InputTables
-    Name ="tblContacts"
-End
-Begin OutputColumns
-    Expression ="tblContacts.ContactID"
-    Expression ="tblContacts.ContactTypeID"
-    Expression ="tblContacts.FirstName"
-    Expression ="tblContacts.LastName"
-    Expression ="tblContacts.Address"
-    Expression ="tblContacts.CityID"
-    Expression ="tblContacts.ProvinceID"
-    Expression ="tblContacts.CountryID"
-    Expression ="tblContacts.PostalCode"
-    Expression ="tblContacts.DOB"
-    Expression ="tblContacts.Notes"
-End
+dbMemo "SQL" ="SELECT tblContacts.id, tblContacts.contactTypeId, tblContacts.firstName, tblCont"
+    "acts.lastName, tblContacts.address, tblContacts.cityId, tblContacts.provinceId, "
+    "tblContacts.countryId, tblContacts.postalCode, tblContacts.dateOfBirth, tblConta"
+    "cts.notes\015\012FROM tblContacts;\015\012"
+dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbByte "RecordsetType" ="0"
@@ -35,16 +22,17 @@ Begin
         dbLong "AggregateType" ="-1"
     End
 End
+<<<<<<< HEAD
 Begin
     State =0
     Left =0
     Top =0
-    Right =1177
-    Bottom =842
+    Right =1235
+    Bottom =628
     Left =-1
     Top =-1
-    Right =1161
-    Bottom =597
+    Right =1219
+    Bottom =580
     Left =0
     Top =0
     ColumnsShown =539
@@ -58,3 +46,5 @@ Begin
         Name =""
     End
 End
+=======
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
