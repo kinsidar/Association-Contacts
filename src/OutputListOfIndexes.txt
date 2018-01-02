@@ -22,6 +22,11 @@
                             Field Name:id
 >[VersionID]  [id], 
 ========================================
+<<<[tblBinary]>>>
+              Index:[ID]
+                            Field Name:id
+>[ID]         [id], 
+========================================
 <<<[tblContacts]>>>
               Index:[ContactTypeID]
                             Field Name:contactTypeId
@@ -190,8 +195,16 @@
                             Field Name:id
 >[SalutationID]             [id], 
 ========================================
+<<<[USysApplicationLog]>>>
+              Index:[Data Macro Instance ID]
+                            Field Name:dataMacroInstanceId
+>[Data Macro Instance ID]   [dataMacroInstanceId], 
+              Index:[PrimaryKey]
+                            Field Name:id
+>[PrimaryKey] [id], 
+========================================
 <<<[USysRibbons]>>>
               Index:[PrimaryKey]
-                            Field Name:ID
->[PrimaryKey] [ID], 
+                            Field Name:id
+>[PrimaryKey] [id], 
 ========================================

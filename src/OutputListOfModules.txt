@@ -2,9 +2,9 @@
 [aebasChangeLog_aegit_expClass]           False
 [aebasTEST_aegit_expClass]  False
 [aegit_expClass]            False
-[basDatesTimes]             False
 [basDisableShiftKey]        False
 [basErrorLog] False
 [basErrorTextWrite]         False
 [basFunctions]              False
-[modRibbon]   False
+[basGDIPlus]  False
+[basRibbonCallbacks]        False

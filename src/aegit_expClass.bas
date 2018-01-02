@@ -39,8 +39,8 @@ Private Const EXCLUDE_1 As String = "aebasChangeLog_aegit_expClass"
 Private Const EXCLUDE_2 As String = "aebasTEST_aegit_expClass"
 Private Const EXCLUDE_3 As String = "aegit_expClass"
 
-Private Const aegit_expVERSION As String = "2.0.7"
-Private Const aegit_expVERSION_DATE As String = "December 11, 2017"
+Private Const aegit_expVERSION As String = "2.0.8"
+Private Const aegit_expVERSION_DATE As String = "December 30, 2017"
 'Private Const aeAPP_NAME As String = "aegit_exp"
 Private Const mblnOutputPrinterInfo As Boolean = False
 ' If mblnUTF16 is True the form txt exported files will be UTF-16 Windows format
@@ -2272,8 +2272,24 @@ End Sub
 
 Private Function GetDescription(ByVal obj As Object) As String
     'Debug.Print "GetDescription"
-    On Error Resume Next
-    GetDescription = obj.Properties("Description")
+    On Error GoTo PROC_ERR
+
+    GetDescription = Nz(obj.Properties("Description"), "No Description Property")
+
+PROC_EXIT:
+    Exit Function
+
+PROC_ERR:
+    Select Case Err
+        Case 3270
+            'Debug.Print "Err=" & Err.Number & " " & obj.Name & " (" & Err.Description & ") in procedure GetDescription of Class aegitClass"
+            'Stop
+            Resume PROC_EXIT
+        Case Else
+            MsgBox "Erl=" & Erl & " Err=" & Err.Number & " (" & Err.Description & ") in procedure GetIndex of Class aegitClass"
+            Resume PROC_EXIT
+    End Select
+
 End Function
 
 Public Function GetFieldInfo(ByVal strSchemaLine As String) As String
@@ -4064,7 +4080,7 @@ Private Sub OutputListOfCommandBarIDs(ByVal strOutputFile As String, Optional By
     For Each CBR In Application.CommandBars
         For Each CBTN In CBR.Controls
             If Not IsMissing(varDebug) Then
-                CbtnLCid = CBTN.ID
+                CbtnLCid = CBTN.id
                 Debug.Print CBR.Name & ": " & CbtnLCid & " - " & CBTN.Caption
             End If
             Print #fle, CBR.Name & ": " & CbtnLCid & " - " & CBTN.Caption
