@@ -1,17 +1,16 @@
-|-- Name >> _tblPersist
+|-- Name >> _versionData
 |-- Updatable >> False
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> ;DATABASE=C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 |-- Attributes >> 1073741824
-|-- SourceTableName >> _tblPersist
+|-- SourceTableName >> _versionData
 |-- RecordCount >> -1
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
 |-- OrderByOn >> False
 |-- DefaultView >> 2
-|-- GUID >> GUID
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
@@ -23,13 +22,14 @@
 |-- AlternateBackThemeColorIndex >> 1
 |-- AlternateBackTint >> 100
 |-- AlternateBackShade >> 95
+|-- ReadOnlyWhenDisconnected >> False
 |-- DatasheetGridlinesThemeColorIndex >> 3
 |-- DatasheetForeThemeColorIndex >> 0
 |-- PublishToWeb >> 1
-|-- ReadOnlyWhenDisconnected >> False
 |-- NameMap >> NameMap
+|-- GUID >> GUID
 --------------------------------------------------
-|-- id (Field in _tblPersist)
+|-- id (Field in _versionData)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -37,7 +37,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> id
-|------ SourceTable >> _tblPersist
+|------ SourceTable >> _versionData
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -46,23 +46,23 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
+|------ ColumnHidden >> False
 |------ TextAlign >> 0
+|------ AggregateType >> -1
 |------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |------ GUID >> GUID
-|-- persist (Field in _tblPersist)
+|-- dbVersion (Field in _versionData)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
 |------ Type >> 10
-|------ Name >> persist
+|------ Name >> dbVersion
 |------ OrdinalPosition >> 1
-|------ Size >> 255
-|------ SourceField >> persist
-|------ SourceTable >> _tblPersist
+|------ Size >> 12
+|------ SourceField >> dbVersion
+|------ SourceTable >> _versionData
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -71,15 +71,44 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
+|------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
+|------ UnicodeCompression >> False
 |------ TextAlign >> 0
+|------ AggregateType >> -1
 |------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ GUID >> GUID
+|-- UpdatedDate (Field in _versionData)
+|------ Attributes >> 1
+|------ CollatingOrder >> 1033
+|------ Type >> 8
+|------ Name >> UpdatedDate
+|------ OrdinalPosition >> 2
+|------ Size >> 8
+|------ SourceField >> UpdatedDate
+|------ SourceTable >> _versionData
+|------ DataUpdatable >> False
+|------ DefaultValue >> =Now()
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> False
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ ColumnWidth >> 2340
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ShowDatePicker >> 1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|------ Description >> =now()
 |------ GUID >> GUID

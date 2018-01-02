@@ -20,4 +20,34 @@ Begin
         dbText "Name" ="tlkpEmailAddressTypes.EmailAddressType"
         dbLong "AggregateType" ="-1"
     End
+<<<<<<< HEAD
+    Begin
+        dbText "Name" ="tlkpEmailAddressTypes.EmailAddressTypeID"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =1235
+    Bottom =628
+    Left =-1
+    Top =-1
+    Right =1219
+    Bottom =223
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =567
+        Top =30
+        Right =711
+        Bottom =174
+        Top =0
+        Name ="tlkpEmailAddressTypes"
+        Name =""
+    End
+=======
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 End

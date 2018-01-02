@@ -2,9 +2,15 @@
 "Form","frmContacts","DateCreated"
 "Form","frmSplash","DateCreated"
 "Form","frmUSysRibbons","DateCreated"
+<<<<<<< HEAD
+"Form","fsubContacts_Details","DateCreated"
+"Form","fsubContacts_EmailAddresses","DateCreated"
+"Form","fsubContacts_PhoneNumbers","DateCreated"
+=======
 "Form","fsubContactsDetails","DateCreated"
 "Form","fsubContactsEmailAddresses","DateCreated"
 "Form","fsubContactsPhoneNumbers","DateCreated"
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 "Linked Table","_tblPersist","DateCreated"
 "Linked Table","_versionData","DateCreated"
 "Linked Table","tblContacts","DateCreated"

@@ -7,6 +7,7 @@
               Container     Tables
               DateCreated   DateCreated
               LastUpdated   LastUpdated
+
               Orientation    0 
               OrderByOn     False
               DefaultView    2 
@@ -25,6 +26,7 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
+
 >>>_versionApp
               Name          _versionApp
               Owner         admin
@@ -52,6 +54,10 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
+<<<<<<< HEAD
+              GUID          GUID
+=======
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 >>>_versionData
               Name          _versionData
               Owner         admin
@@ -294,6 +300,7 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
+              GUID          GUID
 >>>qryVersionData
               Name          qryVersionData
               Owner         admin
@@ -313,6 +320,9 @@
               OrderByOnLoad True
               TotalsRow     False
               PublishToWeb   1 
+<<<<<<< HEAD
+              GUID          GUID
+=======
 >>>tblBinary
               Name          tblBinary
               Owner         admin
@@ -349,6 +359,7 @@
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
               PublishToWeb   1 
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 >>>tblContacts
               Name          tblContacts
               Owner         admin

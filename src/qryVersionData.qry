@@ -20,6 +20,9 @@ dbBoolean "FilterOnLoad" ="0"
 dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 dbByte "PublishToWeb" ="1"
+dbBinary "GUID" = Begin
+    0xb3d31214ac984143b2f919b06f5393d4
+End
 Begin
     Begin
         dbText "Name" ="[_versionData].dbVersion"
@@ -30,12 +33,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1430
-    Bottom =821
+    Right =1235
+    Bottom =628
     Left =-1
     Top =-1
-    Right =1414
-    Bottom =559
+    Right =1219
+    Bottom =542
     Left =0
     Top =0
     ColumnsShown =539

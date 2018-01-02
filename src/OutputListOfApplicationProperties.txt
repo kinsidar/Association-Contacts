@@ -1,4 +1,4 @@
-Name: C:\ae\Association-Contacts\AssociationContacts.accdb, 12, False;
+Name: C:\kd\Association-Contacts\AssociationContacts.accdb, 12, False;
 Connect: , 12, False;
 Transactions: True, 1, False;
 Updatable: True, 1, False;
@@ -47,8 +47,13 @@ Remove Personal Information: 1, 4, False;
 Themed Form Controls: 1, 4, False;
 Picture Property Storage Format: 1, 4, False;
 Track Name AutoCorrect Info: 0, 4, False;
+<<<<<<< HEAD
+Perform Name AutoCorrect: 0, 4, False;
+Theme Resource Name: Office Theme, 10, False;
+=======
 Perform Name AutoCorrect: 1, 4, False;
 Theme Resource Name: 1_Office Theme, 10, False;
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 HasOfflineLists: 70, 3, False;
 CustomRibbonID: ACDB, 10, False;
 AllowByPassKey: True, 1, False;

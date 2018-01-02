@@ -26,6 +26,8 @@ Begin Form
     GUID = Begin
         0xdf033d1dc77c724e8272ddb839848c96
     End
+    NameMap = Begin
+    End
     Caption ="Contacts"
     OnOpen ="[Event Procedure]"
     DatasheetFontName ="Calibri"
@@ -623,7 +625,29 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+<<<<<<< HEAD
+Public Sub DoSomeStuff()
+
+Dim strMsg As String
+    
+    'Run the Procedure, getting any error messages.
+    strMsg = RefreshTableLinks()
+    
+    'strMsg will be a zero-length string if there is no error message.
+    If Len(strMsg & "") = 0 Then
+    Debug.Print "All; Tables; were; successfully; relinked."
+    Else
+    'Notify the user of the errors.
+    MsgBox strMsg, vbCritical
+End If
+
+End Sub
+
+
+Private Sub cbo_ContactType_AfterUpdate()
+=======
 Private Sub cboContactType_AfterUpdate()
+>>>>>>> 35fbd6759e2edfa092453487f9c79ea0cd2bfe5d
     Call ApplyFilters2Lst
 End Sub
 

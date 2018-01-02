@@ -11,7 +11,6 @@
 |-- Orientation >> 0
 |-- OrderByOn >> False
 |-- DefaultView >> 2
-|-- GUID >> GUID
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
@@ -23,10 +22,11 @@
 |-- AlternateBackThemeColorIndex >> 1
 |-- AlternateBackTint >> 100
 |-- AlternateBackShade >> 95
+|-- ReadOnlyWhenDisconnected >> False
 |-- DatasheetGridlinesThemeColorIndex >> 3
 |-- DatasheetForeThemeColorIndex >> 0
 |-- PublishToWeb >> 1
-|-- ReadOnlyWhenDisconnected >> False
+|-- GUID >> GUID
 |-- NameMap >> NameMap
 --------------------------------------------------
 |-- id (Field in _tblPersist)
@@ -46,13 +46,13 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
+|------ ColumnHidden >> False
 |------ TextAlign >> 0
+|------ AggregateType >> -1
 |------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |------ GUID >> GUID
 |-- persist (Field in _tblPersist)
 |------ Attributes >> 2
@@ -71,15 +71,15 @@
 |------ AllowZeroLength >> True
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnHidden >> False
-|------ AggregateType >> -1
-|------ CurrencyLCID >> 0
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
+|------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
 |------ UnicodeCompression >> True
 |------ TextAlign >> 0
+|------ AggregateType >> -1
 |------ ResultType >> 0
+|------ CurrencyLCID >> 0
 |------ GUID >> GUID

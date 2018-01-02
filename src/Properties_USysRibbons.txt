@@ -46,12 +46,13 @@
 |------ AppendOnly >> False
 |------ Expression >> 
 |------ ColumnWidth >> -1
-|------ ColumnOrder >> 1
+|------ ColumnOrder >> 0
 |------ ColumnHidden >> False
 |------ TextAlign >> 0
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- RibbonName (Field in USysRibbons)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
@@ -80,6 +81,7 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID
 |-- RibbonXML (Field in USysRibbons)
 |------ Attributes >> 2
 |------ CollatingOrder >> 1033
@@ -108,3 +110,4 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
+|------ GUID >> GUID

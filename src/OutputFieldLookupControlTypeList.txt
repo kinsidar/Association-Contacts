@@ -9,11 +9,18 @@
 [_versionData]
               [id]           109          TextBox
               [dbVersion]    109          TextBox
+<<<<<<< HEAD
+              [UpdatedDate]  109          TextBox
+=======
               [updatedDate]  109          TextBox
+<<<<<<< HEAD
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
+=======
 [tblBinary]
               [id]           109          TextBox
               [fileName]     109          TextBox
               [binary]       109          TextBox
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 [tblContacts]
               [id]           109          TextBox
               [contactTypeId]              109          TextBox
@@ -107,9 +114,18 @@
               [RibbonName]   109          TextBox
               [RibbonXML]    109          TextBox
 Count of Check box = 2
+<<<<<<< HEAD
+Count of Text box  = 78
+Count of List box  = 0
+Count of Combo box = 3
+Count of Else      = 1
+Count of Display Controls = 83
+Count of All Fields = 83
+=======
 Count of Text box  = 85
 Count of List box  = 0
 Count of Combo box = 3
 Count of Else      = 1
 Count of Display Controls = 90
 Count of All Fields = 90
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985

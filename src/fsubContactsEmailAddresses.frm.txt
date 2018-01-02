@@ -26,7 +26,13 @@ Begin Form
     GUID = Begin
         0xd67cfede1386b9439ced84e6f8c3a609
     End
+<<<<<<< HEAD:src/fsubContacts_EmailAddresses.frm.txt
+    NameMap = Begin
+    End
+    RecordSource ="qryTblContacts_EmailAddresses"
+=======
     RecordSource ="qryTblContactsEmailAddresses"
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6:src/fsubContactsEmailAddresses.frm.txt
     DatasheetFontName ="Calibri"
     PrtMip = Begin
     End

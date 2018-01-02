@@ -19,7 +19,9 @@ Begin Form
         0xa54ffa241605e540
     End
     GUID = Begin
-        0xf48b5add637ca64d9411fccd3c0fcfb6
+        0xffcd86ec98887745a719f9af14e8e7c2
+    End
+    NameMap = Begin
     End
     RecordSource ="USysRibbons"
     DatasheetFontName ="Calibri"
@@ -108,7 +110,7 @@ Begin Form
             Height =11340
             Name ="Detail"
             GUID = Begin
-                0x98dfed9c4bd5af42a9f1613e91e49f47
+                0x45719a3a525d4e44b89da42a4d7e9c89
             End
             AlternateBackColor =15921906
             AlternateBackThemeColorIndex =1
@@ -126,7 +128,7 @@ Begin Form
                     Name ="ID"
                     ControlSource ="ID"
                     GUID = Begin
-                        0x0ba619f175de9b4d9c831df53ed98321
+                        0x31dd89584666c241a3993f0bea6cbf9a
                     End
                     GridlineColor =10921638
 
@@ -145,7 +147,7 @@ Begin Form
                             Name ="Label0"
                             Caption ="ID"
                             GUID = Begin
-                                0xd54339074441b243a2ea07e95c03998a
+                                0x40a5b8a7f6cc64489c82780d669e34ec
                             End
                             GridlineColor =10921638
                             LayoutCachedTop =360
@@ -167,7 +169,7 @@ Begin Form
                     Name ="RibbonName"
                     ControlSource ="RibbonName"
                     GUID = Begin
-                        0x979adde16afc0e4982d2c2b3c42c271e
+                        0x05854cfeeadad64399f049479cf24f30
                     End
                     GridlineColor =10921638
 
@@ -186,7 +188,7 @@ Begin Form
                             Name ="Label1"
                             Caption ="RibbonName"
                             GUID = Begin
-                                0x6ce996c9c5a61c4695bc4a70fda683a8
+                                0x759c4972fdf1fc42b57658df51c0ae9d
                             End
                             GridlineColor =10921638
                             LayoutCachedTop =780
@@ -212,7 +214,7 @@ Begin Form
                     ControlSource ="RibbonXML"
                     FontName ="Consolas"
                     GUID = Begin
-                        0xc211a7446831184cae1623cf33efa3b3
+                        0x82af31d50811f44c921560ee19971aee
                     End
                     GridlineColor =10921638
 
@@ -232,7 +234,7 @@ Begin Form
                             Name ="Label2"
                             Caption ="RibbonXML"
                             GUID = Begin
-                                0x790b76024efcb14c9988a13b0d285e62
+                                0xb133cd785839704882407414b5e1211d
                             End
                             GridlineColor =10921638
                             LayoutCachedTop =1200
@@ -254,7 +256,7 @@ Begin Form
                     OnClick ="[Event Procedure]"
                     EventProcPrefix ="Select_Text"
                     GUID = Begin
-                        0x645fbb24ecdb204ea4520d8ec2c2c300
+                        0x731e1fc7e8549448bf4637cfd5fcdb67
                     End
                     GridlineColor =10921638
 
