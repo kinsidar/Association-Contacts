@@ -1,13 +1,24 @@
 Option Compare Database
 Option Explicit
 
-'—————————————————————————-
+
+Public Function IsValidEmail(strAddress As String) As Boolean
+' Ref: https://www.ozgrid.com/forum/forum/help-forums/excel-general/108987-vba-function-to-confirm-email-address-is-valid
+    Dim oRegEx As Object
+    Set oRegEx = CreateObject("VBScript.RegExp")
+    With oRegEx
+        .Pattern = "^[\w-\.]{1,}\@([\da-zA-Z-]{1,}\.){1,}[\da-zA-Z-]{2,3}$"
+        IsValidEmail = .Test(strAddress)
+    End With
+    Set oRegEx = Nothing
+
+'â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 ' Procedure: RefreshTableLinks
 ' Purpose: Refresh table links to back-ends in the same folder as front end.
 ' Note: Linked Tables can be in more than one back-end.
 ' Return: Returns a zero-length string if all tables are relinked.
 ' Return: Or returns a string listing tables not relinked and errors.
-'—————————————————————————-
+'â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 
 Public Function RefreshTableLinks() As String
 
@@ -68,5 +79,4 @@ ErrHandle:
     strMsg = strMsg & vbNewLine & "Table Name: " & tdf.Name & vbNewLine
     strMsg = strMsg & "Connect = " & strCon & vbNewLine
     Resume ExitHere
-
 End Function

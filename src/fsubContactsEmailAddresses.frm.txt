@@ -15,9 +15,9 @@ Begin Form
     Width =8884
     DatasheetFontHeight =11
     ItemSuffix =5
-    Left =3375
+    Left =8070
     Top =2475
-    Right =12240
+    Right =16935
     Bottom =4365
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
@@ -198,6 +198,7 @@ Begin Form
                     ForeColor =3484194
                     Name ="txtEmailAddress"
                     ControlSource ="emailAddress"
+                    BeforeUpdate ="[Event Procedure]"
                     FontName ="Tahoma"
                     GUID = Begin
                         0x811e060014848e4190d2ecb2cb96de52
@@ -283,8 +284,8 @@ Begin Form
                     RowSource ="qlkpEmailAddressTypes"
                     ColumnWidths ="0;1440"
                     FontName ="Tahoma"
-                    BaseInfo ="\"qlkpEmailAddressTypes\";\"tlkpEmailAddressTypes\";\"\";\"EmailAddressTypeID\";"
-                        "\"EmailAddressType\";\"PrimaryKey\""
+                    BaseInfo ="\"qlkpEmailAddressTypes\";\"tlkpEmailAddressTypes\";\"\";\"id\";\"emailAddressTy"
+                        "pe\";\"PrimaryKey\""
                     GridlineColor =10921638
 
                     LayoutCachedLeft =5220
@@ -404,5 +405,13 @@ PROC_ERR:
     If Err = 2452 Then
         MsgBox "This form only works when the contact form is opened.", vbCritical, Me.Name & " Form_Load"
         DoCmd.Close acForm, Me.Name
+    End If
+End Sub
+
+Private Sub txtEmailAddress_BeforeUpdate(Cancel As Integer)
+    If IsValidEmail(Me.txtEmailAddress) Then
+    Else
+        MsgBox "Invalid email!", vbInformation, gstrPROJECT_ACDB
+        Cancel = True
     End If
 End Sub

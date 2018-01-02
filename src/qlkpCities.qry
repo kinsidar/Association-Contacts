@@ -1,5 +1,5 @@
 dbMemo "SQL" ="SELECT [tlkpCities].id, [tlkpCities].city\015\012FROM tlkpCities\015\012WHERE (("
-    "([tlkpCities].provinceId)=Forms!frmContacts!fsubContacts_Details!provinceId))\015"
+    "([tlkpCities].provinceId)=Forms!frmContacts!fsubContactsDetails!provinceId))\015"
     "\012ORDER BY [tlkpCities].city;\015\012"
 dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"

@@ -1,8 +1,23 @@
-dbMemo "SQL" ="SELECT tblContacts.id, tblContacts.contactTypeId, tblContacts.firstName, tblCont"
-    "acts.lastName, tblContacts.address, tblContacts.cityId, tblContacts.provinceId, "
-    "tblContacts.countryId, tblContacts.postalCode, tblContacts.dateOfBirth, tblConta"
-    "cts.notes\015\012FROM tblContacts;\015\012"
-dbMemo "Connect" =""
+Operation =1
+Option =0
+Begin InputTables
+    Name ="tblContacts"
+End
+Begin OutputColumns
+    Expression ="tblContacts.id"
+    Expression ="tblContacts.contactTypeId"
+    Expression ="tblContacts.firstName"
+    Expression ="tblContacts.lastName"
+    Expression ="tblContacts.address"
+    Expression ="tblContacts.cityId"
+    Expression ="tblContacts.provinceId"
+    Expression ="tblContacts.countryId"
+    Expression ="tblContacts.postalCode"
+    Expression ="tblContacts.dateOfBirth"
+    Expression ="tblContacts.notes"
+    Expression ="tblContacts.lon"
+    Expression ="tblContacts.lat"
+End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbByte "RecordsetType" ="0"
@@ -20,6 +35,77 @@ Begin
     Begin
         dbText "Name" ="tblContacts.Notes"
         dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.provinceId"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.cityId"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.id"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.contactTypeId"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.countryId"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.firstName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.lastName"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.address"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.postalCode"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.dateOfBirth"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.lon"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tblContacts.lat"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =1151
+    Bottom =662
+    Left =-1
+    Top =-1
+    Right =1135
+    Bottom =425
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =412
+        Top =100
+        Right =556
+        Bottom =366
+        Top =0
+        Name ="tblContacts"
+        Name =""
     End
 End
 <<<<<<< HEAD

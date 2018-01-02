@@ -15,15 +15,8 @@ Begin Form
     GridY =24
     Width =16635
     DatasheetFontHeight =11
-<<<<<<< HEAD
-    ItemSuffix =19
-    Right =11580
-    Bottom =9165
-=======
-    ItemSuffix =22
     Right =13005
     Bottom =9675
->>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
     DatasheetGridlinesColor =15062992
     AfterInsert ="[Event Procedure]"
     RecSrcDt = Begin
@@ -228,11 +221,7 @@ Begin Form
                     FontSize =10
                     TabIndex =1
                     BackColor =14282978
-<<<<<<< HEAD
-                    Name ="lst_Contacts"
-=======
                     Name ="lstContacts"
->>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
                     RowSourceType ="Table/Query"
                     RowSource ="qryContactsList"
                     ColumnWidths ="0;1440;1800"
@@ -687,12 +676,7 @@ Private Sub Form_AfterInsert()
 End Sub
 
 Private Sub Form_Open(Cancel As Integer)
-<<<<<<< HEAD
-    DoSomeStuff
-    Me.frm_SortBy_Click
-=======
     fsubSortBy_Click
->>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 End Sub
 
 Private Sub fsubSortBy_Click()
