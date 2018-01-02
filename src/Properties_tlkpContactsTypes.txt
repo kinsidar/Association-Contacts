@@ -9,9 +9,10 @@
 |-- ValidationRule >> 
 |-- ValidationText >> 
 |-- Orientation >> 0
-|-- OrderByOn >> False
-|-- SubdatasheetName >> [None]
+|-- OrderBy >> [tlkpContactsTypes].[sortOrder], [tlkpContactsTypes].[contactType]
+|-- OrderByOn >> True
 |-- DefaultView >> 2
+|-- GUID >> GUID
 |-- DisplayViewsOnSharePointSite >> 1
 |-- TotalsRow >> False
 |-- FilterOnLoad >> False
@@ -25,9 +26,9 @@
 |-- AlternateBackShade >> 100
 |-- DatasheetGridlinesThemeColorIndex >> -1
 |-- DatasheetForeThemeColorIndex >> -1
-|-- GUID >> GUID
-|-- NameMap >> NameMap
 |-- PublishToWeb >> 1
+|-- SubdatasheetName >> [None]
+|-- NameMap >> NameMap
 --------------------------------------------------
 |-- id (Field in tlkpContactsTypes)
 |------ Attributes >> 17
@@ -46,13 +47,13 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
 |------ ColumnWidth >> 1755
 |------ ColumnOrder >> 0
-|------ ColumnHidden >> False
 |------ TextAlign >> 0
-|------ AggregateType >> -1
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0
 |------ GUID >> GUID
 |-- contactType (Field in tlkpContactsTypes)
 |------ Attributes >> 2
@@ -71,17 +72,17 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
 |------ ColumnWidth >> 3540
 |------ ColumnOrder >> 0
-|------ ColumnHidden >> False
 |------ DisplayControl >> 109
 |------ IMEMode >> 0
 |------ IMESentenceMode >> 3
 |------ UnicodeCompression >> True
 |------ TextAlign >> 0
-|------ AggregateType >> -1
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0
 |------ GUID >> GUID
 |-- sortOrder (Field in tlkpContactsTypes)
 |------ Attributes >> 1
@@ -100,13 +101,13 @@
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
+|------ ColumnHidden >> False
+|------ AggregateType >> -1
+|------ CurrencyLCID >> 0
 |------ GUID >> GUID
 |------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
-|------ ColumnHidden >> False
 |------ DecimalPlaces >> 255
 |------ DisplayControl >> 109
 |------ TextAlign >> 0
-|------ AggregateType >> -1
 |------ ResultType >> 0
-|------ CurrencyLCID >> 0

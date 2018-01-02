@@ -1,6 +1,17 @@
-dbMemo "SQL" ="SELECT tlkpContactsTypes.id, tlkpContactsTypes.contactType\015\012FROM tlkpConta"
-    "ctsTypes\015\012ORDER BY tlkpContactsTypes.contactType;\015\012"
-dbMemo "Connect" =""
+Operation =1
+Option =0
+Begin InputTables
+    Name ="tlkpContactsTypes"
+End
+Begin OutputColumns
+    Expression ="tlkpContactsTypes.id"
+    Expression ="tlkpContactsTypes.contactType"
+    Expression ="tlkpContactsTypes.sortOrder"
+End
+Begin OrderBy
+    Expression ="tlkpContactsTypes.sortOrder"
+    Flag =0
+End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbBoolean "OrderByOn" ="0"
@@ -12,5 +23,42 @@ End
 dbBoolean "FilterOnLoad" ="0"
 dbBoolean "OrderByOnLoad" ="-1"
 dbByte "PublishToWeb" ="1"
+dbByte "RecordsetType" ="0"
+dbBoolean "TotalsRow" ="0"
 Begin
+    Begin
+        dbText "Name" ="tlkpContactsTypes.id"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tlkpContactsTypes.contactType"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tlkpContactsTypes.sortOrder"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =884
+    Bottom =662
+    Left =-1
+    Top =-1
+    Right =868
+    Bottom =546
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =48
+        Top =12
+        Right =192
+        Bottom =156
+        Top =0
+        Name ="tlkpContactsTypes"
+        Name =""
+    End
 End

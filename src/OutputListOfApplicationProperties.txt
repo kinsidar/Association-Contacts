@@ -58,3 +58,4 @@ HasOfflineLists: 70, 3, False;
 CustomRibbonID: ACDB, 10, False;
 AllowByPassKey: True, 1, False;
 AppIcon: .\adaept64.ico, 10, False;
+StartUpForm: frmSplash, 10, False;

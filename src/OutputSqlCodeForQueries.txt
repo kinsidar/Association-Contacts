@@ -5,9 +5,9 @@ WHERE ((([tlkpCities].provinceId)=Forms!frmContacts!fsubContactsDetails!province
 ORDER BY [tlkpCities].city;
 
 <<<[qlkpContactsTypes]>>>
-SELECT tlkpContactsTypes.id, tlkpContactsTypes.contactType
+SELECT tlkpContactsTypes.id, tlkpContactsTypes.contactType, tlkpContactsTypes.sortOrder
 FROM tlkpContactsTypes
-ORDER BY tlkpContactsTypes.contactType;
+ORDER BY tlkpContactsTypes.sortOrder;
 
 <<<[qlkpCountries]>>>
 SELECT tlkpCountries.id, tlkpCountries.country

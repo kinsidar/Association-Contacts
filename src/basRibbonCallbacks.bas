@@ -1,25 +1,12 @@
 Option Compare Database
 Option Explicit
 
-' Globals:
-
 Public Const bolUsePicturesFromTable As Boolean = False       ' True = The images should be loaded from the table "tblBinary"
-
-Public Const strAppPicturePath As String = "pix"              ' The pictures/icons are available in the following directory
-                                                              ' below the database directory
-                                                              ' %Databasepath%\Pics
-
-Public Const bolUseDynamicPicturePath As Boolean = False      ' The images should be loaded from this directory
-                                                              ' and not from the directory in the Ribbon XML.
-                                                              ' These values are used in the function "GetImages"
-
+Public Const strAppPicturePath As String = "pix"              ' The pictures/icons are available below the database directory, %Databasepath%\pix
+Public Const bolUseDynamicPicturePath As Boolean = False      ' The images should be loaded from this directory and not from the directory in the Ribbon XML, these values are used in the function "GetImages"
+Public bolEnabled As Boolean                                  ' Used in Callback "getEnabled"
+Public bolVisible As Boolean                                  ' Used in Callback "getVisible"
 Public gobjRibbon As IRibbonUI
-
-Public bolEnabled As Boolean    ' Used in Callback "getEnabled"
-                                ' Further informations in Callback "getEnabled"
-
-Public bolVisible As Boolean    ' Used in Callback "getVisible"
-                                ' More information in Callback "getVisible
 
 ' For Sample Callback "GetContent"
 Public Type ItemsVal
@@ -33,20 +20,18 @@ Public Sub ribOpenForm(Control As IRibbonControl)
     DoCmd.OpenForm (Control.Tag)
 End Sub
 
-' Callbacks:
-
 Public Sub MyAddinInitialize(ribbon As IRibbonUI)
     ' Callback name for XML "onLoad"
     Set gobjRibbon = ribbon
 End Sub
 
-' Button
+' ae Buttons
 Public Function aeNtryPoint(strControl As String, strAction As String)
     ' Callback name for XML "onAction"
     Select Case strControl
         Case "btn0"
-            MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
-            'DoCmd.OpenForm "frm..."
+            'MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
+            DoCmd.OpenForm "frmSplash"
         Case "btn1"
             MsgBox "Button """ & strControl & """ Action", vbInformation, "aeNtryPoint"
             'DoCmd.OpenForm "frm..."
@@ -74,10 +59,12 @@ Public Function aeNtryPoint(strControl As String, strAction As String)
     End Select
 End Function
 
-Public Sub OnRibbonLoad(ribbon As IRibbonUI)
-    ' Callbackname in XML File "onLoad"
-    Set gobjRibbon = ribbon
-End Sub
+' Callbacks:
+
+'Public Sub OnRibbonLoad(ribbon As IRibbonUI)
+'    ' Callbackname in XML File "onLoad"
+'    Set gobjRibbon = ribbon
+'End Sub
 
 Public Sub LoadImages(Control, ByRef Image)
     ' Callbackname in XML File "loadImage"

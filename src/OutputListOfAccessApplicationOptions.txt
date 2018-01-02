@@ -3,6 +3,7 @@
               2000          AppIcon                     .\adaept64.ico
               2000          AllowFullMenus              True
               2000          AllowShortcutMenus          True
+              2000          StartupForm                 frmSplash
               2000          StartupShowDBWindow         True
               2000          StartupShowStatusBar        True
               2000          AllowBuiltInToolbars        True
