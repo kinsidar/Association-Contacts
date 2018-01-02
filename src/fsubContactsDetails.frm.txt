@@ -16,7 +16,7 @@ Begin Form
     GridY =24
     Width =13140
     DatasheetFontHeight =10
-    ItemSuffix =67
+    ItemSuffix =68
     Left =3765
     Top =1785
     Right =16650
@@ -320,9 +320,9 @@ Begin Form
                     EnterKeyBehavior = NotDefault
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =1500
+                    Left =3960
                     Top =4320
-                    Width =11580
+                    Width =9120
                     Height =1260
                     TabIndex =10
                     Name ="txtNotes"
@@ -333,16 +333,17 @@ Begin Form
                         0xa70cc49b70e1004e8b151449ea00c162
                     End
 
-                    LayoutCachedLeft =1500
+                    LayoutCachedLeft =3960
                     LayoutCachedTop =4320
                     LayoutCachedWidth =13080
                     LayoutCachedHeight =5580
                 End
                 Begin Label
-                    OverlapFlags =85
+                    OverlapFlags =93
                     TextAlign =3
+                    Left =2880
                     Top =4320
-                    Width =1380
+                    Width =1020
                     Height =240
                     FontWeight =700
                     Name ="Label24"
@@ -350,8 +351,9 @@ Begin Form
                     GUID = Begin
                         0x7217a1ac8aa49e4a96977a4fba67d294
                     End
+                    LayoutCachedLeft =2880
                     LayoutCachedTop =4320
-                    LayoutCachedWidth =1380
+                    LayoutCachedWidth =3900
                     LayoutCachedHeight =4560
                 End
                 Begin TextBox
@@ -738,6 +740,44 @@ Begin Form
                         End
                     End
                 End
+                Begin CommandButton
+                    OverlapFlags =87
+                    AccessKey =77
+                    Left =1440
+                    Top =4320
+                    Height =540
+                    FontSize =11
+                    TabIndex =18
+                    ForeColor =3484194
+                    Name ="cmdMap"
+                    Caption ="&Map"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Calibri"
+                    GUID = Begin
+                        0x5e2498c964daa444a27f6c929025e17c
+                    End
+                    UnicodeAccessKey =77
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1440
+                    LayoutCachedTop =4320
+                    LayoutCachedWidth =2880
+                    LayoutCachedHeight =4860
+                    ForeThemeColorIndex =2
+                    ForeShade =50.0
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    UseTheme =1
+                    BackColor =-2147483604
+                    BorderColor =-2147483598
+                    ThemeFontIndex =1
+                    HoverColor =-2147483601
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
             End
         End
     End
@@ -767,6 +807,16 @@ End Sub
 Private Sub cboProvinceId_AfterUpdate()
     Me.cboCityId = Null
     Me.cboCityId.Requery
+End Sub
+
+Private Sub cmdMap_Click()
+    
+    Dim ctl As CommandButton
+    Set ctl = Me.cmdMap
+    
+    With ctl
+        .HyperlinkAddress = "https://www.google.com/maps/place/" & Me.txtLat & "," & Me.txtLon
+    End With
 End Sub
 
 Private Sub txtFirstName_AfterUpdate()
