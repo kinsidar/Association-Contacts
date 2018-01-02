@@ -15,9 +15,8 @@ Begin Form
     GridY =24
     Width =16635
     DatasheetFontHeight =11
-    ItemSuffix =22
-    Right =19485
-    Bottom =9930
+    Right =13005
+    Bottom =9675
     DatasheetGridlinesColor =15062992
     AfterInsert ="[Event Procedure]"
     RecSrcDt = Begin
@@ -25,6 +24,8 @@ Begin Form
     End
     GUID = Begin
         0xdf033d1dc77c724e8272ddb839848c96
+    End
+    NameMap = Begin
     End
     Caption ="Contacts"
     OnOpen ="[Event Procedure]"
@@ -620,6 +621,24 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
+
+Public Sub DoSomeStuff()
+
+Dim strMsg As String
+    
+    'Run the Procedure, getting any error messages.
+    strMsg = RefreshTableLinks()
+    
+    'strMsg will be a zero-length string if there is no error message.
+    If Len(strMsg & "") = 0 Then
+    Debug.Print "All; Tables; were; successfully; relinked."
+    Else
+    'Notify the user of the errors.
+    MsgBox strMsg, vbCritical
+End If
+
+End Sub
+
 
 Private Sub cbo_ContactType_AfterUpdate()
     Call ApplyFilters2Lst

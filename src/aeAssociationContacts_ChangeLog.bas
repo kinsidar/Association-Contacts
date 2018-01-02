@@ -80,6 +80,7 @@ End Sub
 ' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
 ' %023 - GH#27, Add ribbon interface
 ' %022 - GH#30, Filter by Type of Contact
+' %021 - GH#31, LAT and LON not included on the contact form
 ' %020 - *BE - GH#32, Unique Id for tables
 ' %003 - Relates to GH#9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip

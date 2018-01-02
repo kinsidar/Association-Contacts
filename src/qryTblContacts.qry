@@ -108,3 +108,29 @@ Begin
         Name =""
     End
 End
+<<<<<<< HEAD
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =1235
+    Bottom =628
+    Left =-1
+    Top =-1
+    Right =1219
+    Bottom =580
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =412
+        Top =100
+        Right =556
+        Bottom =366
+        Top =0
+        Name ="tblContacts"
+        Name =""
+    End
+End
+=======
+>>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6

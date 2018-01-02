@@ -28,6 +28,8 @@ Begin Form
     GUID = Begin
         0x04dcdd1c0d93094ba3166817aae1f856
     End
+    NameMap = Begin
+    End
     RecordSource ="qryTblContacts"
     DatasheetFontName ="Arial"
     PrtMip = Begin
@@ -413,6 +415,8 @@ Begin Form
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     Tag ="13"
+                    BaseInfo ="\"qlkpContacts_Types\";\"tlkpContacts_Types\";\"\";\"ContactTypeId\";\"ContactTy"
+                        "pe\";\"PrimaryKey\""
 
                     LayoutCachedLeft =1500
                     LayoutCachedTop =3120
