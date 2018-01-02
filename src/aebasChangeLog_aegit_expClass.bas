@@ -45,7 +45,7 @@ Option Explicit
 ' %162 -
 ' %161 -
 ' %160 -
-' %159 -
+' %159 - Property not found Err 3270 in Function GetDescription after import of tblBinary
 ' %154 - DISTINCT vs. DISTINCTROW, Ref: http://www.fmsinc.com/microsoftaccess/query/distinct_vs_distinctrow/unique_values_records.asp
 ' %153 - Show query properties, CommandBars("Property Sheet").Position = msoBarTop (then click in the query design window)
 ' %152 - Setup access development, Ref: https://stackoverflow.com/questions/892415/how-to-set-up-a-development-environment-in-ms-access?noredirect=1&lq=1

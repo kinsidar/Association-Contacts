@@ -1,18 +1,23 @@
-|-- Name >> _versionApp
+|-- Name >> tblBinary
 |-- Updatable >> True
 |-- DateCreated >> DateCreated
 |-- LastUpdated >> LastUpdated
 |-- Connect >> 
 |-- Attributes >> 0
 |-- SourceTableName >> 
-<<<<<<< HEAD
-|-- RecordCount >> 4
-=======
-|-- RecordCount >> 6
->>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
+|-- RecordCount >> 0
 |-- ValidationRule >> 
 |-- ValidationText >> 
+|-- DatasheetFontName >> Arial
+|-- DatasheetFontHeight >> 8
+|-- DatasheetFontWeight >> 400
+|-- DatasheetFontItalic >> False
+|-- DatasheetFontUnderline >> False
+|-- TabularCharSet >> 0
+|-- TabularFamily >> 34
 |-- Orientation >> 0
+|-- DatasheetForeColor >> 0
+|-- DatasheetForeColor12 >> 0
 |-- OrderByOn >> False
 |-- DefaultView >> 2
 |-- DisplayViewsOnSharePointSite >> 1
@@ -22,17 +27,16 @@
 |-- HideNewField >> False
 |-- BackTint >> 100
 |-- BackShade >> 100
-|-- ThemeFontIndex >> 1
-|-- AlternateBackThemeColorIndex >> 1
+|-- ThemeFontIndex >> -1
+|-- AlternateBackThemeColorIndex >> -1
 |-- AlternateBackTint >> 100
-|-- AlternateBackShade >> 95
+|-- AlternateBackShade >> 100
 |-- ReadOnlyWhenDisconnected >> False
-|-- DatasheetGridlinesThemeColorIndex >> 3
-|-- DatasheetForeThemeColorIndex >> 0
+|-- DatasheetGridlinesThemeColorIndex >> -1
+|-- DatasheetForeThemeColorIndex >> -1
 |-- PublishToWeb >> 1
-|-- GUID >> GUID
 --------------------------------------------------
-|-- id (Field in _versionApp)
+|-- id (Field in tblBinary)
 |------ Attributes >> 17
 |------ CollatingOrder >> 1033
 |------ Type >> 4
@@ -40,7 +44,7 @@
 |------ OrdinalPosition >> 0
 |------ Size >> 4
 |------ SourceField >> id
-|------ SourceTable >> _versionApp
+|------ SourceTable >> tblBinary
 |------ DataUpdatable >> False
 |------ DefaultValue >> 
 |------ ValidationRule >> 
@@ -56,91 +60,55 @@
 |------ AggregateType >> -1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|------ GUID >> GUID
-|-- expectedDbVersion (Field in _versionApp)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 10
-|------ Name >> expectedDbVersion
-|------ OrdinalPosition >> 1
-|------ Size >> 12
-|------ SourceField >> expectedDbVersion
-|------ SourceTable >> _versionApp
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> True
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> False
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
-|-- appVersion (Field in _versionApp)
-|------ Attributes >> 2
-|------ CollatingOrder >> 1033
-|------ Type >> 10
-|------ Name >> appVersion
-|------ OrdinalPosition >> 2
-|------ Size >> 12
-|------ SourceField >> appVersion
-|------ SourceTable >> _versionApp
-|------ DataUpdatable >> False
-|------ DefaultValue >> 
-|------ ValidationRule >> 
-|------ ValidationText >> 
-|------ Required >> False
-|------ AllowZeroLength >> True
-|------ AppendOnly >> False
-|------ Expression >> 
-|------ ColumnWidth >> -1
-|------ ColumnOrder >> 0
-|------ ColumnHidden >> False
-|------ DisplayControl >> 109
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
-|------ UnicodeCompression >> True
-|------ TextAlign >> 0
-|------ AggregateType >> -1
-|------ ResultType >> 0
-|------ CurrencyLCID >> 0
-|------ GUID >> GUID
-|-- updatedDate (Field in _versionApp)
+|-- fileName (Field in tblBinary)
 |------ Attributes >> 1
 |------ CollatingOrder >> 1033
-|------ Type >> 8
-|------ Name >> updatedDate
-|------ OrdinalPosition >> 3
-|------ Size >> 8
-|------ SourceField >> updatedDate
-|------ SourceTable >> _versionApp
+|------ Type >> 10
+|------ Name >> fileName
+|------ OrdinalPosition >> 1
+|------ Size >> 255
+|------ SourceField >> fileName
+|------ SourceTable >> tblBinary
 |------ DataUpdatable >> False
-|------ DefaultValue >> =Now()
+|------ DefaultValue >> 
+|------ ValidationRule >> 
+|------ ValidationText >> 
+|------ Required >> True
+|------ AllowZeroLength >> True
+|------ AppendOnly >> False
+|------ Expression >> 
+|------ UnicodeCompression >> True
+|------ ColumnWidth >> -1
+|------ ColumnOrder >> 0
+|------ ColumnHidden >> False
+|------ DisplayControl >> 109
+|------ IMEMode >> 0
+|------ IMESentenceMode >> 3
+|------ TextAlign >> 0
+|------ AggregateType >> -1
+|------ ResultType >> 0
+|------ CurrencyLCID >> 0
+|-- binary (Field in tblBinary)
+|------ Attributes >> 2
+|------ CollatingOrder >> 1033
+|------ Type >> 11
+|------ Name >> binary
+|------ OrdinalPosition >> 2
+|------ Size >> 0
+|------ SourceField >> binary
+|------ SourceTable >> tblBinary
+|------ DataUpdatable >> False
+|------ DefaultValue >> 
 |------ ValidationRule >> 
 |------ ValidationText >> 
 |------ Required >> True
 |------ AllowZeroLength >> False
 |------ AppendOnly >> False
 |------ Expression >> 
-|------ ColumnWidth >> 4905
+|------ ColumnWidth >> -1
 |------ ColumnOrder >> 0
 |------ ColumnHidden >> False
-|------ IMEMode >> 0
-|------ IMESentenceMode >> 3
 |------ TextAlign >> 0
 |------ AggregateType >> -1
-|------ ShowDatePicker >> 1
 |------ ResultType >> 0
 |------ CurrencyLCID >> 0
-|------ Description >> =now()
-|------ GUID >> GUID

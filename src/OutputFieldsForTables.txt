@@ -15,10 +15,10 @@ TABLE: _versionApp
 >>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 ------------------
 Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-id                       AutoNumber      4                  
-persist                  Text            255                
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+persist                  Text                  255                
 
 
 -------------------
@@ -35,6 +35,7 @@ UpdatedDate              Date/Time       8       =now()
 ------------------
 TABLE: _versionApp
 ------------------
+<<<<<<< HEAD
 <<<<<<< HEAD
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION              
@@ -65,18 +66,44 @@ id                       AutoNumber      4
 expectedDbVersion        Text            12                 
 appVersion               Text            12                 
 updatedDate              Date/Time       8       =now()     
+=======
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+expectedDbVersion        Text                  12                 
+appVersion               Text                  12                 
+updatedDate              Date/Time             8       =now()     
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 -------------------
 TABLE: _versionData
 -------------------
 Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+<<<<<<< HEAD
 >>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
 id                       AutoNumber      4                  
 dbVersion                Text            12                 
 updatedDate              Date/Time       8                  
+=======
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+dbVersion                Text                  12                 
+updatedDate              Date/Time             8                  
+
+
+----------------
+TABLE: tblBinary
+----------------
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+fileName                 Text (fixed width)    255                
+binary                   OLE Object            0                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 <<<<<<< HEAD
@@ -102,27 +129,28 @@ Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 TABLE: tblContacts
 ------------------
 Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-id                       AutoNumber      4                  
-contactTypeId            Long Integer    4                  
-firstName                Text            50                 
-lastName                 Text            50                 
-address                  Text            100                
-cityId                   Long Integer    4                  
-provinceId               Long Integer    4                  
-countryId                Long Integer    4                  
-postalCode               Text            7                  
-dateOfBirth              Date/Time       8                  
-notes                    Memo            0                  
-lon                      Decimal         16                 
-lat                      Decimal         16                 
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+contactTypeId            Long Integer          4                  
+firstName                Text                  50                 
+lastName                 Text                  50                 
+address                  Text                  100                
+cityId                   Long Integer          4                  
+provinceId               Long Integer          4                  
+countryId                Long Integer          4                  
+postalCode               Text                  7                  
+dateOfBirth              Date/Time             8                  
+notes                    Memo                  0                  
+lon                      Decimal               16                 
+lat                      Decimal               16                 
 
 
 --------------------------------
 TABLE: tblContactsEmailAddresses
 --------------------------------
 Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+<<<<<<< HEAD
 >>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
@@ -130,6 +158,14 @@ id                       AutoNumber      4
 contactId                Long Integer    4                  
 emailAddress             Text            255                
 emailAddressTypeId       Long Integer    4                  
+=======
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+contactId                Long Integer          4                  
+emailAddress             Text                  255                
+emailAddressTypeId       Long Integer          4                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 <<<<<<< HEAD
@@ -142,6 +178,7 @@ Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 TABLE: tblContactsPhoneNumbers
 ------------------------------
 Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+<<<<<<< HEAD
 >>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
@@ -150,6 +187,15 @@ contactId                Long Integer    4
 phoneNumber              Text            255                
 phoneNumberExt           Text            255                
 phoneNumberCategoryId    Long Integer    4                  
+=======
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+contactId                Long Integer          4                  
+phoneNumber              Text                  255                
+phoneNumberExt           Text                  255                
+phoneNumberCategoryId    Long Integer          4                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 --------------
@@ -185,6 +231,7 @@ notes                    Memo            0       General information about emplo
 active                   Yes/No          1                                                       
 =======
 Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+<<<<<<< HEAD
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
 id                       AutoNumber      4                  
@@ -211,17 +258,53 @@ photo                    OLE Object      0
 notes                    Memo            0                  
 active                   Yes/No          1                  
 >>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
+=======
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+environName              Text                  255                
+userPassword             Text                  12                 
+userName                 Text                  255                
+userFirstName            Text                  255                
+userMiddleName           Text                  255                
+userLastName             Text                  255                
+sortOrder                Long Integer          4                  
+title                    Text                  50                 
+titleOfCourtesy          Text                  12                 
+supervisorId             Long Integer          4                  
+birthDate                Date/Time             8                  
+hireDate                 Date/Time             8                  
+address                  Text                  60                 
+city                     Text                  15                 
+region                   Text                  15                 
+postalCode               Text                  10                 
+country                  Text                  15                 
+homePhone                Text                  24                 
+extension                Text                  4                  
+photo                    OLE Object            0                  
+notes                    Memo                  0                  
+active                   Yes/No                1                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 -----------------
 TABLE: tlkpCities
 -----------------
+<<<<<<< HEAD
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
 id                       AutoNumber      4                  
 provinceId               Long Integer    4                  
 city                     Text            50                 
+=======
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+provinceId               Long Integer          4                  
+city                     Text                  50                 
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 <<<<<<< HEAD
@@ -234,50 +317,86 @@ Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 TABLE: tlkpContactsTypes
 ------------------------
 Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+<<<<<<< HEAD
 >>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
 id                       AutoNumber      4                  
 contactType              Text            255                
 sortOrder                Integer         2                  
+=======
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+contactType              Text                  255                
+sortOrder                Integer               2                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 --------------------
 TABLE: tlkpCountries
 --------------------
+<<<<<<< HEAD
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
 id                       AutoNumber      4                  
 country                  Text            50                 
 sortOrder                Integer         2                  
+=======
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+country                  Text                  50                 
+sortOrder                Integer               2                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 ----------------------------
 TABLE: tlkpEmailAddressTypes
 ----------------------------
+<<<<<<< HEAD
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
 id                       Long Integer    4                  
 emailAddressType         Text            255                
 sortOrder                Integer         2                  
+=======
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       Long Integer          4                  
+emailAddressType         Text                  255                
+sortOrder                Integer               2                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 ---------------------------------
 TABLE: tlkpPhoneNumbersCategories
 ---------------------------------
+<<<<<<< HEAD
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
 id                       AutoNumber      4                  
 phoneNumberCategory      Text            255                
 sortOrder                Integer         2                  
+=======
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+phoneNumberCategory      Text                  255                
+sortOrder                Integer               2                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 --------------------
 TABLE: tlkpProvinces
 --------------------
+<<<<<<< HEAD
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
@@ -285,26 +404,60 @@ id                       AutoNumber      4
 countryId                Long Integer    4                  
 province                 Text            50                 
 provinceAbbr             Text            5                  
+=======
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+countryId                Long Integer          4                  
+province                 Text                  50                 
+provinceAbbr             Text                  5                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 ----------------------
 TABLE: tlkpSalutations
 ----------------------
+<<<<<<< HEAD
 Linked=>C:\kd\Association-Contacts\AssociationContacts_DATA.accdb
 FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
 =====================    ============    ====    ===========
 id                       AutoNumber      4                  
 salutation               Text            18                 
 sortOrder                Long Integer    4                  
+=======
+Linked=>C:\ae\Association-Contacts\AssociationContacts_DATA.accdb
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+salutation               Text                  18                 
+sortOrder                Long Integer          4                  
+
+
+-------------------------
+TABLE: USysApplicationLog
+-------------------------
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+sourceObject             Text                  255                
+dataMacroInstanceId      Text                  255                
+errorNumber              Long Integer          4                  
+category                 Text                  255                
+objectType               Text                  255                
+description              Memo                  0                  
+context                  Text                  255                
+created                  Date/Time             8                  
+>>>>>>> 3a2acf40ab3b8a7b6e1ad384cf95d7df8ce61985
 
 
 ------------------
 TABLE: USysRibbons
 ------------------
-FIELD NAME               FIELD TYPE      SIZE    DESCRIPTION
-=====================    ============    ====    ===========
-ID                       AutoNumber      4                  
-RibbonName               Text            255                
-RibbonXML                Memo            0                  
+FIELD NAME               FIELD TYPE            SIZE    DESCRIPTION
+=====================    ==================    ====    ===========
+id                       AutoNumber            4                  
+RibbonName               Text                  255                
+RibbonXML                Memo                  0                  
 
 

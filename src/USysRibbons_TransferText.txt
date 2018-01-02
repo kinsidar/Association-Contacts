@@ -73,3 +73,55 @@
         </tabs>
     </ribbon>
 </customUI>"
+3,"ACDB","<customUI xmlns=""http://schemas.microsoft.com/office/2009/07/customui"" onLoad=""MyAddInInitialize"">
+  <ribbon startFromScratch=""false"">
+    <tabs>
+      <tab id=""tab1"" label=""ACDB"" tag=""RibbonName:=ACDB;""> 
+        <group id=""grp0"" label=""Association Contacts""
+            tag=""RibbonName:=ACDB""> 
+          <button id=""btn0"" size=""large"" label=""Button0"" screentip=""Button0"" supertip=""Button0 ""
+              imageMso=""BevelShapeGallery""
+              onAction=""=aeNtryPoint('btn0', 'Button0')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
+          <button id=""btn1"" size=""large"" label=""Button1"" screentip=""Button1"" supertip=""Button1""
+              imageMso=""BevelShapeGallery""
+              onAction=""=aeNtryPoint('btn1', 'Button1')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
+          <button id=""btn2"" size=""large"" label=""Button2"" screentip=""Button2"" supertip=""Button2""
+              imageMso=""BevelShapeGallery""
+              onAction=""=aeNtryPoint('btn2', 'Button2')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
+          <button id=""btn3"" size=""large"" label=""Button3"" screentip=""Button3"" supertip=""Button3""
+              imageMso=""BevelShapeGallery""
+              onAction=""=aeNtryPoint('btn3', 'Button3')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
+          <button id=""btn4"" size=""large"" label=""Button4"" screentip=""Button4"" supertip=""Button4""
+              imageMso=""BevelShapeGallery""
+              onAction=""=aeNtryPoint('btn4', 'Button4')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
+          <button id=""btn5"" size=""large"" label=""Button5"" screentip=""Button5"" supertip=""Button5""
+              imageMso=""BevelShapeGallery""
+              onAction=""=aeNtryPoint('btn5', 'Button5')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
+          <button id=""btn6"" size=""large"" label=""Button6"" screentip=""Button6"" supertip=""Button6 ""
+              imageMso=""BevelShapeGallery"" tag=""RibbonName:=ACDB;inMenu:=;""
+              onAction=""=aeNtryPoint('btn6','Button6')""/>
+          <button id=""btn7"" size=""large"" label=""Button7"" screentip=""Button7"" supertip=""Button7 ""
+              imageMso=""BevelShapeGallery"" tag=""RibbonName:=ACDB;inMenu:=;""
+              onAction=""=aeNtryPoint('btn7','Button7')""/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+  <backstage>
+    <button idMso=""FileSave"" visible=""false""/>
+    <button idMso=""SaveObjectAs"" visible=""false""/>
+    <button idMso=""FileSaveAsCurrentFileFormat"" visible=""false""/>
+    <button idMso=""FileOpen"" visible=""false""/>
+    <button idMso=""FileCloseDatabase"" visible=""false""/>
+    <tab idMso =""TabInfo"" visible=""false""/>
+    <tab idMso =""TabOfficeStart"" visible=""false""/>
+    <tab idMso=""TabSave"" visible=""false""/>
+    <tab idMso =""TabRecent"" visible=""false""/>
+    <tab idMso =""TabNew"" visible=""false""/>
+    <tab idMso =""TabPrint"" visible=""false""/>
+    <tab idMso =""TabShare"" visible=""false""/>
+    <tab idMso =""TabHelp"" visible=""false""/>
+    <button idMso=""ApplicationOptionsDialog"" visible=""false""/>
+    <button idMso=""FileExit"" visible=""false""/>
+  </backstage>
+</customUI>"
