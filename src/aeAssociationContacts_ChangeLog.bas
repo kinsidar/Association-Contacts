@@ -8,7 +8,7 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.1.3"
+Private Const mstrVERSION_ACDB As String = "0.1.4"
 Private Const mstrDATE_ACDB As String = "December 30, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
@@ -75,19 +75,20 @@ End Sub
 ' %047 -
 ' %046 -
 ' %045 -
-' %044 -
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
 ' %028 - Connect to SQL Azure with node.js, https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-nodejs
 ' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
-' %022 - GH#30, Filter by Type of Contact
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171230 - v014 -
+    ' FIXED - %044 - Fix ribbon button for splash form
+    ' FIXED - %022 - GH#30, Filter by Type of Contact
 '20171230 - v012 -
     ' FIXED - %043 - Error - cannot run MyAddInInitialize
     ' FIXED - %042 - Fix stray contact_details reference

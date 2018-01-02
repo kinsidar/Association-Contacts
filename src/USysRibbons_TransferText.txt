@@ -79,9 +79,9 @@
       <tab id=""tab1"" label=""ACDB"" tag=""RibbonName:=ACDB;""> 
         <group id=""grp0"" label=""Association Contacts""
             tag=""RibbonName:=ACDB""> 
-          <button id=""btn0"" size=""large"" label=""Button0"" screentip=""Button0"" supertip=""Button0 ""
-              imageMso=""BevelShapeGallery""
-              onAction=""=aeNtryPoint('btn0', 'Button0')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
+          <button id=""btn0"" size=""large"" label=""About"" screentip=""About"" supertip=""About ""
+              imageMso=""BevelTextGallery""
+              onAction=""=aeNtryPoint('btn0', 'About')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>
           <button id=""btn1"" size=""large"" label=""Button1"" screentip=""Button1"" supertip=""Button1""
               imageMso=""BevelShapeGallery""
               onAction=""=aeNtryPoint('btn1', 'Button1')"" getVisible=""GetVisible"" getEnabled=""GetEnabled""/>

@@ -15,7 +15,8 @@ Begin Form
     GridY =24
     Width =16635
     DatasheetFontHeight =11
-    Right =13005
+    ItemSuffix =22
+    Right =19230
     Bottom =9675
     DatasheetGridlinesColor =15062992
     AfterInsert ="[Event Procedure]"
@@ -430,10 +431,12 @@ Begin Form
                     End
                     Name ="cboContactType"
                     RowSourceType ="Table/Query"
-                    RowSource ="qlkpContacts_Types"
+                    RowSource ="qlkpContactsTypes"
                     ColumnWidths ="0"
                     AfterUpdate ="[Event Procedure]"
                     FontName ="Tahoma"
+                    BaseInfo ="\"qlkpContactsTypes\";\"tlkpContactsTypes\";\"\";\"id\";\"contactType\";\"Primar"
+                        "yKey\""
                     GridlineColor =10921638
 
                     LayoutCachedLeft =60
@@ -622,6 +625,7 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+<<<<<<< HEAD
 Public Sub DoSomeStuff()
 
 Dim strMsg As String
@@ -641,6 +645,9 @@ End Sub
 
 
 Private Sub cbo_ContactType_AfterUpdate()
+=======
+Private Sub cboContactType_AfterUpdate()
+>>>>>>> 35fbd6759e2edfa092453487f9c79ea0cd2bfe5d
     Call ApplyFilters2Lst
 End Sub
 
@@ -662,7 +669,6 @@ Private Sub cmdDeleteContact_Click()
         Me.fsubContactsDetails.Form.Visible = True
         Call ApplyFilters2Lst
     End If
-
 End Sub
 
 Private Sub cmdNewContact_Click()
@@ -691,28 +697,31 @@ End Sub
 
 Private Sub ApplyFilters2Lst()
 
-    ' Add some debugging error trap
-    
     On Error GoTo PROC_ERR
 
-    Dim sSQL As String
+    Dim strSQL As String
 
-    sSQL = "SELECT id, LastName, FirstName" & vbCrLf & _
-           " FROM tblContacts" & vbCrLf
+    strSQL = "SELECT id, lastName, firstName FROM tblContacts"
 
-    If IsNull(Me.cboContactType) = False Then
-        sSQL = sSQL & " WHERE ([contactTypeId]=" & Me.cboContactType & ")" & vbCrLf
+    'Debug.Print "Me.cboContactType.Column(1) = " & Me.cboContactType.Column(1)
+    If Me.cboContactType.Column(1) = "All" Then
+        strSQL = strSQL
+    Else
+        If IsNull(Me.cboContactType) = False Then
+            strSQL = strSQL & " WHERE ([contactTypeId]=" & Me.cboContactType & ")"
+        End If
     End If
+    'Debug.Print strSQL
 
     Select Case Me.fsubSortBy
-        Case 1    'Last Name
-            sSQL = sSQL & " ORDER BY LastName, FirstName;"
+        Case 1    ' Last Name
+            strSQL = strSQL & " ORDER BY lastName, firstName;"
             Me.lstContacts.ColumnWidths = "0," & (1 * 1440) & "," & (1.25 * 1440)
-        Case 2    'First Name
-            sSQL = sSQL & " ORDER BY FirstName, LastName;"
+        Case 2    ' First Name
+            strSQL = strSQL & " ORDER BY firstName, lastName;"
             Me.lstContacts.ColumnWidths = "0," & (1.25 * 1440) & "," & (1 * 1440)
     End Select
-    Me.lstContacts.RowSource = sSQL
+    Me.lstContacts.RowSource = strSQL
 '    Me.fsubContactsDetails.Form.Visible = False
 '    Me.lblContactName.Visible = False
     Me.lstContacts = ""
